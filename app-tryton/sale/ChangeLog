@@ -1,0 +1,301 @@
+# ChangeLog for app-tryton/sale
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*sale-4.0.1 (23 May 2016)
+
+  23 May 2016; Cédric Krier <cedk@gentoo.org> +sale-4.0.1.ebuild:
+  Version bump
+
+*sale-3.8.1 (06 Apr 2016)
+*sale-3.6.2 (06 Apr 2016)
+*sale-3.4.3 (06 Apr 2016)
+*sale-3.2.6 (06 Apr 2016)
+*sale-3.0.5 (06 Apr 2016)
+
+  06 Apr 2016; Cédric Krier <cedk@gentoo.org> -sale-3.0.4.ebuild,
+  +sale-3.0.5.ebuild, -sale-3.2.5.ebuild, +sale-3.2.6.ebuild,
+  -sale-3.4.2.ebuild, +sale-3.4.3.ebuild, -sale-3.6.1.ebuild,
+  +sale-3.6.2.ebuild, -sale-3.8.0.ebuild, +sale-3.8.1.ebuild:
+  Version bump
+
+*sale-3.6.1 (22 Dec 2015)
+*sale-3.4.2 (22 Dec 2015)
+*sale-3.2.5 (22 Dec 2015)
+*sale-3.0.4 (22 Dec 2015)
+*sale-2.8.5 (22 Dec 2015)
+
+  22 Dec 2015; Cédric Krier <cedk@gentoo.org> -sale-2.8.4.ebuild,
+  +sale-2.8.5.ebuild, -sale-3.0.3.ebuild, +sale-3.0.4.ebuild,
+  -sale-3.2.4.ebuild, +sale-3.2.5.ebuild, -sale-3.4.1.ebuild,
+  +sale-3.4.2.ebuild, -sale-3.6.0.ebuild, +sale-3.6.1.ebuild:
+  Version bump
+
+*sale-3.8.0 (05 Nov 2015)
+
+  05 Nov 2015; Cédric Krier <cedk@gentoo.org> sale-2.0.4.ebuild,
+  sale-2.2.3.ebuild, sale-2.4.4.ebuild, sale-2.6.5.ebuild, sale-2.8.4.ebuild,
+  sale-3.0.3.ebuild, sale-3.2.4.ebuild, sale-3.4.1.ebuild, sale-3.6.0.ebuild,
+  +sale-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*sale-3.2.4 (13 Sep 2015)
+
+  13 Sep 2015; Cédric Krier <cedk@gentoo.org> -sale-3.2.3.ebuild,
+  +sale-3.2.4.ebuild:
+  Version bump
+
+*sale-3.6.0 (06 May 2015)
+
+  06 May 2015; Cédric Krier <cedk@gentoo.org> +sale-3.6.0.ebuild:
+  Version bump
+
+*sale-3.4.1 (21 Feb 2015)
+*sale-3.2.3 (21 Feb 2015)
+*sale-3.0.3 (21 Feb 2015)
+*sale-2.8.4 (21 Feb 2015)
+*sale-2.6.5 (21 Feb 2015)
+
+  21 Feb 2015; Cédric Krier <cedk@gentoo.org> -sale-2.6.4.ebuild,
+  +sale-2.6.5.ebuild, -sale-2.8.3.ebuild, +sale-2.8.4.ebuild,
+  -sale-3.0.2.ebuild, +sale-3.0.3.ebuild, -sale-3.2.2.ebuild,
+  +sale-3.2.3.ebuild, -sale-3.4.0.ebuild, +sale-3.4.1.ebuild:
+  Version bump
+
+*sale-3.2.2 (06 Nov 2014)
+*sale-3.0.2 (06 Nov 2014)
+*sale-2.8.3 (06 Nov 2014)
+*sale-2.6.4 (06 Nov 2014)
+
+  06 Nov 2014; Cédric Krier <cedk@gentoo.org> -sale-2.6.3.ebuild,
+  +sale-2.6.4.ebuild, -sale-2.8.2.ebuild, +sale-2.8.3.ebuild,
+  -sale-3.0.1.ebuild, +sale-3.0.2.ebuild, -sale-3.2.1.ebuild,
+  +sale-3.2.2.ebuild:
+  Version bump
+
+*sale-3.4.0 (22 Oct 2014)
+
+  22 Oct 2014; Cédric Krier <cedk@gentoo.org> +sale-3.4.0.ebuild:
+  Version bump
+
+*sale-3.2.1 (29 Sep 2014)
+*sale-3.0.1 (29 Sep 2014)
+
+  29 Sep 2014; Cédric Krier <cedk@gentoo.org> -sale-3.0.0.ebuild,
+  +sale-3.0.1.ebuild, -sale-3.2.0.ebuild, +sale-3.2.1.ebuild:
+  Version bump
+
+*sale-3.2.0 (28 Apr 2014)
+
+  28 Apr 2014; Cédric Krier <cedk@gentoo.org> +sale-3.2.0.ebuild:
+  Version bump
+
+  27 Oct 2013; Cédric Krier <cedk@gentoo.org> -sale-1.2.7.ebuild,
+  -sale-1.4.7.ebuild, -sale-1.6.5.ebuild, -sale-1.8.5.ebuild:
+  Clean old
+
+*sale-3.0.0 (27 Oct 2013)
+
+  27 Oct 2013; Cédric Krier <cedk@gentoo.org> +sale-3.0.0.ebuild:
+  Version bump
+
+*sale-2.8.2 (01 Oct 2013)
+*sale-2.6.3 (01 Oct 2013)
+*sale-2.4.4 (01 Oct 2013)
+
+  01 Oct 2013; Cédric Krier <cedk@gentoo.org> -sale-2.4.3.ebuild,
+  +sale-2.4.4.ebuild, -sale-2.6.2.ebuild, +sale-2.6.3.ebuild,
+  -sale-2.8.1.ebuild, +sale-2.8.2.ebuild:
+  Version bump
+
+*sale-2.8.1 (01 Aug 2013)
+
+  01 Aug 2013; Cédric Krier <cedk@gentoo.org> -sale-2.8.0.ebuild,
+  +sale-2.8.1.ebuild:
+  Version bump
+
+*sale-2.6.2 (12 Jun 2013)
+
+  12 Jun 2013; Cédric Krier <cedk@gentoo.org> -sale-2.6.1.ebuild,
+  +sale-2.6.2.ebuild:
+  Version bump
+
+*sale-2.4.3 (04 May 2013)
+
+  04 May 2013; Cédric Krier <cedk@gentoo.org> -sale-2.4.2.ebuild,
+  +sale-2.4.3.ebuild:
+  Version bump
+
+*sale-2.8.0 (23 Apr 2013)
+
+  23 Apr 2013; Cédric Krier <cedk@gentoo.org> +sale-2.8.0.ebuild:
+  Version bump
+
+*sale-2.6.1 (23 Dec 2012)
+
+  23 Dec 2012; Cédric Krier <cedk@gentoo.org> -sale-2.6.0.ebuild,
+  +sale-2.6.1.ebuild:
+  Version bump
+
+*sale-2.6.0 (14 Nov 2012)
+
+  14 Nov 2012; Cédric Krier <cedk@gentoo.org> +sale-2.6.0.ebuild:
+  Version bump
+
+*sale-2.4.2 (05 Nov 2012)
+*sale-2.2.3 (05 Nov 2012)
+*sale-2.0.4 (05 Nov 2012)
+*sale-1.8.5 (05 Nov 2012)
+
+  05 Nov 2012; Cédric Krier <cedk@gentoo.org> -sale-1.8.4.ebuild,
+  +sale-1.8.5.ebuild, -sale-2.0.3.ebuild, +sale-2.0.4.ebuild,
+  -sale-2.2.2.ebuild, +sale-2.2.3.ebuild, -sale-2.4.1.ebuild,
+  +sale-2.4.2.ebuild:
+  Version bump
+
+*sale-2.4.1 (02 Sep 2012)
+
+  02 Sep 2012; Cédric Krier <cedk@gentoo.org> -sale-2.4.0.ebuild,
+  +sale-2.4.1.ebuild:
+  Version bump
+
+*sale-2.2.2 (12 May 2012)
+*sale-2.0.3 (12 May 2012)
+*sale-1.8.4 (12 May 2012)
+*sale-1.6.5 (12 May 2012)
+*sale-1.4.7 (12 May 2012)
+
+  12 May 2012; Cédric Krier <cedk@gentoo.org> -sale-1.4.6.ebuild,
+  +sale-1.4.7.ebuild, -sale-1.6.4.ebuild, +sale-1.6.5.ebuild,
+  -sale-1.8.3.ebuild, +sale-1.8.4.ebuild, -sale-2.0.2.ebuild,
+  +sale-2.0.3.ebuild, -sale-2.2.1.ebuild, +sale-2.2.2.ebuild:
+  Version bump
+
+*sale-2.4.0 (05 May 2012)
+
+  05 May 2012; Cédric Krier <cedk@gentoo.org> +sale-2.4.0.ebuild:
+  Version bump
+
+*sale-2.2.1 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -sale-2.2.0.ebuild,
+  +sale-2.2.1.ebuild:
+  Version bump
+
+*sale-2.2.0 (25 Oct 2011)
+
+  25 Oct 2011; Cédric Krier <cedk@gentoo.org> +sale-2.2.0.ebuild:
+  Version bump
+
+  08 Oct 2011; Cédric Krier <cedk@gentoo.org> -sale-1.0.5.ebuild:
+  Remove old
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> sale-1.0.5.ebuild:
+  Upgrade to EAPI 3
+
+*sale-1.2.7 (10 Sep 2011)
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> -sale-1.2.6.ebuild,
+  +sale-1.2.7.ebuild:
+  Version bump
+
+*sale-1.4.6 (10 Sep 2011)
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> -sale-1.4.5.ebuild,
+  +sale-1.4.6.ebuild:
+  Version bump
+
+*sale-1.6.4 (10 Sep 2011)
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> -sale-1.6.3.ebuild,
+  +sale-1.6.4.ebuild:
+  Version bump
+
+*sale-1.8.3 (10 Sep 2011)
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> -sale-1.8.2.ebuild,
+  +sale-1.8.3.ebuild:
+  Version bump
+
+*sale-2.0.2 (10 Sep 2011)
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> -sale-2.0.1.ebuild,
+  +sale-2.0.2.ebuild:
+  Version bump
+
+*sale-2.0.1 (30 May 2011)
+*sale-1.8.2 (30 May 2011)
+*sale-1.6.3 (30 May 2011)
+*sale-1.4.5 (30 May 2011)
+*sale-1.2.6 (30 May 2011)
+
+  30 May 2011; Cédric Krier <cedk@gentoo.org> -sale-1.2.5.ebuild,
+  +sale-1.2.6.ebuild, -sale-1.4.4.ebuild, +sale-1.4.5.ebuild,
+  -sale-1.6.2.ebuild, +sale-1.6.3.ebuild, -sale-1.8.1.ebuild,
+  +sale-1.8.2.ebuild, -sale-2.0.0.ebuild, +sale-2.0.1.ebuild:
+  Version bump
+
+  27 Apr 2011; Cédric Krier <cedk@gentoo.org> +sale-2.0.0.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -sale-1.8.0.ebuild,
+  +sale-1.8.1.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -sale-1.6.1.ebuild,
+  +sale-1.6.2.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -sale-1.4.3.ebuild,
+  +sale-1.4.4.ebuild:
+  Version bump
+
+  14 Feb 2011; Cédric Krier <cedk@gentoo.org> -sale-1.2.4.ebuild,
+  +sale-1.2.5.ebuild:
+  Version bump
+
+  03 Nov 2010; Cédric Krier <cedk@gentoo.org> -sale-1.0.0.ebuild,
+  -sale-1.0.1.ebuild, -sale-1.0.2.ebuild, -sale-1.0.3.ebuild,
+  -sale-1.0.4.ebuild, -sale-1.2.0.ebuild, -sale-1.2.1.ebuild,
+  -sale-1.2.2.ebuild, -sale-1.2.3.ebuild, -sale-1.4.0.ebuild,
+  -sale-1.4.1.ebuild, -sale-1.4.2.ebuild, -sale-1.6.0.ebuild:
+  Remove old
+
+  03 Nov 2010; Cédric Krier <cedk@gentoo.org> +sale-1.2.4.ebuild:
+  Version bump
+
+  03 Nov 2010; Cédric Krier <cedk@gentoo.org> +sale-1.4.3.ebuild:
+  Version bump
+
+  03 Nov 2010; Cédric Krier <cedk@gentoo.org> +sale-1.6.1.ebuild:
+  Version bump
+
+  01 Nov 2010; Cédric Krier <cedk@gentoo.org> +sale-1.8.0.ebuild:
+  Version bump
+
+  13 May 2010; Cédric Krier <cedk@gentoo.org> +sale-1.6.0.ebuild:
+  Version bump
+
+  21 Feb 2010; Cédric Krier <cedk@gentoo.org> +sale-1.0.5.ebuild:
+  Version bump
+
+  18 Feb 2010; Cédric Krier <cedk@gentoo.org> +sale-1.2.3.ebuild:
+  Version bump
+
+  17 Feb 2010; Cédric Krier <cedk@gentoo.org> +sale-1.4.2.ebuild:
+  Version bump
+
+  24 Nov 2009; Cédric Krier <cedk@gentoo.org> +sale-1.2.2.ebuild:
+  Version bump
+
+  24 Nov 2009; Cédric Krier <cedk@gentoo.org> +sale-1.4.1.ebuild:
+  Version bump
+
+  19 Oct 2009; Cédric Krier <cedk@gentoo.org> +sale-1.4.0.ebuild:
+  Version bump
+
+  27 Jul 2009; Cédric Krier <cedk@gentoo.org> sale-1.0.0.ebuild,
+  sale-1.0.1.ebuild, sale-1.0.2.ebuild, sale-1.0.3.ebuild,
+  sale-1.0.4.ebuild, sale-1.2.0.ebuild, sale-1.2.1.ebuild, +metadata.xml:
+  Add missing dependency to dev-python/setuptools
+

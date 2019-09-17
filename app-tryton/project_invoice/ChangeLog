@@ -1,0 +1,105 @@
+# ChangeLog for app-tryton/project_invoice
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*project_invoice-4.0.1 (25 May 2016)
+
+  25 May 2016; Cédric Krier <cedk@gentoo.org> +project_invoice-4.0.1.ebuild:
+  Version bump
+
+*project_invoice-3.8.1 (14 Mar 2016)
+
+  14 Mar 2016; Cédric Krier <cedk@gentoo.org> -project_invoice-3.8.0.ebuild,
+  +project_invoice-3.8.1.ebuild:
+  Version bump
+
+*project_invoice-3.6.2 (22 Dec 2015)
+*project_invoice-3.4.2 (22 Dec 2015)
+*project_invoice-3.2.4 (22 Dec 2015)
+*project_invoice-3.0.3 (22 Dec 2015)
+*project_invoice-2.8.5 (22 Dec 2015)
+
+  22 Dec 2015; Cédric Krier <cedk@gentoo.org> -project_invoice-2.8.4.ebuild,
+  +project_invoice-2.8.5.ebuild, -project_invoice-3.0.2.ebuild,
+  +project_invoice-3.0.3.ebuild, -project_invoice-3.2.3.ebuild,
+  +project_invoice-3.2.4.ebuild, -project_invoice-3.4.1.ebuild,
+  +project_invoice-3.4.2.ebuild, -project_invoice-3.6.1.ebuild,
+  +project_invoice-3.6.2.ebuild:
+  Version bump
+
+*project_invoice-3.8.0 (05 Nov 2015)
+
+  05 Nov 2015; Cédric Krier <cedk@gentoo.org> project_invoice-2.8.4.ebuild,
+  project_invoice-3.0.2.ebuild, project_invoice-3.2.3.ebuild,
+  project_invoice-3.4.1.ebuild, project_invoice-3.6.1.ebuild,
+  +project_invoice-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*project_invoice-3.6.1 (13 Jul 2015)
+*project_invoice-3.2.3 (13 Jul 2015)
+
+  13 Jul 2015; Cédric Krier <cedk@gentoo.org> -project_invoice-3.2.2.ebuild,
+  +project_invoice-3.2.3.ebuild, -project_invoice-3.6.0.ebuild,
+  +project_invoice-3.6.1.ebuild:
+  Version bump
+
+*project_invoice-3.6.0 (06 May 2015)
+
+  06 May 2015; Cédric Krier <cedk@gentoo.org> +project_invoice-3.6.0.ebuild:
+  Version bump
+
+*project_invoice-3.4.1 (22 Feb 2015)
+*project_invoice-3.2.2 (22 Feb 2015)
+*project_invoice-3.0.2 (22 Feb 2015)
+*project_invoice-2.8.4 (22 Feb 2015)
+
+  22 Feb 2015; Cédric Krier <cedk@gentoo.org> -project_invoice-2.8.3.ebuild,
+  +project_invoice-2.8.4.ebuild, -project_invoice-3.0.1.ebuild,
+  +project_invoice-3.0.2.ebuild, -project_invoice-3.2.1.ebuild,
+  +project_invoice-3.2.2.ebuild, -project_invoice-3.4.0.ebuild,
+  +project_invoice-3.4.1.ebuild:
+  Version bump
+
+*project_invoice-3.4.0 (22 Oct 2014)
+
+  22 Oct 2014; Cédric Krier <cedk@gentoo.org> +project_invoice-3.4.0.ebuild:
+  Version bump
+
+*project_invoice-3.2.1 (03 Aug 2014)
+*project_invoice-3.0.1 (03 Aug 2014)
+*project_invoice-2.8.3 (03 Aug 2014)
+
+  03 Aug 2014; Cédric Krier <cedk@gentoo.org> -project_invoice-2.8.2.ebuild,
+  +project_invoice-2.8.3.ebuild, -project_invoice-3.0.0.ebuild,
+  +project_invoice-3.0.1.ebuild, -project_invoice-3.2.0.ebuild,
+  +project_invoice-3.2.1.ebuild:
+  Version bump
+
+*project_invoice-3.2.0 (28 Apr 2014)
+
+  28 Apr 2014; Cédric Krier <cedk@gentoo.org> +project_invoice-3.2.0.ebuild:
+  Version bump
+
+*project_invoice-3.0.0 (27 Oct 2013)
+
+  27 Oct 2013; Cédric Krier <cedk@gentoo.org> +project_invoice-3.0.0.ebuild:
+  Version bump
+
+*project_invoice-2.8.2 (01 Aug 2013)
+
+  01 Aug 2013; Cédric Krier <cedk@gentoo.org> -project_invoice-2.8.1.ebuild,
+  +project_invoice-2.8.2.ebuild:
+  Version bump
+
+*project_invoice-2.8.1 (12 Jun 2013)
+
+  12 Jun 2013; Cédric Krier <cedk@gentoo.org> -project_invoice-2.8.0.ebuild,
+  +project_invoice-2.8.1.ebuild:
+  Version bump
+
+*project_invoice-2.8.0 (23 Apr 2013)
+
+  23 Apr 2013; Cédric Krier <cedk@gentoo.org> +project_invoice-2.8.0.ebuild,
+  +metadata.xml:
+  New ebuild
+

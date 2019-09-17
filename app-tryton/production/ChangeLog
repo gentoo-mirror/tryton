@@ -1,0 +1,115 @@
+# ChangeLog for app-tryton/production
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*production-4.0.1 (25 May 2016)
+
+  25 May 2016; Cédric Krier <cedk@gentoo.org> +production-4.0.1.ebuild:
+  Version bump
+
+*production-3.8.0 (05 Nov 2015)
+
+  05 Nov 2015; Cédric Krier <cedk@gentoo.org> production-2.4.4.ebuild,
+  production-2.6.5.ebuild, production-2.8.3.ebuild, production-3.0.3.ebuild,
+  production-3.2.4.ebuild, production-3.4.2.ebuild, production-3.6.0.ebuild,
+  +production-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*production-3.2.4 (15 Sep 2015)
+
+  15 Sep 2015; Cédric Krier <cedk@gentoo.org> -production-3.2.3.ebuild,
+  +production-3.2.4.ebuild:
+  Version bump
+
+*production-3.4.2 (28 May 2015)
+*production-3.2.3 (28 May 2015)
+*production-3.0.3 (28 May 2015)
+*production-2.8.3 (28 May 2015)
+*production-2.6.5 (28 May 2015)
+
+  28 May 2015; Cédric Krier <cedk@gentoo.org> -production-2.6.4.ebuild,
+  +production-2.6.5.ebuild, -production-2.8.2.ebuild, +production-2.8.3.ebuild,
+  -production-3.0.2.ebuild, +production-3.0.3.ebuild, -production-3.2.2.ebuild,
+  +production-3.2.3.ebuild, -production-3.4.1.ebuild, +production-3.4.2.ebuild:
+  Version bump
+
+*production-3.6.0 (06 May 2015)
+
+  06 May 2015; Cédric Krier <cedk@gentoo.org> +production-3.6.0.ebuild:
+  Version bump
+
+*production-3.4.1 (22 Feb 2015)
+*production-3.2.2 (22 Feb 2015)
+*production-3.0.2 (22 Feb 2015)
+*production-2.8.2 (22 Feb 2015)
+*production-2.6.4 (22 Feb 2015)
+
+  22 Feb 2015; Cédric Krier <cedk@gentoo.org> -production-2.6.3.ebuild,
+  +production-2.6.4.ebuild, -production-2.8.1.ebuild, +production-2.8.2.ebuild,
+  -production-3.0.1.ebuild, +production-3.0.2.ebuild, -production-3.2.1.ebuild,
+  +production-3.2.2.ebuild, -production-3.4.0.ebuild, +production-3.4.1.ebuild:
+  Version bump
+
+*production-3.4.0 (22 Oct 2014)
+
+  22 Oct 2014; Cédric Krier <cedk@gentoo.org> +production-3.4.0.ebuild:
+  Version bump
+
+*production-3.2.1 (29 Sep 2014)
+*production-3.0.1 (29 Sep 2014)
+*production-2.8.1 (29 Sep 2014)
+*production-2.6.3 (29 Sep 2014)
+*production-2.4.4 (29 Sep 2014)
+
+  29 Sep 2014; Cédric Krier <cedk@gentoo.org> -production-2.4.3.ebuild,
+  +production-2.4.4.ebuild, -production-2.6.2.ebuild, +production-2.6.3.ebuild,
+  -production-2.8.0.ebuild, +production-2.8.1.ebuild, -production-3.0.0.ebuild,
+  +production-3.0.1.ebuild, -production-3.2.0.ebuild, +production-3.2.1.ebuild:
+  Version bump
+
+*production-3.2.0 (28 Apr 2014)
+
+  28 Apr 2014; Cédric Krier <cedk@gentoo.org> +production-3.2.0.ebuild:
+  Version bump
+
+*production-3.0.0 (27 Oct 2013)
+
+  27 Oct 2013; Cédric Krier <cedk@gentoo.org> +production-3.0.0.ebuild:
+  Version bump
+
+*production-2.6.2 (04 May 2013)
+*production-2.4.3 (04 May 2013)
+
+  04 May 2013; Cédric Krier <cedk@gentoo.org> -production-2.4.2.ebuild,
+  +production-2.4.3.ebuild, -production-2.6.1.ebuild, +production-2.6.2.ebuild:
+  Version bump
+
+*production-2.8.0 (23 Apr 2013)
+
+  23 Apr 2013; Cédric Krier <cedk@gentoo.org> +production-2.8.0.ebuild:
+  Version bump
+
+*production-2.6.1 (23 Dec 2012)
+*production-2.4.2 (23 Dec 2012)
+
+  23 Dec 2012; Cédric Krier <cedk@gentoo.org> -production-2.4.1.ebuild,
+  +production-2.4.2.ebuild, -production-2.6.0.ebuild, +production-2.6.1.ebuild:
+  Version bump
+
+*production-2.6.0 (14 Nov 2012)
+
+  14 Nov 2012; Cédric Krier <cedk@gentoo.org> +production-2.6.0.ebuild:
+  Version bump
+
+*production-2.4.1 (05 Nov 2012)
+
+  05 Nov 2012; Cédric Krier <cedk@gentoo.org> -production-2.4.0.ebuild,
+  +production-2.4.1.ebuild:
+  Version bump
+
+*production-2.4.0 (15 Aug 2012)
+
+  15 Aug 2012; Cédric Krier <cedk@gentoo.org> +production-2.4.0.ebuild,
+  +metadata.xml:
+  New ebuild
+

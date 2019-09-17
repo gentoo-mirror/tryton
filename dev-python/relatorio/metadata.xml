@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>cedk@gentoo.org</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+		A templating library able to output odt and pdf files
+	</longdescription>
+	<use>
+		<flag name="fodt">Enable flat OpenDocument</flag>
+		<flag name="chart">Enable chart</flag>
+	</use>
+</pkgmetadata>
+

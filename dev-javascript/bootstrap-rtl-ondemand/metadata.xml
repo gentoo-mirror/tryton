@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>cedk@gentoo.org</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+		This is a fork of morteza's bootstrap-rtl theme. Contrary to the
+		original, it doesn't override the default LTR direction and enforce RTL
+		direction by default. It relies on &lt;html dir="ltr|rtl"&gt; attribute
+		and enables RTL direction only when dir="rtl" is set.
+	</longdescription>
+</pkgmetadata>

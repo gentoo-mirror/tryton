@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Bootstrap 3 with on-demand RTL support
+EAPI=6
+HOMEPAGE=https://github.com/bright/bootstrap-rtl
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-javascript/bootstrap-3.3.0
+SLOT=3
+SRC_URI=https://github.com/bright/bootstrap-rtl/archive/v3.3.4-ondemand.tar.gz -> bootstrap-rtl-ondemand-3.3.4.tar.gz
+_md5_=49703c5840fc3f7bb0e895c092ac6bdb

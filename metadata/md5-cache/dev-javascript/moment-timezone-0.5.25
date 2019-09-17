@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Timezone support for moment.js
+EAPI=6
+HOMEPAGE=http://momentjs.com/timezone
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-javascript/moment-2.9.0
+SLOT=0
+SRC_URI=https://github.com/moment/moment-timezone/archive/0.5.25.tar.gz -> moment-timezone-0.5.25.tar.gz
+_md5_=e933f68d6a8214a8f0f4a0f2cc5c0339

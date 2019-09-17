@@ -1,0 +1,27 @@
+# ChangeLog for app-tryton/stock_lot_sled
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*stock_lot_sled-4.0.1 (26 May 2016)
+
+  26 May 2016; Cédric Krier <cedk@gentoo.org> +stock_lot_sled-4.0.1.ebuild:
+  Version bump
+
+*stock_lot_sled-3.8.0 (05 Nov 2015)
+
+  05 Nov 2015; Cédric Krier <cedk@gentoo.org> stock_lot_sled-3.6.1.ebuild,
+  +stock_lot_sled-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*stock_lot_sled-3.6.1 (10 Sep 2015)
+
+  10 Sep 2015; Cédric Krier <cedk@gentoo.org> -stock_lot_sled-3.6.0.ebuild,
+  +stock_lot_sled-3.6.1.ebuild:
+  Version bump
+
+*stock_lot_sled-3.6.0 (06 May 2015)
+
+  06 May 2015; Cédric Krier <cedk@gentoo.org> +stock_lot_sled-3.6.0.ebuild,
+  +metadata.xml:
+  New ebuild for stock_lot_sled
+

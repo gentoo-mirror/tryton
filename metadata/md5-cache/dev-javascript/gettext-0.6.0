@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=lightweight yet complete and accurate GNU gettext port for node and the browser
+EAPI=6
+HOMEPAGE=https://guillaumepotier.github.io/gettext.js/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/guillaumepotier/gettext.js/archive/0.6.0.tar.gz -> gettext-0.6.0.tar.gz
+_md5_=f7d3a2149292db908ee02249b979781c

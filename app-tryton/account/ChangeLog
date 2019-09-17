@@ -1,0 +1,408 @@
+# ChangeLog for app-tryton/account
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*account-4.0.1 (19 May 2016)
+
+  19 May 2016; Cédric Krier <cedk@gentoo.org> +account-4.0.1.ebuild:
+  Version bump
+
+*account-3.6.4 (14 Mar 2016)
+*account-3.4.5 (14 Mar 2016)
+*account-3.2.8 (14 Mar 2016)
+*account-3.0.11 (14 Mar 2016)
+
+  14 Mar 2016; Cédric Krier <cedk@gentoo.org> -account-3.0.10.ebuild,
+  +account-3.0.11.ebuild, -account-3.2.7.ebuild, +account-3.2.8.ebuild,
+  -account-3.4.4.ebuild, +account-3.4.5.ebuild, -account-3.6.3.ebuild,
+  +account-3.6.4.ebuild, metadata.xml:
+  Version bump
+
+  26 Dec 2015; Cédric Krier <cedk@gentoo.org> account-3.6.3.ebuild,
+  account-3.8.1.ebuild:
+  Add missing simpleeval deps
+
+*account-3.8.1 (22 Dec 2015)
+*account-3.6.3 (22 Dec 2015)
+*account-3.4.4 (22 Dec 2015)
+*account-3.2.7 (22 Dec 2015)
+*account-3.0.10 (22 Dec 2015)
+
+  22 Dec 2015; Cédric Krier <cedk@gentoo.org> -account-3.0.9.ebuild,
+  +account-3.0.10.ebuild, -account-3.2.6.ebuild, +account-3.2.7.ebuild,
+  -account-3.4.3.ebuild, +account-3.4.4.ebuild, -account-3.6.2.ebuild,
+  +account-3.6.3.ebuild, -account-3.8.0.ebuild, +account-3.8.1.ebuild:
+  Version bump
+
+*account-3.8.0 (04 Nov 2015)
+
+  04 Nov 2015; Cédric Krier <cedk@gentoo.org> account-2.0.8.ebuild,
+  account-2.2.7.ebuild, account-2.4.8.ebuild, account-2.6.12.ebuild,
+  account-2.8.10.ebuild, account-3.0.9.ebuild, account-3.2.6.ebuild,
+  account-3.4.3.ebuild, account-3.6.2.ebuild, +account-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*account-3.6.2 (19 Sep 2015)
+
+  19 Sep 2015; Cédric Krier <cedk@gentoo.org> -account-3.6.1.ebuild,
+  +account-3.6.2.ebuild:
+  Version bump
+
+*account-3.6.1 (13 Jul 2015)
+*account-3.2.6 (13 Jul 2015)
+
+  13 Jul 2015; Cédric Krier <cedk@gentoo.org> -account-3.2.5.ebuild,
+  +account-3.2.6.ebuild, -account-3.6.0.ebuild, +account-3.6.1.ebuild:
+  Version bump
+
+*account-3.4.3 (28 May 2015)
+*account-3.2.5 (28 May 2015)
+*account-3.0.9 (28 May 2015)
+*account-2.8.10 (28 May 2015)
+*account-2.6.12 (28 May 2015)
+
+  28 May 2015; Cédric Krier <cedk@gentoo.org> -account-2.6.11.ebuild,
+  +account-2.6.12.ebuild, -account-2.8.9.ebuild, +account-2.8.10.ebuild,
+  -account-3.0.8.ebuild, +account-3.0.9.ebuild, -account-3.2.4.ebuild,
+  +account-3.2.5.ebuild, -account-3.4.2.ebuild, +account-3.4.3.ebuild:
+  Version bump
+
+*account-3.6.0 (24 Apr 2015)
+
+  24 Apr 2015; Cédric Krier <cedk@gentoo.org> +account-3.6.0.ebuild:
+  Version bump
+
+*account-3.4.2 (02 Mar 2015)
+*account-3.2.4 (02 Mar 2015)
+*account-3.0.8 (02 Mar 2015)
+*account-2.8.9 (02 Mar 2015)
+*account-2.6.11 (02 Mar 2015)
+
+  02 Mar 2015; Cédric Krier <cedk@gentoo.org> -account-2.6.10.ebuild,
+  +account-2.6.11.ebuild, -account-2.8.8.ebuild, +account-2.8.9.ebuild,
+  -account-3.0.7.ebuild, +account-3.0.8.ebuild, -account-3.2.3.ebuild,
+  +account-3.2.4.ebuild, -account-3.4.1.ebuild, +account-3.4.2.ebuild:
+  Version bump
+
+*account-3.4.1 (03 Dec 2014)
+*account-3.2.3 (03 Dec 2014)
+*account-3.0.7 (03 Dec 2014)
+*account-2.8.8 (03 Dec 2014)
+*account-2.6.10 (03 Dec 2014)
+
+  03 Dec 2014; Cédric Krier <cedk@gentoo.org> -account-2.6.9.ebuild,
+  +account-2.6.10.ebuild, -account-2.8.7.ebuild, +account-2.8.8.ebuild,
+  -account-3.0.6.ebuild, +account-3.0.7.ebuild, -account-3.2.2.ebuild,
+  +account-3.2.3.ebuild, -account-3.4.0.ebuild, +account-3.4.1.ebuild:
+  Version bump
+
+*account-3.2.2 (06 Nov 2014)
+*account-3.0.6 (06 Nov 2014)
+*account-2.8.7 (06 Nov 2014)
+
+  06 Nov 2014; Cédric Krier <cedk@gentoo.org> -account-2.8.6.ebuild,
+  +account-2.8.7.ebuild, -account-3.0.5.ebuild, +account-3.0.6.ebuild,
+  -account-3.2.1.ebuild, +account-3.2.2.ebuild:
+  Version bump
+
+*account-3.4.0 (21 Oct 2014)
+
+  21 Oct 2014; Cédric Krier <cedk@gentoo.org> +account-3.4.0.ebuild:
+  Version bump
+
+*account-3.2.1 (03 Aug 2014)
+*account-3.0.5 (03 Aug 2014)
+*account-2.8.6 (03 Aug 2014)
+
+  03 Aug 2014; Cédric Krier <cedk@gentoo.org> -account-2.8.5.ebuild,
+  +account-2.8.6.ebuild, -account-3.0.4.ebuild, +account-3.0.5.ebuild,
+  -account-3.2.0.ebuild, +account-3.2.1.ebuild:
+  Version bump
+
+*account-2.4.8 (08 May 2014)
+*account-2.2.7 (08 May 2014)
+
+  08 May 2014; Cédric Krier <cedk@gentoo.org> -account-2.2.6.ebuild,
+  +account-2.2.7.ebuild, -account-2.4.7.ebuild, +account-2.4.8.ebuild:
+  Version bump
+
+*account-3.0.4 (06 May 2014)
+*account-2.8.5 (06 May 2014)
+*account-2.6.9 (06 May 2014)
+
+  06 May 2014; Cédric Krier <cedk@gentoo.org> -account-2.6.8.ebuild,
+  +account-2.6.9.ebuild, -account-2.8.4.ebuild, +account-2.8.5.ebuild,
+  -account-3.0.3.ebuild, +account-3.0.4.ebuild:
+  Version bump
+
+*account-3.2.0 (27 Apr 2014)
+
+  27 Apr 2014; Cédric Krier <cedk@gentoo.org> +account-3.2.0.ebuild:
+  Version bump
+
+*account-3.0.3 (07 Apr 2014)
+*account-2.8.4 (07 Apr 2014)
+*account-2.6.8 (07 Apr 2014)
+
+  07 Apr 2014; Cédric Krier <cedk@gentoo.org> -account-2.6.7.ebuild,
+  +account-2.6.8.ebuild, -account-2.8.3.ebuild, +account-2.8.4.ebuild,
+  -account-3.0.2.ebuild, +account-3.0.3.ebuild:
+  Version bump
+
+*account-3.0.2 (25 Mar 2014)
+*account-2.8.3 (25 Mar 2014)
+*account-2.6.7 (25 Mar 2014)
+
+  25 Mar 2014; Cédric Krier <cedk@gentoo.org> -account-2.6.6.ebuild,
+  +account-2.6.7.ebuild, -account-2.8.2.ebuild, +account-2.8.3.ebuild,
+  -account-3.0.1.ebuild, +account-3.0.2.ebuild:
+  Version bump
+
+*account-3.0.1 (11 Dec 2013)
+
+  11 Dec 2013; Cédric Krier <cedk@gentoo.org> -account-3.0.0.ebuild,
+  +account-3.0.1.ebuild:
+  Version bump
+
+  27 Oct 2013; Cédric Krier <cedk@gentoo.org> -account-1.2.7.ebuild,
+  -account-1.4.5.ebuild, -account-1.6.5.ebuild, -account-1.8.8.ebuild:
+  Clean old
+
+*account-3.0.0 (26 Oct 2013)
+
+  26 Oct 2013; Cédric Krier <cedk@gentoo.org> +account-3.0.0.ebuild:
+  Version bump
+
+*account-2.8.2 (01 Oct 2013)
+*account-2.6.6 (01 Oct 2013)
+*account-2.4.7 (01 Oct 2013)
+*account-2.2.6 (01 Oct 2013)
+*account-2.0.8 (01 Oct 2013)
+
+  01 Oct 2013; Cédric Krier <cedk@gentoo.org> -account-2.0.7.ebuild,
+  +account-2.0.8.ebuild, -account-2.2.5.ebuild, +account-2.2.6.ebuild,
+  -account-2.4.6.ebuild, +account-2.4.7.ebuild, -account-2.6.5.ebuild,
+  +account-2.6.6.ebuild, -account-2.8.1.ebuild, +account-2.8.2.ebuild:
+  Version bump
+
+*account-2.8.1 (12 Jun 2013)
+*account-2.6.5 (12 Jun 2013)
+*account-2.4.6 (12 Jun 2013)
+
+  12 Jun 2013; Cédric Krier <cedk@gentoo.org> -account-2.4.5.ebuild,
+  +account-2.4.6.ebuild, -account-2.6.4.ebuild, +account-2.6.5.ebuild,
+  -account-2.8.0.ebuild, +account-2.8.1.ebuild:
+  Version bump
+
+*account-2.6.4 (04 May 2013)
+*account-2.4.5 (04 May 2013)
+*account-2.2.5 (04 May 2013)
+*account-2.0.7 (04 May 2013)
+*account-1.8.8 (04 May 2013)
+
+  04 May 2013; Cédric Krier <cedk@gentoo.org> -account-1.8.7.ebuild,
+  +account-1.8.8.ebuild, -account-2.0.6.ebuild, +account-2.0.7.ebuild,
+  -account-2.2.4.ebuild, +account-2.2.5.ebuild, -account-2.4.4.ebuild,
+  +account-2.4.5.ebuild, -account-2.6.3.ebuild, +account-2.6.4.ebuild:
+  Version bump
+
+*account-2.8.0 (22 Apr 2013)
+
+  22 Apr 2013; Cédric Krier <cedk@gentoo.org> +account-2.8.0.ebuild:
+  Version bump
+
+*account-2.6.3 (12 Feb 2013)
+
+  12 Feb 2013; Cédric Krier <cedk@gentoo.org> -account-2.6.2.ebuild,
+  +account-2.6.3.ebuild:
+  Version bump
+
+*account-2.6.2 (23 Dec 2012)
+*account-2.4.4 (23 Dec 2012)
+*account-2.2.4 (23 Dec 2012)
+*account-2.0.6 (23 Dec 2012)
+*account-1.8.7 (23 Dec 2012)
+
+  23 Dec 2012; Cédric Krier <cedk@gentoo.org> -account-1.8.6.ebuild,
+  +account-1.8.7.ebuild, -account-2.0.5.ebuild, +account-2.0.6.ebuild,
+  -account-2.2.3.ebuild, +account-2.2.4.ebuild, -account-2.4.3.ebuild,
+  +account-2.4.4.ebuild, -account-2.6.1.ebuild, +account-2.6.2.ebuild:
+  Version bump
+
+*account-2.6.1 (14 Nov 2012)
+
+  14 Nov 2012; Cédric Krier <cedk@gentoo.org> +account-2.6.1.ebuild:
+  Version bump
+
+*account-2.4.3 (05 Nov 2012)
+
+  05 Nov 2012; Cédric Krier <cedk@gentoo.org> -account-2.4.2.ebuild,
+  +account-2.4.3.ebuild:
+  Version bump
+
+*account-2.4.2 (02 Sep 2012)
+*account-2.2.3 (02 Sep 2012)
+*account-2.0.5 (02 Sep 2012)
+*account-1.8.6 (02 Sep 2012)
+*account-1.6.5 (02 Sep 2012)
+
+  02 Sep 2012; Cédric Krier <cedk@gentoo.org> -account-1.6.4.ebuild,
+  +account-1.6.5.ebuild, -account-1.8.5.ebuild, +account-1.8.6.ebuild,
+  -account-2.0.4.ebuild, +account-2.0.5.ebuild, -account-2.2.2.ebuild,
+  +account-2.2.3.ebuild, -account-2.4.1.ebuild, +account-2.4.2.ebuild:
+  Version bump
+
+*account-2.2.2 (12 May 2012)
+*account-2.0.4 (12 May 2012)
+*account-1.8.5 (12 May 2012)
+
+  12 May 2012; Cédric Krier <cedk@gentoo.org> account-1.6.4.ebuild,
+  -account-1.8.4.ebuild, +account-1.8.5.ebuild, -account-2.0.3.ebuild,
+  +account-2.0.4.ebuild, -account-2.2.1.ebuild, +account-2.2.2.ebuild:
+  Version bump
+
+*account-2.4.1 (05 May 2012)
+
+  05 May 2012; Cédric Krier <cedk@gentoo.org> +account-2.4.1.ebuild:
+  Version bump
+
+*account-1.4.5 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -account-1.4.4.ebuild,
+  +account-1.4.5.ebuild:
+  Version bump
+
+*account-1.6.4 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -account-1.6.3.ebuild,
+  +account-1.6.4.ebuild:
+  Version bump
+
+*account-1.8.4 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -account-1.8.3.ebuild,
+  +account-1.8.4.ebuild:
+  Version bump
+
+*account-2.0.3 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -account-2.0.2.ebuild,
+  +account-2.0.3.ebuild:
+  Version bump
+
+*account-2.2.1 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -account-2.2.0.ebuild,
+  +account-2.2.1.ebuild:
+  Version bump
+
+*account-2.2.0 (24 Oct 2011)
+
+  24 Oct 2011; Cédric Krier <cedk@gentoo.org> +account-2.2.0.ebuild:
+  Version bump
+
+  08 Oct 2011; Cédric Krier <cedk@gentoo.org> -account-1.0.7.ebuild:
+  Remove old
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> account-1.0.7.ebuild,
+  account-1.2.7.ebuild, account-1.4.4.ebuild:
+  Upgrade to EAPI 3
+
+*account-1.8.3 (10 Sep 2011)
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> -account-1.8.2.ebuild,
+  +account-1.8.3.ebuild:
+  Version bump
+
+*account-2.0.2 (10 Sep 2011)
+
+  10 Sep 2011; Cédric Krier <cedk@gentoo.org> -account-2.0.1.ebuild,
+  +account-2.0.2.ebuild:
+  Version bump
+
+*account-2.0.1 (30 May 2011)
+*account-1.8.2 (30 May 2011)
+*account-1.6.3 (30 May 2011)
+
+  30 May 2011; Cédric Krier <cedk@gentoo.org> -account-1.6.2.ebuild,
+  +account-1.6.3.ebuild, -account-1.8.1.ebuild, +account-1.8.2.ebuild,
+  -account-2.0.0.ebuild, +account-2.0.1.ebuild:
+  Version bump
+
+  27 Apr 2011; Cédric Krier <cedk@gentoo.org> +account-2.0.0.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -account-1.2.5.ebuild,
+  +account-1.2.7.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -account-1.8.0.ebuild,
+  +account-1.8.1.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -account-1.6.1.ebuild,
+  +account-1.6.2.ebuild:
+  Version bump
+
+  14 Feb 2011; Cédric Krier <cedk@gentoo.org> -account-1.4.3.ebuild,
+  +account-1.4.4.ebuild:
+  Version bump
+
+  03 Nov 2010; Cédric Krier <cedk@gentoo.org> -account-1.0.0.ebuild,
+  -account-1.0.1.ebuild, -account-1.0.2.ebuild, -account-1.0.3.ebuild,
+  -account-1.0.4.ebuild, -account-1.0.5.ebuild, -account-1.0.6.ebuild,
+  -account-1.2.0.ebuild, -account-1.2.1.ebuild, -account-1.2.2.ebuild,
+  -account-1.2.3.ebuild, -account-1.2.4.ebuild, -account-1.4.0.ebuild,
+  -account-1.4.1.ebuild, -account-1.4.2.ebuild, -account-1.6.0.ebuild:
+  Remove old
+
+  03 Nov 2010; Cédric Krier <cedk@gentoo.org> +account-1.2.5.ebuild:
+  Version bump
+
+  03 Nov 2010; Cédric Krier <cedk@gentoo.org> +account-1.4.3.ebuild:
+  Version bump
+
+  03 Nov 2010; Cédric Krier <cedk@gentoo.org> +account-1.6.1.ebuild:
+  Version bump
+
+  01 Nov 2010; Cédric Krier <cedk@gentoo.org> +account-1.8.0.ebuild:
+  Version bump
+
+  11 May 2010; Cédric Krier <cedk@gentoo.org> +account-1.6.0.ebuild:
+  Version bump
+
+  21 Feb 2010; Cédric Krier <cedk@gentoo.org> +account-1.0.7.ebuild:
+  Version bump
+
+  18 Feb 2010; Cédric Krier <cedk@gentoo.org> +account-1.2.4.ebuild:
+  Version bump
+
+  16 Feb 2010; Cédric Krier <cedk@gentoo.org> +account-1.4.2.ebuild:
+  Version bump
+
+  23 Nov 2009; Cédric Krier <cedk@gentoo.org> +account-1.0.6.ebuild:
+  Version bump
+
+  23 Nov 2009; Cédric Krier <cedk@gentoo.org> +account-1.2.3.ebuild:
+  Version bump
+
+  23 Nov 2009; Cédric Krier <cedk@gentoo.org> +account-1.4.1.ebuild:
+  Version bump
+
+  19 Oct 2009; Cédric Krier <cedk@gentoo.org> account-1.4.0.ebuild:
+  Improve RDEPEND
+
+  19 Oct 2009; Cédric Krier <cedk@gentoo.org> +account-1.4.0.ebuild:
+  Version bump
+
+  31 Aug 2009; Cédric Krier <cedk@gentoo.org> +account-1.2.2.ebuild:
+  Version bump
+
+  31 Aug 2009; Cédric Krier <cedk@gentoo.org> +account-1.0.5.ebuild:
+  Version bump
+
+  27 Jul 2009; Cédric Krier <cedk@gentoo.org> account-1.0.0.ebuild,
+  account-1.0.1.ebuild, account-1.0.2.ebuild, account-1.0.3.ebuild,
+  account-1.0.4.ebuild, account-1.2.0.ebuild, account-1.2.1.ebuild:
+  Add missing dependency to dev-python/setuptools
+

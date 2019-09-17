@@ -1,0 +1,568 @@
+# ChangeLog for app-office/tryton
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*tryton-4.0.1 (12 May 2016)
+
+  12 May 2016; Cédric Krier <cedk@gentoo.org> +tryton-4.0.1.ebuild:
+  Version bump
+
+*tryton-3.8.6 (06 Apr 2016)
+*tryton-3.6.8 (06 Apr 2016)
+
+  06 Apr 2016; Cédric Krier <cedk@gentoo.org> -tryton-3.6.7.ebuild,
+  +tryton-3.6.8.ebuild, -tryton-3.8.5.ebuild, +tryton-3.8.6.ebuild:
+  Version bump
+
+*tryton-3.8.5 (14 Mar 2016)
+*tryton-3.6.7 (14 Mar 2016)
+*tryton-3.4.9 (14 Mar 2016)
+*tryton-3.2.14 (14 Mar 2016)
+*tryton-3.0.16 (14 Mar 2016)
+
+  14 Mar 2016; Cédric Krier <cedk@gentoo.org> -tryton-3.0.15.ebuild,
+  +tryton-3.0.16.ebuild, -tryton-3.2.13.ebuild, +tryton-3.2.14.ebuild,
+  -tryton-3.4.8.ebuild, +tryton-3.4.9.ebuild, -tryton-3.6.6.ebuild,
+  +tryton-3.6.7.ebuild, -tryton-3.8.4.ebuild, +tryton-3.8.5.ebuild:
+  Version bump
+
+*tryton-3.8.4 (06 Feb 2016)
+*tryton-3.6.6 (06 Feb 2016)
+*tryton-3.4.8 (06 Feb 2016)
+*tryton-3.2.13 (06 Feb 2016)
+*tryton-3.0.15 (06 Feb 2016)
+
+  06 Feb 2016; Cédric Krier <cedk@gentoo.org> -tryton-3.0.14.ebuild,
+  +tryton-3.0.15.ebuild, -tryton-3.2.12.ebuild, +tryton-3.2.13.ebuild,
+  -tryton-3.4.7.ebuild, +tryton-3.4.8.ebuild, -tryton-3.6.5.ebuild,
+  +tryton-3.6.6.ebuild, -tryton-3.8.3.ebuild, +tryton-3.8.4.ebuild:
+  Version bump
+
+*tryton-3.8.3 (11 Jan 2016)
+*tryton-3.6.5 (11 Jan 2016)
+*tryton-3.4.7 (11 Jan 2016)
+*tryton-3.2.12 (11 Jan 2016)
+*tryton-3.0.14 (11 Jan 2016)
+
+  11 Jan 2016; Cédric Krier <cedk@gentoo.org> -tryton-3.0.13.ebuild,
+  +tryton-3.0.14.ebuild, -tryton-3.2.11.ebuild, +tryton-3.2.12.ebuild,
+  -tryton-3.4.6.ebuild, +tryton-3.4.7.ebuild, -tryton-3.6.4.ebuild,
+  +tryton-3.6.5.ebuild, -tryton-3.8.2.ebuild, +tryton-3.8.3.ebuild:
+  Version bump
+
+*tryton-3.6.4 (09 Nov 2015)
+*tryton-3.4.6 (09 Nov 2015)
+*tryton-3.2.11 (09 Nov 2015)
+*tryton-3.0.13 (09 Nov 2015)
+*tryton-2.8.16 (09 Nov 2015)
+
+  09 Nov 2015; Cédric Krier <cedk@gentoo.org> -tryton-2.8.15.ebuild,
+  +tryton-2.8.16.ebuild, -tryton-3.0.12.ebuild, +tryton-3.0.13.ebuild,
+  -tryton-3.2.10.ebuild, +tryton-3.2.11.ebuild, -tryton-3.4.5.ebuild,
+  +tryton-3.4.6.ebuild, -tryton-3.6.3.ebuild, +tryton-3.6.4.ebuild,
+  -tryton-3.8.1.ebuild, +tryton-3.8.2.ebuild:
+  Version bump
+
+*tryton-3.8.2 (09 Nov 2015)
+
+  09 Nov 2015; Cédric Krier <cedk@gentoo.org> -tryton-3.8.1.ebuild,
+  +tryton-3.8.2.ebuild:
+  Version bump
+
+  03 Nov 2015; Cédric Krier <cedk@gentoo.org> tryton-2.0.12.ebuild,
+  tryton-2.2.13.ebuild, tryton-2.4.16.ebuild, tryton-2.6.16.ebuild,
+  tryton-2.8.15.ebuild, tryton-3.0.12.ebuild, tryton-3.2.10.ebuild,
+  tryton-3.4.5.ebuild, tryton-3.6.3.ebuild, +tryton-3.8.1.ebuild:
+  Version bump and fix repoman
+
+*tryton-3.8.1 (03 Nov 2015)
+
+  03 Nov 2015; Cédric Krier <cedk@gentoo.org> +tryton-3.8.1.ebuild:
+  Version bump
+
+*tryton-3.6.3 (08 Sep 2015)
+*tryton-3.4.5 (08 Sep 2015)
+*tryton-3.2.10 (08 Sep 2015)
+*tryton-3.0.12 (08 Sep 2015)
+*tryton-2.8.15 (08 Sep 2015)
+
+  08 Sep 2015; Cédric Krier <cedk@gentoo.org> -tryton-2.8.14.ebuild,
+  +tryton-2.8.15.ebuild, -tryton-3.0.11.ebuild, +tryton-3.0.12.ebuild,
+  -tryton-3.2.9.ebuild, +tryton-3.2.10.ebuild, -tryton-3.4.4.ebuild,
+  +tryton-3.4.5.ebuild, -tryton-3.6.2.ebuild, +tryton-3.6.3.ebuild:
+  Version bump
+
+*tryton-3.6.2 (13 Jul 2015)
+
+  13 Jul 2015; Cédric Krier <cedk@gentoo.org> -tryton-3.6.1.ebuild,
+  +tryton-3.6.2.ebuild:
+  Version bump
+
+*tryton-3.6.1 (20 May 2015)
+*tryton-3.4.4 (20 May 2015)
+*tryton-3.2.9 (20 May 2015)
+*tryton-3.0.11 (20 May 2015)
+*tryton-2.8.14 (20 May 2015)
+
+  20 May 2015; Cédric Krier <cedk@gentoo.org> -tryton-2.8.13.ebuild,
+  +tryton-2.8.14.ebuild, -tryton-3.0.10.ebuild, +tryton-3.0.11.ebuild,
+  -tryton-3.2.8.ebuild, +tryton-3.2.9.ebuild, -tryton-3.4.3.ebuild,
+  +tryton-3.4.4.ebuild, -tryton-3.6.0.ebuild, +tryton-3.6.1.ebuild:
+  Version bump
+
+*tryton-3.6.0 (24 Apr 2015)
+
+  24 Apr 2015; Cédric Krier <cedk@gentoo.org> +tryton-3.6.0.ebuild:
+  Version bump
+
+*tryton-3.4.3 (31 Mar 2015)
+*tryton-3.2.8 (31 Mar 2015)
+*tryton-3.0.10 (31 Mar 2015)
+*tryton-2.8.13 (31 Mar 2015)
+*tryton-2.6.16 (31 Mar 2015)
+
+  31 Mar 2015; Cédric Krier <cedk@gentoo.org> -tryton-2.6.15.ebuild,
+  +tryton-2.6.16.ebuild, -tryton-2.8.12.ebuild, +tryton-2.8.13.ebuild,
+  -tryton-3.0.9.ebuild, +tryton-3.0.10.ebuild, -tryton-3.2.7.ebuild,
+  +tryton-3.2.8.ebuild, -tryton-3.4.2.ebuild, +tryton-3.4.3.ebuild:
+  Version bump
+
+*tryton-3.4.2 (16 Feb 2015)
+*tryton-3.2.7 (16 Feb 2015)
+*tryton-3.0.9 (16 Feb 2015)
+*tryton-2.8.12 (16 Feb 2015)
+*tryton-2.6.15 (16 Feb 2015)
+
+  16 Feb 2015; Cédric Krier <cedk@gentoo.org> -tryton-2.6.14.ebuild,
+  +tryton-2.6.15.ebuild, -tryton-2.8.11.ebuild, +tryton-2.8.12.ebuild,
+  -tryton-3.0.8.ebuild, +tryton-3.0.9.ebuild, -tryton-3.2.6.ebuild,
+  +tryton-3.2.7.ebuild, -tryton-3.4.1.ebuild, +tryton-3.4.2.ebuild:
+  Version bump
+
+*tryton-3.4.1 (03 Dec 2014)
+*tryton-3.2.6 (03 Dec 2014)
+
+  03 Dec 2014; Cédric Krier <cedk@gentoo.org> -tryton-3.2.5.ebuild,
+  +tryton-3.2.6.ebuild, -tryton-3.4.0.ebuild, +tryton-3.4.1.ebuild:
+  Version bump
+
+*tryton-3.2.5 (06 Nov 2014)
+*tryton-3.0.8 (06 Nov 2014)
+*tryton-2.8.11 (06 Nov 2014)
+*tryton-2.6.14 (06 Nov 2014)
+*tryton-2.4.16 (06 Nov 2014)
+
+  06 Nov 2014; Cédric Krier <cedk@gentoo.org> -tryton-2.4.15.ebuild,
+  +tryton-2.4.16.ebuild, -tryton-2.6.13.ebuild, +tryton-2.6.14.ebuild,
+  -tryton-2.8.10.ebuild, +tryton-2.8.11.ebuild, -tryton-3.0.7.ebuild,
+  +tryton-3.0.8.ebuild, -tryton-3.2.4.ebuild, +tryton-3.2.5.ebuild:
+  Version bump
+
+*tryton-3.4.0 (21 Oct 2014)
+
+  21 Oct 2014; Cédric Krier <cedk@gentoo.org> +tryton-3.4.0.ebuild:
+  Version bump
+
+*tryton-3.2.4 (29 Sep 2014)
+*tryton-3.0.7 (29 Sep 2014)
+*tryton-2.8.10 (29 Sep 2014)
+*tryton-2.6.13 (29 Sep 2014)
+*tryton-2.4.15 (29 Sep 2014)
+
+  29 Sep 2014; Cédric Krier <cedk@gentoo.org> -tryton-2.4.14.ebuild,
+  +tryton-2.4.15.ebuild, -tryton-2.6.12.ebuild, +tryton-2.6.13.ebuild,
+  -tryton-2.8.9.ebuild, +tryton-2.8.10.ebuild, -tryton-3.0.6.ebuild,
+  +tryton-3.0.7.ebuild, -tryton-3.2.3.ebuild, +tryton-3.2.4.ebuild:
+  Version bump
+
+*tryton-3.2.3 (03 Aug 2014)
+*tryton-3.0.6 (03 Aug 2014)
+*tryton-2.8.9 (03 Aug 2014)
+*tryton-2.6.12 (03 Aug 2014)
+*tryton-2.4.14 (03 Aug 2014)
+
+  03 Aug 2014; Cédric Krier <cedk@gentoo.org> -tryton-2.4.13.ebuild,
+  +tryton-2.4.14.ebuild, -tryton-2.6.11.ebuild, +tryton-2.6.12.ebuild,
+  -tryton-2.8.8.ebuild, +tryton-2.8.9.ebuild, -tryton-3.0.5.ebuild,
+  +tryton-3.0.6.ebuild, -tryton-3.2.2.ebuild, +tryton-3.2.3.ebuild:
+  Version bump
+
+*tryton-3.2.2 (01 Jul 2014)
+*tryton-3.0.5 (01 Jul 2014)
+*tryton-2.8.8 (01 Jul 2014)
+*tryton-2.6.11 (01 Jul 2014)
+*tryton-2.4.13 (01 Jul 2014)
+
+  01 Jul 2014; Cédric Krier <cedk@gentoo.org> -tryton-2.4.12.ebuild,
+  +tryton-2.4.13.ebuild, -tryton-2.6.10.ebuild, +tryton-2.6.11.ebuild,
+  -tryton-2.8.7.ebuild, +tryton-2.8.8.ebuild, -tryton-3.0.4.ebuild,
+  +tryton-3.0.5.ebuild, -tryton-3.2.1.ebuild, +tryton-3.2.2.ebuild:
+  Version bump
+
+*tryton-3.2.1 (08 May 2014)
+
+  08 May 2014; Cédric Krier <cedk@gentoo.org> -tryton-3.2.0.ebuild,
+  +tryton-3.2.1.ebuild:
+  Version bump
+
+*tryton-3.0.4 (06 May 2014)
+*tryton-2.8.7 (06 May 2014)
+*tryton-2.6.10 (06 May 2014)
+*tryton-2.4.12 (06 May 2014)
+*tryton-2.2.13 (06 May 2014)
+
+  06 May 2014; Cédric Krier <cedk@gentoo.org> -tryton-2.2.12.ebuild,
+  +tryton-2.2.13.ebuild, -tryton-2.4.11.ebuild, +tryton-2.4.12.ebuild,
+  -tryton-2.6.9.ebuild, +tryton-2.6.10.ebuild, -tryton-2.8.6.ebuild,
+  +tryton-2.8.7.ebuild, -tryton-3.0.3.ebuild, +tryton-3.0.4.ebuild:
+  Version bump
+
+*tryton-3.2.0 (27 Apr 2014)
+
+  27 Apr 2014; Cédric Krier <cedk@gentoo.org> +tryton-3.2.0.ebuild:
+  Version bump
+
+*tryton-3.0.3 (07 Apr 2014)
+*tryton-2.8.6 (07 Apr 2014)
+*tryton-2.6.9 (07 Apr 2014)
+*tryton-2.4.11 (07 Apr 2014)
+
+  07 Apr 2014; Cédric Krier <cedk@gentoo.org> -tryton-2.4.10.ebuild,
+  +tryton-2.4.11.ebuild, -tryton-2.6.8.ebuild, +tryton-2.6.9.ebuild,
+  -tryton-2.8.5.ebuild, +tryton-2.8.6.ebuild, -tryton-3.0.2.ebuild,
+  +tryton-3.0.3.ebuild:
+  Version bump
+
+*tryton-3.0.2 (11 Dec 2013)
+*tryton-2.8.5 (11 Dec 2013)
+*tryton-2.6.8 (11 Dec 2013)
+*tryton-2.4.10 (11 Dec 2013)
+*tryton-2.2.12 (11 Dec 2013)
+
+  11 Dec 2013; Cédric Krier <cedk@gentoo.org> -tryton-2.2.11.ebuild,
+  +tryton-2.2.12.ebuild, -tryton-2.4.9.ebuild, +tryton-2.4.10.ebuild,
+  -tryton-2.6.7.ebuild, +tryton-2.6.8.ebuild, -tryton-2.8.4.ebuild,
+  +tryton-2.8.5.ebuild, -tryton-3.0.1.ebuild, +tryton-3.0.2.ebuild:
+  Version bump
+
+*tryton-3.0.1 (04 Nov 2013)
+*tryton-2.8.4 (04 Nov 2013)
+*tryton-2.6.7 (04 Nov 2013)
+*tryton-2.4.9 (04 Nov 2013)
+*tryton-2.2.11 (04 Nov 2013)
+*tryton-2.0.12 (04 Nov 2013)
+
+  04 Nov 2013; Cédric Krier <cedk@gentoo.org> -tryton-2.0.11.ebuild,
+  +tryton-2.0.12.ebuild, -tryton-2.2.10.ebuild, +tryton-2.2.11.ebuild,
+  -tryton-2.4.8.ebuild, +tryton-2.4.9.ebuild, -tryton-2.6.6.ebuild,
+  +tryton-2.6.7.ebuild, -tryton-2.8.3.ebuild, +tryton-2.8.4.ebuild,
+  -tryton-3.0.0.ebuild, +tryton-3.0.1.ebuild:
+  Version bump
+
+  27 Oct 2013; Cédric Krier <cedk@gentoo.org> -tryton-1.2.10.ebuild,
+  -tryton-1.4.10.ebuild, -tryton-1.6.9.ebuild, -tryton-1.8.9.ebuild:
+  Clean old
+
+*tryton-3.0.0 (26 Oct 2013)
+
+  26 Oct 2013; Cédric Krier <cedk@gentoo.org> +tryton-3.0.0.ebuild,
+  metadata.xml:
+  Version bump
+
+*tryton-2.8.3 (10 Oct 2013)
+*tryton-2.6.6 (10 Oct 2013)
+*tryton-2.4.8 (10 Oct 2013)
+*tryton-2.2.10 (10 Oct 2013)
+*tryton-2.0.11 (10 Oct 2013)
+
+  10 Oct 2013; Cédric Krier <cedk@gentoo.org> -tryton-2.0.10.ebuild,
+  +tryton-2.0.11.ebuild, -tryton-2.2.9.ebuild, +tryton-2.2.10.ebuild,
+  -tryton-2.4.7.ebuild, +tryton-2.4.8.ebuild, -tryton-2.6.5.ebuild,
+  +tryton-2.6.6.ebuild, -tryton-2.8.2.ebuild, +tryton-2.8.3.ebuild:
+  Version bump
+
+*tryton-2.8.2 (01 Aug 2013)
+*tryton-2.6.5 (01 Aug 2013)
+*tryton-2.4.7 (01 Aug 2013)
+*tryton-2.2.9 (01 Aug 2013)
+*tryton-2.0.10 (01 Aug 2013)
+
+  01 Aug 2013; Cédric Krier <cedk@gentoo.org> -tryton-2.0.9.ebuild,
+  +tryton-2.0.10.ebuild, -tryton-2.2.8.ebuild, +tryton-2.2.9.ebuild,
+  -tryton-2.4.6.ebuild, +tryton-2.4.7.ebuild, -tryton-2.6.4.ebuild,
+  +tryton-2.6.5.ebuild, -tryton-2.8.1.ebuild, +tryton-2.8.2.ebuild:
+  Version bump
+
+*tryton-2.8.1 (12 Jun 2013)
+*tryton-2.6.4 (12 Jun 2013)
+*tryton-2.4.6 (12 Jun 2013)
+*tryton-2.2.8 (12 Jun 2013)
+
+  12 Jun 2013; Cédric Krier <cedk@gentoo.org> -tryton-2.2.7.ebuild,
+  +tryton-2.2.8.ebuild, -tryton-2.4.5.ebuild, +tryton-2.4.6.ebuild,
+  -tryton-2.6.3.ebuild, +tryton-2.6.4.ebuild, -tryton-2.8.0.ebuild,
+  +tryton-2.8.1.ebuild:
+  Version bump
+
+*tryton-2.6.3 (04 May 2013)
+*tryton-2.4.5 (04 May 2013)
+*tryton-2.2.7 (04 May 2013)
+*tryton-2.0.9 (04 May 2013)
+*tryton-1.8.9 (04 May 2013)
+
+  04 May 2013; Cédric Krier <cedk@gentoo.org> -tryton-1.8.8.ebuild,
+  +tryton-1.8.9.ebuild, -tryton-2.0.8.ebuild, +tryton-2.0.9.ebuild,
+  -tryton-2.2.6.ebuild, +tryton-2.2.7.ebuild, -tryton-2.4.4.ebuild,
+  +tryton-2.4.5.ebuild, -tryton-2.6.2.ebuild, +tryton-2.6.3.ebuild:
+  Version bump
+
+*tryton-2.8.0 (22 Apr 2013)
+
+  22 Apr 2013; Cédric Krier <cedk@gentoo.org> +tryton-2.8.0.ebuild:
+  Version bump
+
+*tryton-2.6.2 (12 Feb 2013)
+*tryton-2.4.4 (12 Feb 2013)
+*tryton-2.2.6 (12 Feb 2013)
+*tryton-2.0.8 (12 Feb 2013)
+
+  12 Feb 2013; Cédric Krier <cedk@gentoo.org> -tryton-2.0.7.ebuild,
+  +tryton-2.0.8.ebuild, -tryton-2.2.5.ebuild, +tryton-2.2.6.ebuild,
+  -tryton-2.4.3.ebuild, +tryton-2.4.4.ebuild, -tryton-2.6.1.ebuild,
+  +tryton-2.6.2.ebuild:
+  Version bump
+
+*tryton-2.6.0 (07 Nov 2012)
+
+  07 Nov 2012; Cédric Krier <cedk@gentoo.org> +tryton-2.6.0.ebuild:
+  Version bump
+
+*tryton-2.4.2 (05 Nov 2012)
+*tryton-2.2.4 (05 Nov 2012)
+*tryton-2.0.6 (05 Nov 2012)
+*tryton-1.8.7 (05 Nov 2012)
+*tryton-1.6.9 (05 Nov 2012)
+
+  05 Nov 2012; Cédric Krier <cedk@gentoo.org> -tryton-1.6.8.ebuild,
+  +tryton-1.6.9.ebuild, -tryton-1.8.6.ebuild, +tryton-1.8.7.ebuild,
+  -tryton-2.0.5.ebuild, +tryton-2.0.6.ebuild, -tryton-2.2.3.ebuild,
+  +tryton-2.2.4.ebuild, -tryton-2.4.1.ebuild, +tryton-2.4.2.ebuild:
+  Version bump
+
+*tryton-2.4.1 (01 Sep 2012)
+*tryton-2.2.3 (01 Sep 2012)
+*tryton-2.0.5 (01 Sep 2012)
+*tryton-1.8.6 (01 Sep 2012)
+*tryton-1.6.8 (01 Sep 2012)
+
+  01 Sep 2012; Cédric Krier <cedk@gentoo.org> -tryton-1.6.7.ebuild,
+  +tryton-1.6.8.ebuild, -tryton-1.8.5.ebuild, +tryton-1.8.6.ebuild,
+  -tryton-2.0.4.ebuild, +tryton-2.0.5.ebuild, -tryton-2.2.2.ebuild,
+  +tryton-2.2.3.ebuild, -tryton-2.4.0.ebuild, +tryton-2.4.1.ebuild:
+  Version bump
+
+*tryton-2.2.2 (12 May 2012)
+*tryton-2.0.4 (12 May 2012)
+*tryton-1.8.5 (12 May 2012)
+*tryton-1.6.7 (12 May 2012)
+*tryton-1.4.10 (12 May 2012)
+
+  12 May 2012; Cédric Krier <cedk@gentoo.org> -tryton-1.4.9.ebuild,
+  +tryton-1.4.10.ebuild, -tryton-1.6.6.ebuild, +tryton-1.6.7.ebuild,
+  -tryton-1.8.4.ebuild, +tryton-1.8.5.ebuild, -tryton-2.0.3.ebuild,
+  +tryton-2.0.4.ebuild, -tryton-2.2.1.ebuild, +tryton-2.2.2.ebuild:
+  Version bump
+
+*tryton-2.4.0 (05 May 2012)
+
+  05 May 2012; Cédric Krier <cedk@gentoo.org> +tryton-2.4.0.ebuild:
+  Version bump
+
+*tryton-1.4.9 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -tryton-1.4.8.ebuild,
+  +tryton-1.4.9.ebuild:
+  Version bump
+
+*tryton-1.6.6 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -tryton-1.6.5.ebuild,
+  +tryton-1.6.6.ebuild:
+  Version bump
+
+*tryton-1.8.4 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -tryton-1.8.3.ebuild,
+  +tryton-1.8.4.ebuild:
+  Version bump
+
+*tryton-2.0.3 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -tryton-2.0.2.ebuild,
+  +tryton-2.0.3.ebuild:
+  Version bump
+
+*tryton-2.2.1 (07 Jan 2012)
+
+  07 Jan 2012; Cédric Krier <cedk@gentoo.org> -tryton-2.2.0.ebuild,
+  +tryton-2.2.1.ebuild:
+  Version bump
+
+*tryton-2.2.0 (24 Oct 2011)
+
+  24 Oct 2011; Cédric Krier <cedk@gentoo.org> +tryton-2.2.0.ebuild,
+  metadata.xml:
+  Version bump
+
+  08 Oct 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.0.9.ebuild:
+  Remove old
+
+*tryton-2.0.2 (08 Oct 2011)
+
+  08 Oct 2011; Cédric Krier <cedk@gentoo.org> -tryton-2.0.1.ebuild,
+  +tryton-2.0.2.ebuild:
+  Version bump
+
+*tryton-1.8.3 (08 Oct 2011)
+
+  08 Oct 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.8.2.ebuild,
+  +tryton-1.8.3.ebuild:
+  Version bump
+
+*tryton-1.6.5 (08 Oct 2011)
+
+  08 Oct 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.6.4.ebuild,
+  +tryton-1.6.5.ebuild:
+  Version bump
+
+*tryton-1.4.8 (08 Oct 2011)
+
+  08 Oct 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.4.7.ebuild,
+  +tryton-1.4.8.ebuild:
+  Version bump
+
+*tryton-1.2.10 (08 Oct 2011)
+
+  08 Oct 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.2.9.ebuild,
+  +tryton-1.2.10.ebuild:
+  Version bump
+
+*tryton-2.0.1 (30 May 2011)
+*tryton-1.8.2 (30 May 2011)
+*tryton-1.6.4 (30 May 2011)
+*tryton-1.4.7 (30 May 2011)
+*tryton-1.2.9 (30 May 2011)
+
+  30 May 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.2.8.ebuild,
+  +tryton-1.2.9.ebuild, -tryton-1.4.6.ebuild, +tryton-1.4.7.ebuild,
+  -tryton-1.6.3.ebuild, +tryton-1.6.4.ebuild, -tryton-1.8.1.ebuild,
+  +tryton-1.8.2.ebuild, -tryton-2.0.0.ebuild, +tryton-2.0.1.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.8.0.ebuild,
+  +tryton-1.8.1.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.6.2.ebuild,
+  +tryton-1.6.3.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.4.5.ebuild,
+  +tryton-1.4.6.ebuild:
+  Version bump
+
+  21 Feb 2011; Cédric Krier <cedk@gentoo.org> -tryton-1.2.7.ebuild,
+  +tryton-1.2.8.ebuild:
+  Version bump
+
+  05 Nov 2010; Cédric Krier <cedk@gentoo.org> -tryton-1.0.0.ebuild,
+  -tryton-1.0.1.ebuild, -tryton-1.0.2.ebuild, -tryton-1.0.3.ebuild,
+  -tryton-1.0.4.ebuild, -tryton-1.0.5.ebuild, -tryton-1.0.6.ebuild,
+  -tryton-1.0.7.ebuild, -tryton-1.0.8.ebuild, -tryton-1.2.0.ebuild,
+  -tryton-1.2.1.ebuild, -tryton-1.2.2.ebuild, -tryton-1.2.3.ebuild,
+  -tryton-1.2.4.ebuild, -tryton-1.2.5.ebuild, -tryton-1.2.6.ebuild,
+  -tryton-1.4.0.ebuild, -tryton-1.4.1.ebuild, -tryton-1.4.2.ebuild,
+  -tryton-1.4.3.ebuild, -tryton-1.4.4.ebuild, -tryton-1.6.0.ebuild,
+  -tryton-1.6.1.ebuild:
+  Remove old
+
+  05 Nov 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.2.7.ebuild:
+  Version bump
+
+  05 Nov 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.4.5.ebuild:
+  Version bump
+
+  02 Nov 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.6.2.ebuild:
+  Version bump
+
+  01 Nov 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.8.0.ebuild:
+  Version bump
+
+  25 Jul 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.2.6.ebuild:
+  Version bump
+
+  25 Jul 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.4.4.ebuild:
+  Version bump
+
+  25 Jul 2010; Cédric Krier <cedk@gentoo.org> tryton-1.6.0.ebuild:
+  Fix RDEPEND
+
+  25 Jul 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.6.1.ebuild:
+  Version bump
+
+  08 May 2010; Cédric Krier <cedk@gentoo.org> tryton-1.6.0.ebuild:
+  Move dev-python/sphinx in DEPEND
+
+  08 May 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.6.0.ebuild:
+  Version bump
+
+  31 Mar 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.0.9.ebuild:
+  Version bump
+
+  31 Mar 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.2.5.ebuild:
+  Version bump
+
+  31 Mar 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.4.3.ebuild:
+  Version bump
+
+  21 Feb 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.0.8.ebuild:
+  Version bump
+
+  18 Feb 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.2.4.ebuild:
+  Version bump
+
+  17 Feb 2010; Cédric Krier <cedk@gentoo.org> tryton-1.0.0.ebuild,
+  tryton-1.0.1.ebuild, tryton-1.0.2.ebuild, tryton-1.0.3.ebuild,
+  tryton-1.0.4.ebuild, tryton-1.0.5.ebuild, tryton-1.0.6.ebuild,
+  tryton-1.0.7.ebuild, tryton-1.2.0.ebuild, tryton-1.2.1.ebuild,
+  tryton-1.2.2.ebuild, tryton-1.2.3.ebuild, tryton-1.4.0.ebuild,
+  tryton-1.4.1.ebuild:
+  Add missing inherit of eutils
+
+  17 Feb 2010; Cédric Krier <cedk@gentoo.org> +tryton-1.4.2.ebuild:
+  Version bump
+
+  23 Nov 2009; Cédric Krier <cedk@gentoo.org> +tryton-1.0.7.ebuild:
+  Version bump
+
+  23 Nov 2009; Cédric Krier <cedk@gentoo.org> +tryton-1.2.3.ebuild:
+  Version bump
+
+  23 Nov 2009; Cédric Krier <cedk@gentoo.org> +tryton-1.4.1.ebuild:
+  Version bump
+
+  19 Oct 2009; Cédric Krier <cedk@gentoo.org> +tryton-1.4.0.ebuild:
+  Version bump
+
+  31 Aug 2009; Cédric Krier <cedk@gentoo.org> +tryton-1.2.2.ebuild:
+  Version bump
+
+  31 Aug 2009; Cédric Krier <cedk@gentoo.org> +tryton-1.0.6.ebuild:
+  Version bump
+
+  27 Jul 2009; Cédric Krier <cedk@gentoo.org> tryton-1.0.0.ebuild,
+  tryton-1.0.1.ebuild, tryton-1.0.2.ebuild, tryton-1.0.3.ebuild,
+  tryton-1.0.4.ebuild, tryton-1.0.5.ebuild, tryton-1.2.0.ebuild,
+  tryton-1.2.1.ebuild, metadata.xml:
+  Add missing dependency to dev-python/setuptools
+

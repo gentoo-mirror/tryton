@@ -1,0 +1,25 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-office/tryton:calendar - Enable support for the calendar view
+app-office/tryton:gtk3 - Enable support of GTK+-3
+app-office/tryton:simplejson - Enable support for simplejson
+app-office/trytond:bcrypt - Enable BCrypt hash
+app-office/trytond:coroutine - Enable coroutine support
+app-office/trytond:html2text - Enable text part for HTML email
+app-office/trytond:levenshtein - Enable support for Levenshtein
+app-office/trytond:simplejson - Enable support for simplejson
+app-office/trytond:unoconv - Enable support for unoconv
+app-tryton/company:timezone - Enable support for timezone
+app-tryton/country:geonames - Enable GeoNames import script
+app-tryton/party:phonenumbers - Add phone number formatting
+app-tryton/party:vat - Add support for vat number check
+app-tryton/sale:sparklines - Show sparklines on reports
+dev-python/csb43:babel - Enable Babel support
+dev-python/csb43:formats - Enable formats support
+dev-python/csb43:yaml - Enable YAML support
+dev-python/proteus:simplejson - Enable support for simplejson
+dev-python/proteus:trytond - Enable support of trytond
+dev-python/relatorio:chart - Enable chart
+dev-python/relatorio:fodt - Enable flat OpenDocument

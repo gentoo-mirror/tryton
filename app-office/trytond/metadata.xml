@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>ced@b2ck.com</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+	</longdescription>
+	<use>
+		<flag name="unoconv">Enable support for unoconv</flag>
+		<flag name="simplejson">Enable support for simplejson</flag>
+		<flag name="levenshtein">Enable support for Levenshtein</flag>
+		<flag name="bcrypt">Enable BCrypt hash</flag>
+		<flag name="html2text">Enable text part for HTML email</flag>
+		<flag name="coroutine">Enable coroutine support</flag>
+	</use>
+</pkgmetadata>
+

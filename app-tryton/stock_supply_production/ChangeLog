@@ -1,0 +1,107 @@
+# ChangeLog for app-tryton/stock_supply_production
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*stock_supply_production-4.0.0 (25 May 2016)
+
+  25 May 2016; Cédric Krier <cedk@gentoo.org>
+  +stock_supply_production-4.0.0.ebuild:
+  Version bump
+
+*stock_supply_production-3.8.0 (05 Nov 2015)
+
+  05 Nov 2015; Cédric Krier <cedk@gentoo.org>
+  stock_supply_production-2.4.2.ebuild, stock_supply_production-2.6.3.ebuild,
+  stock_supply_production-2.8.2.ebuild, stock_supply_production-3.0.2.ebuild,
+  stock_supply_production-3.2.3.ebuild, stock_supply_production-3.4.1.ebuild,
+  stock_supply_production-3.6.0.ebuild, +stock_supply_production-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*stock_supply_production-3.2.3 (10 Sep 2015)
+
+  10 Sep 2015; Cédric Krier <cedk@gentoo.org>
+  -stock_supply_production-3.2.2.ebuild, +stock_supply_production-3.2.3.ebuild:
+  Version bump
+
+*stock_supply_production-3.6.0 (06 May 2015)
+
+  06 May 2015; Cédric Krier <cedk@gentoo.org>
+  +stock_supply_production-3.6.0.ebuild:
+  Version bump
+
+*stock_supply_production-3.4.1 (17 Feb 2015)
+*stock_supply_production-3.2.2 (17 Feb 2015)
+*stock_supply_production-3.0.2 (17 Feb 2015)
+*stock_supply_production-2.8.2 (17 Feb 2015)
+*stock_supply_production-2.6.3 (17 Feb 2015)
+
+  17 Feb 2015; Cédric Krier <cedk@gentoo.org>
+  -stock_supply_production-2.6.2.ebuild, +stock_supply_production-2.6.3.ebuild,
+  -stock_supply_production-2.8.1.ebuild, +stock_supply_production-2.8.2.ebuild,
+  -stock_supply_production-3.0.1.ebuild, +stock_supply_production-3.0.2.ebuild,
+  -stock_supply_production-3.2.1.ebuild, +stock_supply_production-3.2.2.ebuild,
+  -stock_supply_production-3.4.0.ebuild, +stock_supply_production-3.4.1.ebuild:
+  Version bump
+
+*stock_supply_production-3.2.1 (06 Nov 2014)
+*stock_supply_production-3.0.1 (06 Nov 2014)
+*stock_supply_production-2.8.1 (06 Nov 2014)
+*stock_supply_production-2.6.2 (06 Nov 2014)
+
+  06 Nov 2014; Cédric Krier <cedk@gentoo.org>
+  -stock_supply_production-2.6.1.ebuild, +stock_supply_production-2.6.2.ebuild,
+  -stock_supply_production-2.8.0.ebuild, +stock_supply_production-2.8.1.ebuild,
+  -stock_supply_production-3.0.0.ebuild, +stock_supply_production-3.0.1.ebuild,
+  -stock_supply_production-3.2.0.ebuild, +stock_supply_production-3.2.1.ebuild:
+  Version bump
+
+*stock_supply_production-3.4.0 (22 Oct 2014)
+
+  22 Oct 2014; Cédric Krier <cedk@gentoo.org>
+  +stock_supply_production-3.4.0.ebuild:
+  Version bump
+
+*stock_supply_production-3.2.0 (28 Apr 2014)
+
+  28 Apr 2014; Cédric Krier <cedk@gentoo.org>
+  +stock_supply_production-3.2.0.ebuild:
+  Version bump
+
+*stock_supply_production-3.0.0 (27 Oct 2013)
+
+  27 Oct 2013; Cédric Krier <cedk@gentoo.org>
+  +stock_supply_production-3.0.0.ebuild:
+  Version bump
+
+*stock_supply_production-2.8.0 (23 Apr 2013)
+
+  23 Apr 2013; Cédric Krier <cedk@gentoo.org>
+  +stock_supply_production-2.8.0.ebuild:
+  Version bump
+
+*stock_supply_production-2.6.1 (23 Dec 2012)
+*stock_supply_production-2.4.2 (23 Dec 2012)
+
+  23 Dec 2012; Cédric Krier <cedk@gentoo.org>
+  -stock_supply_production-2.4.1.ebuild, +stock_supply_production-2.4.2.ebuild,
+  -stock_supply_production-2.6.0.ebuild, +stock_supply_production-2.6.1.ebuild:
+  Version bump
+
+*stock_supply_production-2.6.0 (14 Nov 2012)
+
+  14 Nov 2012; Cédric Krier <cedk@gentoo.org>
+  +stock_supply_production-2.6.0.ebuild:
+  Version bump
+
+*stock_supply_production-2.4.1 (05 Nov 2012)
+
+  05 Nov 2012; Cédric Krier <cedk@gentoo.org>
+  -stock_supply_production-2.4.0.ebuild, +stock_supply_production-2.4.1.ebuild:
+  Version bump
+
+*stock_supply_production-2.4.0 (15 Aug 2012)
+
+  15 Aug 2012; Cédric Krier <cedk@gentoo.org>
+  +stock_supply_production-2.4.0.ebuild, +metadata.xml:
+  New ebuild
+

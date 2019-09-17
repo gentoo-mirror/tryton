@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>cedk@gentoo.org</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+		Party module for Tryton
+		Define parties, addresses and co.
+	</longdescription>
+	<use>
+		<flag name="vat">Add support for vat number check</flag>
+		<flag name="phonenumbers">Add phone number formatting</flag>
+	</use>
+</pkgmetadata>
+

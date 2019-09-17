@@ -1,0 +1,8 @@
+# /etc/conf.d/trytond
+
+# Location of the configuration file
+#CONFIG=
+# Location of the logging configuration file
+#LOGCONF=
+# The database names to load (space separated)
+#DATABASES=

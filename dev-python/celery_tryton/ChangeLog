@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/celery_tryton
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*celery_tryton-0.2 (25 Oct 2014)
+
+  25 Oct 2014; Cédric Krier <cedk@gentoo.org> +celery_tryton-0.2.ebuild,
+  +metadata.xml:
+  New ebuild for celery_tryton
+

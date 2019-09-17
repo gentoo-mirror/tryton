@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>cedk@gentoo.org</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+		a lightweight (3k minified!) yet complete and accurate GNU gettext port
+		for node and the browser. Manage your i18n translations the right way
+		in your javascript projects.
+	</longdescription>
+</pkgmetadata>

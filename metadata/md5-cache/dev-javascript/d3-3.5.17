@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=a JavaScript library for manipulating documents based on data
+EAPI=6
+HOMEPAGE=https://d3js.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=3
+SRC_URI=https://github.com/d3/d3/releases/download/v3.5.17/d3.zip -> d3-3.5.17.zip
+_md5_=e0df07abab811419a8c294a72269b636

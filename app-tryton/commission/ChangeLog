@@ -1,0 +1,27 @@
+# ChangeLog for app-tryton/commission
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*commission-4.0.1 (23 May 2016)
+
+  23 May 2016; Cédric Krier <cedk@gentoo.org> +commission-4.0.1.ebuild:
+  Version bump
+
+*commission-3.6.1 (22 Dec 2015)
+
+  22 Dec 2015; Cédric Krier <cedk@gentoo.org> -commission-3.6.0.ebuild,
+  +commission-3.6.1.ebuild:
+  Version bump
+
+*commission-3.8.0 (05 Nov 2015)
+
+  05 Nov 2015; Cédric Krier <cedk@gentoo.org> commission-3.6.0.ebuild,
+  +commission-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*commission-3.6.0 (04 May 2015)
+
+  04 May 2015; Cédric Krier <cedk@gentoo.org> +commission-3.6.0.ebuild,
+  +metadata.xml:
+  New ebuild for commission
+

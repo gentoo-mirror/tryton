@@ -1,0 +1,49 @@
+# ChangeLog for app-tryton/account_credit_limit
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*account_credit_limit-4.0.0 (21 May 2016)
+
+  21 May 2016; Cédric Krier <cedk@gentoo.org>
+  +account_credit_limit-4.0.0.ebuild:
+  Version bump
+
+*account_credit_limit-3.8.0 (05 Nov 2015)
+
+  05 Nov 2015; Cédric Krier <cedk@gentoo.org>
+  account_credit_limit-3.2.2.ebuild, account_credit_limit-3.4.1.ebuild,
+  account_credit_limit-3.6.0.ebuild, +account_credit_limit-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*account_credit_limit-3.2.2 (19 Sep 2015)
+
+  19 Sep 2015; Cédric Krier <cedk@gentoo.org>
+  -account_credit_limit-3.2.1.ebuild, +account_credit_limit-3.2.2.ebuild:
+  Version bump
+
+*account_credit_limit-3.6.0 (29 Apr 2015)
+
+  29 Apr 2015; Cédric Krier <cedk@gentoo.org>
+  +account_credit_limit-3.6.0.ebuild:
+  Version bump
+
+*account_credit_limit-3.4.1 (02 Mar 2015)
+*account_credit_limit-3.2.1 (02 Mar 2015)
+
+  02 Mar 2015; Cédric Krier <cedk@gentoo.org>
+  -account_credit_limit-3.2.0.ebuild, +account_credit_limit-3.2.1.ebuild,
+  -account_credit_limit-3.4.0.ebuild, +account_credit_limit-3.4.1.ebuild:
+  Version bump
+
+*account_credit_limit-3.4.0 (23 Oct 2014)
+
+  23 Oct 2014; Cédric Krier <cedk@gentoo.org>
+  +account_credit_limit-3.4.0.ebuild:
+  Version bump
+
+*account_credit_limit-3.2.0 (29 Apr 2014)
+
+  29 Apr 2014; Cédric Krier <cedk@gentoo.org>
+  +account_credit_limit-3.2.0.ebuild, +metadata.xml:
+  New ebuild for account_credit_limit
+

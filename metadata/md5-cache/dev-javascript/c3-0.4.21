@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=D3-based reusable chart library
+EAPI=6
+HOMEPAGE=http://c3js.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND==dev-javascript/d3-3.5*
+SLOT=0
+SRC_URI=https://github.com/c3js/c3/archive/v0.4.21.tar.gz -> c3-0.4.21.tar.gz
+_md5_=ded7d7c5d33ecfd177b62e8ad71c7961

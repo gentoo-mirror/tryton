@@ -1,0 +1,95 @@
+# ChangeLog for app-tryton/purchase_shipment_cost
+# Copyright 1999-2016 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*purchase_shipment_cost-4.0.1 (25 May 2016)
+
+  25 May 2016; Cédric Krier <cedk@gentoo.org>
+  +purchase_shipment_cost-4.0.1.ebuild:
+  Version bump
+
+*purchase_shipment_cost-3.8.0 (05 Nov 2015)
+
+  05 Nov 2015; Cédric Krier <cedk@gentoo.org>
+  purchase_shipment_cost-2.4.2.ebuild, purchase_shipment_cost-2.6.2.ebuild,
+  purchase_shipment_cost-2.8.1.ebuild, purchase_shipment_cost-3.0.1.ebuild,
+  purchase_shipment_cost-3.2.2.ebuild, purchase_shipment_cost-3.4.1.ebuild,
+  purchase_shipment_cost-3.6.0.ebuild, +purchase_shipment_cost-3.8.0.ebuild:
+  Version bump and fix repoman
+
+*purchase_shipment_cost-3.2.2 (13 Sep 2015)
+
+  13 Sep 2015; Cédric Krier <cedk@gentoo.org>
+  -purchase_shipment_cost-3.2.1.ebuild, +purchase_shipment_cost-3.2.2.ebuild:
+  Version bump
+
+*purchase_shipment_cost-3.6.0 (06 May 2015)
+
+  06 May 2015; Cédric Krier <cedk@gentoo.org>
+  +purchase_shipment_cost-3.6.0.ebuild:
+  Version bump
+
+*purchase_shipment_cost-3.4.1 (21 Feb 2015)
+*purchase_shipment_cost-3.2.1 (21 Feb 2015)
+*purchase_shipment_cost-3.0.1 (21 Feb 2015)
+*purchase_shipment_cost-2.8.1 (21 Feb 2015)
+*purchase_shipment_cost-2.6.2 (21 Feb 2015)
+
+  21 Feb 2015; Cédric Krier <cedk@gentoo.org>
+  -purchase_shipment_cost-2.6.1.ebuild, +purchase_shipment_cost-2.6.2.ebuild,
+  -purchase_shipment_cost-2.8.0.ebuild, +purchase_shipment_cost-2.8.1.ebuild,
+  -purchase_shipment_cost-3.0.0.ebuild, +purchase_shipment_cost-3.0.1.ebuild,
+  -purchase_shipment_cost-3.2.0.ebuild, +purchase_shipment_cost-3.2.1.ebuild,
+  -purchase_shipment_cost-3.4.0.ebuild, +purchase_shipment_cost-3.4.1.ebuild:
+  Version bump
+
+*purchase_shipment_cost-3.4.0 (22 Oct 2014)
+
+  22 Oct 2014; Cédric Krier <cedk@gentoo.org>
+  +purchase_shipment_cost-3.4.0.ebuild:
+  Version bump
+
+*purchase_shipment_cost-3.2.0 (28 Apr 2014)
+
+  28 Apr 2014; Cédric Krier <cedk@gentoo.org>
+  +purchase_shipment_cost-3.2.0.ebuild:
+  Version bump
+
+*purchase_shipment_cost-3.0.0 (27 Oct 2013)
+
+  27 Oct 2013; Cédric Krier <cedk@gentoo.org>
+  +purchase_shipment_cost-3.0.0.ebuild:
+  Version bump
+
+*purchase_shipment_cost-2.6.1 (04 May 2013)
+*purchase_shipment_cost-2.4.2 (04 May 2013)
+
+  04 May 2013; Cédric Krier <cedk@gentoo.org>
+  -purchase_shipment_cost-2.4.1.ebuild, +purchase_shipment_cost-2.4.2.ebuild,
+  -purchase_shipment_cost-2.6.0.ebuild, +purchase_shipment_cost-2.6.1.ebuild:
+  Version bump
+
+*purchase_shipment_cost-2.8.0 (23 Apr 2013)
+
+  23 Apr 2013; Cédric Krier <cedk@gentoo.org>
+  +purchase_shipment_cost-2.8.0.ebuild:
+  Version bump
+
+*purchase_shipment_cost-2.6.0 (14 Nov 2012)
+
+  14 Nov 2012; Cédric Krier <cedk@gentoo.org>
+  +purchase_shipment_cost-2.6.0.ebuild:
+  Version bump
+
+*purchase_shipment_cost-2.4.1 (05 Nov 2012)
+
+  05 Nov 2012; Cédric Krier <cedk@gentoo.org>
+  -purchase_shipment_cost-2.4.0.ebuild, +purchase_shipment_cost-2.4.1.ebuild:
+  Version bump
+
+*purchase_shipment_cost-2.4.0 (06 May 2012)
+
+  06 May 2012; Cédric Krier <cedk@gentoo.org>
+  +purchase_shipment_cost-2.4.0.ebuild, +metadata.xml:
+  New ebuild for purchase_shipment_cost
+

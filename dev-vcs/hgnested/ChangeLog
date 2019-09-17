@@ -1,0 +1,36 @@
+# ChangeLog for dev-vcs/hgnested
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  23 Feb 2013; Cédric Krier <cedk@gentoo.org> hgnested-0.4.ebuild,
+  hgnested-0.6.ebuild:
+  Add amd64 KEYWORDS
+
+*hgnested-0.6 (23 Feb 2013)
+
+  23 Feb 2013; Cédric Krier <cedk@gentoo.org> +hgnested-0.6.ebuild:
+  Version bump
+
+*hgnested-0.4 (10 Aug 2011)
+
+  10 Aug 2011; Cédric Krier <cedk@gentoo.org> -hgnested-0.3.ebuild,
+  +hgnested-0.4.ebuild:
+  Version bump
+
+  27 Feb 2011; Cédric Krier <cedk@gentoo.org> -hgnested-0.1.ebuild,
+  -hgnested-0.2.ebuild:
+  Remove old
+
+  27 Feb 2011; Cédric Krier <cedk@gentoo.org> +hgnested-0.3.ebuild:
+  Version bump
+
+  05 Sep 2010; Cédric Krier <cedk@gentoo.org> +hgnested-0.2.ebuild:
+  Version bump
+
+  01 Sep 2010; Cédric Krier <cedk@gentoo.org> hgnested-0.1.ebuild:
+  Fix DEPEND on mercurial
+
+  01 Sep 2010; Cédric Krier <cedk@gentoo.org> +hgnested-0.1.ebuild,
+  +metadata.xml:
+  New ebuild for hgnested
+
