@@ -135,7 +135,7 @@ app-tryton/stock_supply 4.0.3 4.2.4 4.4.5 4.6.3 4.8.4 5.0.3 5.2.0: Stock Supply 
 app-tryton/stock_supply_day 4.0.0 4.2.1 4.4.1 4.6.0 4.8.1 5.0.1 5.2.0: Stock Supply Day Module
 app-tryton/stock_supply_forecast 4.0.1 4.2.1 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0: Stock Supply Forecast Module
 app-tryton/stock_supply_production 4.0.0 4.2.0 4.4.4 4.6.2 4.8.3 5.0.3 5.2.1: Stock Supply Production Module
-app-tryton/timesheet 4.0.1 4.2.3 4.4.4 4.6.3 4.8.3 5.0.2 5.2.1: Timesheet Module
+app-tryton/timesheet 4.0.1 4.2.3 4.4.5 4.6.4 4.8.4 5.0.3 5.2.2: Timesheet Module
 app-tryton/timesheet_cost 4.0.0 4.2.1 4.4.1 4.6.0 4.8.1 5.0.2 5.2.0: Timesheet Cost Module
 app-tryton/user_role 5.2.0: User Role Module
 app-tryton/web_shortener 5.2.0: Web Shortener Module
