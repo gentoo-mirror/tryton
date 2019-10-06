@@ -1,8 +1,8 @@
-app-office/sao 4.0.23 4.2.24 4.4.27 4.6.22 4.8.19 5.0.14 5.2.6: Tryton web client
-app-office/tryton 4.0.22 4.2.25 4.4.25 4.6.23 4.8.20 5.0.15 5.2.6: Tryton desktop client
-app-office/trytond 4.0.20 4.2.22 4.4.25 4.6.20 4.8.16 5.0.13 5.2.6: A three-tiers high-level general purpose business application framework
+app-office/sao 4.0.23 4.2.24 4.4.28 4.6.23 4.8.20 5.0.15 5.2.7: Tryton web client
+app-office/tryton 4.0.22 4.2.25 4.4.25 4.6.23 4.8.20 5.0.15 5.2.7: Tryton desktop client
+app-office/trytond 4.0.20 4.2.22 4.4.26 4.6.21 4.8.17 5.0.14 5.2.7: A three-tiers high-level general purpose business application framework
 app-tryton/account 4.0.16 4.2.11 4.4.11 4.6.10 4.8.10 5.0.8 5.2.3: Financial and Accounting Module
-app-tryton/account_asset 4.0.4 4.2.3 4.4.3 4.6.2 4.8.3 5.0.1 5.2.0: Account Asset Module
+app-tryton/account_asset 4.0.4 4.2.3 4.4.4 4.6.3 4.8.4 5.0.2 5.2.1: Account Asset Module
 app-tryton/account_be 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0: Account Belgium Module
 app-tryton/account_credit_limit 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0: Tryton module for account credit limit
 app-tryton/account_de_skr03 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0: German Chart of Accounts SKR03
@@ -27,7 +27,7 @@ app-tryton/account_payment_sepa_cfonb 4.0.0 4.2.0 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0:
 app-tryton/account_payment_stripe 4.4.6 4.6.5 4.8.6 5.0.4 5.2.1: Tryton module for Stripe payment
 app-tryton/account_product 4.0.2 4.2.0 4.4.0 4.6.1 4.8.1 5.0.2 5.2.0: Account Product Module
 app-tryton/account_statement 4.0.4 4.2.2 4.4.2 4.6.2 4.8.5 5.0.3 5.2.0: Account Statement
-app-tryton/account_statement_aeb43 5.0.2 5.2.0: Tryton module to import AEB43 statements
+app-tryton/account_statement_aeb43 5.0.3 5.2.1: Tryton module to import AEB43 statements
 app-tryton/account_statement_coda 4.6.1 4.8.2 5.0.2 5.2.0: Account Statement
 app-tryton/account_statement_ofx 4.8.2 5.0.1 5.2.0: Tryton module to import OFX statements
 app-tryton/account_statement_rule 5.2.0: Account Statement Rule
@@ -65,7 +65,7 @@ app-tryton/ldap_authentication 4.0.1 4.2.1 4.4.1 4.6.1 4.8.2 5.0.2 5.2.1: LDAP A
 app-tryton/marketing 5.2.0: Marketing features
 app-tryton/marketing_automation 5.2.0: Plan, coordinate and manage marketing campaigns
 app-tryton/notification_email 4.6.3 4.8.5 5.0.2 5.2.1: Notification Email Module
-app-tryton/party 4.0.2 4.2.5 4.4.4 4.6.2 4.8.3 5.0.2 5.2.0: Party Module
+app-tryton/party 4.0.2 4.2.5 4.4.4 4.6.2 4.8.3 5.0.2 5.2.1: Party Module
 app-tryton/party_relationship 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0: Party Relationship Module
 app-tryton/party_siret 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0: Party - Siret Module
 app-tryton/party_vcarddav 4.0.1 4.2.0: Party vCardDAV Module
