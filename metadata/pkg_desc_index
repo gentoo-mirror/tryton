@@ -160,7 +160,7 @@ dev-python/flask_tryton 0.8.0: Adds Tryton support to Flask application
 dev-python/geomet 0.2.0: Convert GeoJSON to WKT/WKB
 dev-python/goocalendar 0.4 0.6: A calendar widget for GTK using Goocanvas
 dev-python/ofxparse 0.20: Tools for working with the OFX (Open Financial Exchange) file format
-dev-python/proteus 4.0.7 4.2.6 4.4.7 4.6.7 4.8.6 5.0.4 5.2.1: A library to access Tryton's models like a client
+dev-python/proteus 4.0.7 4.2.6 4.4.8 4.6.8 4.8.7 5.0.5 5.2.2: A library to access Tryton's models like a client
 dev-python/pycha 0.7.0: A library for making charts with Python
 dev-python/pygoocanvas 0.14.1-r1: GooCanvas python bindings
 dev-python/python-sql 1.0.0: A library to write SQL queries in a pythonic way.
