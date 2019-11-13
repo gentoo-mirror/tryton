@@ -8,6 +8,7 @@
 	<longdescription lang="en">
 	</longdescription>
 	<use>
+		<flag name="data">Enable country data import script</flag>
 		<flag name="geonames">Enable GeoNames import script</flag>
 	</use>
 </pkgmetadata>

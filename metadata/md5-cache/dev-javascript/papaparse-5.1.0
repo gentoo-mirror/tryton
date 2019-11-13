@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Powerful, in-browser CSV parser for big boys and girls
+EAPI=7
+HOMEPAGE=http://papaparse.com/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=5
+SRC_URI=https://github.com/mholt/papaparse/archive/5.1.0.tar.gz -> papaparse-5.1.0.tar.gz
+_md5_=33b09910e950ed943fbea8bf9d265b14
