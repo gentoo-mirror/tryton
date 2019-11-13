@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst prerm
+DESCRIPTION=Tryton webclient
+EAPI=6
+HOMEPAGE=http://www.tryton.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND==app-office/trytond-4.6* dev-javascript/jquery:2 dev-javascript/bootstrap:3 dev-javascript/moment:2 dev-javascript/bootstrap-datetimepicker:4 dev-javascript/gettext:0 dev-javascript/d3:3 dev-javascript/c3:0 dev-javascript/papaparse:4 dev-javascript/fullcalendar:3 dev-javascript/mousetrap:1
+SLOT=0
+SRC_URI=http://downloads.tryton.org/4.6/tryton-sao-4.6.24.tgz
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	2352c3fc97241f6a02042773c8287748
+_md5_=75b77c3e48209a5af99a4a966ccee0c7

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst prerm
+DESCRIPTION=Tryton webclient
+EAPI=6
+HOMEPAGE=http://www.tryton.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND==app-office/trytond-4.8* dev-javascript/jquery:3 >=dev-javascript/bootstrap-3.3.7:3 >=dev-javascript/moment-2.10:2 >=dev-javascript/bootstrap-datetimepicker-4.17:4 >=dev-javascript/gettext-0.5:0 >=dev-javascript/d3-3.5:3 >=dev-javascript/c3-0.4:0 >=dev-javascript/papaparse-4.1:4 >=dev-javascript/fullcalendar-3.0:3 >=dev-javascript/mousetrap-1.6:1
+SLOT=0
+SRC_URI=http://downloads.tryton.org/4.8/tryton-sao-4.8.21.tgz
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	2352c3fc97241f6a02042773c8287748
+_md5_=74768f41dca493f16fa3020f12abdc7c

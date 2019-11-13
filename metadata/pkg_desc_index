@@ -1,7 +1,7 @@
-app-office/sao 4.0.23 4.2.24 4.4.28 4.6.23 4.8.20 5.0.15 5.2.7 5.4.0: Tryton web client
-app-office/tryton 4.0.22 4.2.25 4.4.25 4.6.23 4.8.20 5.0.15 5.2.7 5.4.0: Tryton desktop client
-app-office/trytond 4.0.20 4.2.22 4.4.26 4.6.21 4.8.17 5.0.14 5.2.7 5.4.1: A three-tiers high-level general purpose business application framework
-app-tryton/account 4.0.16 4.2.11 4.4.11 4.6.10 4.8.10 5.0.8 5.2.3 5.4.0: Financial and Accounting Module
+app-office/sao 4.0.23 4.2.24 4.4.29 4.6.24 4.8.21 5.0.16 5.2.8 5.4.0: Tryton web client
+app-office/tryton 4.0.22 4.2.25 4.4.26 4.6.24 4.8.21 5.0.16 5.2.8 5.4.0: Tryton desktop client
+app-office/trytond 4.0.20 4.2.22 4.4.27 4.6.22 4.8.18 5.0.15 5.2.8 5.4.1: A three-tiers high-level general purpose business application framework
+app-tryton/account 4.0.16 4.2.11 4.4.12 4.6.11 4.8.11 5.0.9 5.2.4 5.4.0: Financial and Accounting Module
 app-tryton/account_asset 4.0.4 4.2.3 4.4.4 4.6.3 4.8.4 5.0.2 5.2.1 5.4.0: Account Asset Module
 app-tryton/account_be 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Account Belgium Module
 app-tryton/account_credit_limit 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Tryton module for account credit limit
@@ -21,17 +21,17 @@ app-tryton/account_invoice_history 4.0.1 4.2.0 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0 5.4
 app-tryton/account_invoice_line_standalone 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Account Invoice Line Standalone
 app-tryton/account_invoice_secondary_unit 5.4.0: Invoice Secondary Unit Module
 app-tryton/account_invoice_stock 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Tryton module to link stock and invoice
-app-tryton/account_payment 4.0.1 4.2.1 4.4.0 4.6.0 4.8.2 5.0.1 5.2.0 5.4.0: Tryton module for payment
-app-tryton/account_payment_clearing 4.0.3 4.2.1 4.4.1 4.6.2 4.8.4 5.0.3 5.2.2 5.4.0: Tryton module for payment clearing
+app-tryton/account_payment 4.0.1 4.2.1 4.4.1 4.6.1 4.8.3 5.0.2 5.2.1 5.4.0: Tryton module for payment
+app-tryton/account_payment_clearing 4.0.3 4.2.1 4.4.2 4.6.3 4.8.5 5.0.4 5.2.3 5.4.0: Tryton module for payment clearing
 app-tryton/account_payment_sepa 4.0.4 4.2.3 4.4.4 4.6.2 4.8.4 5.0.3 5.2.1 5.4.0: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 4.0.0 4.2.0 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0: Tryton module for CFONB SEPA payment
 app-tryton/account_payment_stripe 4.4.6 4.6.5 4.8.6 5.0.4 5.2.1 5.4.0: Tryton module for Stripe payment
-app-tryton/account_product 4.0.2 4.2.0 4.4.0 4.6.1 4.8.1 5.0.2 5.2.0 5.4.0: Account Product Module
-app-tryton/account_statement 4.0.4 4.2.2 4.4.2 4.6.2 4.8.5 5.0.3 5.2.0 5.4.0: Account Statement
+app-tryton/account_product 4.0.2 4.2.0 4.4.1 4.6.2 4.8.2 5.0.3 5.2.1 5.4.0: Account Product Module
+app-tryton/account_statement 4.0.4 4.2.2 4.4.2 4.6.3 4.8.6 5.0.4 5.2.1 5.4.0: Account Statement
 app-tryton/account_statement_aeb43 5.0.3 5.2.1 5.4.0: Tryton module to import AEB43 statements
 app-tryton/account_statement_coda 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0: Account Statement
 app-tryton/account_statement_ofx 4.8.2 5.0.1 5.2.0 5.4.0: Tryton module to import OFX statements
-app-tryton/account_statement_rule 5.2.0 5.4.0: Account Statement Rule
+app-tryton/account_statement_rule 5.2.1 5.4.0: Account Statement Rule
 app-tryton/account_stock_anglo_saxon 4.0.2 4.2.2 4.4.2 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0: Account Stock Anglo-Saxon
 app-tryton/account_stock_continental 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Account Stock Continental
 app-tryton/account_stock_landed_cost 4.0.3 4.2.2 4.4.3 4.6.1 4.8.2 5.0.1 5.2.0 5.4.0: Landed Cost Module
@@ -57,7 +57,7 @@ app-tryton/company 4.0.3 4.2.2 4.4.2 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Company Modu
 app-tryton/company_work_time 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Company Work Time Module
 app-tryton/country 4.0.1 4.2.0 4.4.0 4.6.0 4.8.2 5.0.1 5.2.0 5.4.0: Country Module
 app-tryton/currency 4.0.2 4.2.2 4.4.3 4.6.2 4.8.4 5.0.3 5.2.1 5.4.0: Currency Module
-app-tryton/customs 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Customs Module
+app-tryton/customs 4.0.1 4.2.0 4.4.1 4.6.1 4.8.2 5.0.2 5.2.1 5.4.0: Customs Module
 app-tryton/dashboard 4.0.2 4.2.1 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0: Dashboard Module
 app-tryton/edocument_uncefact 5.0.2 5.2.0 5.4.0: Electronic document UN/CEFACT
 app-tryton/edocument_unece 5.0.1 5.2.0 5.4.0: Electronic document UNECE codes
@@ -70,11 +70,11 @@ app-tryton/party 4.0.2 4.2.5 4.4.4 4.6.2 4.8.3 5.0.2 5.2.1 5.4.0: Party Module
 app-tryton/party_relationship 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Party Relationship Module
 app-tryton/party_siret 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Party - Siret Module
 app-tryton/party_vcarddav 4.0.1 4.2.0: Party vCardDAV Module
-app-tryton/product 4.0.4 4.2.2 4.4.2 4.6.0 4.8.1 5.0.1 5.2.1 5.4.0: Product Module
+app-tryton/product 4.0.4 4.2.2 4.4.3 4.6.1 4.8.2 5.0.2 5.2.2 5.4.0: Product Module
 app-tryton/product_attribute 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Product Attribute Module
 app-tryton/product_classification 4.0.2 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Product Classification Module
 app-tryton/product_classification_taxonomic 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.2 5.2.0: Product Classification Taxonomic Module
-app-tryton/product_cost_fifo 4.0.1 4.2.1 4.4.1 4.6.3 4.8.4 5.0.4 5.2.0 5.4.0: Product Cost FIFO Module
+app-tryton/product_cost_fifo 4.0.1 4.2.1 4.4.2 4.6.4 4.8.5 5.0.5 5.2.1 5.4.0: Product Cost FIFO Module
 app-tryton/product_cost_history 4.0.0 4.2.1 4.4.1 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Product Cost History Module
 app-tryton/product_measurements 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Product Measurements Module
 app-tryton/product_price_list 4.0.0 4.2.0 4.4.0 4.6.0 4.8.2 5.0.1 5.2.1 5.4.0: Product Price List Module
@@ -84,25 +84,25 @@ app-tryton/production 4.0.2 4.2.3 4.4.3 4.6.1 4.8.2 5.0.1 5.2.0 5.4.0: Productio
 app-tryton/production_outsourcing 5.0.1 5.2.0 5.4.0: Tryton module to outsource production
 app-tryton/production_routing 4.0.1 4.2.2 4.4.2 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Production Routing Module
 app-tryton/production_split 4.2.0 4.4.0 4.6.0 4.8.2 5.0.1 5.2.0 5.4.0: Module to split production
-app-tryton/production_work 4.0.3 4.2.1 4.4.1 4.6.0 4.8.2 5.0.1 5.2.1 5.4.0: Production Work Module
+app-tryton/production_work 4.0.3 4.2.1 4.4.2 4.6.1 4.8.3 5.0.2 5.2.2 5.4.0: Production Work Module
 app-tryton/production_work_timesheet 4.2.1 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0: Production Work Timesheet Module
 app-tryton/project 4.0.3 4.2.1 4.4.1 4.6.0 4.8.2 5.0.1 5.2.0 5.4.0: Project Module
 app-tryton/project_invoice 4.0.4 4.2.2 4.4.1 4.6.1 4.8.2 5.0.1 5.2.0 5.4.0: Project Invoice Module
 app-tryton/project_plan 4.0.2 4.2.2 4.4.3 4.6.1 4.8.2 5.0.2 5.2.1 5.4.0: Project Plan Module
 app-tryton/project_revenue 4.0.2 4.2.1 4.4.1 4.6.1 4.8.1 5.0.1 5.2.0 5.4.0: Project Revenue
-app-tryton/purchase 4.0.8 4.2.6 4.4.8 4.6.5 4.8.4 5.0.2 5.2.0 5.4.0: Purchase Module
+app-tryton/purchase 4.0.8 4.2.6 4.4.8 4.6.5 4.8.4 5.0.2 5.2.1 5.4.0: Purchase Module
 app-tryton/purchase_amendment 5.4.0: Module to amend purchases
 app-tryton/purchase_history 5.4.0: Module to historize purchases
 app-tryton/purchase_invoice_line_standalone 4.0.1 4.2.1 4.4.1 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Purchase Invoice Line Standalone Module
 app-tryton/purchase_request 4.0.5 4.2.4 4.4.5 4.6.1 4.8.3 5.0.2 5.2.0 5.4.0: Purchase Request Module
-app-tryton/purchase_request_quotation 4.8.2 5.0.1 5.2.1 5.4.0: Tryton module for purchase request quotation
-app-tryton/purchase_requisition 4.2.2 4.4.3 4.6.2 4.8.2 5.0.1 5.2.0 5.4.0: Purchase Requisition Module
+app-tryton/purchase_request_quotation 4.8.3 5.0.2 5.2.1 5.4.0: Tryton module for purchase request quotation
+app-tryton/purchase_requisition 4.2.2 4.4.4 4.6.3 4.8.3 5.0.2 5.2.1 5.4.0: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 5.4.0: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 4.0.2 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Purchase Shipment Cost Module
 app-tryton/sale 4.0.10 4.2.7 4.4.8 4.6.5 4.8.4 5.0.3 5.2.0 5.4.0: Sale Module
 app-tryton/sale_advance_payment 4.4.1 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Tryton module for sale advance payment
 app-tryton/sale_amendment 5.4.0: Module to amend sales
-app-tryton/sale_complaint 4.0.3 4.2.1 4.4.1 4.6.0 4.8.2 5.0.1 5.2.0 5.4.0: Sale Complaint Module
+app-tryton/sale_complaint 4.0.3 4.2.1 4.4.2 4.6.1 4.8.3 5.0.2 5.2.1 5.4.0: Sale Complaint Module
 app-tryton/sale_credit_limit 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Tryton module for sale credit limit
 app-tryton/sale_extra 4.0.1 4.2.0 4.4.0 4.6.0 4.8.2 5.0.1 5.2.0 5.4.0: Tryton module for sale extra
 app-tryton/sale_history 5.4.0: Module to historize sales
@@ -110,7 +110,7 @@ app-tryton/sale_invoice_grouping 4.0.1 4.2.0 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0
 app-tryton/sale_opportunity 4.0.1 4.2.3 4.4.3 4.6.1 4.8.3 5.0.2 5.2.0 5.4.0: Sale Module
 app-tryton/sale_payment 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Sale Payment Module
 app-tryton/sale_price_list 4.0.0 4.2.1 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0: Sale Pricelist Module
-app-tryton/sale_product_customer 5.2.0 5.4.0: Sale Product Customer Module
+app-tryton/sale_product_customer 5.2.1 5.4.0: Sale Product Customer Module
 app-tryton/sale_promotion 4.0.2 4.2.1 4.4.1 4.6.0 4.8.1 5.0.2 5.2.0 5.4.0: Sale Promotion Module
 app-tryton/sale_promotion_coupon 4.8.1 5.0.2 5.2.0 5.4.0: Sale Promotion Module
 app-tryton/sale_secondary_unit 5.4.0: Module to add a secondary unit on sale line
@@ -122,7 +122,7 @@ app-tryton/sale_subscription 4.4.2 4.6.1 4.8.3 5.0.2 5.2.0 5.4.0: Tryton module 
 app-tryton/sale_subscription_asset 5.0.1 5.2.0 5.4.0: Tryton module to handle asset in the sale subscriptions
 app-tryton/sale_supply 4.0.3 4.2.2 4.4.2 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 4.0.7 4.2.6 4.4.5 4.6.2 4.8.3 5.0.2 5.2.1 5.4.0: Sale Supply Drop Shipment Module
-app-tryton/stock 4.0.10 4.2.10 4.4.10 4.6.7 4.8.7 5.0.6 5.2.1 5.4.0: Stock Module
+app-tryton/stock 4.0.10 4.2.10 4.4.10 4.6.7 4.8.8 5.0.7 5.2.2 5.4.0: Stock Module
 app-tryton/stock_consignment 4.6.1 4.8.1 5.0.1 5.2.0 5.4.0: Stock Consignment Module
 app-tryton/stock_forecast 4.0.0 4.2.2 4.4.2 4.6.0 4.8.2 5.0.1 5.2.0 5.4.0: Stock Forecast Module
 app-tryton/stock_inventory_location 4.0.1 4.2.0 4.4.0 4.6.0 4.8.1 5.0.2 5.2.0 5.4.0: Stock Inventory Location Module
@@ -139,7 +139,7 @@ app-tryton/stock_product_location 4.0.0 4.2.0 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.
 app-tryton/stock_secondary_unit 5.4.0: Module to add a secondary unit on stock move
 app-tryton/stock_shipment_measurements 4.4.0 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Tryton module to add measurements to shipment
 app-tryton/stock_split 4.0.1 4.2.0 4.4.0 4.6.1 4.8.3 5.0.2 5.2.0 5.4.0: Stock Split Module
-app-tryton/stock_supply 4.0.3 4.2.4 4.4.5 4.6.3 4.8.4 5.0.3 5.2.0 5.4.0: Stock Supply Module
+app-tryton/stock_supply 4.0.3 4.2.4 4.4.6 4.6.4 4.8.5 5.0.4 5.2.1 5.4.0: Stock Supply Module
 app-tryton/stock_supply_day 4.0.0 4.2.1 4.4.1 4.6.0 4.8.1 5.0.1 5.2.0 5.4.0: Stock Supply Day Module
 app-tryton/stock_supply_forecast 4.0.1 4.2.1 4.4.1 4.6.1 4.8.2 5.0.2 5.2.0 5.4.0: Stock Supply Forecast Module
 app-tryton/stock_supply_production 4.0.0 4.2.0 4.4.4 4.6.2 4.8.3 5.0.3 5.2.1 5.4.0: Stock Supply Production Module
@@ -170,7 +170,7 @@ dev-python/forex-python 1.5: Foreign exchange rates and currency conversion.
 dev-python/geomet 0.2.1: Convert GeoJSON to WKT/WKB
 dev-python/goocalendar 0.4 0.6: A calendar widget for GTK using Goocanvas
 dev-python/ofxparse 0.20: Tools for working with the OFX (Open Financial Exchange) file format
-dev-python/proteus 4.0.7 4.2.6 4.4.8 4.6.8 4.8.7 5.0.5 5.2.2 5.4.0: A library to access Tryton's models like a client
+dev-python/proteus 4.0.7 4.2.6 4.4.9 4.6.9 4.8.8 5.0.6 5.2.3 5.4.0: A library to access Tryton's models like a client
 dev-python/pycha 0.7.0: A library for making charts with Python
 dev-python/pygoocanvas 0.14.1-r1: GooCanvas python bindings
 dev-python/python-sql 1.0.0: A library to write SQL queries in a pythonic way.
