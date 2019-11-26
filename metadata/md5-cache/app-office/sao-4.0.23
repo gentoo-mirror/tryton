@@ -7,5 +7,5 @@ LICENSE=GPL-3
 RDEPEND==app-office/trytond-4.0* =dev-javascript/jquery-2.1* =dev-javascript/bootstrap-3.3* =dev-javascript/moment-2.10* =dev-javascript/bootstrap-datetimepicker-4.7* =dev-javascript/gettext-0.5* =dev-javascript/d3-3.5* =dev-javascript/c3-0.4*
 SLOT=0
 SRC_URI=http://downloads.tryton.org/4.0/tryton-sao-4.0.23.tgz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	2352c3fc97241f6a02042773c8287748
+_eclasses_=estack	686eaab303305a908fd57b2fd7617800	versionator	2352c3fc97241f6a02042773c8287748
 _md5_=f3dba192b5070a90ba8eb147178339e9
