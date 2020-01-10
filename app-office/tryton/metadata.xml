@@ -8,8 +8,6 @@
 	<longdescription lang="en">
 	</longdescription>
 	<use>
-		<flag name="gtk3">Enable support of GTK+-3</flag>
-		<flag name="simplejson">Enable support for simplejson</flag>
 		<flag name="calendar">Enable support for the calendar view</flag>
 	</use>
 </pkgmetadata>

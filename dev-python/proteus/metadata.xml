@@ -9,7 +9,6 @@
 	</longdescription>
 	<use>
 		<flag name="trytond">Enable support of trytond</flag>
-		<flag name="simplejson">Enable support for simplejson</flag>
 	</use>
 </pkgmetadata>
 

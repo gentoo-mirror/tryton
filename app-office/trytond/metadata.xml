@@ -8,8 +8,6 @@
 	<longdescription lang="en">
 	</longdescription>
 	<use>
-		<flag name="unoconv">Enable support for unoconv</flag>
-		<flag name="simplejson">Enable support for simplejson</flag>
 		<flag name="levenshtein">Enable support for Levenshtein</flag>
 		<flag name="bcrypt">Enable BCrypt hash</flag>
 		<flag name="html2text">Enable text part for HTML email</flag>

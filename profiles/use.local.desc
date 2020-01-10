@@ -3,14 +3,10 @@
 # * generated automatically using pmaint *
 
 app-office/tryton:calendar - Enable support for the calendar view
-app-office/tryton:gtk3 - Enable support of GTK+-3
-app-office/tryton:simplejson - Enable support for simplejson
 app-office/trytond:bcrypt - Enable BCrypt hash
 app-office/trytond:coroutine - Enable coroutine support
 app-office/trytond:html2text - Enable text part for HTML email
 app-office/trytond:levenshtein - Enable support for Levenshtein
-app-office/trytond:simplejson - Enable support for simplejson
-app-office/trytond:unoconv - Enable support for unoconv
 app-tryton/company:timezone - Enable support for timezone
 app-tryton/country:data - Enable country data import script
 app-tryton/country:geonames - Enable GeoNames import script
@@ -21,7 +17,6 @@ app-tryton/sale:sparklines - Show sparklines on reports
 dev-python/csb43:babel - Enable Babel support
 dev-python/csb43:formats - Enable formats support
 dev-python/csb43:yaml - Enable YAML support
-dev-python/proteus:simplejson - Enable support for simplejson
 dev-python/proteus:trytond - Enable support of trytond
 dev-python/relatorio:chart - Enable chart
 dev-python/relatorio:fodt - Enable flat OpenDocument
