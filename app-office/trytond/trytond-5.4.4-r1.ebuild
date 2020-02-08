@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python{3_4,3_5,3_6} )
+PYTHON_COMPAT=( python{3_5,3_6,3_7} )
 
-inherit distutils-r1 user
+inherit distutils-r1
 
 DESCRIPTION="A three-tiers high-level general purpose business application framework"
 HOMEPAGE="http://www.tryton.org/"
@@ -13,9 +13,11 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc graphviz mysql +postgres sqlite levenshtein bcrypt html2text test"
+IUSE="doc graphviz mysql +postgres sqlite levenshtein bcrypt html2text coroutine test"
 
-RDEPEND="postgres? ( >=dev-python/psycopg-2[$PYTHON_USEDEP] )
+RDEPEND="acct-group/trytond
+	acct-user/trytond
+	postgres? ( >=dev-python/psycopg-2.5.4[$PYTHON_USEDEP] )
 	sqlite? ( dev-lang/python:*[sqlite] )
 	>=dev-python/lxml-2.0[$PYTHON_USEDEP]
 	>=dev-python/relatorio-0.7[fodt,$PYTHON_USEDEP]
@@ -28,8 +30,9 @@ RDEPEND="postgres? ( >=dev-python/psycopg-2[$PYTHON_USEDEP] )
 	dev-python/passlib[$PYTHON_USEDEP]
 	graphviz? ( dev-python/pydot[$PYTHON_USEDEP] )
 	levenshtein? ( dev-python/python-levenshtein[$PYTHON_USEDEP] )
-	bcrypt? ( dev-python/bcrypt[$PYTHON_USEDEP] )
-	html2text? ( dev-python/html2text[$PYTHON_USEDEP] )"
+	bcrypt? ( dev-python/passlib[bcrypt,$PYTHON_USEDEP] )
+	html2text? ( dev-python/html2text[$PYTHON_USEDEP] )
+	coroutine? ( >=dev-python/gevent-1.1[$PYTHON_USEDEP] )"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[$PYTHON_USEDEP]
 	doc? ( >=dev-python/sphinx-0.3 )
@@ -60,7 +63,7 @@ src_install() {
 	keepdir /var/lib/trytond
 	fperms 770 /var/lib/trytond
 
-	dodoc CHANGELOG COPYRIGHT README
+	dodoc CHANGELOG COPYRIGHT README.rst
 	if use doc; then
 		docinto html
 		dodoc -r doc/_build/html/*
@@ -72,9 +75,6 @@ python_test() {
 }
 
 pkg_preinst() {
-	enewgroup trytond
-	enewuser trytond -1 -1 /var/lib/trytond trytond
-
 	fowners trytond:trytond /var/log/trytond
 	fowners trytond:trytond /var/lib/trytond
 }
