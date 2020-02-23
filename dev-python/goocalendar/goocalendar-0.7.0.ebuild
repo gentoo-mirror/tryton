@@ -1,14 +1,14 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
-PYTHON_COMPAT=( python{3_4,3_5,3_6,3_7} )
+EAPI=7
+PYTHON_COMPAT=( python{3_4,3_5,3_6,3_7,3_8} )
 
 inherit distutils-r1
 
 MY_P="GooCalendar"
 DESCRIPTION="A calendar widget for GTK using Goocanvas "
-HOMEPAGE="https://goocalendar.tryton.org/"
+HOMEPAGE="https://pypi.org/project/GooCalendar/"
 SRC_URI="mirror://pypi/${MY_P:0:1}/${MY_P}/${MY_P}-${PV}.tar.gz"
 
 LICENSE="GPL-2"
