@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python{3_4,3_5,3_6} )
 
 inherit distutils-r1
 
-DESCRIPTION="Tryton module for Stripe payment"
+DESCRIPTION="Tryton module for SEPA payment"
 HOMEPAGE="http://www.tryton.org/"
 SRC_URI="mirror://pypi/t/trytond_${PN}/trytond_${P}.tar.gz"
 
@@ -16,15 +16,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
-	=app-tryton/account-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/account_payment-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
+	=app-tryton/company-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
+	=app-tryton/bank-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/party-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
-	>=dev-python/stripe-1.59.0[${PYTHON_USEDEP}]"
+	dev-python/genshi[${PYTHON_USEDEP}]
+	dev-python/lxml[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-stdnum-1.0[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		dev-lang/python[sqlite]
-		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
 
 S=${WORKDIR}/trytond_${P}
