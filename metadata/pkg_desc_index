@@ -64,7 +64,7 @@ app-tryton/ldap_authentication 5.0.2 5.2.1 5.4.0: LDAP Authentication Module
 app-tryton/marketing 5.2.0 5.4.0: Marketing features
 app-tryton/marketing_automation 5.2.0 5.4.0: Plan, coordinate and manage marketing campaigns
 app-tryton/notification_email 5.0.2 5.2.1 5.4.0: Notification Email Module
-app-tryton/party 5.0.2 5.2.1 5.4.0: Party Module
+app-tryton/party 5.0.2-r1 5.2.1-r1 5.4.0-r1: Party Module
 app-tryton/party_relationship 5.0.1 5.2.0 5.4.0: Party Relationship Module
 app-tryton/party_siret 5.0.1 5.2.0 5.4.0: Party - Siret Module
 app-tryton/product 5.0.2 5.2.3 5.4.1: Product Module

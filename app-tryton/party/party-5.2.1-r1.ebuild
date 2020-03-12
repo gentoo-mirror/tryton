@@ -1,8 +1,8 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python{3_5,3_6,3_7} )
+PYTHON_COMPAT=( python{3_5,3_6} )
 
 inherit distutils-r1
 
@@ -18,7 +18,8 @@ IUSE="test +vat phonenumbers"
 RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/country-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	>=dev-python/python-sql-0.4[${PYTHON_USEDEP}]
-	>=dev-python/python-stdnum-1.8[${PYTHON_USEDEP}]
+	dev-python/python-stdnum[${PYTHON_USEDEP}]
+	vat? ( dev-python/python-stdnum[vies] )
 	phonenumbers? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
