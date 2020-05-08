@@ -11,6 +11,7 @@
 		<flag name="levenshtein">Enable support for Levenshtein</flag>
 		<flag name="bcrypt">Enable BCrypt hash</flag>
 		<flag name="html2text">Enable text part for HTML email</flag>
+		<flag name="weasyprint">Use weasyprint to convert HTML into PDF</flag>
 		<flag name="coroutine">Enable coroutine support</flag>
 	</use>
 </pkgmetadata>
