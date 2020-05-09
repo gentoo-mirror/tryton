@@ -40,7 +40,7 @@ src_install() {
 	dodir "/usr/share/${PN}/bower_components/gettext.js"
 	dodir "/usr/share/${PN}/bower_components/fullcalendar"
 
-	dodoc CHANGELOG COPYRIGHT README.rst
+	dodoc CHANGELOG COPYRIGHT README.md
 }
 
 pkg_postinst() {
