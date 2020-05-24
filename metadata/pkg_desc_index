@@ -163,7 +163,7 @@ dev-javascript/sortable 1.10.1: a JavaScript library for reorderable drag-and-dr
 dev-python/celery_tryton 0.3: Celery integration with Tryton
 dev-python/csb43 0.8.4: Tools to convert files in format used by multiple Spanish banks
 dev-python/febelfin-coda 0.1.0: A module to parse CODA files
-dev-python/flask_tryton 0.9.1: Adds Tryton support to Flask application
+dev-python/flask_tryton 0.9.2: Adds Tryton support to Flask application
 dev-python/forex-python 1.5: Foreign exchange rates and currency conversion.
 dev-python/geomet 0.2.1: Convert GeoJSON to WKT/WKB
 dev-python/goocalendar 0.4 0.7.1: A calendar widget for GTK using Goocanvas
