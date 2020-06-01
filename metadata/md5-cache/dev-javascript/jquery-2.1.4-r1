@@ -1,9 +1,0 @@
-DEFINED_PHASES=install unpack
-DESCRIPTION=a fast, small, and feature-rich JavaScript library
-EAPI=6
-HOMEPAGE=https://jquery.com/
-KEYWORDS=~amd64 ~x86
-LICENSE=MIT
-SLOT=2
-SRC_URI=https://code.jquery.com/jquery-2.1.4.js https://code.jquery.com/jquery-2.1.4.min.js https://code.jquery.com/jquery-2.1.4.min.map
-_md5_=5e80a947f3e926592af784e47dd9ceca

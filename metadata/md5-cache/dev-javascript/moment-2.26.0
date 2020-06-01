@@ -5,5 +5,5 @@ HOMEPAGE=http://momentjs.com/
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=2
-SRC_URI=https://github.com/moment/moment/archive/2.24.0.tar.gz -> moment-2.24.0.tar.gz
-_md5_=29cf4997ab337f7e520ddab28e0de20a
+SRC_URI=https://github.com/moment/moment/archive/2.26.0.tar.gz -> moment-2.26.0.tar.gz
+_md5_=5abaf2e7ed85887d09f4eb4f788a0534
