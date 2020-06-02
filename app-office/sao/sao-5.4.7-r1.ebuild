@@ -51,7 +51,7 @@ pkg_postinst() {
 	ln -sf "${EROOT}"/usr/share/gettext.js-0 "${EROOT}"/usr/share/${PN}/bower_components/gettext.js/dist
 	ln -sf "${EROOT}"/usr/share/d3-5 "${EROOT}"/usr/share/${PN}/bower_components/d3
 	ln -sf "${EROOT}"/usr/share/c3-0 "${EROOT}"/usr/share/${PN}/bower_components/c3
-	ln -sf "${EROOT}"/usr/share/papaparse-4 "${EROOT}"/usr/share/${PN}/bower_components/papaparse
+	ln -sf "${EROOT}"/usr/share/papaparse-5 "${EROOT}"/usr/share/${PN}/bower_components/papaparse
 	ln -sf "${EROOT}"/usr/share/fullcalendar-3 "${EROOT}"/usr/share/${PN}/bower_components/fullcalendar/dist
 	ln -sf "${EROOT}"/usr/share/mousetrap-1 "${EROOT}"/usr/share/${PN}/bower_components/mousetrap
 	ln -sf "${EROOT}"/usr/share/bootstrap-rtl-ondemand-3 "${EROOT}"/usr/share/${PN}/bower_components/bootstrap-rtl-ondemand
