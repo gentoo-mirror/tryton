@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.0.24 5.2.16 5.4.8 5.6.2: Tryton web client
+app-office/sao 5.0.25 5.2.17 5.4.9 5.6.3: Tryton web client
 app-office/tryton 5.0.24 5.2.16 5.4.8 5.6.1: Tryton desktop client
-app-office/trytond 5.0.23 5.2.18 5.4.11 5.6.1: A three-tiers high-level general purpose business application framework
+app-office/trytond 5.0.23 5.2.18 5.4.12 5.6.2: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.0.13 5.2.9 5.4.5 5.6.0: Financial and Accounting Module
 app-tryton/account_asset 5.0.4 5.2.3 5.4.2 5.6.0: Account Asset Module
 app-tryton/account_be 5.0.2 5.2.1 5.4.1 5.6.0: Account Belgium Module
@@ -28,7 +28,7 @@ app-tryton/account_payment 5.0.4 5.2.4 5.4.3 5.6.0: Tryton module for payment
 app-tryton/account_payment_clearing 5.0.5 5.2.4 5.4.1 5.6.0: Tryton module for payment clearing
 app-tryton/account_payment_sepa 5.0.4 5.2.2 5.4.1 5.6.0: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.0.3 5.2.1 5.4.1 5.6.0: Tryton module for CFONB SEPA payment
-app-tryton/account_payment_stripe 5.0.8 5.2.5 5.4.3 5.6.0: Tryton module for Stripe payment
+app-tryton/account_payment_stripe 5.0.8 5.2.5 5.4.4 5.6.1: Tryton module for Stripe payment
 app-tryton/account_product 5.0.4 5.2.2 5.4.1 5.6.0: Account Product Module
 app-tryton/account_statement 5.0.6 5.2.3 5.4.2 5.6.0: Account Statement
 app-tryton/account_statement_aeb43 5.0.4 5.2.2 5.4.1 5.6.0: Tryton module to import AEB43 statements
@@ -93,7 +93,7 @@ app-tryton/purchase_amendment 5.4.3 5.6.0: Module to amend purchases
 app-tryton/purchase_history 5.4.2 5.6.0: Module to historize purchases
 app-tryton/purchase_invoice_line_standalone 5.0.2 5.2.1 5.4.1 5.6.0: Purchase Invoice Line Standalone Module
 app-tryton/purchase_request 5.0.4 5.2.1 5.4.1 5.6.0: Purchase Request Module
-app-tryton/purchase_request_quotation 5.0.3 5.2.2 5.4.1 5.6.0: Tryton module for purchase request quotation
+app-tryton/purchase_request_quotation 5.0.4 5.2.3 5.4.2 5.6.1: Tryton module for purchase request quotation
 app-tryton/purchase_requisition 5.0.3 5.2.2 5.4.1 5.6.0: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 5.4.1 5.6.0: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 5.0.3 5.2.2 5.4.2 5.6.0: Purchase Shipment Cost Module
@@ -138,7 +138,7 @@ app-tryton/stock_product_location 5.0.2 5.2.1 5.4.1 5.6.0: Stock Product Locatio
 app-tryton/stock_secondary_unit 5.4.1 5.6.0: Module to add a secondary unit on stock move
 app-tryton/stock_shipment_measurements 5.0.2 5.2.1 5.4.1 5.6.0: Tryton module to add measurements to shipment
 app-tryton/stock_split 5.0.3 5.2.1 5.4.1 5.6.0: Stock Split Module
-app-tryton/stock_supply 5.0.5 5.2.2 5.4.1 5.6.0: Stock Supply Module
+app-tryton/stock_supply 5.0.6 5.2.3 5.4.2 5.6.1: Stock Supply Module
 app-tryton/stock_supply_day 5.0.2 5.2.2 5.4.2 5.6.0: Stock Supply Day Module
 app-tryton/stock_supply_forecast 5.0.3 5.2.1 5.4.1 5.6.0: Stock Supply Forecast Module
 app-tryton/stock_supply_production 5.0.4 5.2.2 5.4.1 5.6.0: Stock Supply Production Module
