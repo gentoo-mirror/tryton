@@ -1,6 +1,6 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.0.26 5.2.18 5.4.10 5.6.4: Tryton web client
+app-office/sao 5.0.27 5.2.19 5.4.11 5.6.5: Tryton web client
 app-office/tryton 5.0.25 5.2.17 5.4.9 5.6.2: Tryton desktop client
 app-office/trytond 5.0.23 5.2.19 5.4.13 5.6.3: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.0.13 5.2.9 5.4.5 5.6.0: Financial and Accounting Module
