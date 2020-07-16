@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.0.27 5.2.19 5.4.11 5.6.5: Tryton web client
-app-office/tryton 5.0.25 5.2.17 5.4.9 5.6.2: Tryton desktop client
-app-office/trytond 5.0.23 5.2.19 5.4.13 5.6.3: A three-tiers high-level general purpose business application framework
+app-office/sao 5.0.28 5.2.20 5.4.12 5.6.6: Tryton web client
+app-office/tryton 5.0.26 5.2.18 5.4.10 5.6.3: Tryton desktop client
+app-office/trytond 5.0.24 5.2.20 5.4.14 5.6.4: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.0.13 5.2.9 5.4.5 5.6.0: Financial and Accounting Module
 app-tryton/account_asset 5.0.4 5.2.3 5.4.2 5.6.0: Account Asset Module
 app-tryton/account_be 5.0.2 5.2.1 5.4.1 5.6.0: Account Belgium Module
@@ -119,7 +119,7 @@ app-tryton/sale_stock_quantity 5.0.2 5.2.1 5.4.1 5.6.0: Sale Stock Quantity Modu
 app-tryton/sale_subscription 5.0.3 5.2.1 5.4.1 5.6.0: Tryton module for subscription
 app-tryton/sale_subscription_asset 5.0.2 5.2.1 5.4.1 5.6.0: Tryton module to handle asset in the sale subscriptions
 app-tryton/sale_supply 5.0.3 5.2.1 5.4.1 5.6.0: Sale Supply Module
-app-tryton/sale_supply_drop_shipment 5.0.5 5.2.5 5.4.4 5.6.1: Sale Supply Drop Shipment Module
+app-tryton/sale_supply_drop_shipment 5.0.6 5.2.6 5.4.5 5.6.2: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 5.6.0: Tryton module to supply sales from production
 app-tryton/stock 5.0.10 5.2.5 5.4.3 5.6.1: Stock Module
 app-tryton/stock_consignment 5.0.2 5.2.1 5.4.1 5.6.0: Stock Consignment Module
