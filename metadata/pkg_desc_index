@@ -1,9 +1,9 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.0.28 5.2.20 5.4.12 5.6.6: Tryton web client
+app-office/sao 5.0.28 5.2.20 5.4.13 5.6.7: Tryton web client
 app-office/tryton 5.0.26 5.2.18 5.4.10 5.6.3: Tryton desktop client
-app-office/trytond 5.0.24 5.2.20 5.4.14 5.6.4: A three-tiers high-level general purpose business application framework
-app-tryton/account 5.0.13 5.2.9 5.4.5 5.6.0: Financial and Accounting Module
+app-office/trytond 5.0.25 5.2.20 5.4.15 5.6.5: A three-tiers high-level general purpose business application framework
+app-tryton/account 5.0.14 5.2.9 5.4.6 5.6.1: Financial and Accounting Module
 app-tryton/account_asset 5.0.4 5.2.3 5.4.2 5.6.0: Account Asset Module
 app-tryton/account_be 5.0.2 5.2.1 5.4.1 5.6.0: Account Belgium Module
 app-tryton/account_cash_rounding 5.6.1: Tryton module to round cash amount
@@ -18,7 +18,7 @@ app-tryton/account_es 5.0.4 5.2.3 5.4.2 5.6.0: Account Spain Module
 app-tryton/account_eu 5.0.3 5.2.1 5.4.1 5.6.0: Account European Module
 app-tryton/account_fr 5.0.3 5.2.1 5.4.1 5.6.0: Account French Module
 app-tryton/account_fr_chorus 5.0.3 5.2.2 5.4.1 5.6.0: Tryton module to communicate with Chorus
-app-tryton/account_invoice 5.0.8 5.2.6 5.4.3 5.6.0: Invoice Module
+app-tryton/account_invoice 5.0.9 5.2.6 5.4.4 5.6.1: Invoice Module
 app-tryton/account_invoice_correction 5.0.2 5.2.1 5.4.1 5.6.0: Tryton module to correct invoice
 app-tryton/account_invoice_history 5.0.4 5.2.2 5.4.2 5.6.0: Account Invoice History
 app-tryton/account_invoice_line_standalone 5.0.2 5.2.1 5.4.1 5.6.0: Account Invoice Line Standalone
@@ -28,7 +28,7 @@ app-tryton/account_payment 5.0.4 5.2.4 5.4.3 5.6.0: Tryton module for payment
 app-tryton/account_payment_clearing 5.0.5 5.2.4 5.4.1 5.6.0: Tryton module for payment clearing
 app-tryton/account_payment_sepa 5.0.4 5.2.2 5.4.1 5.6.0: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.0.3 5.2.1 5.4.1 5.6.0: Tryton module for CFONB SEPA payment
-app-tryton/account_payment_stripe 5.0.8 5.2.5 5.4.4 5.6.1: Tryton module for Stripe payment
+app-tryton/account_payment_stripe 5.0.9 5.2.5 5.4.5 5.6.2: Tryton module for Stripe payment
 app-tryton/account_product 5.0.4 5.2.2 5.4.1 5.6.0: Account Product Module
 app-tryton/account_statement 5.0.6 5.2.3 5.4.2 5.6.0: Account Statement
 app-tryton/account_statement_aeb43 5.0.4 5.2.2 5.4.1 5.6.0: Tryton module to import AEB43 statements
@@ -68,7 +68,7 @@ app-tryton/notification_email 5.0.3 5.2.2 5.4.1 5.6.0: Notification Email Module
 app-tryton/party 5.0.3 5.2.2 5.4.1 5.6.0: Party Module
 app-tryton/party_relationship 5.0.2 5.2.1 5.4.1 5.6.0: Party Relationship Module
 app-tryton/party_siret 5.0.2 5.2.1 5.4.1 5.6.0: Party - Siret Module
-app-tryton/product 5.0.3 5.2.4 5.4.2 5.6.0: Product Module
+app-tryton/product 5.0.3 5.2.4 5.4.2 5.6.1: Product Module
 app-tryton/product_attribute 5.0.2 5.2.1 5.4.1 5.6.0: Product Attribute Module
 app-tryton/product_classification 5.0.2 5.2.1 5.4.1 5.6.0: Product Classification Module
 app-tryton/product_classification_taxonomic 5.0.3 5.2.1 5.4.1 5.6.0: Product Classification Taxonomic Module
@@ -82,7 +82,7 @@ app-tryton/production 5.0.2 5.2.1 5.4.1 5.6.0: Production Module
 app-tryton/production_outsourcing 5.0.2 5.2.1 5.4.1 5.6.0: Tryton module to outsource production
 app-tryton/production_routing 5.0.2 5.2.1 5.4.1 5.6.0: Production Routing Module
 app-tryton/production_split 5.0.3 5.2.2 5.4.2 5.6.0: Module to split production
-app-tryton/production_work 5.0.4 5.2.4 5.4.2 5.6.0: Production Work Module
+app-tryton/production_work 5.0.5 5.2.4 5.4.3 5.6.1: Production Work Module
 app-tryton/production_work_timesheet 5.0.3 5.2.1 5.4.1 5.6.0: Production Work Timesheet Module
 app-tryton/project 5.0.2 5.2.1 5.4.1 5.6.0: Project Module
 app-tryton/project_invoice 5.0.2 5.2.1 5.4.1 5.6.0: Project Invoice Module
@@ -131,7 +131,7 @@ app-tryton/stock_lot 5.0.2 5.2.1 5.4.1 5.6.0: Stock Lot Module
 app-tryton/stock_lot_sled 5.0.3 5.2.2 5.4.1 5.6.0: Tryton module for shelf life expiration date of product lots
 app-tryton/stock_lot_unit 5.0.2 5.2.1 5.4.1 5.6.0: Tryton module to define unit on stock lot
 app-tryton/stock_package 5.0.2 5.2.1 5.4.1 5.6.0: Tryton module for stock packaging
-app-tryton/stock_package_shipping 5.0.2 5.2.1 5.4.1 5.6.0: Package Shipping Module
+app-tryton/stock_package_shipping 5.0.2 5.2.1 5.4.1 5.6.1: Package Shipping Module
 app-tryton/stock_package_shipping_dpd 5.0.3 5.2.1 5.4.1 5.6.0: Package Shipping for DPD Module
 app-tryton/stock_package_shipping_ups 5.0.3 5.2.2 5.4.2 5.6.0: Package Shipping for UPS Module
 app-tryton/stock_product_location 5.0.2 5.2.1 5.4.1 5.6.0: Stock Product Location Module
@@ -179,4 +179,5 @@ dev-python/sentry_tryton 0.3: Sentry integration for the Tryton
 dev-python/tablib 1.1.0: A format-agnostic tabular dataset library written in Python
 dev-python/tryton-filestore-s3 0.1.2: S3 AWS storage for the Tryton
 dev-python/trytond_gis 5.0.0 5.2.0 5.4.0 5.6.0: Adds Geographic Information System support to trytond
+dev-python/werkzeug 0.16.0: Collection of various utilities for WSGI applications
 dev-vcs/hgnested 0.8: Mercurial extension to work with nested repositories.
