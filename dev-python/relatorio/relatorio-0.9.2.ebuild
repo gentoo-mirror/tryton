@@ -26,7 +26,7 @@ RDEPEND="${COMMON_DEPEND}
 		dev-python/pyyaml[$PYTHON_USEDEP]
 		)"
 
-DOCS="README AUTHORS CHANGES"
+DOCS="README COPYRIGHT CHANGELOG"
 
 python_test() {
 	esetup.py test || die
