@@ -20,7 +20,7 @@ RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
-		dev-lang/python[sqlite]
+		$(python_gen_impl_dep sqlite)
 		dev-python/python-dateutil[${PYTHON_USEDEP}]
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/account_statement-$(ver_cut 1-2)*[${PYTHON_USEDEP}]

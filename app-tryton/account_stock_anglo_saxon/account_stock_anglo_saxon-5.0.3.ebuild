@@ -24,7 +24,7 @@ RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
-		dev-lang/python[sqlite]
+		$(python_gen_impl_dep sqlite)
 		=app-tryton/purchase-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/sale-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/sale_supply_drop_shipment-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
