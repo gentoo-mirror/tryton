@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.0.29 5.2.20 5.4.14 5.6.8: Tryton web client
+app-office/sao 5.0.30 5.2.20 5.4.15 5.6.9: Tryton web client
 app-office/tryton 5.0.27 5.2.18 5.4.11 5.6.4: Tryton desktop client
-app-office/trytond 5.0.26 5.2.20 5.4.16 5.6.6: A three-tiers high-level general purpose business application framework
+app-office/trytond 5.0.27 5.2.20 5.4.17 5.6.7: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.0.14 5.2.9 5.4.6 5.6.1: Financial and Accounting Module
 app-tryton/account_asset 5.0.4 5.2.3 5.4.2 5.6.0: Account Asset Module
 app-tryton/account_be 5.0.2 5.2.1 5.4.1 5.6.0: Account Belgium Module
@@ -63,9 +63,9 @@ app-tryton/edocument_unece 5.0.2 5.2.1 5.4.1 5.6.0: Electronic document UNECE co
 app-tryton/google_maps 5.0.2 5.2.1 5.4.1 5.6.0: Google Maps Module
 app-tryton/ldap_authentication 5.0.3 5.2.2 5.4.1 5.6.0: LDAP Authentication Module
 app-tryton/marketing 5.2.1 5.4.1 5.6.0: Marketing features
-app-tryton/marketing_automation 5.2.1 5.4.1 5.6.0: Plan, coordinate and manage marketing campaigns
+app-tryton/marketing_automation 5.2.1 5.4.2 5.6.1: Plan, coordinate and manage marketing campaigns
 app-tryton/notification_email 5.0.4 5.2.2 5.4.2 5.6.1: Notification Email Module
-app-tryton/party 5.0.3 5.2.2 5.4.1 5.6.0: Party Module
+app-tryton/party 5.0.3 5.2.2 5.4.2 5.6.1: Party Module
 app-tryton/party_relationship 5.0.2 5.2.1 5.4.1 5.6.0: Party Relationship Module
 app-tryton/party_siret 5.0.2 5.2.1 5.4.1 5.6.0: Party - Siret Module
 app-tryton/product 5.0.3 5.2.4 5.4.2 5.6.1: Product Module
@@ -124,7 +124,7 @@ app-tryton/sale_supply_production 5.6.0: Tryton module to supply sales from prod
 app-tryton/stock 5.0.10 5.2.5 5.4.3 5.6.1: Stock Module
 app-tryton/stock_consignment 5.0.2 5.2.1 5.4.1 5.6.0: Stock Consignment Module
 app-tryton/stock_forecast 5.0.3 5.2.2 5.4.1 5.6.0: Stock Forecast Module
-app-tryton/stock_inventory_location 5.0.3 5.2.1 5.4.1 5.6.0: Stock Inventory Location Module
+app-tryton/stock_inventory_location 5.0.3 5.2.1 5.4.1 5.6.1: Stock Inventory Location Module
 app-tryton/stock_location_move 5.0.3 5.2.1 5.4.1 5.6.0: Stock Location Move Module
 app-tryton/stock_location_sequence 5.0.2 5.2.1 5.4.1 5.6.0: Stock Location Sequence Module
 app-tryton/stock_lot 5.0.2 5.2.1 5.4.1 5.6.0: Stock Lot Module
