@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python{2_7,3_{4..8}} pypy pypy2_0 )
+PYTHON_COMPAT=( python3_{4..8} pypy pypy2_0 )
 
 inherit distutils-r1
 
@@ -22,7 +22,7 @@ RDEPEND="${COMMON_DEPEND}
 	dev-python/lxml[$PYTHON_USEDEP]
 	fodt? ( dev-python/python-magic[$PYTHON_USEDEP] )
 	chart? (
-		>=dev-python/pycha-0.4.0[$(python_gen_usedep 'python2*')]
+		>=dev-python/pycha-0.4.0[${PYTHON_USEDEP}]
 		dev-python/pyyaml[$PYTHON_USEDEP]
 		)"
 

@@ -1,0 +1,41 @@
+diff -ru pycha-0.8.1.orig/chavier/gui.py pycha-0.8.1/chavier/gui.py
+--- pycha-0.8.1.orig/chavier/gui.py	2011-08-08 21:23:18.000000000 +0200
++++ pycha-0.8.1/chavier/gui.py	2020-11-09 00:53:42.430059846 +0100
+@@ -523,18 +523,18 @@
+ 
+         alloc = self.drawing_area.get_allocation()
+ 
+-        print 'CHART STATE'
+-        print '-' * 70
+-        print 'surface: %d x %d' % (alloc.width, alloc.height)
+-        print 'area   :', self.chart.area
+-        print
+-        print 'minxval:', self.chart.minxval
+-        print 'maxxval:', self.chart.maxxval
+-        print 'xrange :', self.chart.xrange
+-        print
+-        print 'minyval:', self.chart.minyval
+-        print 'maxyval:', self.chart.maxyval
+-        print 'yrange :', self.chart.yrange
++        print('CHART STATE')
++        print('-' * 70)
++        print('surface: %d x %d' % (alloc.width, alloc.height))
++        print('area   :', self.chart.area)
++        print()
++        print('minxval:', self.chart.minxval)
++        print('maxxval:', self.chart.maxxval)
++        print('xrange :', self.chart.xrange)
++        print()
++        print('minyval:', self.chart.minyval)
++        print('maxyval:', self.chart.maxyval)
++        print('yrange :', self.chart.yrange)
+ 
+     def about(self, action=None):
+         dialog = AboutDialog(self.main_window)
+@@ -556,6 +556,5 @@
+     str: str,
+     int: int,
+     float: float,
+-    unicode: unicode,
+     bool: str2bool,
+ }

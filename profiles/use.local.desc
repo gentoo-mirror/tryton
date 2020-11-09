@@ -15,6 +15,7 @@ app-tryton/currency:data - Enable country data import script
 app-tryton/party:phonenumbers - Add phone number formatting
 app-tryton/party:vat - Add support for vat number check
 app-tryton/sale:sparklines - Show sparklines on reports
+app-tryton/sale_discount:sparklines - Show sparklines on reports
 dev-python/csb43:babel - Enable Babel support
 dev-python/csb43:formats - Enable formats support
 dev-python/csb43:yaml - Enable YAML support
