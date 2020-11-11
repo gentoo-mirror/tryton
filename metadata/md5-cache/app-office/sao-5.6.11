@@ -1,0 +1,10 @@
+DEFINED_PHASES=install postinst prerm
+DESCRIPTION=Tryton web client
+EAPI=7
+HOMEPAGE=http://www.tryton.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND==app-office/trytond-5.6* dev-javascript/jquery:3 >=dev-javascript/bootstrap-3.3.7:3 >=dev-javascript/moment-2.10:2 >=dev-javascript/bootstrap-datetimepicker-4.17:4 >=dev-javascript/gettext-0.5:0 >=dev-javascript/c3-0.6:0 >=dev-javascript/papaparse-5.0:5 >=dev-javascript/fullcalendar-3.1:3 >=dev-javascript/mousetrap-1.6:1 >=dev-javascript/bootstrap-rtl-ondemand-3.3.4:3 >=dev-javascript/sortable-1.8.4:1
+SLOT=0
+SRC_URI=https://downloads.tryton.org/5.6/tryton-sao-5.6.11.tgz
+_md5_=2af945a660bbcfd39313ed5ef95b8443
