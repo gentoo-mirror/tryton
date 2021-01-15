@@ -169,7 +169,6 @@ dev-javascript/mousetrap 1.6.5: A simple library for handling keyboard shortcuts
 dev-javascript/papaparse 4.6.3 5.2.0: Powerful, in-browser CSV parser for big boys and girls
 dev-javascript/sortable 1.10.2: a JavaScript library for reorderable drag-and-drop lists
 dev-javascript/tempusdominus-bootstrap3 5.0.0_alpha10: Tempus Dominus Bootstrap 3
-dev-python/celery_tryton 0.3: Celery integration with Tryton
 dev-python/csb43 0.8.4: Tools to convert files in format used by multiple Spanish banks
 dev-python/febelfin-coda 0.1.0: A module to parse CODA files
 dev-python/flask_tryton 0.10.0: Adds Tryton support to Flask application
@@ -186,7 +185,6 @@ dev-python/raven 6.10.0: Raven is a client for Sentry
 dev-python/relatorio 0.8.1 0.9.2: A templating library able to output odt and pdf files
 dev-python/sentry_tryton 0.6: Sentry integration for the Tryton
 dev-python/tablib 1.1.0: A format-agnostic tabular dataset library written in Python
-dev-python/tryton-filestore-s3 0.1.2: S3 AWS storage for the Tryton
 dev-python/trytond_gis 5.0.0 5.2.0 5.4.0 5.6.0 5.8.0: Adds Geographic Information System support to trytond
 dev-python/werkzeug 0.16.0: Collection of various utilities for WSGI applications
 dev-vcs/hgnested 0.8: Mercurial extension to work with nested repositories.
