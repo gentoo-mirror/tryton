@@ -7,4 +7,4 @@ LICENSE=MIT
 RDEPEND=>=dev-javascript/jquery-1.8.3 >=dev-javascript/moment-2.10.5
 SLOT=5
 SRC_URI=https://github.com/tempusdominus/bootstrap-3/archive/5.0.0-alpha10.tar.gz -> tempusdominus-bootstrap3-5.0.0_alpha10.tar.gz
-_md5_=338fe63a9172af1f4086660535a96c24
+_md5_=9e5261295496544de6d15ac535a4a673

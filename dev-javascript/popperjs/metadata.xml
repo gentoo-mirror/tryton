@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>cedk@gentoo.org</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+		Given an element, such as a button, and a tooltip element describing
+		it, Popper will automatically put the tooltip in the right place near
+		the button.
+	</longdescription>
+</pkgmetadata>

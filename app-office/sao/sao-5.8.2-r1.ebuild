@@ -25,7 +25,8 @@ RDEPEND="${DEPEND}
 	>=dev-javascript/fullcalendar-3.10.2:3
 	>=dev-javascript/mousetrap-1.6:1
 	>=dev-javascript/bootstrap-rtl-ondemand-3.3.4:3
-	>=dev-javascript/sortable-1.8.4:1"
+	>=dev-javascript/sortable-1.8.4:1
+	dev-javascript/popperjs:1"
 
 S=${WORKDIR}/package
 
@@ -39,6 +40,7 @@ src_install() {
 	dodir "/usr/share/${PN}/bower_components/tempusdominus-bootstrap-3"
 	dodir "/usr/share/${PN}/bower_components/gettext.js"
 	dodir "/usr/share/${PN}/bower_components/fullcalendar"
+	dodir "/usr/share/${PN}/bower_components/popper.js"
 
 	dodoc CHANGELOG COPYRIGHT README.md
 }
@@ -56,6 +58,7 @@ pkg_postinst() {
 	ln -sf "${EROOT}"/usr/share/mousetrap-1 "${EROOT}"/usr/share/${PN}/bower_components/mousetrap
 	ln -sf "${EROOT}"/usr/share/bootstrap-rtl-ondemand-3 "${EROOT}"/usr/share/${PN}/bower_components/bootstrap-rtl-ondemand
 	ln -sf "${EROOT}"/usr/share/sortable-1 "${EROOT}"/usr/share/${PN}/bower_components/Sortable
+	ln -sf "${EROOT}"/usr/share/popperjs-1/popper.min.js "${EROOT}"/usr/share/${PN}/bower_components/popper.js/index.js
 
 	elog "In order to use sao, add to trytond configuration:"
 	elog "    [web]"
