@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.4.18 5.6.13 5.8.2-r1: Tryton web client
-app-office/tryton 5.4.14 5.6.8 5.8.2: Tryton desktop client
-app-office/trytond 5.4.20 5.6.11 5.8.2: A three-tiers high-level general purpose business application framework
+app-office/sao 5.4.18 5.6.14 5.8.3: Tryton web client
+app-office/tryton 5.4.14 5.6.9 5.8.3: Tryton desktop client
+app-office/trytond 5.4.20 5.6.12 5.8.3: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.4.8 5.6.4 5.8.1: Financial and Accounting Module
 app-tryton/account_asset 5.4.2 5.6.1 5.8.1: Account Asset Module
 app-tryton/account_be 5.4.1 5.6.1 5.8.1: Account Belgium Module
@@ -14,11 +14,11 @@ app-tryton/account_dunning 5.4.1 5.6.1 5.8.1: Account Dunning Module
 app-tryton/account_dunning_email 5.4.1 5.6.1 5.8.1: Account Dunning Email Module
 app-tryton/account_dunning_fee 5.4.1 5.6.1 5.8.1: Module for account dunning fee
 app-tryton/account_dunning_letter 5.4.1 5.6.1 5.8.1: Account Dunning Letter Module
-app-tryton/account_es 5.4.3 5.6.2 5.8.1: Account Spain Module
+app-tryton/account_es 5.4.3 5.6.3 5.8.2: Account Spain Module
 app-tryton/account_eu 5.4.1 5.6.1 5.8.1: Account European Module
 app-tryton/account_fr 5.4.1 5.6.1 5.8.1: Account French Module
 app-tryton/account_fr_chorus 5.4.1 5.6.1 5.8.1: Tryton module to communicate with Chorus
-app-tryton/account_invoice 5.4.5 5.6.3 5.8.1: Invoice Module
+app-tryton/account_invoice 5.4.5 5.6.4 5.8.2: Invoice Module
 app-tryton/account_invoice_correction 5.4.1 5.6.1 5.8.1: Tryton module to correct invoice
 app-tryton/account_invoice_history 5.4.2 5.6.1 5.8.1: Account Invoice History
 app-tryton/account_invoice_line_standalone 5.4.1 5.6.1 5.8.1: Account Invoice Line Standalone
@@ -34,7 +34,7 @@ app-tryton/account_product 5.4.1 5.6.1 5.8.1: Account Product Module
 app-tryton/account_statement 5.4.3 5.6.2 5.8.1: Account Statement
 app-tryton/account_statement_aeb43 5.4.1 5.6.1 5.8.1: Tryton module to import AEB43 statements
 app-tryton/account_statement_coda 5.4.1 5.6.1 5.8.1: Account Statement
-app-tryton/account_statement_ofx 5.4.2 5.6.1 5.8.1: Tryton module to import OFX statements
+app-tryton/account_statement_ofx 5.4.2 5.6.2 5.8.2: Tryton module to import OFX statements
 app-tryton/account_statement_rule 5.4.2 5.6.2 5.8.2: Account Statement Rule
 app-tryton/account_stock_anglo_saxon 5.4.1 5.6.1 5.8.1: Account Stock Anglo-Saxon
 app-tryton/account_stock_continental 5.4.1 5.6.1 5.8.1: Account Stock Continental
@@ -46,7 +46,7 @@ app-tryton/analytic_account 5.4.2 5.6.1 5.8.1: Analytic Account
 app-tryton/analytic_invoice 5.4.2 5.6.1 5.8.1: Analytic Invoice
 app-tryton/analytic_purchase 5.4.1 5.6.1 5.8.1: Analytic Purchase
 app-tryton/analytic_sale 5.4.1 5.6.1 5.8.1: Analytic Sale
-app-tryton/attendance 5.8.1: Record employee attendance
+app-tryton/attendance 5.8.2: Record employee attendance
 app-tryton/authentication_sms 5.4.2 5.6.1 5.8.1: Authentication SMS Module
 app-tryton/bank 5.4.1 5.6.1 5.8.1: Bank Module
 app-tryton/carrier 5.4.2 5.6.1 5.8.1: Carrier Module
@@ -110,7 +110,7 @@ app-tryton/sale_extra 5.4.1 5.6.1 5.8.1: Tryton module for sale extra
 app-tryton/sale_history 5.4.2 5.6.1 5.8.1: Module to historize sales
 app-tryton/sale_invoice_grouping 5.4.1 5.6.1 5.8.1: Sale Invoice Grouping Module
 app-tryton/sale_opportunity 5.4.1 5.6.1 5.8.1: Leads and opportunities
-app-tryton/sale_payment 5.4.1 5.6.1 5.8.1: Sale Payment Module
+app-tryton/sale_payment 5.4.1 5.6.2 5.8.2: Sale Payment Module
 app-tryton/sale_price_list 5.4.2 5.6.1 5.8.1: Sale Pricelist Module
 app-tryton/sale_product_customer 5.4.3 5.6.2 5.8.1: Sale Product Customer Module
 app-tryton/sale_promotion 5.4.1 5.6.1 5.8.1: Sale Promotion Module
@@ -125,7 +125,7 @@ app-tryton/sale_subscription_asset 5.4.1 5.6.1 5.8.1: Handles asset in the sale 
 app-tryton/sale_supply 5.4.1 5.6.1 5.8.1: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 5.4.6 5.6.4 5.8.1: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 5.6.1 5.8.1: Tryton module to supply sales from production
-app-tryton/stock 5.4.4 5.6.4 5.8.2: Stock Module
+app-tryton/stock 5.4.4 5.6.5 5.8.3: Stock Module
 app-tryton/stock_assign_manual 5.8.1: Assign manually stock move
 app-tryton/stock_consignment 5.4.1 5.6.1 5.8.1: Stock Consignment Module
 app-tryton/stock_forecast 5.4.1 5.6.1 5.8.1: Stock Forecast Module
@@ -135,7 +135,7 @@ app-tryton/stock_location_sequence 5.4.1 5.6.1 5.8.1: Stock Location Sequence Mo
 app-tryton/stock_lot 5.4.1 5.6.2 5.8.2: Stock Lot Module
 app-tryton/stock_lot_sled 5.4.1 5.6.1 5.8.1: Tryton module for shelf life expiration date of product lots
 app-tryton/stock_lot_unit 5.4.1 5.6.1 5.8.1: Tryton module to define unit on stock lot
-app-tryton/stock_package 5.4.1 5.6.1 5.8.1: Tryton module for stock packaging
+app-tryton/stock_package 5.4.1 5.6.2 5.8.2: Tryton module for stock packaging
 app-tryton/stock_package_shipping 5.4.1 5.6.2 5.8.1: Package Shipping Module
 app-tryton/stock_package_shipping_dpd 5.4.1 5.6.2 5.8.1: Package Shipping for DPD Module
 app-tryton/stock_package_shipping_ups 5.4.3 5.6.3 5.8.2: Package Shipping for UPS Module
@@ -151,7 +151,7 @@ app-tryton/timesheet 5.4.2 5.6.1 5.8.1: Timesheet Module
 app-tryton/timesheet_cost 5.4.1 5.6.1 5.8.1: Timesheet Cost Module
 app-tryton/user_role 5.4.2 5.6.1 5.8.1: User Role Module
 app-tryton/web_shop 5.8.1: Provides a common base for webshops
-app-tryton/web_shop_vue_storefront 5.8.1: Integrate with Vue Storefront
+app-tryton/web_shop_vue_storefront 5.8.2: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 5.8.1: Support Stripe payment with Vue Storefront
 app-tryton/web_shortener 5.4.1 5.6.1 5.8.1: Web Shortener Module
 app-tryton/web_user 5.4.2 5.6.2 5.8.2: Web User Module
