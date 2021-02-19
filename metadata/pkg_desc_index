@@ -1,7 +1,7 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.4.18 5.6.14 5.8.3: Tryton web client
-app-office/tryton 5.4.14 5.6.9 5.8.3: Tryton desktop client
+app-office/sao 5.4.18 5.6.15 5.8.4: Tryton web client
+app-office/tryton 5.4.14 5.6.10 5.8.4: Tryton desktop client
 app-office/trytond 5.4.20 5.6.13 5.8.4: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.4.8 5.6.4 5.8.1: Financial and Accounting Module
 app-tryton/account_asset 5.4.2 5.6.1 5.8.1: Account Asset Module
@@ -29,7 +29,7 @@ app-tryton/account_payment_braintree 5.8.1: Tryton module for Braintree payment
 app-tryton/account_payment_clearing 5.4.2 5.6.2 5.8.1: Tryton module for payment clearing
 app-tryton/account_payment_sepa 5.4.2 5.6.2 5.8.1: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.4.1 5.6.1 5.8.1: Tryton module for CFONB SEPA payment
-app-tryton/account_payment_stripe 5.4.5 5.6.4 5.8.1: Tryton module for Stripe payment
+app-tryton/account_payment_stripe 5.4.5 5.6.5 5.8.2: Tryton module for Stripe payment
 app-tryton/account_product 5.4.1 5.6.1 5.8.1: Account Product Module
 app-tryton/account_statement 5.4.3 5.6.2 5.8.1: Account Statement
 app-tryton/account_statement_aeb43 5.4.1 5.6.1 5.8.1: Tryton module to import AEB43 statements
@@ -65,7 +65,7 @@ app-tryton/edocument_unece 5.4.1 5.6.1 5.8.1: Electronic document UNECE codes
 app-tryton/google_maps 5.4.1 5.6.1 5.8.1: Google Maps Module
 app-tryton/ldap_authentication 5.4.1 5.6.1 5.8.1: LDAP Authentication Module
 app-tryton/marketing 5.4.1 5.6.1 5.8.1: Marketing features
-app-tryton/marketing_automation 5.4.4 5.6.4 5.8.2: Plan, coordinate and manage marketing campaigns
+app-tryton/marketing_automation 5.4.4 5.6.5 5.8.3: Plan, coordinate and manage marketing campaigns
 app-tryton/marketing_email 5.8.1: Manage marketing mailing lists
 app-tryton/notification_email 5.4.2 5.6.2 5.8.1: Notification Email Module
 app-tryton/party 5.4.2 5.6.2 5.8.1: Party Module
@@ -101,7 +101,7 @@ app-tryton/purchase_requisition 5.4.1 5.6.1 5.8.1: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 5.4.2 5.6.2 5.8.1: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 5.4.2 5.6.1 5.8.1: Purchase Shipment Cost Module
 app-tryton/sale 5.4.1 5.6.2 5.8.1: Sale Module
-app-tryton/sale_advance_payment 5.4.1 5.6.1 5.8.1: Tryton module for sale advance payment
+app-tryton/sale_advance_payment 5.4.1 5.6.2 5.8.2: Tryton module for sale advance payment
 app-tryton/sale_amendment 5.4.3 5.6.1 5.8.1: Module to amend sales
 app-tryton/sale_complaint 5.4.2 5.6.2 5.8.1: Sale Complaint Module
 app-tryton/sale_credit_limit 5.4.1 5.6.1 5.8.1: Tryton module for sale credit limit
@@ -147,13 +147,13 @@ app-tryton/stock_supply 5.4.2 5.6.2 5.8.1: Stock Supply Module
 app-tryton/stock_supply_day 5.4.2 5.6.1 5.8.1: Stock Supply Day Module
 app-tryton/stock_supply_forecast 5.4.1 5.6.1 5.8.1: Stock Supply Forecast Module
 app-tryton/stock_supply_production 5.4.1 5.6.1 5.8.1: Stock Supply Production Module
-app-tryton/timesheet 5.4.2 5.6.1 5.8.1: Timesheet Module
+app-tryton/timesheet 5.4.2 5.6.2 5.8.2: Timesheet Module
 app-tryton/timesheet_cost 5.4.1 5.6.1 5.8.1: Timesheet Cost Module
 app-tryton/user_role 5.4.2 5.6.1 5.8.1: User Role Module
 app-tryton/web_shop 5.8.1: Provides a common base for webshops
-app-tryton/web_shop_vue_storefront 5.8.2: Integrate with Vue Storefront
+app-tryton/web_shop_vue_storefront 5.8.3: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 5.8.1: Support Stripe payment with Vue Storefront
-app-tryton/web_shortener 5.4.1 5.6.1 5.8.1: Web Shortener Module
+app-tryton/web_shortener 5.4.1 5.6.2 5.8.2: Web Shortener Module
 app-tryton/web_user 5.4.2 5.6.2 5.8.2: Web User Module
 dev-javascript/bootstrap 3.3.7 3.4.1: HTML, CSS, and JS framework for developing responsive, mobile first on the web
 dev-javascript/bootstrap-datetimepicker 4.7.14 4.17.43 4.17.47: Bootstrap 3 Date/Time Picker
