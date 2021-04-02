@@ -1,9 +1,9 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.4.18 5.6.16 5.8.5: Tryton web client
-app-office/tryton 5.4.14 5.6.11 5.8.5: Tryton desktop client
-app-office/trytond 5.4.20 5.6.14 5.8.5: A three-tiers high-level general purpose business application framework
-app-tryton/account 5.4.8 5.6.4 5.8.1: Financial and Accounting Module
+app-office/sao 5.4.18 5.6.17 5.8.6: Tryton web client
+app-office/tryton 5.4.14 5.6.12 5.8.6: Tryton desktop client
+app-office/trytond 5.4.20 5.6.15 5.8.6: A three-tiers high-level general purpose business application framework
+app-tryton/account 5.4.8 5.6.4 5.8.2: Financial and Accounting Module
 app-tryton/account_asset 5.4.2 5.6.2 5.8.2: Account Asset Module
 app-tryton/account_be 5.4.1 5.6.1 5.8.1: Account Belgium Module
 app-tryton/account_cash_rounding 5.6.2 5.8.1: Tryton module to round cash amount
@@ -14,7 +14,7 @@ app-tryton/account_dunning 5.4.1 5.6.1 5.8.1: Account Dunning Module
 app-tryton/account_dunning_email 5.4.1 5.6.1 5.8.1: Account Dunning Email Module
 app-tryton/account_dunning_fee 5.4.1 5.6.1 5.8.1: Module for account dunning fee
 app-tryton/account_dunning_letter 5.4.1 5.6.1 5.8.1: Account Dunning Letter Module
-app-tryton/account_es 5.4.3 5.6.3 5.8.2: Account Spain Module
+app-tryton/account_es 5.4.3 5.6.3 5.8.3: Account Spain Module
 app-tryton/account_eu 5.4.1 5.6.1 5.8.1: Account European Module
 app-tryton/account_fr 5.4.1 5.6.1 5.8.1: Account French Module
 app-tryton/account_fr_chorus 5.4.1 5.6.1 5.8.1: Tryton module to communicate with Chorus
@@ -24,8 +24,8 @@ app-tryton/account_invoice_history 5.4.2 5.6.1 5.8.1: Account Invoice History
 app-tryton/account_invoice_line_standalone 5.4.1 5.6.1 5.8.1: Account Invoice Line Standalone
 app-tryton/account_invoice_secondary_unit 5.4.1 5.6.1 5.8.1: Invoice Secondary Unit Module
 app-tryton/account_invoice_stock 5.4.2 5.6.1 5.8.1: Tryton module to link stock and invoice
-app-tryton/account_payment 5.4.4 5.6.2 5.8.1: Tryton module for payment
-app-tryton/account_payment_braintree 5.8.1: Tryton module for Braintree payment
+app-tryton/account_payment 5.4.4 5.6.3 5.8.2: Tryton module for payment
+app-tryton/account_payment_braintree 5.8.2: Tryton module for Braintree payment
 app-tryton/account_payment_clearing 5.4.2 5.6.2 5.8.1: Tryton module for payment clearing
 app-tryton/account_payment_sepa 5.4.2 5.6.2 5.8.1: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.4.1 5.6.1 5.8.1: Tryton module for CFONB SEPA payment
@@ -91,12 +91,12 @@ app-tryton/project 5.4.1 5.6.2 5.8.2: Project Module
 app-tryton/project_invoice 5.4.1 5.6.1 5.8.1: Project Invoice Module
 app-tryton/project_plan 5.4.1 5.6.1 5.8.1: Project Plan Module
 app-tryton/project_revenue 5.4.1 5.6.1 5.8.1: Project Revenue
-app-tryton/purchase 5.4.3 5.6.3 5.8.2: Purchase Module
+app-tryton/purchase 5.4.3 5.6.3 5.8.3: Purchase Module
 app-tryton/purchase_amendment 5.4.3 5.6.1 5.8.1: Module to amend purchases
 app-tryton/purchase_history 5.4.2 5.6.1 5.8.1: Module to historize purchases
 app-tryton/purchase_invoice_line_standalone 5.4.1 5.6.1 5.8.1: Purchase Invoice Line Standalone Module
 app-tryton/purchase_request 5.4.1 5.6.2 5.8.2: Purchase Request Module
-app-tryton/purchase_request_quotation 5.4.2 5.6.3 5.8.2: Tryton module for purchase request quotation
+app-tryton/purchase_request_quotation 5.4.2 5.6.4 5.8.3: Tryton module for purchase request quotation
 app-tryton/purchase_requisition 5.4.1 5.6.1 5.8.1: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 5.4.2 5.6.2 5.8.1: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 5.4.2 5.6.1 5.8.1: Purchase Shipment Cost Module
@@ -120,7 +120,7 @@ app-tryton/sale_shipment_cost 5.4.2 5.6.2 5.8.2: Sale Shipment Cost Module
 app-tryton/sale_shipment_grouping 5.4.1 5.6.1 5.8.1: Tryton module to group sale stock moves
 app-tryton/sale_shipment_tolerance 5.4.2 5.6.2 5.8.1: Defines tolerance for sale shipment
 app-tryton/sale_stock_quantity 5.4.1 5.6.1 5.8.1: Sale Stock Quantity Module
-app-tryton/sale_subscription 5.4.1 5.6.1 5.8.1: Tryton module for subscription
+app-tryton/sale_subscription 5.4.1 5.6.2 5.8.2: Tryton module for subscription
 app-tryton/sale_subscription_asset 5.4.1 5.6.1 5.8.1: Handles asset in the sale subscriptions
 app-tryton/sale_supply 5.4.1 5.6.1 5.8.1: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 5.4.6 5.6.4 5.8.1: Sale Supply Drop Shipment Module
@@ -137,7 +137,7 @@ app-tryton/stock_lot_sled 5.4.1 5.6.1 5.8.1: Tryton module for shelf life expira
 app-tryton/stock_lot_unit 5.4.1 5.6.1 5.8.1: Tryton module to define unit on stock lot
 app-tryton/stock_package 5.4.1 5.6.2 5.8.2: Tryton module for stock packaging
 app-tryton/stock_package_shipping 5.4.1 5.6.2 5.8.1: Package Shipping Module
-app-tryton/stock_package_shipping_dpd 5.4.1 5.6.2 5.8.1: Package Shipping for DPD Module
+app-tryton/stock_package_shipping_dpd 5.4.1 5.6.3 5.8.2: Package Shipping for DPD Module
 app-tryton/stock_package_shipping_ups 5.4.3 5.6.3 5.8.2: Package Shipping for UPS Module
 app-tryton/stock_product_location 5.4.1 5.6.1 5.8.1: Stock Product Location Module
 app-tryton/stock_secondary_unit 5.4.1 5.6.1 5.8.1: Module to add a secondary unit on stock move
