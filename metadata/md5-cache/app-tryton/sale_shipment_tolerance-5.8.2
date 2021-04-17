@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND==app-office/trytond-5.8*[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] =app-tryton/sale-5.8*[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] =app-tryton/stock-5.8*[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/setuptools[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] test? ( python_targets_python3_7? ( dev-lang/python:3.7[sqlite] ) python_targets_python3_8? ( dev-lang/python:3.8[sqlite] ) =dev-python/proteus-5.8*[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] )
+DESCRIPTION=Defines tolerance for sale shipment
+EAPI=7
+HOMEPAGE=http://www.tryton.org/
+INHERIT=distutils-r1
+IUSE=test python_targets_python3_7 python_targets_python3_8
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND==app-office/trytond-5.8*[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] =app-tryton/sale-5.8*[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] =app-tryton/stock-5.8*[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)]
+REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_8 )
+SLOT=0
+SRC_URI=mirror://pypi/t/trytond_sale_shipment_tolerance/trytond_sale_shipment_tolerance-5.8.2.tar.gz
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	3ea803de86891185c7b1db2c0b5bc8c8	python-r1	26e4ad0a4190b14f70973dc253e86535	distutils-r1	d8655e1387589a2e1930339b1627d5c1
+_md5_=3b94018fc7415dd010e082fe469f5087
