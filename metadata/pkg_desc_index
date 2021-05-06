@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.4.18 5.6.18 5.8.7: Tryton web client
-app-office/tryton 5.4.14 5.6.13 5.8.7: Tryton desktop client
-app-office/trytond 5.4.20 5.6.15 5.8.7: A three-tiers high-level general purpose business application framework
+app-office/sao 5.4.18 5.6.19 5.8.8: Tryton web client
+app-office/tryton 5.4.14 5.6.14 5.8.8: Tryton desktop client
+app-office/trytond 5.4.20 5.6.16 5.8.8: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.4.8 5.6.4 5.8.2: Financial and Accounting Module
 app-tryton/account_asset 5.4.2 5.6.3 5.8.3: Account Asset Module
 app-tryton/account_be 5.4.1 5.6.1 5.8.1: Account Belgium Module
@@ -41,7 +41,7 @@ app-tryton/account_stock_continental 5.4.1 5.6.1 5.8.1: Account Stock Continenta
 app-tryton/account_stock_landed_cost 5.4.1 5.6.1 5.8.1: Landed Cost Module
 app-tryton/account_stock_landed_cost_weight 5.4.1 5.6.1 5.8.1: Landed Cost per Weight Module
 app-tryton/account_tax_cash 5.4.1 5.6.1 5.8.1: Tryton module to support tax report on cash basis
-app-tryton/account_tax_rule_country 5.4.1 5.6.1 5.8.1: Tryton module to add countries on tax rules
+app-tryton/account_tax_rule_country 5.4.1 5.6.2 5.8.2: Tryton module to add countries on tax rules
 app-tryton/analytic_account 5.4.2 5.6.1 5.8.1: Analytic Account
 app-tryton/analytic_invoice 5.4.2 5.6.1 5.8.1: Analytic Invoice
 app-tryton/analytic_purchase 5.4.1 5.6.1 5.8.1: Analytic Purchase
@@ -57,7 +57,7 @@ app-tryton/commission_waiting 5.4.1 5.6.1 5.8.1: Tryton module for commission wa
 app-tryton/company 5.4.1 5.6.2 5.8.1: Company Module
 app-tryton/company_work_time 5.4.1 5.6.1 5.8.1: Company Work Time Module
 app-tryton/country 5.4.1 5.6.1 5.8.1: Country Module
-app-tryton/currency 5.4.1 5.6.1 5.8.1: Currency Module
+app-tryton/currency 5.4.1 5.6.2 5.8.2: Currency Module
 app-tryton/customs 5.4.1 5.6.1 5.8.1: Customs Module
 app-tryton/dashboard 5.4.1 5.6.1 5.8.1: Dashboard Module
 app-tryton/edocument_uncefact 5.4.1 5.6.1 5.8.1: Electronic document UN/CEFACT
@@ -71,7 +71,7 @@ app-tryton/notification_email 5.4.2 5.6.2 5.8.1: Notification Email Module
 app-tryton/party 5.4.2 5.6.2 5.8.1: Party Module
 app-tryton/party_relationship 5.4.1 5.6.1 5.8.1: Party Relationship Module
 app-tryton/party_siret 5.4.1 5.6.1 5.8.1: Party - Siret Module
-app-tryton/product 5.4.2 5.6.3 5.8.2: Product Module
+app-tryton/product 5.4.2 5.6.3 5.8.3: Product Module
 app-tryton/product_attribute 5.4.1 5.6.1 5.8.1: Product Attribute Module
 app-tryton/product_classification 5.4.1 5.6.1 5.8.1: Product Classification Module
 app-tryton/product_classification_taxonomic 5.4.1 5.6.1 5.8.1: Product Classification Taxonomic Module
@@ -125,7 +125,7 @@ app-tryton/sale_subscription_asset 5.4.1 5.6.1 5.8.1: Handles asset in the sale 
 app-tryton/sale_supply 5.4.1 5.6.1 5.8.1: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 5.4.6 5.6.4 5.8.1: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 5.6.1 5.8.1: Tryton module to supply sales from production
-app-tryton/stock 5.4.4 5.6.6 5.8.4: Stock Module
+app-tryton/stock 5.4.4 5.6.7 5.8.5: Stock Module
 app-tryton/stock_assign_manual 5.8.1: Assign manually stock move
 app-tryton/stock_consignment 5.4.1 5.6.1 5.8.1: Stock Consignment Module
 app-tryton/stock_forecast 5.4.1 5.6.1 5.8.1: Stock Forecast Module
