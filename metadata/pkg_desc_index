@@ -182,7 +182,7 @@ dev-python/proteus 5.4.2 5.6.2 5.8.1: A library to access Tryton's models like a
 dev-python/pycha 0.8.1: A library for making charts with Python
 dev-python/python-sql 1.2.1: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0: Raven is a client for Sentry
-dev-python/relatorio 0.8.1 0.9.2: A templating library able to output odt and pdf files
+dev-python/relatorio 0.8.1 0.9.3: A templating library able to output odt and pdf files
 dev-python/sentry_tryton 0.6: Sentry integration for the Tryton
 dev-python/tablib 1.1.0: A format-agnostic tabular dataset library written in Python
 dev-python/tryton-filestore-s3 0.1.2: S3 AWS storage for the Tryton

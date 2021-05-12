@@ -25,7 +25,7 @@ RDEPEND="acct-group/trytond
 	dev-python/python-dateutil[$PYTHON_USEDEP]
 	dev-python/polib[$PYTHON_USEDEP]
 	>=dev-python/python-sql-0.5[$PYTHON_USEDEP]
-	dev-python/werkzeug[$PYTHON_USEDEP]
+	<dev-python/werkzeug-2[$PYTHON_USEDEP]
 	dev-python/wrapt[$PYTHON_USEDEP]
 	>=dev-python/passlib-1.7.0[$PYTHON_USEDEP]
 	graphviz? ( dev-python/pydot[$PYTHON_USEDEP] )

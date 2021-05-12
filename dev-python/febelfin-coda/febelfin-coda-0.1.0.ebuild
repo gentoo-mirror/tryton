@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{4..8} pypy )
+PYTHON_COMPAT=( python3_{4..9} pypy )
 inherit distutils-r1
 
 DESCRIPTION="A module to parse CODA files"

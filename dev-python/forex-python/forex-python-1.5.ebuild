@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{3..8} )
+PYTHON_COMPAT=( python3_{3..9} )
 inherit distutils-r1
 
 DESCRIPTION="Foreign exchange rates and currency conversion."
@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="
-	dev-python/requests
-	dev-python/simplejson"
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/simplejson[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
 
 src_install() {
