@@ -6,16 +6,22 @@ app-office/tryton:calendar - Enable support for the calendar view
 app-office/trytond:bcrypt - Enable BCrypt hash
 app-office/trytond:coroutine - Enable coroutine support
 app-office/trytond:html2text - Enable text part for HTML email
+app-office/trytond:image - Enable image/avatar support
 app-office/trytond:levenshtein - Enable support for Levenshtein
 app-office/trytond:weasyprint - Use weasyprint to convert HTML into PDF
+app-tryton/attendance:timezone - Enable support for timezone
 app-tryton/company:timezone - Enable support for timezone
 app-tryton/country:data - Enable country data import script
 app-tryton/country:geonames - Enable GeoNames import script
 app-tryton/currency:data - Enable country data import script
+app-tryton/currency:ecb_rate - Enable ECB rate
 app-tryton/party:phonenumbers - Add phone number formatting
 app-tryton/party:vat - Add support for vat number check
 app-tryton/sale:sparklines - Show sparklines on reports
 app-tryton/sale_discount:sparklines - Show sparklines on reports
+app-tryton/stock:sparklines - Show sparklines on reports
+app-tryton/web_user:bcrypt - Enable BCrypt hash
+app-tryton/web_user:html2text - Enable text part for HTML email
 dev-python/csb43:babel - Enable Babel support
 dev-python/csb43:formats - Enable formats support
 dev-python/csb43:yaml - Enable YAML support

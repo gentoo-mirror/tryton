@@ -13,6 +13,7 @@
 		<flag name="html2text">Enable text part for HTML email</flag>
 		<flag name="weasyprint">Use weasyprint to convert HTML into PDF</flag>
 		<flag name="coroutine">Enable coroutine support</flag>
+		<flag name="image">Enable image/avatar support</flag>
 	</use>
 </pkgmetadata>
 
