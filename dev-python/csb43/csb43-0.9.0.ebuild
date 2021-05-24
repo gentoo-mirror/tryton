@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{5..7} )
+PYTHON_COMPAT=( python3_{5..9} )
 inherit distutils-r1
 
 DESCRIPTION="Tools to convert files in format used by multiple Spanish banks"

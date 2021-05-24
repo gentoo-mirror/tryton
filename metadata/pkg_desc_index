@@ -195,6 +195,6 @@ dev-python/python-sql 1.2.2: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0: Raven is a client for Sentry
 dev-python/relatorio 0.8.1 0.9.3: A templating library able to output odt and pdf files
 dev-python/sentry_tryton 0.6: Sentry integration for the Tryton
-dev-python/tablib 1.1.0: A format-agnostic tabular dataset library written in Python
+dev-python/tablib 1.1.0 3.0.0: A format-agnostic tabular dataset library written in Python
 dev-python/tryton-filestore-s3 0.1.2: S3 AWS storage for the Tryton
 dev-python/trytond_gis 5.4.0 5.6.0 5.8.0 6.0.0: Adds Geographic Information System support to trytond
