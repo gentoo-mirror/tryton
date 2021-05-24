@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -16,16 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="babel yaml formats test"
 
 RDEPEND="
-	dev-python/pycountry[$PYTHON_USEDEP]
+	>=dev-python/pycountry-16.10.23[$PYTHON_USEDEP]
 	babel? ( dev-python/Babel[$PYTHON_USEDEP] )
 	yaml? ( dev-python/pyyaml[$PYTHON_USEDEP] )
-	formats? (
-		dev-python/tablib[$PYTHON_USEDEP]
-		dev-python/openpyxl[$PYTHON_USEDEP]
-		)"
+	formats? ( >=dev-python/tablib-0.11.3[$PYTHON_USEDEP] )"
 DEPEND="${RDEPEND}
-	dev-python/setuptools[$PYTHON_USEDEP]
-	test? ( dev-python/lxml[$PYTHON_USEDEP] )"
+	dev-python/setuptools[$PYTHON_USEDEP]"
 BDEPEND=""
 
 python_test() {
