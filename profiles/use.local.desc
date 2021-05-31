@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 app-office/tryton:calendar - Enable support for the calendar view
+app-office/tryton:document - Enable support for the document view
 app-office/trytond:bcrypt - Enable BCrypt hash
 app-office/trytond:coroutine - Enable coroutine support
 app-office/trytond:html2text - Enable text part for HTML email

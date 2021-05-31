@@ -9,6 +9,7 @@
 	</longdescription>
 	<use>
 		<flag name="calendar">Enable support for the calendar view</flag>
+		<flag name="document">Enable support for the document view</flag>
 	</use>
 </pkgmetadata>
 

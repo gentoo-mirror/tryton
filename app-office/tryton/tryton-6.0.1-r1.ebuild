@@ -13,7 +13,7 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc calendar"
+IUSE="doc calendar document"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-0.3 )"
@@ -21,7 +21,8 @@ RDEPEND="dev-python/pygobject:3[${PYTHON_USEDEP}]
 	dev-python/pycairo[${PYTHON_USEDEP}]
 	gnome-base/librsvg
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	calendar? ( >=dev-python/goocalendar-0.7[${PYTHON_USEDEP}] )"
+	calendar? ( >=dev-python/goocalendar-0.7[${PYTHON_USEDEP}] )
+	document? ( app-text/evince[introspection] )"
 
 src_compile() {
 	distutils-r1_src_compile
