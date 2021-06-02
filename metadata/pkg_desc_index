@@ -18,7 +18,7 @@ app-tryton/account_es 5.4.3 5.6.4 5.8.4 6.0.1: Account Spain Module
 app-tryton/account_eu 5.4.1 5.6.1 5.8.1 6.0.0: Account European Module
 app-tryton/account_fr 5.4.1 5.6.1 5.8.1 6.0.0: Account French Module
 app-tryton/account_fr_chorus 5.4.1 5.6.1 5.8.1 6.0.0: Tryton module to communicate with Chorus
-app-tryton/account_invoice 5.4.5 5.6.6 5.8.3 6.0.0: Invoice Module
+app-tryton/account_invoice 5.4.5 5.6.6 5.8.4 6.0.0: Invoice Module
 app-tryton/account_invoice_correction 5.4.1 5.6.1 5.8.1 6.0.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.0: Account Invoice Defer Module
 app-tryton/account_invoice_history 5.4.2 5.6.1 5.8.1 6.0.0: Account Invoice History
@@ -68,7 +68,7 @@ app-tryton/google_maps 5.4.1 5.6.1 5.8.1 6.0.0: Google Maps Module
 app-tryton/incoterm 6.0.0: Incoterm Module
 app-tryton/ldap_authentication 5.4.1 5.6.1 5.8.1 6.0.0: LDAP Authentication Module
 app-tryton/marketing 5.4.1 5.6.1 5.8.1 6.0.0: Marketing features
-app-tryton/marketing_automation 5.4.4 5.6.6 5.8.4 6.0.1: Plan, coordinate and manage marketing campaigns
+app-tryton/marketing_automation 5.4.4 5.6.7 5.8.5 6.0.1: Plan, coordinate and manage marketing campaigns
 app-tryton/marketing_email 5.8.1 6.0.0: Manage marketing mailing lists
 app-tryton/notification_email 5.4.2 5.6.2 5.8.1 6.0.0: Notification Email Module
 app-tryton/party 5.4.2 5.6.3 5.8.2 6.0.0: Party Module
@@ -162,7 +162,7 @@ app-tryton/timesheet 5.4.2 5.6.2 5.8.2 6.0.0: Timesheet Module
 app-tryton/timesheet_cost 5.4.1 5.6.1 5.8.1 6.0.0: Timesheet Cost Module
 app-tryton/user_role 5.4.2 5.6.1 5.8.1 6.0.0: User Role Module
 app-tryton/web_shop 5.8.1 6.0.0: Provides a common base for webshops
-app-tryton/web_shop_vue_storefront 5.8.3 6.0.1: Integrate with Vue Storefront
+app-tryton/web_shop_vue_storefront 5.8.4 6.0.1: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 5.8.1 6.0.0: Support Stripe payment with Vue Storefront
 app-tryton/web_shortener 5.4.1 5.6.3 5.8.3 6.0.0: Web Shortener Module
 app-tryton/web_user 5.4.2 5.6.2 5.8.2 6.0.0: Web User Module
