@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.6.20 5.8.10 6.0.2: Tryton web client
-app-office/tryton 5.6.15 5.8.11 6.0.3: Tryton desktop client
-app-office/trytond 5.6.17 5.8.10 6.0.3: A three-tiers high-level general purpose business application framework
+app-office/sao 5.6.20 5.8.11 6.0.3: Tryton web client
+app-office/tryton 5.6.15 5.8.12 6.0.4: Tryton desktop client
+app-office/trytond 5.6.17 5.8.11 6.0.4: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.6.5 5.8.5 6.0.2: Financial and Accounting Module
 app-tryton/account_asset 5.6.4 5.8.4 6.0.0: Account Asset Module
 app-tryton/account_be 5.6.1 5.8.1 6.0.0: Account Belgium Module
@@ -21,7 +21,7 @@ app-tryton/account_fr_chorus 5.6.1 5.8.1 6.0.0: Tryton module to communicate wit
 app-tryton/account_invoice 5.6.6 5.8.4 6.0.1: Invoice Module
 app-tryton/account_invoice_correction 5.6.1 5.8.1 6.0.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.0: Account Invoice Defer Module
-app-tryton/account_invoice_history 5.6.1 5.8.1 6.0.0: Account Invoice History
+app-tryton/account_invoice_history 5.6.1 5.8.1 6.0.1: Account Invoice History
 app-tryton/account_invoice_line_standalone 5.6.1 5.8.1 6.0.0: Account Invoice Line Standalone
 app-tryton/account_invoice_secondary_unit 5.6.1 5.8.1 6.0.0: Invoice Secondary Unit Module
 app-tryton/account_invoice_stock 5.6.1 5.8.1 6.0.0: Tryton module to link stock and invoice
@@ -43,7 +43,7 @@ app-tryton/account_stock_landed_cost 5.6.1 5.8.2 6.0.1: Landed Cost Module
 app-tryton/account_stock_landed_cost_weight 5.6.1 5.8.1 6.0.0: Landed Cost per Weight Module
 app-tryton/account_tax_cash 5.6.1 5.8.1 6.0.0: Tryton module to support tax report on cash basis
 app-tryton/account_tax_rule_country 5.6.3 5.8.4 6.0.1: Tryton module to add countries on tax rules
-app-tryton/analytic_account 5.6.1 5.8.2 6.0.1: Analytic Account
+app-tryton/analytic_account 5.6.1 5.8.3 6.0.2: Analytic Account
 app-tryton/analytic_invoice 5.6.1 5.8.1 6.0.0: Analytic Invoice
 app-tryton/analytic_purchase 5.6.1 5.8.1 6.0.0: Analytic Purchase
 app-tryton/analytic_sale 5.6.1 5.8.1 6.0.0: Analytic Sale
@@ -56,9 +56,9 @@ app-tryton/carrier_subdivision 6.0.0: Carrier Subdivision Module
 app-tryton/carrier_weight 5.6.1 5.8.1 6.0.0: Carrier weight
 app-tryton/commission 5.6.3 5.8.3 6.0.0: Tryton module for commission
 app-tryton/commission_waiting 5.6.1 5.8.1 6.0.0: Tryton module for commission waiting
-app-tryton/company 5.6.3 5.8.2 6.0.1: Company Module
+app-tryton/company 5.6.3 5.8.2 6.0.2: Company Module
 app-tryton/company_work_time 5.6.1 5.8.1 6.0.0: Company Work Time Module
-app-tryton/country 5.6.1 5.8.1 6.0.0: Country Module
+app-tryton/country 5.6.1 5.8.1 6.0.1: Country Module
 app-tryton/currency 5.6.2 5.8.2 6.0.1: Currency Module
 app-tryton/customs 5.6.1 5.8.1 6.0.0: Customs Module
 app-tryton/dashboard 5.6.1 5.8.1 6.0.0: Dashboard Module
@@ -71,7 +71,7 @@ app-tryton/marketing 5.6.1 5.8.1 6.0.0: Marketing features
 app-tryton/marketing_automation 5.6.7 5.8.5 6.0.1: Plan, coordinate and manage marketing campaigns
 app-tryton/marketing_email 5.8.1 6.0.0: Manage marketing mailing lists
 app-tryton/notification_email 5.6.2 5.8.1 6.0.0: Notification Email Module
-app-tryton/party 5.6.3 5.8.2 6.0.1: Party Module
+app-tryton/party 5.6.3 5.8.2 6.0.2: Party Module
 app-tryton/party_avatar 6.0.1: Party Avatar Module
 app-tryton/party_relationship 5.6.1 5.8.1 6.0.0: Party Relationship Module
 app-tryton/party_siret 5.6.1 5.8.1 6.0.0: Party - Siret Module
@@ -82,7 +82,7 @@ app-tryton/product_classification_taxonomic 5.6.1 5.8.1 6.0.0: Product Classific
 app-tryton/product_cost_fifo 5.6.5 5.8.1 6.0.0: Product Cost FIFO Module
 app-tryton/product_cost_history 5.6.2 5.8.1 6.0.0: Product Cost History Module
 app-tryton/product_cost_warehouse 6.0.0: Product Cost Warehouse Module
-app-tryton/product_kit 6.0.1: Product Kit Module
+app-tryton/product_kit 6.0.2: Product Kit Module
 app-tryton/product_measurements 5.6.1 5.8.1 6.0.0: Product Measurements Module
 app-tryton/product_price_list 5.6.1 5.8.1 6.0.0: Product Price List Module
 app-tryton/product_price_list_dates 5.6.1 5.8.1 6.0.0: Add dates on price list
@@ -154,10 +154,10 @@ app-tryton/stock_secondary_unit 5.6.2 5.8.2 6.0.0: Module to add a secondary uni
 app-tryton/stock_shipment_cost 6.0.1: Stock Shipment Cost Module
 app-tryton/stock_shipment_measurements 5.6.1 5.8.1 6.0.0: Tryton module to add measurements to shipment
 app-tryton/stock_split 5.6.2 5.8.2 6.0.0: Stock Split Module
-app-tryton/stock_supply 5.6.2 5.8.1 6.0.0: Stock Supply Module
+app-tryton/stock_supply 5.6.2 5.8.2 6.0.1: Stock Supply Module
 app-tryton/stock_supply_day 5.6.1 5.8.1 6.0.0: Stock Supply Day Module
 app-tryton/stock_supply_forecast 5.6.1 5.8.1 6.0.0: Stock Supply Forecast Module
-app-tryton/stock_supply_production 5.6.1 5.8.1 6.0.0: Stock Supply Production Module
+app-tryton/stock_supply_production 5.6.1 5.8.2 6.0.1: Stock Supply Production Module
 app-tryton/timesheet 5.6.2 5.8.2 6.0.0: Timesheet Module
 app-tryton/timesheet_cost 5.6.1 5.8.1 6.0.0: Timesheet Cost Module
 app-tryton/user_role 5.6.1 5.8.1 6.0.0: User Role Module
