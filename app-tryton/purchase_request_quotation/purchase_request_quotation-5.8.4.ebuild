@@ -31,7 +31,7 @@ DEPEND="${RDEPEND}
 
 S=${WORKDIR}/trytond_${P}
 
-DOCS="CHANGELOG COPYRIGHT README doc/*.rst"
+DOCS="CHANGELOG COPYRIGHT doc/*.rst"
 
 python_test() {
 	DB_NAME=":memory:" esetup.py test || die
