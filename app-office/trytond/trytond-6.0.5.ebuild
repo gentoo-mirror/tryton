@@ -34,13 +34,18 @@ RDEPEND="acct-group/trytond
 	html2text? ( dev-python/html2text[$PYTHON_USEDEP] )
 	weasyprint? ( dev-python/weasyprint[$PYTHON_USEDEP] )
 	coroutine? ( >=dev-python/gevent-1.1[$PYTHON_USEDEP] )
-	image? ( dev-python/pillow[$PYTHON_USEDEP] )"
+	image? ( dev-python/pillow[truetype,$PYTHON_USEDEP] )"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[$PYTHON_USEDEP]
 	doc? ( >=dev-python/sphinx-0.3 )
 	test? (
 		dev-lang/python:*[sqlite]
+		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
+
+PATCHES=(
+	"${FILESDIR}"/${P}-pillow-truetype.patch
+)
 
 src_compile() {
 	distutils-r1_src_compile
