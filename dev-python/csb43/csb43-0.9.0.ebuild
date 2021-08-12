@@ -24,6 +24,11 @@ DEPEND="${RDEPEND}
 	dev-python/setuptools[$PYTHON_USEDEP]"
 BDEPEND=""
 
+src_prepare() {
+	sed -i -e "s/upload-dir/upload_dir/" setup.cfg || die
+	distutils-r1_src_prepare
+}
+
 python_test() {
 	esetup.py test || die
 }
