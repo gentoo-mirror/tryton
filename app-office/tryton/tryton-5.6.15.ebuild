@@ -4,7 +4,7 @@
 EAPI=7
 PYTHON_COMPAT=( python3_{5..8} )
 
-inherit distutils-r1
+inherit distutils-r1 desktop
 
 DESCRIPTION="Tryton desktop client"
 HOMEPAGE="http://www.tryton.org/"

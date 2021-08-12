@@ -4,13 +4,13 @@ DEPEND=dev-python/setuptools[python_targets_python3_8(-)?,python_targets_python3
 DESCRIPTION=Tryton desktop client
 EAPI=7
 HOMEPAGE=http://www.tryton.org/
-INHERIT=distutils-r1
-IUSE=doc calendar document python_targets_python3_8 python_targets_python3_9
+INHERIT=distutils-r1 desktop
+IUSE=doc calendar document test python_targets_python3_8 python_targets_python3_9
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=dev-python/pygobject:3[python_targets_python3_8(-)?,python_targets_python3_9(-)?] dev-python/pycairo[python_targets_python3_8(-)?,python_targets_python3_9(-)?] gnome-base/librsvg dev-python/python-dateutil[python_targets_python3_8(-)?,python_targets_python3_9(-)?] calendar? ( >=dev-python/goocalendar-0.7[python_targets_python3_8(-)?,python_targets_python3_9(-)?] ) document? ( app-text/evince[introspection] ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?]
 REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 )
 SLOT=0
 SRC_URI=mirror://pypi/t/tryton/tryton-6.0.4.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	f5408c7f165c2c81b787182c52bc41dd	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	943c17c3afd0f811ad36a0b5c8dedba9
-_md5_=2e97c552744f77829d67e1e10e4282c1
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	f5408c7f165c2c81b787182c52bc41dd	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	943c17c3afd0f811ad36a0b5c8dedba9	desktop	c0d27bf73aa08ca05b663dbd31fbef28
+_md5_=6a192d081fd34dbe4baf362b9122f34d
