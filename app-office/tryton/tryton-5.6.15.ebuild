@@ -4,7 +4,7 @@
 EAPI=7
 PYTHON_COMPAT=( python3_{5..8} )
 
-inherit distutils-r1 desktop
+inherit distutils-r1 desktop xdg-utils
 
 DESCRIPTION="Tryton desktop client"
 HOMEPAGE="http://www.tryton.org/"
@@ -13,15 +13,20 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc calendar"
+IUSE="doc calendar spell"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-0.3 )"
 RDEPEND="dev-python/pygobject:3[${PYTHON_USEDEP}]
+	dev-libs/gobject-introspection
+	x11-libs/gtk+:3[introspection]
+	x11-libs/pango[introspection]
+	x11-libs/gdk-pixbuf[introspection]
 	dev-python/pycairo[${PYTHON_USEDEP}]
 	gnome-base/librsvg
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	calendar? ( >=dev-python/goocalendar-0.7[${PYTHON_USEDEP}] )"
+	calendar? ( >=dev-python/goocalendar-0.7[${PYTHON_USEDEP}] )
+	spell? ( app-text/gtkspell:3[introspection] )"
 
 src_compile() {
 	distutils-r1_src_compile
@@ -45,4 +50,9 @@ src_install() {
 		dodoc -r doc/_build/html/*
 	fi
 
+}
+
+pkg_postinst() {
+	xdg_desktop_database_update
+	xdg_icon_cache_update
 }

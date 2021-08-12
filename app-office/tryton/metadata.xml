@@ -10,6 +10,7 @@
 	<use>
 		<flag name="calendar">Enable support for the calendar view</flag>
 		<flag name="document">Enable support for the document view</flag>
+		<flag name="spell">Enable support for spell checking</flag>
 	</use>
 </pkgmetadata>
 
