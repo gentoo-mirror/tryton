@@ -33,6 +33,12 @@ S=${WORKDIR}/trytond_${P}
 
 DOCS="CHANGELOG COPYRIGHT doc/*.rst"
 
+src_prepare() {
+	sed -i -e "s/>>> import_postal_codes/>>> # import_postal_codes/" \
+		tests/scenario_country_import.rst || die
+	distutils-r1_src_prepare
+}
+
 python_test() {
 	DB_NAME=":memory:" esetup.py test || die
 }
