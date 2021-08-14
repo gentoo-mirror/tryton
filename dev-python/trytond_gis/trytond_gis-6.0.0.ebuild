@@ -14,6 +14,7 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
+RESTRICT="test"  # Test requires a running postgresql server with postgis
 
 RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	>=dev-python/psycopg-2.0.14[${PYTHON_USEDEP}]
