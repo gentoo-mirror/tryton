@@ -35,6 +35,10 @@ DEPEND="${RDEPEND}
 		dev-python/forex-python[${PYTHON_USEDEP}]
 	)"
 
+PATCHES=(
+	"${FILESDIR}"/${PN}-remove-rate-update-test.patch
+)
+
 S=${WORKDIR}/trytond_${P}
 
 DOCS="CHANGELOG COPYRIGHT doc/*.rst"
