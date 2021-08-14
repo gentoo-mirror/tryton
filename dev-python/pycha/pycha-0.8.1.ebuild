@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
-DEPEND="dev-python/pycairo[$PYTHON_USEDEP]"
+DEPEND="dev-python/cairocffi[$PYTHON_USEDEP]"
 RDEPEND="${DEPEND}"
 
 PATCHES=(

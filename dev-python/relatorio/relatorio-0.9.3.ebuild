@@ -17,7 +17,11 @@ IUSE="test fodt chart"
 
 COMMON_DEPEND=">=dev-python/genshi-0.5[$PYTHON_USEDEP]"
 DEPEND="${COMMON_DEPEND}
-	dev-python/setuptools[$PYTHON_USEDEP]"
+	dev-python/setuptools[$PYTHON_USEDEP]
+	test? (
+		>=dev-python/pycha-0.4.0[${PYTHON_USEDEP}]
+		dev-python/pyyaml[$PYTHON_USEDEP]
+	)"
 RDEPEND="${COMMON_DEPEND}
 	dev-python/lxml[$PYTHON_USEDEP]
 	fodt? ( dev-python/python-magic[$PYTHON_USEDEP] )

@@ -21,7 +21,15 @@ RDEPEND="
 	yaml? ( dev-python/pyyaml[$PYTHON_USEDEP] )
 	formats? ( >=dev-python/tablib-0.11.3[$PYTHON_USEDEP] )"
 DEPEND="${RDEPEND}
-	dev-python/setuptools[$PYTHON_USEDEP]"
+	dev-python/setuptools[$PYTHON_USEDEP]
+	test? (
+		dev-python/lxml[$PYTHON_USEDEP]
+		>=dev-python/tablib-0.11.3[$PYTHON_USEDEP]
+		dev-python/openpyxl[$PYTHON_USEDEP]
+		dev-python/odfpy[${PYTHON_USEDEP}]
+		dev-python/xlrd[${PYTHON_USEDEP}]
+		dev-python/xlwt[${PYTHON_USEDEP}]
+		)"
 BDEPEND=""
 
 src_prepare() {

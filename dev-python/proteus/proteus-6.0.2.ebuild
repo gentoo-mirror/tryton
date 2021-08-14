@@ -19,7 +19,10 @@ RDEPEND="trytond? ( =app-office/trytond-$(ver_cut 1-2)*[$PYTHON_USEDEP] )
 	dev-python/python-dateutil[$PYTHON_USEDEP]"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[$PYTHON_USEDEP]
-	test? ( =app-office/trytond-$(ver_cut 1-2)*[sqlite,$PYTHON_USEDEP] )"
+	test? (
+		=app-office/trytond-$(ver_cut 1-2)*[sqlite,$PYTHON_USEDEP]
+		=app-tryton/party-$(ver_cut 1-2)*[$PYTHON_USEDEP]
+		)"
 
 DOCS="CHANGELOG COPYRIGHT README.rst"
 
