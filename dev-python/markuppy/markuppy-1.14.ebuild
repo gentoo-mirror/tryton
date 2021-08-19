@@ -22,3 +22,8 @@ IUSE=""
 RDEPEND=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND=""
+
+src_prepare() {
+	sed -i -e "s/description-file/description_file/" setup.cfg || die
+	distutils-r1_src_prepare
+}
