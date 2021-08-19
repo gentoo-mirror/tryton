@@ -31,14 +31,14 @@ app-tryton/account_payment_clearing 5.6.2 5.8.1 6.0.0: Tryton module for payment
 app-tryton/account_payment_sepa 5.6.2 5.8.1 6.0.0: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.6.1 5.8.1 6.0.0: Tryton module for CFONB SEPA payment
 app-tryton/account_payment_stripe 5.6.5 5.8.2 6.0.0: Tryton module for Stripe payment
-app-tryton/account_product 5.6.1 5.8.1 6.0.1: Account Product Module
+app-tryton/account_product 5.6.1 5.8.1 6.0.2: Account Product Module
 app-tryton/account_statement 5.6.2 5.8.1 6.0.0: Account Statement
 app-tryton/account_statement_aeb43 5.6.1 5.8.1 6.0.0: Tryton module to import AEB43 statements
 app-tryton/account_statement_coda 5.6.1 5.8.1 6.0.0: Account Statement
 app-tryton/account_statement_ofx 5.6.2 5.8.2 6.0.0: Tryton module to import OFX statements
 app-tryton/account_statement_rule 5.6.2 5.8.3 6.0.1: Account Statement Rule
 app-tryton/account_stock_anglo_saxon 5.6.1 5.8.1 6.0.0: Account Stock Anglo-Saxon
-app-tryton/account_stock_continental 5.6.1 5.8.1 6.0.0: Account Stock Continental
+app-tryton/account_stock_continental 5.6.1 5.8.1 6.0.1: Account Stock Continental
 app-tryton/account_stock_landed_cost 5.6.1 5.8.2 6.0.1: Landed Cost Module
 app-tryton/account_stock_landed_cost_weight 5.6.1 5.8.1 6.0.0: Landed Cost per Weight Module
 app-tryton/account_tax_cash 5.6.1 5.8.1 6.0.0: Tryton module to support tax report on cash basis
@@ -79,9 +79,9 @@ app-tryton/product 5.6.3 5.8.3 6.0.0: Product Module
 app-tryton/product_attribute 5.6.1 5.8.1 6.0.0: Product Attribute Module
 app-tryton/product_classification 5.6.1 5.8.1 6.0.0: Product Classification Module
 app-tryton/product_classification_taxonomic 5.6.1 5.8.1 6.0.0: Product Classification Taxonomic Module
-app-tryton/product_cost_fifo 5.6.5 5.8.1 6.0.0: Product Cost FIFO Module
+app-tryton/product_cost_fifo 5.6.5 5.8.1 6.0.1: Product Cost FIFO Module
 app-tryton/product_cost_history 5.6.2 5.8.1 6.0.0: Product Cost History Module
-app-tryton/product_cost_warehouse 6.0.0: Product Cost Warehouse Module
+app-tryton/product_cost_warehouse 6.0.1: Product Cost Warehouse Module
 app-tryton/product_kit 6.0.2: Product Kit Module
 app-tryton/product_measurements 5.6.1 5.8.1 6.0.0: Product Measurements Module
 app-tryton/product_price_list 5.6.1 5.8.1 6.0.0: Product Price List Module
@@ -114,7 +114,7 @@ app-tryton/sale_complaint 5.6.3 5.8.2 6.0.0: Sale Complaint Module
 app-tryton/sale_credit_limit 5.6.1 5.8.1 6.0.0: Tryton module for sale credit limit
 app-tryton/sale_discount 5.8.2 6.0.0: Manages discount on sale
 app-tryton/sale_extra 5.6.1 5.8.1 6.0.0: Tryton module for sale extra
-app-tryton/sale_gift_card 6.0.2: Sale Gift Card Module
+app-tryton/sale_gift_card 6.0.3: Sale Gift Card Module
 app-tryton/sale_history 5.6.1 5.8.1 6.0.0: Module to historize sales
 app-tryton/sale_invoice_grouping 5.6.1 5.8.1 6.0.0: Sale Invoice Grouping Module
 app-tryton/sale_opportunity 5.6.2 5.8.3 6.0.1: Leads and opportunities
@@ -133,7 +133,7 @@ app-tryton/sale_subscription_asset 5.6.1 5.8.1 6.0.0: Handles asset in the sale 
 app-tryton/sale_supply 5.6.1 5.8.1 6.0.0: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 5.6.4 5.8.1 6.0.0: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 5.6.1 5.8.1 6.0.0: Tryton module to supply sales from production
-app-tryton/stock 5.6.7 5.8.6 6.0.4: Stock Module
+app-tryton/stock 5.6.7 5.8.6 6.0.5: Stock Module
 app-tryton/stock_assign_manual 5.8.1 6.0.0: Assign manually stock move
 app-tryton/stock_consignment 5.6.1 5.8.1 6.0.0: Stock Consignment Module
 app-tryton/stock_forecast 5.6.1 5.8.1 6.0.0: Stock Forecast Module
