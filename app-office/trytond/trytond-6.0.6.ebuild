@@ -43,10 +43,6 @@ DEPEND="${RDEPEND}
 		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
 
-PATCHES=(
-	"${FILESDIR}"/${P}-pillow-truetype.patch
-)
-
 src_compile() {
 	distutils-r1_src_compile
 
