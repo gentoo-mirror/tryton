@@ -182,7 +182,7 @@ dev-javascript/popperjs 1.16.1: Tooltip & Popover Positioning Engine
 dev-javascript/sortable 1.10.2: a JavaScript library for reorderable drag-and-drop lists
 dev-javascript/tempusdominus-bootstrap3 5.0.0_alpha10-r1: Tempus Dominus Bootstrap 3
 dev-python/csb43 0.9.0: Tools to convert files in format used by multiple Spanish banks
-dev-python/febelfin-coda 0.1.0: A module to parse CODA files
+dev-python/febelfin-coda 0.2.0: A module to parse CODA files
 dev-python/flask_tryton 0.10.0: Adds Tryton support to Flask application
 dev-python/forex-python 1.5: Foreign exchange rates and currency conversion.
 dev-python/geomet 0.2.1: Convert GeoJSON to WKT/WKB
