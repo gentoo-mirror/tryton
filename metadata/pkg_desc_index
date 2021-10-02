@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.6.20 5.8.13 6.0.6: Tryton web client
-app-office/tryton 5.6.15 5.8.14 6.0.6: Tryton desktop client
-app-office/trytond 5.6.17 5.8.13 6.0.7: A three-tiers high-level general purpose business application framework
+app-office/sao 5.6.20 5.8.14 6.0.7: Tryton web client
+app-office/tryton 5.6.15 5.8.15 6.0.7: Tryton desktop client
+app-office/trytond 5.6.17 5.8.14 6.0.8: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.6.5 5.8.5 6.0.3: Financial and Accounting Module
 app-tryton/account_asset 5.6.4 5.8.4 6.0.1: Account Asset Module
 app-tryton/account_be 5.6.1 5.8.1 6.0.0: Account Belgium Module
@@ -17,7 +17,7 @@ app-tryton/account_dunning_letter 5.6.1 5.8.2 6.0.1: Account Dunning Letter Modu
 app-tryton/account_es 5.6.4 5.8.4 6.0.2: Account Spain Module
 app-tryton/account_eu 5.6.1 5.8.1 6.0.0: Account European Module
 app-tryton/account_fr 5.6.1 5.8.1 6.0.0: Account French Module
-app-tryton/account_fr_chorus 5.6.1 5.8.1 6.0.0: Tryton module to communicate with Chorus
+app-tryton/account_fr_chorus 5.6.1 5.8.2 6.0.1: Tryton module to communicate with Chorus
 app-tryton/account_invoice 5.6.6 5.8.6 6.0.3: Invoice Module
 app-tryton/account_invoice_correction 5.6.1 5.8.1 6.0.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.0: Account Invoice Defer Module
@@ -47,16 +47,16 @@ app-tryton/analytic_account 5.6.1 5.8.3 6.0.2: Analytic Account
 app-tryton/analytic_invoice 5.6.1 5.8.1 6.0.0: Analytic Invoice
 app-tryton/analytic_purchase 5.6.1 5.8.1 6.0.0: Analytic Purchase
 app-tryton/analytic_sale 5.6.1 5.8.1 6.0.0: Analytic Sale
-app-tryton/attendance 5.8.2 6.0.0: Record employee attendance
+app-tryton/attendance 5.8.3 6.0.1: Record employee attendance
 app-tryton/authentication_sms 5.6.1 5.8.1 6.0.0: Authentication SMS Module
 app-tryton/bank 5.6.2 5.8.2 6.0.0: Bank Module
 app-tryton/carrier 5.6.1 5.8.2 6.0.2: Carrier Module
 app-tryton/carrier_percentage 5.6.1 5.8.1 6.0.0: Carrier Percentage Module
 app-tryton/carrier_subdivision 6.0.0: Carrier Subdivision Module
 app-tryton/carrier_weight 5.6.1 5.8.1 6.0.0: Carrier weight
-app-tryton/commission 5.6.3 5.8.3 6.0.0: Tryton module for commission
+app-tryton/commission 5.6.3 5.8.3 6.0.1: Tryton module for commission
 app-tryton/commission_waiting 5.6.1 5.8.1 6.0.0: Tryton module for commission waiting
-app-tryton/company 5.6.3 5.8.2 6.0.4: Company Module
+app-tryton/company 5.6.3 5.8.3 6.0.5: Company Module
 app-tryton/company_work_time 5.6.1 5.8.1 6.0.0: Company Work Time Module
 app-tryton/country 5.6.1 5.8.1 6.0.1: Country Module
 app-tryton/currency 5.6.2 5.8.2 6.0.1: Currency Module
@@ -75,13 +75,13 @@ app-tryton/party 5.6.3 5.8.2 6.0.2: Party Module
 app-tryton/party_avatar 6.0.1: Party Avatar Module
 app-tryton/party_relationship 5.6.1 5.8.1 6.0.0: Party Relationship Module
 app-tryton/party_siret 5.6.1 5.8.1 6.0.0: Party - Siret Module
-app-tryton/product 5.6.3 5.8.4 6.0.2: Product Module
+app-tryton/product 5.6.3 5.8.5 6.0.3: Product Module
 app-tryton/product_attribute 5.6.1 5.8.1 6.0.0: Product Attribute Module
 app-tryton/product_classification 5.6.1 5.8.1 6.0.0: Product Classification Module
 app-tryton/product_classification_taxonomic 5.6.1 5.8.1 6.0.0: Product Classification Taxonomic Module
 app-tryton/product_cost_fifo 5.6.5 5.8.1 6.0.1: Product Cost FIFO Module
 app-tryton/product_cost_history 5.6.2 5.8.1 6.0.0: Product Cost History Module
-app-tryton/product_cost_warehouse 6.0.1: Product Cost Warehouse Module
+app-tryton/product_cost_warehouse 6.0.2: Product Cost Warehouse Module
 app-tryton/product_kit 6.0.4: Product Kit Module
 app-tryton/product_measurements 5.6.1 5.8.1 6.0.0: Product Measurements Module
 app-tryton/product_price_list 5.6.1 5.8.1 6.0.0: Product Price List Module
@@ -121,7 +121,7 @@ app-tryton/sale_opportunity 5.6.2 5.8.3 6.0.1: Leads and opportunities
 app-tryton/sale_payment 5.6.2 5.8.2 6.0.0: Sale Payment Module
 app-tryton/sale_price_list 5.6.1 5.8.2 6.0.1: Sale Pricelist Module
 app-tryton/sale_product_customer 5.6.2 5.8.1 6.0.0: Sale Product Customer Module
-app-tryton/sale_promotion 5.6.1 5.8.1 6.0.0: Sale Promotion Module
+app-tryton/sale_promotion 5.6.1 5.8.2 6.0.1: Sale Promotion Module
 app-tryton/sale_promotion_coupon 5.6.1 5.8.1 6.0.0: Sale Promotion Module
 app-tryton/sale_secondary_unit 5.6.2 5.8.1 6.0.0: Module to add a secondary unit on sale line
 app-tryton/sale_shipment_cost 5.6.2 5.8.3 6.0.1: Sale Shipment Cost Module
@@ -189,7 +189,7 @@ dev-python/geomet 0.2.1: Convert GeoJSON to WKT/WKB
 dev-python/goocalendar 0.7.2: A calendar widget for GTK using Goocanvas
 dev-python/markuppy 1.14: An HTML/XML generator
 dev-python/ofxparse 0.20: Tools for working with the OFX (Open Financial Exchange) file format
-dev-python/proteus 5.6.2 5.8.2 6.0.2: A library to access Tryton's models like a client
+dev-python/proteus 5.6.2 5.8.3 6.0.3: A library to access Tryton's models like a client
 dev-python/pycha 0.8.1: A library for making charts with Python
 dev-python/python-sql 1.2.2: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0: Raven is a client for Sentry
