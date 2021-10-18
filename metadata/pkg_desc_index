@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.6.20 5.8.14 6.0.7: Tryton web client
-app-office/tryton 5.6.15 5.8.15 6.0.7: Tryton desktop client
-app-office/trytond 5.6.17 5.8.14 6.0.8: A three-tiers high-level general purpose business application framework
+app-office/sao 5.6.20 5.8.15 6.0.8: Tryton web client
+app-office/tryton 5.6.15 5.8.16 6.0.8: Tryton desktop client
+app-office/trytond 5.6.17 5.8.15 6.0.9: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.6.5 5.8.5 6.0.3: Financial and Accounting Module
 app-tryton/account_asset 5.6.4 5.8.4 6.0.1: Account Asset Module
 app-tryton/account_be 5.6.1 5.8.1 6.0.0: Account Belgium Module
@@ -17,7 +17,7 @@ app-tryton/account_dunning_letter 5.6.1 5.8.2 6.0.1: Account Dunning Letter Modu
 app-tryton/account_es 5.6.4 5.8.4 6.0.2: Account Spain Module
 app-tryton/account_eu 5.6.1 5.8.1 6.0.0: Account European Module
 app-tryton/account_fr 5.6.1 5.8.1 6.0.0: Account French Module
-app-tryton/account_fr_chorus 5.6.1 5.8.2 6.0.1: Tryton module to communicate with Chorus
+app-tryton/account_fr_chorus 5.6.1 5.8.3 6.0.2: Tryton module to communicate with Chorus
 app-tryton/account_invoice 5.6.6 5.8.6 6.0.3: Invoice Module
 app-tryton/account_invoice_correction 5.6.1 5.8.1 6.0.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.0: Account Invoice Defer Module
@@ -28,7 +28,7 @@ app-tryton/account_invoice_stock 5.6.1 5.8.1 6.0.0: Tryton module to link stock 
 app-tryton/account_payment 5.6.3 5.8.3 6.0.1: Tryton module for payment
 app-tryton/account_payment_braintree 5.8.2 6.0.0: Tryton module for Braintree payment
 app-tryton/account_payment_clearing 5.6.2 5.8.1 6.0.0: Tryton module for payment clearing
-app-tryton/account_payment_sepa 5.6.2 5.8.1 6.0.1: Tryton module for SEPA payment
+app-tryton/account_payment_sepa 5.6.2 5.8.2 6.0.2: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.6.1 5.8.1 6.0.0: Tryton module for CFONB SEPA payment
 app-tryton/account_payment_stripe 5.6.5 5.8.2 6.0.0: Tryton module for Stripe payment
 app-tryton/account_product 5.6.1 5.8.1 6.0.2: Account Product Module
@@ -82,7 +82,7 @@ app-tryton/product_classification_taxonomic 5.6.1 5.8.1 6.0.0: Product Classific
 app-tryton/product_cost_fifo 5.6.5 5.8.1 6.0.1: Product Cost FIFO Module
 app-tryton/product_cost_history 5.6.2 5.8.1 6.0.0: Product Cost History Module
 app-tryton/product_cost_warehouse 6.0.2: Product Cost Warehouse Module
-app-tryton/product_kit 6.0.4: Product Kit Module
+app-tryton/product_kit 6.0.5: Product Kit Module
 app-tryton/product_measurements 5.6.1 5.8.1 6.0.0: Product Measurements Module
 app-tryton/product_price_list 5.6.1 5.8.1 6.0.0: Product Price List Module
 app-tryton/product_price_list_dates 5.6.1 5.8.1 6.0.0: Add dates on price list
@@ -108,7 +108,7 @@ app-tryton/purchase_requisition 5.6.2 5.8.3 6.0.0: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 5.6.3 5.8.2 6.0.0: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 5.6.1 5.8.1 6.0.0: Purchase Shipment Cost Module
 app-tryton/sale 5.6.4 5.8.5 6.0.2: Sale Module
-app-tryton/sale_advance_payment 5.6.2 5.8.2 6.0.0: Tryton module for sale advance payment
+app-tryton/sale_advance_payment 5.6.2 5.8.3 6.0.1: Tryton module for sale advance payment
 app-tryton/sale_amendment 5.6.1 5.8.1 6.0.0: Module to amend sales
 app-tryton/sale_complaint 5.6.3 5.8.2 6.0.0: Sale Complaint Module
 app-tryton/sale_credit_limit 5.6.1 5.8.1 6.0.0: Tryton module for sale credit limit
@@ -124,17 +124,17 @@ app-tryton/sale_product_customer 5.6.2 5.8.1 6.0.0: Sale Product Customer Module
 app-tryton/sale_promotion 5.6.1 5.8.2 6.0.1: Sale Promotion Module
 app-tryton/sale_promotion_coupon 5.6.1 5.8.1 6.0.0: Sale Promotion Module
 app-tryton/sale_secondary_unit 5.6.2 5.8.1 6.0.0: Module to add a secondary unit on sale line
-app-tryton/sale_shipment_cost 5.6.2 5.8.3 6.0.1: Sale Shipment Cost Module
+app-tryton/sale_shipment_cost 5.6.2 5.8.3 6.0.2: Sale Shipment Cost Module
 app-tryton/sale_shipment_grouping 5.6.1 5.8.1 6.0.0: Tryton module to group sale stock moves
 app-tryton/sale_shipment_tolerance 5.6.3 5.8.2 6.0.0: Defines tolerance for sale shipment
 app-tryton/sale_stock_quantity 5.6.1 5.8.1 6.0.0: Sale Stock Quantity Module
 app-tryton/sale_subscription 5.6.3 5.8.4 6.0.1: Tryton module for subscription
 app-tryton/sale_subscription_asset 5.6.1 5.8.1 6.0.0: Handles asset in the sale subscriptions
 app-tryton/sale_supply 5.6.1 5.8.1 6.0.0: Sale Supply Module
-app-tryton/sale_supply_drop_shipment 5.6.4 5.8.1 6.0.0: Sale Supply Drop Shipment Module
+app-tryton/sale_supply_drop_shipment 5.6.4 5.8.1 6.0.1: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 5.6.1 5.8.1 6.0.0: Tryton module to supply sales from production
 app-tryton/stock 5.6.7 5.8.7 6.0.7: Stock Module
-app-tryton/stock_assign_manual 5.8.1 6.0.0: Assign manually stock move
+app-tryton/stock_assign_manual 5.8.2 6.0.1: Assign manually stock move
 app-tryton/stock_consignment 5.6.1 5.8.1 6.0.0: Stock Consignment Module
 app-tryton/stock_forecast 5.6.1 5.8.1 6.0.0: Stock Forecast Module
 app-tryton/stock_inventory_location 5.6.2 5.8.1 6.0.0: Stock Inventory Location Module
