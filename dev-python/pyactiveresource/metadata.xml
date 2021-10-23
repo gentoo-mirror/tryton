@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>cedk@gentoo.org</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+		A python port of the ActiveResource project, which provides an object-relational mapping for REST web services.
+	</longdescription>
+</pkgmetadata>

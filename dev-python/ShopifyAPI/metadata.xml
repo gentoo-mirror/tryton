@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>cedk@gentoo.org</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+		The ShopifyAPI library allows python developers to programmatically access the admin section of stores using an ActiveResource like interface similar the ruby Shopify API gem. The library makes HTTP requests to Shopify in order to list, create, update, or delete resources (e.g. Order, Product, Collection).
+	</longdescription>
+</pkgmetadata>

@@ -181,6 +181,7 @@ dev-javascript/papaparse 4.6.3 5.2.0: Powerful, in-browser CSV parser for big bo
 dev-javascript/popperjs 1.16.1: Tooltip & Popover Positioning Engine
 dev-javascript/sortable 1.10.2: a JavaScript library for reorderable drag-and-drop lists
 dev-javascript/tempusdominus-bootstrap3 5.0.0_alpha10-r1: Tempus Dominus Bootstrap 3
+dev-python/ShopifyAPI 9.0.0: Shopify API for Python
 dev-python/csb43 0.9.0: Tools to convert files in format used by multiple Spanish banks
 dev-python/febelfin-coda 0.2.0: A module to parse CODA files
 dev-python/flask_tryton 0.10.0: Adds Tryton support to Flask application
@@ -190,6 +191,7 @@ dev-python/goocalendar 0.7.2: A calendar widget for GTK using Goocanvas
 dev-python/markuppy 1.14: An HTML/XML generator
 dev-python/ofxparse 0.20: Tools for working with the OFX (Open Financial Exchange) file format
 dev-python/proteus 5.6.2 5.8.3 6.0.3: A library to access Tryton's models like a client
+dev-python/pyactiveresource 2.2.2: ActiveResource for Python
 dev-python/pycha 0.8.1: A library for making charts with Python
 dev-python/python-sql 1.2.2: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0: Raven is a client for Sentry
