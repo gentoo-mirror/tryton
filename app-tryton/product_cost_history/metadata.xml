@@ -7,5 +7,7 @@
 	</maintainer>
 	<longdescription lang="en">
 	</longdescription>
+	<use>
+		<flag name="timezone">Enable support for timezone</flag>
+	</use>
 </pkgmetadata>
-
