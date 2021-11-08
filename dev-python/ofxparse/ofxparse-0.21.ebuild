@@ -1,9 +1,9 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-PYTHON_COMPAT=( python3_{5..8} )
+PYTHON_COMPAT=( python3_{5..10} )
 inherit distutils-r1
 
 DESCRIPTION="Tools for working with the OFX (Open Financial Exchange) file format"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools[$PYTHON_USEDEP]"
-RDEPEND="dev-python/beautifulsoup[$PYTHON_USEDEP]
+RDEPEND="dev-python/beautifulsoup4[$PYTHON_USEDEP]
 	dev-python/lxml[$PYTHON_USEDEP]
 	dev-python/six[$PYTHON_USEDEP]"
 
