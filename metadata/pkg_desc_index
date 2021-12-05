@@ -1,9 +1,9 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.6.20 5.8.16 6.0.9 6.2.0: Tryton web client
-app-office/tryton 5.6.15 5.8.17 6.0.9 6.2.0: Tryton desktop client
-app-office/trytond 5.6.17 5.8.16 6.0.11 6.2.1: A three-tiers high-level general purpose business application framework
-app-tryton/account 5.6.5 5.8.6 6.0.4 6.2.0: Financial and Accounting Module
+app-office/sao 5.6.20 5.8.16 6.0.10 6.2.1: Tryton web client
+app-office/tryton 5.6.15 5.8.17 6.0.10 6.2.1: Tryton desktop client
+app-office/trytond 5.6.17 5.8.16 6.0.12 6.2.2: A three-tiers high-level general purpose business application framework
+app-tryton/account 5.6.5 5.8.6 6.0.5 6.2.1: Financial and Accounting Module
 app-tryton/account_asset 5.6.4 5.8.4 6.0.1 6.2.0: Account Asset Module
 app-tryton/account_be 5.6.1 5.8.1 6.0.0 6.2.0: Account Belgium Module
 app-tryton/account_budget 6.2.1: Tryton module that allows budgets to be setup for accounts
@@ -30,7 +30,7 @@ app-tryton/account_move_line_grouping 6.2.0: Tryton module to display account mo
 app-tryton/account_payment 5.6.3 5.8.3 6.0.1 6.2.0: Tryton module for payment
 app-tryton/account_payment_braintree 5.8.2 6.0.0 6.2.0: Tryton module for Braintree payment
 app-tryton/account_payment_clearing 5.6.2 5.8.1 6.0.0 6.2.0: Tryton module for payment clearing
-app-tryton/account_payment_sepa 5.6.2 5.8.2 6.0.3 6.2.0: Tryton module for SEPA payment
+app-tryton/account_payment_sepa 5.6.2 5.8.2 6.0.3 6.2.1: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for CFONB SEPA payment
 app-tryton/account_payment_stripe 5.6.5 5.8.3 6.0.1 6.2.0: Tryton module for Stripe payment
 app-tryton/account_product 5.6.1 5.8.1 6.0.3 6.2.0: Account Product Module
@@ -42,7 +42,7 @@ app-tryton/account_statement_ofx 5.6.2 5.8.2 6.0.0 6.2.0: Tryton module to impor
 app-tryton/account_statement_rule 5.6.2 5.8.3 6.0.1 6.2.0: Account Statement Rule
 app-tryton/account_stock_anglo_saxon 5.6.1 5.8.1 6.0.0 6.2.0: Account Stock Anglo-Saxon
 app-tryton/account_stock_continental 5.6.1 5.8.1 6.0.1 6.2.0: Account Stock Continental
-app-tryton/account_stock_landed_cost 5.6.1 5.8.2 6.0.1 6.2.0: Landed Cost Module
+app-tryton/account_stock_landed_cost 5.6.1 5.8.2 6.0.2 6.2.1: Landed Cost Module
 app-tryton/account_stock_landed_cost_weight 5.6.1 5.8.1 6.0.0 6.2.0: Landed Cost per Weight Module
 app-tryton/account_stock_shipment_cost 6.2.0: Tryton module to allocate shipment cost based on invoice
 app-tryton/account_tax_cash 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module to support tax report on cash basis
@@ -103,7 +103,7 @@ app-tryton/production_split 5.6.1 5.8.1 6.0.0 6.2.0: Module to split production
 app-tryton/production_work 5.6.2 5.8.1 6.0.0 6.2.0: Production Work Module
 app-tryton/production_work_timesheet 5.6.1 5.8.1 6.0.0 6.2.0: Production Work Timesheet Module
 app-tryton/project 5.6.2 5.8.2 6.0.0 6.2.0: Project Module
-app-tryton/project_invoice 5.6.1 5.8.1 6.0.0 6.2.0: Project Invoice Module
+app-tryton/project_invoice 5.6.1 5.8.1 6.0.1 6.2.1: Project Invoice Module
 app-tryton/project_plan 5.6.1 5.8.1 6.0.0 6.2.0: Project Plan Module
 app-tryton/project_revenue 5.6.1 5.8.1 6.0.0 6.2.0: Project Revenue
 app-tryton/purchase 5.6.4 5.8.7 6.0.4 6.2.0: Purchase Module
