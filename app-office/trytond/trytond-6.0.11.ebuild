@@ -30,7 +30,7 @@ RDEPEND="acct-group/trytond
 	>=dev-python/passlib-1.7.0[$PYTHON_USEDEP]
 	graphviz? ( dev-python/pydot[$PYTHON_USEDEP] )
 	levenshtein? ( dev-python/python-levenshtein[$PYTHON_USEDEP] )
-	bcrypt? ( dev-python/passlib[bcrypt,$PYTHON_USEDEP] )
+	bcrypt? ( dev-python/bcrypt[$PYTHON_USEDEP] )
 	html2text? ( dev-python/html2text[$PYTHON_USEDEP] )
 	weasyprint? ( dev-python/weasyprint[$PYTHON_USEDEP] )
 	coroutine? ( >=dev-python/gevent-1.1[$PYTHON_USEDEP] )

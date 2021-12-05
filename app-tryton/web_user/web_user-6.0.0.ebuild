@@ -17,7 +17,7 @@ IUSE="bcrypt html2text test"
 
 RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/party-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
-	bcrypt? ( dev-python/passlib[bcrypt,$PYTHON_USEDEP] )
+	bcrypt? ( dev-python/bcrypt[$PYTHON_USEDEP] )
 	html2text? ( dev-python/html2text[$PYTHON_USEDEP] )"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
