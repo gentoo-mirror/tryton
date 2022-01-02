@@ -1,12 +1,12 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.6.20 5.8.16 6.0.10 6.2.1: Tryton web client
-app-office/tryton 5.6.15 5.8.17 6.0.10 6.2.1: Tryton desktop client
-app-office/trytond 5.6.17 5.8.16 6.0.12 6.2.2: A three-tiers high-level general purpose business application framework
-app-tryton/account 5.6.5 5.8.6 6.0.5 6.2.1: Financial and Accounting Module
+app-office/sao 5.6.20 5.8.16 6.0.11 6.2.2: Tryton web client
+app-office/tryton 5.6.15 5.8.17 6.0.11 6.2.2: Tryton desktop client
+app-office/trytond 5.6.17 5.8.16 6.0.13 6.2.3: A three-tiers high-level general purpose business application framework
+app-tryton/account 5.6.5 5.8.6 6.0.6 6.2.2: Financial and Accounting Module
 app-tryton/account_asset 5.6.4 5.8.4 6.0.1 6.2.0: Account Asset Module
 app-tryton/account_be 5.6.1 5.8.1 6.0.0 6.2.0: Account Belgium Module
-app-tryton/account_budget 6.2.1: Tryton module that allows budgets to be setup for accounts
+app-tryton/account_budget 6.2.2: Tryton module that allows budgets to be setup for accounts
 app-tryton/account_cash_rounding 5.6.2 5.8.2 6.0.1 6.2.0: Tryton module to round cash amount
 app-tryton/account_credit_limit 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for account credit limit
 app-tryton/account_de_skr03 5.6.1 5.8.1 6.0.0 6.2.0: German Chart of Accounts SKR03
@@ -33,15 +33,15 @@ app-tryton/account_payment_clearing 5.6.2 5.8.1 6.0.0 6.2.0: Tryton module for p
 app-tryton/account_payment_sepa 5.6.2 5.8.2 6.0.3 6.2.1: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for CFONB SEPA payment
 app-tryton/account_payment_stripe 5.6.5 5.8.3 6.0.1 6.2.0: Tryton module for Stripe payment
-app-tryton/account_product 5.6.1 5.8.1 6.0.3 6.2.0: Account Product Module
+app-tryton/account_product 5.6.1 5.8.1 6.0.3 6.2.1: Account Product Module
 app-tryton/account_rule 6.2.0: Tryton module to change account used with rules
 app-tryton/account_statement 5.6.2 5.8.1 6.0.1 6.2.0: Account Statement
 app-tryton/account_statement_aeb43 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module to import AEB43 statements
 app-tryton/account_statement_coda 5.6.1 5.8.1 6.0.0 6.2.0: Account Statement
 app-tryton/account_statement_ofx 5.6.2 5.8.2 6.0.0 6.2.0: Tryton module to import OFX statements
-app-tryton/account_statement_rule 5.6.2 5.8.3 6.0.1 6.2.0: Account Statement Rule
-app-tryton/account_stock_anglo_saxon 5.6.1 5.8.1 6.0.0 6.2.0: Account Stock Anglo-Saxon
-app-tryton/account_stock_continental 5.6.1 5.8.1 6.0.1 6.2.0: Account Stock Continental
+app-tryton/account_statement_rule 5.6.2 5.8.3 6.0.1 6.2.1: Account Statement Rule
+app-tryton/account_stock_anglo_saxon 5.6.1 5.8.1 6.0.1 6.2.1: Account Stock Anglo-Saxon
+app-tryton/account_stock_continental 5.6.1 5.8.1 6.0.2 6.2.1: Account Stock Continental
 app-tryton/account_stock_landed_cost 5.6.1 5.8.2 6.0.2 6.2.1: Landed Cost Module
 app-tryton/account_stock_landed_cost_weight 5.6.1 5.8.1 6.0.0 6.2.0: Landed Cost per Weight Module
 app-tryton/account_stock_shipment_cost 6.2.0: Tryton module to allocate shipment cost based on invoice
@@ -60,7 +60,7 @@ app-tryton/carrier_percentage 5.6.1 5.8.1 6.0.0 6.2.0: Carrier Percentage Module
 app-tryton/carrier_subdivision 6.0.0 6.2.0: Carrier Subdivision Module
 app-tryton/carrier_weight 5.6.1 5.8.1 6.0.0 6.2.0: Carrier weight
 app-tryton/commission 5.6.3 5.8.4 6.0.2 6.2.0: Tryton module for commission
-app-tryton/commission_waiting 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for commission waiting
+app-tryton/commission_waiting 5.6.1 5.8.1 6.0.1 6.2.1: Tryton module for commission waiting
 app-tryton/company 5.6.3 5.8.3 6.0.6 6.2.0: Company Module
 app-tryton/company_work_time 5.6.1 5.8.1 6.0.0 6.2.0: Company Work Time Module
 app-tryton/country 5.6.1 5.8.1 6.0.1 6.2.0: Country Module
@@ -88,7 +88,7 @@ app-tryton/product_classification 5.6.1 5.8.1 6.0.0 6.2.0: Product Classificatio
 app-tryton/product_classification_taxonomic 5.6.1 5.8.1 6.0.0 6.2.0: Product Classification Taxonomic Module
 app-tryton/product_cost_fifo 5.6.5 5.8.1 6.0.1 6.2.0: Product Cost FIFO Module
 app-tryton/product_cost_history 5.6.2 5.8.2 6.0.1 6.2.0: Product Cost History Module
-app-tryton/product_cost_warehouse 6.0.2 6.2.0: Product Cost Warehouse Module
+app-tryton/product_cost_warehouse 6.0.3 6.2.1: Product Cost Warehouse Module
 app-tryton/product_image 6.2.0: Tryton module that adds images to products
 app-tryton/product_image_attribute 6.2.0: Tryton module to select variant images based on attributes
 app-tryton/product_kit 6.0.5 6.2.0: Product Kit Module
@@ -96,14 +96,14 @@ app-tryton/product_measurements 5.6.1 5.8.1 6.0.0 6.2.0: Product Measurements Mo
 app-tryton/product_price_list 5.6.1 5.8.1 6.0.0 6.2.0: Product Price List Module
 app-tryton/product_price_list_dates 5.6.1 5.8.1 6.0.0 6.2.0: Add dates on price list
 app-tryton/product_price_list_parent 5.6.0 5.8.0 6.0.0 6.2.0: Product Price List Parent Module
-app-tryton/production 5.6.2 5.8.3 6.0.1 6.2.0: Production Module
+app-tryton/production 5.6.2 5.8.3 6.0.2 6.2.1: Production Module
 app-tryton/production_outsourcing 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module to outsource production
 app-tryton/production_routing 5.6.1 5.8.1 6.0.0 6.2.0: Production Routing Module
 app-tryton/production_split 5.6.1 5.8.1 6.0.0 6.2.0: Module to split production
 app-tryton/production_work 5.6.2 5.8.1 6.0.0 6.2.0: Production Work Module
 app-tryton/production_work_timesheet 5.6.1 5.8.1 6.0.0 6.2.0: Production Work Timesheet Module
 app-tryton/project 5.6.2 5.8.2 6.0.0 6.2.0: Project Module
-app-tryton/project_invoice 5.6.1 5.8.1 6.0.1 6.2.1: Project Invoice Module
+app-tryton/project_invoice 5.6.1 5.8.1 6.0.2 6.2.2: Project Invoice Module
 app-tryton/project_plan 5.6.1 5.8.1 6.0.0 6.2.0: Project Plan Module
 app-tryton/project_revenue 5.6.1 5.8.1 6.0.0 6.2.0: Project Revenue
 app-tryton/purchase 5.6.4 5.8.7 6.0.4 6.2.0: Purchase Module
@@ -128,7 +128,7 @@ app-tryton/sale_history 5.6.1 5.8.1 6.0.0 6.2.0: Module to historize sales
 app-tryton/sale_invoice_grouping 5.6.1 5.8.1 6.0.0 6.2.0: Sale Invoice Grouping Module
 app-tryton/sale_opportunity 5.6.2 5.8.3 6.0.1 6.2.0: Leads and opportunities
 app-tryton/sale_payment 5.6.2 5.8.2 6.0.0 6.2.0: Sale Payment Module
-app-tryton/sale_point 6.2.0: Tryton module for Point of Sales
+app-tryton/sale_point 6.2.1: Tryton module for Point of Sales
 app-tryton/sale_price_list 5.6.1 5.8.2 6.0.1 6.2.0: Sale Pricelist Module
 app-tryton/sale_product_customer 5.6.2 5.8.1 6.0.0 6.2.0: Sale Product Customer Module
 app-tryton/sale_promotion 5.6.1 5.8.3 6.0.2 6.2.0: Sale Promotion Module
@@ -143,7 +143,7 @@ app-tryton/sale_subscription_asset 5.6.1 5.8.1 6.0.0 6.2.0: Handles asset in the
 app-tryton/sale_supply 5.6.1 5.8.1 6.0.0 6.2.0: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 5.6.4 5.8.2 6.0.2 6.2.0: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module to supply sales from production
-app-tryton/stock 5.6.7 5.8.8 6.0.8 6.2.0: Stock Module
+app-tryton/stock 5.6.7 5.8.8 6.0.9 6.2.1: Stock Module
 app-tryton/stock_assign_manual 5.8.2 6.0.1 6.2.0: Assign manually stock move
 app-tryton/stock_consignment 5.6.1 5.8.1 6.0.0 6.2.0: Stock Consignment Module
 app-tryton/stock_forecast 5.6.1 5.8.1 6.0.0 6.2.0: Stock Forecast Module
@@ -155,13 +155,13 @@ app-tryton/stock_lot_sled 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for shelf life 
 app-tryton/stock_lot_unit 5.6.1 5.8.2 6.0.1 6.2.0: Tryton module to define unit on stock lot
 app-tryton/stock_package 5.6.2 5.8.3 6.0.1 6.2.0: Tryton module for stock packaging
 app-tryton/stock_package_shipping 5.6.3 5.8.2 6.0.0 6.2.0: Package Shipping Module
-app-tryton/stock_package_shipping_dpd 5.6.5 5.8.4 6.0.0 6.2.0: Package Shipping for DPD Module
+app-tryton/stock_package_shipping_dpd 5.6.5 5.8.4 6.0.1 6.2.1: Package Shipping for DPD Module
 app-tryton/stock_package_shipping_mygls 6.2.0: MyGLS connector for the Tryton application platform
 app-tryton/stock_package_shipping_sendcloud 6.2.0: Sendcloud connector for the Tryton application platform
 app-tryton/stock_package_shipping_ups 5.6.3 5.8.4 6.0.2 6.2.0: Package Shipping for UPS Module
 app-tryton/stock_product_location 5.6.1 5.8.1 6.0.0 6.2.0: Stock Product Location Module
-app-tryton/stock_quantity_early_planning 6.0.1 6.2.0: Stock Quantity Early Planning Module
-app-tryton/stock_quantity_issue 6.0.2 6.2.0: Stock Quantity Early Planning Module
+app-tryton/stock_quantity_early_planning 6.0.2 6.2.1: Stock Quantity Early Planning Module
+app-tryton/stock_quantity_issue 6.0.3 6.2.1: Stock Quantity Early Planning Module
 app-tryton/stock_secondary_unit 5.6.2 5.8.2 6.0.0 6.2.0: Module to add a secondary unit on stock move
 app-tryton/stock_shipment_cost 6.0.1 6.2.0: Stock Shipment Cost Module
 app-tryton/stock_shipment_measurements 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module to add measurements to shipment
