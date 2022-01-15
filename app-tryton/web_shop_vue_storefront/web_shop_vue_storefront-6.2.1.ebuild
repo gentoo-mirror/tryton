@@ -1,7 +1,7 @@
-# Copyright 2020-2021 Gentoo Authors
+# Copyright 2020-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 PYTHON_COMPAT=( python3_{6..9} )
 
 inherit distutils-r1
@@ -23,13 +23,14 @@ RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/web_user-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-py[${PYTHON_USEDEP}]
 	>=dev-python/python-stdnum-1.1.0[${PYTHON_USEDEP}]
-	<dev-python/werkzeug-2[${PYTHON_USEDEP}]"
+	dev-python/werkzeug[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
 		$(python_gen_impl_dep sqlite)
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/product_attribute-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
+		=app-tryton/product_image-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/sale_promotion_coupon-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/sale_shipment_cost-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/carrier-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
