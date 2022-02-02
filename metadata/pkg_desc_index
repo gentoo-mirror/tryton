@@ -19,7 +19,7 @@ app-tryton/account_es 5.6.4 5.8.4 6.0.2 6.2.0: Account Spain Module
 app-tryton/account_eu 5.6.1 5.8.1 6.0.0 6.2.0: Account European Module
 app-tryton/account_fr 5.6.1 5.8.1 6.0.0 6.2.0: Account French Module
 app-tryton/account_fr_chorus 5.6.1 5.8.3 6.0.2 6.2.0: Tryton module to communicate with Chorus
-app-tryton/account_invoice 5.6.6 5.8.7 6.0.4 6.2.1: Invoice Module
+app-tryton/account_invoice 5.6.6 5.8.7 6.0.4 6.2.2: Invoice Module
 app-tryton/account_invoice_correction 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.2 6.2.1: Account Invoice Defer Module
 app-tryton/account_invoice_history 5.6.1 5.8.1 6.0.1 6.2.0: Account Invoice History
