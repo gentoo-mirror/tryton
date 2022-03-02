@@ -1,9 +1,9 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.6.20 5.8.16 6.0.14 6.2.5: Tryton web client
+app-office/sao 5.6.20 5.8.16 6.0.15 6.2.6: Tryton web client
 app-office/tryton 5.6.15 5.8.17 6.0.14 6.2.5: Tryton desktop client
-app-office/trytond 5.6.17 5.8.16 6.0.15 6.2.5: A three-tiers high-level general purpose business application framework
-app-tryton/account 5.6.5 5.8.6 6.0.8 6.2.4: Financial and Accounting Module
+app-office/trytond 5.6.17 5.8.16 6.0.16 6.2.6: A three-tiers high-level general purpose business application framework
+app-tryton/account 5.6.5 5.8.6 6.0.9 6.2.5: Financial and Accounting Module
 app-tryton/account_asset 5.6.4 5.8.4 6.0.1 6.2.0: Account Asset Module
 app-tryton/account_be 5.6.1 5.8.1 6.0.0 6.2.0: Account Belgium Module
 app-tryton/account_budget 6.2.2: Tryton module that allows budgets to be setup for accounts
@@ -32,9 +32,9 @@ app-tryton/account_payment_braintree 5.8.2 6.0.0 6.2.0: Tryton module for Braint
 app-tryton/account_payment_clearing 5.6.2 5.8.1 6.0.1 6.2.1: Tryton module for payment clearing
 app-tryton/account_payment_sepa 5.6.2 5.8.2 6.0.3 6.2.1: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for CFONB SEPA payment
-app-tryton/account_payment_stripe 5.6.5 5.8.3 6.0.1 6.2.0: Tryton module for Stripe payment
+app-tryton/account_payment_stripe 5.6.5 5.8.3 6.0.2 6.2.0: Tryton module for Stripe payment
 app-tryton/account_product 5.6.1 5.8.1 6.0.3 6.2.1: Account Product Module
-app-tryton/account_rule 6.2.0: Tryton module to change account used with rules
+app-tryton/account_rule 6.2.1: Tryton module to change account used with rules
 app-tryton/account_statement 5.6.2 5.8.1 6.0.4 6.2.3: Account Statement
 app-tryton/account_statement_aeb43 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module to import AEB43 statements
 app-tryton/account_statement_coda 5.6.1 5.8.1 6.0.0 6.2.0: Account Statement
@@ -75,9 +75,9 @@ app-tryton/google_maps 5.6.1 5.8.1 6.0.0 6.2.0: Google Maps Module
 app-tryton/incoterm 6.0.1 6.2.0: Incoterm Module
 app-tryton/ldap_authentication 5.6.1 5.8.1 6.0.0 6.2.0: LDAP Authentication Module
 app-tryton/marketing 5.6.1 5.8.1 6.0.0 6.2.0: Marketing features
-app-tryton/marketing_automation 5.6.7 5.8.5 6.0.1 6.2.0: Plan, coordinate and manage marketing campaigns
+app-tryton/marketing_automation 5.6.7 5.8.5 6.0.2 6.2.1: Plan, coordinate and manage marketing campaigns
 app-tryton/marketing_email 5.8.1 6.0.0 6.2.0: Manage marketing mailing lists
-app-tryton/notification_email 5.6.2 5.8.3 6.0.2 6.2.0: Notification Email Module
+app-tryton/notification_email 5.6.2 5.8.3 6.0.2 6.2.1: Notification Email Module
 app-tryton/party 5.6.3 5.8.2 6.0.2 6.2.0: Party Module
 app-tryton/party_avatar 6.0.1 6.2.0: Party Avatar Module
 app-tryton/party_relationship 5.6.1 5.8.1 6.0.0 6.2.0: Party Relationship Module
@@ -106,17 +106,17 @@ app-tryton/project 5.6.2 5.8.2 6.0.0 6.2.0: Project Module
 app-tryton/project_invoice 5.6.1 5.8.1 6.0.2 6.2.2: Project Invoice Module
 app-tryton/project_plan 5.6.1 5.8.1 6.0.0 6.2.0: Project Plan Module
 app-tryton/project_revenue 5.6.1 5.8.1 6.0.0 6.2.0: Project Revenue
-app-tryton/purchase 5.6.4 5.8.7 6.0.5 6.2.1: Purchase Module
+app-tryton/purchase 5.6.4 5.8.7 6.0.6 6.2.2: Purchase Module
 app-tryton/purchase_amendment 5.6.1 5.8.1 6.0.0 6.2.0: Module to amend purchases
 app-tryton/purchase_history 5.6.1 5.8.1 6.0.0 6.2.0: Module to historize purchases
 app-tryton/purchase_invoice_line_standalone 5.6.1 5.8.1 6.0.0 6.2.0: Purchase Invoice Line Standalone Module
 app-tryton/purchase_price_list 6.0.1 6.2.1: Purchase Price List Module
-app-tryton/purchase_request 5.6.3 5.8.3 6.0.0 6.2.0: Purchase Request Module
+app-tryton/purchase_request 5.6.3 5.8.3 6.0.1 6.2.1: Purchase Request Module
 app-tryton/purchase_request_quotation 5.6.5 5.8.4 6.0.2 6.2.1: Tryton module for purchase request quotation
 app-tryton/purchase_requisition 5.6.2 5.8.3 6.0.0 6.2.0: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 5.6.3 5.8.2 6.0.0 6.2.0: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 5.6.1 5.8.1 6.0.0 6.2.0: Purchase Shipment Cost Module
-app-tryton/sale 5.6.4 5.8.6 6.0.4 6.2.1: Sale Module
+app-tryton/sale 5.6.4 5.8.6 6.0.5 6.2.2: Sale Module
 app-tryton/sale_advance_payment 5.6.2 5.8.3 6.0.1 6.2.0: Tryton module for sale advance payment
 app-tryton/sale_amendment 5.6.1 5.8.1 6.0.0 6.2.0: Module to amend sales
 app-tryton/sale_complaint 5.6.3 5.8.2 6.0.0 6.2.0: Sale Complaint Module
@@ -142,8 +142,8 @@ app-tryton/sale_subscription 5.6.3 5.8.4 6.0.1 6.2.0: Tryton module for subscrip
 app-tryton/sale_subscription_asset 5.6.1 5.8.1 6.0.0 6.2.0: Handles asset in the sale subscriptions
 app-tryton/sale_supply 5.6.1 5.8.1 6.0.0 6.2.0: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 5.6.4 5.8.2 6.0.3 6.2.1: Sale Supply Drop Shipment Module
-app-tryton/sale_supply_production 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module to supply sales from production
-app-tryton/stock 5.6.7 5.8.8 6.0.11 6.2.3: Stock Module
+app-tryton/sale_supply_production 5.6.1 5.8.1 6.0.1 6.2.1: Tryton module to supply sales from production
+app-tryton/stock 5.6.7 5.8.8 6.0.12 6.2.4: Stock Module
 app-tryton/stock_assign_manual 5.8.2 6.0.1 6.2.0: Assign manually stock move
 app-tryton/stock_consignment 5.6.1 5.8.1 6.0.0 6.2.0: Stock Consignment Module
 app-tryton/stock_forecast 5.6.1 5.8.1 6.0.1 6.2.1: Stock Forecast Module
@@ -155,7 +155,7 @@ app-tryton/stock_lot_sled 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for shelf life 
 app-tryton/stock_lot_unit 5.6.1 5.8.2 6.0.1 6.2.0: Tryton module to define unit on stock lot
 app-tryton/stock_package 5.6.2 5.8.3 6.0.1 6.2.0: Tryton module for stock packaging
 app-tryton/stock_package_shipping 5.6.3 5.8.2 6.0.0 6.2.0: Package Shipping Module
-app-tryton/stock_package_shipping_dpd 5.6.5 5.8.4 6.0.1 6.2.1: Package Shipping for DPD Module
+app-tryton/stock_package_shipping_dpd 5.6.5 5.8.4 6.0.2 6.2.2: Package Shipping for DPD Module
 app-tryton/stock_package_shipping_mygls 6.2.0: MyGLS connector for the Tryton application platform
 app-tryton/stock_package_shipping_sendcloud 6.2.1: Sendcloud connector for the Tryton application platform
 app-tryton/stock_package_shipping_ups 5.6.3 5.8.4 6.0.2 6.2.0: Package Shipping for UPS Module
@@ -174,7 +174,7 @@ app-tryton/timesheet 5.6.2 5.8.2 6.0.0 6.2.0: Timesheet Module
 app-tryton/timesheet_cost 5.6.1 5.8.1 6.0.0 6.2.0: Timesheet Cost Module
 app-tryton/user_role 5.6.1 5.8.1 6.0.0 6.2.0: User Role Module
 app-tryton/web_shop 5.8.3 6.0.2 6.2.0: Provides a common base for webshops
-app-tryton/web_shop_shopify 6.2.1: Module to integrate Tryton with Shopify
+app-tryton/web_shop_shopify 6.2.2: Module to integrate Tryton with Shopify
 app-tryton/web_shop_vue_storefront 5.8.4 6.0.4 6.2.1: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 5.8.2 6.0.1 6.2.0: Support Stripe payment with Vue Storefront
 app-tryton/web_shortener 5.6.3 5.8.3 6.0.0 6.2.0: Web Shortener Module
@@ -203,7 +203,7 @@ dev-python/geomet 0.2.1: Convert GeoJSON to WKT/WKB
 dev-python/goocalendar 0.7.2: A calendar widget for GTK using Goocanvas
 dev-python/markuppy 1.14: An HTML/XML generator
 dev-python/ofxparse 0.21: Tools for working with the OFX (Open Financial Exchange) file format
-dev-python/proteus 5.6.2 5.8.3 6.0.4 6.2.1: A library to access Tryton's models like a client
+dev-python/proteus 5.6.2 5.8.3 6.0.5 6.2.2: A library to access Tryton's models like a client
 dev-python/pyactiveresource 2.2.2: ActiveResource for Python
 dev-python/pycha 0.8.1: A library for making charts with Python
 dev-python/python-sql 1.2.2 1.3.0: A library to write SQL queries in a pythonic way.
