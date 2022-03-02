@@ -32,7 +32,7 @@ app-tryton/account_payment_braintree 5.8.2 6.0.0 6.2.0: Tryton module for Braint
 app-tryton/account_payment_clearing 5.6.2 5.8.1 6.0.1 6.2.1: Tryton module for payment clearing
 app-tryton/account_payment_sepa 5.6.2 5.8.2 6.0.3 6.2.1: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for CFONB SEPA payment
-app-tryton/account_payment_stripe 5.6.5 5.8.3 6.0.2 6.2.0: Tryton module for Stripe payment
+app-tryton/account_payment_stripe 5.6.5 5.8.3 6.0.3 6.2.0: Tryton module for Stripe payment
 app-tryton/account_product 5.6.1 5.8.1 6.0.3 6.2.1: Account Product Module
 app-tryton/account_rule 6.2.1: Tryton module to change account used with rules
 app-tryton/account_statement 5.6.2 5.8.1 6.0.4 6.2.3: Account Statement
