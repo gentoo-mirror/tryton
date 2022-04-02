@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -12,10 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=""
-RDEPEND="${DEPEND}
-	=app-office/trytond-$(ver_cut 1-2)*
-	dev-javascript/jquery:3
+DEPEND="dev-javascript/jquery:3
 	>=dev-javascript/bootstrap-3.3.7:3
 	>=dev-javascript/moment-2.10:2
 	>=dev-javascript/tempusdominus-bootstrap3-5.0.0_alpha8:5
@@ -27,6 +24,8 @@ RDEPEND="${DEPEND}
 	>=dev-javascript/bootstrap-rtl-ondemand-3.3.4:3
 	>=dev-javascript/sortable-1.8.4:1
 	dev-javascript/popperjs:1"
+RDEPEND="${DEPEND}
+	=app-office/trytond-$(ver_cut 1-2)*"
 
 S=${WORKDIR}/package
 

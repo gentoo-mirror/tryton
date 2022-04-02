@@ -12,10 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=""
-RDEPEND="${DEPEND}
-	=app-office/trytond-$(ver_cut 1-2)*
-	dev-javascript/jquery:3
+DEPEND="dev-javascript/jquery:3
 	>=dev-javascript/bootstrap-3.3.7:3
 	>=dev-javascript/moment-2.10:2
 	>=dev-javascript/gettext-0.7:0
@@ -25,6 +22,8 @@ RDEPEND="${DEPEND}
 	>=dev-javascript/mousetrap-1.6:1
 	>=dev-javascript/bootstrap-rtl-ondemand-3.3.4:3
 	>=dev-javascript/sortable-1.8.4:1"
+RDEPEND="${DEPEND}
+	=app-office/trytond-$(ver_cut 1-2)*"
 
 S=${WORKDIR}/package
 
