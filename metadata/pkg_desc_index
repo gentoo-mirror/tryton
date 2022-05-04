@@ -201,6 +201,7 @@ dev-python/flask_tryton 0.10.0: Adds Tryton support to Flask application
 dev-python/forex-python 1.5: Foreign exchange rates and currency conversion.
 dev-python/geomet 0.2.1: Convert GeoJSON to WKT/WKB
 dev-python/goocalendar 0.7.2: A calendar widget for GTK using Goocanvas
+dev-python/iso3166 2.0.2: Self-contained ISO 3166-1 country definitions.
 dev-python/markuppy 1.14: An HTML/XML generator
 dev-python/ofxparse 0.21: Tools for working with the OFX (Open Financial Exchange) file format
 dev-python/proteus 5.6.2 5.8.3 6.0.6 6.2.3: A library to access Tryton's models like a client
@@ -209,6 +210,7 @@ dev-python/pycha 0.8.1: A library for making charts with Python
 dev-python/python-sql 1.2.2 1.3.0: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0: Raven is a client for Sentry
 dev-python/relatorio 0.9.3 0.10.0: A templating library able to output odt and pdf files
+dev-python/schwifty 2022.4.2: Validate/generate IBANs and BICs
 dev-python/sentry_tryton 0.6: Sentry integration for the Tryton
 dev-python/tablib 3.0.0: A format-agnostic tabular dataset library written in Python
 dev-python/tryton-filestore-s3 0.1.2: S3 AWS storage for the Tryton
