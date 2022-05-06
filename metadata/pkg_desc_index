@@ -1,10 +1,10 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 5.6.20 5.8.16 6.0.16 6.2.7: Tryton web client
-app-office/tryton 5.6.15 5.8.17 6.0.15 6.2.6: Tryton desktop client
+app-office/sao 5.6.20 5.8.16 6.0.17 6.2.8: Tryton web client
+app-office/tryton 5.6.15 5.8.17 6.0.16 6.2.7: Tryton desktop client
 app-office/trytond 5.6.17 5.8.16 6.0.18 6.2.8: A three-tiers high-level general purpose business application framework
 app-tryton/account 5.6.5 5.8.6 6.0.10 6.2.6: Financial and Accounting Module
-app-tryton/account_asset 5.6.4 5.8.4 6.0.1 6.2.0: Account Asset Module
+app-tryton/account_asset 5.6.4 5.8.4 6.0.1 6.2.1: Account Asset Module
 app-tryton/account_be 5.6.1 5.8.1 6.0.0 6.2.0: Account Belgium Module
 app-tryton/account_budget 6.2.2: Tryton module that allows budgets to be setup for accounts
 app-tryton/account_cash_rounding 5.6.2 5.8.2 6.0.1 6.2.0: Tryton module to round cash amount
@@ -41,7 +41,7 @@ app-tryton/account_statement_coda 5.6.1 5.8.1 6.0.0 6.2.0: Account Statement
 app-tryton/account_statement_ofx 5.6.2 5.8.2 6.0.0 6.2.0: Tryton module to import OFX statements
 app-tryton/account_statement_rule 5.6.2 5.8.3 6.0.1 6.2.1: Account Statement Rule
 app-tryton/account_stock_anglo_saxon 5.6.1 5.8.1 6.0.1 6.2.1: Account Stock Anglo-Saxon
-app-tryton/account_stock_continental 5.6.1 5.8.1 6.0.3 6.2.2: Account Stock Continental
+app-tryton/account_stock_continental 5.6.1 5.8.1 6.0.4 6.2.3: Account Stock Continental
 app-tryton/account_stock_landed_cost 5.6.1 5.8.2 6.0.2 6.2.1: Landed Cost Module
 app-tryton/account_stock_landed_cost_weight 5.6.1 5.8.1 6.0.0 6.2.0: Landed Cost per Weight Module
 app-tryton/account_stock_shipment_cost 6.2.1: Tryton module to allocate shipment cost based on invoice
@@ -123,7 +123,7 @@ app-tryton/sale_complaint 5.6.3 5.8.2 6.0.0 6.2.0: Sale Complaint Module
 app-tryton/sale_credit_limit 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for sale credit limit
 app-tryton/sale_discount 5.8.2 6.0.0 6.2.1: Manages discount on sale
 app-tryton/sale_extra 5.6.1 5.8.1 6.0.0 6.2.0: Tryton module for sale extra
-app-tryton/sale_gift_card 6.0.3 6.2.0: Sale Gift Card Module
+app-tryton/sale_gift_card 6.0.4 6.2.0: Sale Gift Card Module
 app-tryton/sale_history 5.6.1 5.8.1 6.0.0 6.2.0: Module to historize sales
 app-tryton/sale_invoice_grouping 5.6.1 5.8.1 6.0.0 6.2.0: Sale Invoice Grouping Module
 app-tryton/sale_opportunity 5.6.2 5.8.3 6.0.1 6.2.0: Leads and opportunities
@@ -207,9 +207,9 @@ dev-python/ofxparse 0.21: Tools for working with the OFX (Open Financial Exchang
 dev-python/proteus 5.6.2 5.8.3 6.0.6 6.2.3: A library to access Tryton's models like a client
 dev-python/pyactiveresource 2.2.2: ActiveResource for Python
 dev-python/pycha 0.8.1: A library for making charts with Python
-dev-python/python-sql 1.2.2 1.3.0: A library to write SQL queries in a pythonic way.
+dev-python/python-sql 1.2.2 1.3.0 1.4.0: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0: Raven is a client for Sentry
-dev-python/relatorio 0.9.3 0.10.0: A templating library able to output odt and pdf files
+dev-python/relatorio 0.9.3 0.10.1: A templating library able to output odt and pdf files
 dev-python/schwifty 2022.4.2: Validate/generate IBANs and BICs
 dev-python/sentry_tryton 0.6: Sentry integration for the Tryton
 dev-python/tablib 3.0.0: A format-agnostic tabular dataset library written in Python
