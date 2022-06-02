@@ -43,7 +43,7 @@ distutils_enable_tests unittest
 
 src_prepare() {
 	# requires network
-	rm tests/scenario_country_import.rst || die
+	rm tests/scenario_currency_rate_update.rst || die
 	distutils-r1_src_prepare
 }
 
