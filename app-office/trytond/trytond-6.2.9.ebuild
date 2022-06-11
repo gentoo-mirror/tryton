@@ -17,7 +17,7 @@ IUSE="doc graphviz mysql +postgres sqlite levenshtein bcrypt html2text weasyprin
 
 RDEPEND="acct-group/trytond
 	acct-user/trytond
-	postgres? ( >=dev-python/psycopg-2.5.4[$PYTHON_USEDEP] )
+	postgres? ( >=dev-python/psycopg-2.5.4:2[$PYTHON_USEDEP] )
 	sqlite? ( dev-lang/python:*[sqlite] )
 	dev-python/defusedxml[$PYTHON_USEDEP]
 	>=dev-python/lxml-2.0[$PYTHON_USEDEP]

@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -17,7 +17,7 @@ IUSE="doc graphviz mysql +postgres sqlite levenshtein bcrypt html2text weasyprin
 
 RDEPEND="acct-group/trytond
 	acct-user/trytond
-	postgres? ( >=dev-python/psycopg-2.5.4[$PYTHON_USEDEP] )
+	postgres? ( >=dev-python/psycopg-2.5.4:2[$PYTHON_USEDEP] )
 	sqlite? ( dev-lang/python:*[sqlite] )
 	>=dev-python/lxml-2.0[$PYTHON_USEDEP]
 	>=dev-python/relatorio-0.7[fodt,$PYTHON_USEDEP]
