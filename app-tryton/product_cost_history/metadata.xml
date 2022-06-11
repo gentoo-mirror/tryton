@@ -5,8 +5,6 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-	</longdescription>
 	<use>
 		<flag name="timezone">Enable support for timezone</flag>
 	</use>

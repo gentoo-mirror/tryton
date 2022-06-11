@@ -5,7 +5,6 @@ EAPI=7
 
 DESCRIPTION="Tooltip & Popover Positioning Engine"
 HOMEPAGE="https://popper.js.org/"
-SRC_URI="https://github.com/SortableJS/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 SRC_URI="https://github.com/popperjs/popper-core/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"

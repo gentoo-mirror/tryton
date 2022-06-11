@@ -5,8 +5,6 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-	</longdescription>
 	<use>
 		<flag name="bcrypt">Enable BCrypt hash</flag>
 		<flag name="html2text">Enable text part for HTML email</flag>

@@ -5,8 +5,6 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-	</longdescription>
 	<use>
 		<flag name="swift">Guess bank from IBAN</flag>
 	</use>

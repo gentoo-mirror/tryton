@@ -5,10 +5,7 @@
 		<email>ced@b2ck.com</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-	</longdescription>
 	<use>
 		<flag name="timezone">Enable support for timezone</flag>
 	</use>
 </pkgmetadata>
-

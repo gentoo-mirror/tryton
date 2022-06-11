@@ -5,8 +5,6 @@
 		<email>ced@b2ck.com</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-	</longdescription>
 	<use>
 		<flag name="levenshtein">Enable support for Levenshtein</flag>
 		<flag name="bcrypt">Enable BCrypt hash</flag>
@@ -17,4 +15,3 @@
 		<flag name="image">Enable image/avatar support</flag>
 	</use>
 </pkgmetadata>
-
