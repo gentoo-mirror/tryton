@@ -26,6 +26,7 @@ DEPEND="${RDEPEND}
 		=app-tryton/party-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/web_user-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

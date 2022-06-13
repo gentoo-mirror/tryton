@@ -25,6 +25,7 @@ DEPEND="${RDEPEND}
 		=app-tryton/stock_supply-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

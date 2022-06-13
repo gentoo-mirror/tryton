@@ -26,6 +26,7 @@ DEPEND="${RDEPEND}
 	test? (
 		$(python_gen_impl_dep sqlite)
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

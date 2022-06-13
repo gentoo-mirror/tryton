@@ -40,6 +40,6 @@ src_install() {
 	distutils-r1_src_install
 	dodoc README CHANGELOG COPYRIGHT
 	if use doc; then
-		dohtml -r doc/_build/html/*
+		dodoc -r doc/_build/html/*
 	fi
 }

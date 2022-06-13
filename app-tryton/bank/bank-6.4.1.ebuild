@@ -27,6 +27,7 @@ DEPEND="${RDEPEND}
 		$(python_gen_impl_dep sqlite)
 		dev-python/schwifty[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

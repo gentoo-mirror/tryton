@@ -30,6 +30,7 @@ RDEPEND="${COMMON_DEPEND}
 		>=dev-python/pycha-0.4.0[${PYTHON_USEDEP}]
 		dev-python/pyyaml[$PYTHON_USEDEP]
 		)"
+RESTRICT="!test? ( test )"
 
 DOCS="README COPYRIGHT CHANGELOG"
 

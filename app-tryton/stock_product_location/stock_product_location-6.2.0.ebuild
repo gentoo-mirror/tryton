@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,6 +26,7 @@ DEPEND="${RDEPEND}
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/production-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

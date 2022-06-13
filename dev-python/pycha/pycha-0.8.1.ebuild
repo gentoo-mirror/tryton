@@ -17,6 +17,7 @@ IUSE="test"
 
 DEPEND="dev-python/cairocffi[$PYTHON_USEDEP]"
 RDEPEND="${DEPEND}"
+RESTRICT="!test? ( test )"
 
 PATCHES=(
 	"${FILESDIR}"/${P}-chavier-python3.patch

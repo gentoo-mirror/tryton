@@ -29,6 +29,7 @@ DEPEND="${RDEPEND}
 		=app-tryton/stock_secondary_unit-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/sale_product_customer-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

@@ -31,6 +31,7 @@ DEPEND="${RDEPEND}
 		=app-tryton/account_payment_sepa-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/sale_advance_payment-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

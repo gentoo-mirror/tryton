@@ -35,6 +35,7 @@ DEPEND="${RDEPEND}
 		$(python_gen_impl_dep sqlite)
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

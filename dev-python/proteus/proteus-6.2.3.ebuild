@@ -24,6 +24,7 @@ DEPEND="${RDEPEND}
 		=app-office/trytond-$(ver_cut 1-2)*[sqlite,$PYTHON_USEDEP]
 		=app-tryton/party-$(ver_cut 1-2)*[$PYTHON_USEDEP]
 		)"
+RESTRICT="!test? ( test )"
 
 DOCS="CHANGELOG COPYRIGHT README.rst"
 

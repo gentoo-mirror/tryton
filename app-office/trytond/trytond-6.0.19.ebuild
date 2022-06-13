@@ -43,6 +43,7 @@ DEPEND="${RDEPEND}
 		dev-lang/python:*[sqlite]
 		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
+RESTRICT="!test? ( test )"
 
 src_compile() {
 	distutils-r1_src_compile

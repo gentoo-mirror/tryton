@@ -36,6 +36,7 @@ DEPEND="${RDEPEND}
 		=app-tryton/stock-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/stock_consignment-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

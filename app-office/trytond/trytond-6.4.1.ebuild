@@ -44,6 +44,7 @@ DEPEND="${RDEPEND}
 		$(python_gen_impl_dep sqlite)
 		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
+RESTRICT="!test? ( test )"
 DOCS=( CHANGELOG COPYRIGHT README.rst )
 
 distutils_enable_tests unittest

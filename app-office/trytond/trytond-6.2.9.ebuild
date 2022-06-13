@@ -43,6 +43,7 @@ DEPEND="${RDEPEND}
 		dev-lang/python:*[sqlite]
 		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
+RESTRICT="!test? ( test )"
 DOCS=( CHANGELOG COPYRIGHT README.rst )
 
 src_compile() {

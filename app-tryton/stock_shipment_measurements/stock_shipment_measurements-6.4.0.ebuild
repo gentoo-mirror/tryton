@@ -26,6 +26,7 @@ DEPEND="${RDEPEND}
 		$(python_gen_impl_dep sqlite)
 		=app-tryton/stock_package-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 

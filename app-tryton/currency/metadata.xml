@@ -7,7 +7,7 @@
 	</maintainer>
 	<use>
 		<flag name="data">Enable country data import script</flag>
-		<flag name="ecb_rate">Enable ECB rate</flag>
+		<flag name="ecb-rate">Enable ECB rate</flag>
 	</use>
 </pkgmetadata>
 

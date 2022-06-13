@@ -28,6 +28,7 @@ RDEPEND="dev-python/pygobject:3[${PYTHON_USEDEP}]
 	calendar? ( >=dev-python/goocalendar-0.7[${PYTHON_USEDEP}] )
 	document? ( app-text/evince[introspection] )
 	spell? ( app-text/gtkspell:3[introspection] )"
+RESTRICT="!test? ( test )"
 
 src_compile() {
 	distutils-r1_src_compile

@@ -5,8 +5,4 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		allows to generate grouped payments for receivable
-		or payable Account Move Lines
-	</longdescription>
 </pkgmetadata>

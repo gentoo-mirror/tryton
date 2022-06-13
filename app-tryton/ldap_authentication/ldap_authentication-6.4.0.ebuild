@@ -20,6 +20,7 @@ RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	>=dev-python/ldap3-2.0.7[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	test? ( $(python_gen_impl_dep sqlite) )"
+RESTRICT="!test? ( test )"
 
 S=${WORKDIR}/trytond_${P}
 
