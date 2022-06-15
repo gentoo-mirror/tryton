@@ -1,9 +1,11 @@
 DEFINED_PHASES=install
+DEPEND=app-arch/unzip
 DESCRIPTION=a JavaScript library for manipulating documents based on data
 EAPI=6
 HOMEPAGE=https://d3js.org/
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
+RDEPEND=app-arch/unzip
 SLOT=5
 SRC_URI=https://github.com/d3/d3/releases/download/v5.16.0/d3.zip -> d3-5.16.0.zip
-_md5_=3da8821fa00357855f116462ef30fa8f
+_md5_=ae612f60eb63136a80d446c9e07e6e0a

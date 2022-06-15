@@ -218,7 +218,7 @@ dev-python/pyactiveresource 2.2.2: ActiveResource for Python
 dev-python/pycha 0.8.1: A library for making charts with Python
 dev-python/pycountry 20.7.3: Database of countries, subdivisions, languages, currencies and script
 dev-python/python-sql 1.2.2 1.3.0 1.4.0: A library to write SQL queries in a pythonic way.
-dev-python/raven 6.10.0: Raven is a client for Sentry
+dev-python/raven 6.10.0-r1: Raven is a client for Sentry
 dev-python/relatorio 0.9.3 0.10.1: A templating library able to output odt and pdf files
 dev-python/schwifty 2022.4.2: Validate/generate IBANs and BICs
 dev-python/sentry_tryton 0.6: Sentry integration for the Tryton

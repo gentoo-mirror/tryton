@@ -12,7 +12,7 @@ SLOT="3"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=""
+DEPEND="app-arch/unzip"
 RDEPEND="${DEPEND}
 	>=dev-javascript/jquery-2.0.0
 	>=dev-javascript/moment-2.20.1:2"

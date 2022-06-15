@@ -5,7 +5,4 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		S3 AWS storage for the Tryton.
-	</longdescription>
 </pkgmetadata>
