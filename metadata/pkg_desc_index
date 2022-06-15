@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.18 6.2.9 6.4.1: Tryton web client
+app-office/sao 6.0.19 6.2.10 6.4.2: Tryton web client
 app-office/tryton 6.0.16 6.2.7 6.4.0: Tryton desktop client
-app-office/trytond 6.0.19 6.2.9 6.4.1: A three-tiers high-level general purpose business application framework
+app-office/trytond 6.0.19 6.2.9 6.4.2: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.11 6.2.7 6.4.1: Financial and Accounting Module
 app-tryton/account_asset 6.0.1 6.2.1 6.4.0: Account Asset Module
 app-tryton/account_be 6.0.0 6.2.0 6.4.0: Account Belgium Module
@@ -82,7 +82,7 @@ app-tryton/ldap_authentication 6.0.0 6.2.0 6.4.0: LDAP Authentication Module
 app-tryton/marketing 6.0.0 6.2.0 6.4.0: Marketing features
 app-tryton/marketing_automation 6.0.3 6.2.1 6.4.0: Plan, coordinate and manage marketing campaigns
 app-tryton/marketing_email 6.0.0 6.2.0 6.4.0: Manage marketing mailing lists
-app-tryton/notification_email 6.0.2 6.2.1 6.4.0: Notification Email Module
+app-tryton/notification_email 6.0.3 6.2.2 6.4.1: Notification Email Module
 app-tryton/party 6.0.3 6.2.1 6.4.1: Party Module
 app-tryton/party_avatar 6.0.1 6.2.0 6.4.0: Party Avatar Module
 app-tryton/party_relationship 6.0.0 6.2.0 6.4.0: Party Relationship Module
@@ -125,7 +125,7 @@ app-tryton/purchase_shipment_cost 6.0.0 6.2.0 6.4.0: Purchase Shipment Cost Modu
 app-tryton/sale 6.0.6 6.2.3 6.4.1: Sale Module
 app-tryton/sale_advance_payment 6.0.1 6.2.0 6.4.0: Tryton module for sale advance payment
 app-tryton/sale_amendment 6.0.1 6.2.1 6.4.0: Module to amend sales
-app-tryton/sale_complaint 6.0.0 6.2.0 6.4.0: Sale Complaint Module
+app-tryton/sale_complaint 6.0.1 6.2.1 6.4.1: Sale Complaint Module
 app-tryton/sale_credit_limit 6.0.0 6.2.0 6.4.0: Tryton module for sale credit limit
 app-tryton/sale_discount 6.0.0 6.2.1 6.4.0: Manages discount on sale
 app-tryton/sale_extra 6.0.0 6.2.0 6.4.0: Tryton module for sale extra
@@ -137,7 +137,7 @@ app-tryton/sale_opportunity 6.0.1 6.2.0 6.4.0: Leads and opportunities
 app-tryton/sale_payment 6.0.1 6.2.1 6.4.0: Sale Payment Module
 app-tryton/sale_point 6.2.2 6.4.0: Tryton module for Point of Sales
 app-tryton/sale_price_list 6.0.1 6.2.0 6.4.0: Sale Pricelist Module
-app-tryton/sale_product_customer 6.0.1 6.2.1 6.4.0: Sale Product Customer Module
+app-tryton/sale_product_customer 6.0.2 6.2.2 6.4.1: Sale Product Customer Module
 app-tryton/sale_product_quantity 6.4.0: Add quantity constraints on sale line
 app-tryton/sale_promotion 6.0.2 6.2.0 6.4.0: Sale Promotion Module
 app-tryton/sale_promotion_coupon 6.0.0 6.2.0 6.4.0: Sale Promotion Module
@@ -151,7 +151,7 @@ app-tryton/sale_subscription_asset 6.0.0 6.2.0 6.4.0: Handles asset in the sale 
 app-tryton/sale_supply 6.0.0 6.2.0 6.4.0: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 6.0.3 6.2.1 6.4.0: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.2.1 6.4.0: Tryton module to supply sales from production
-app-tryton/stock 6.0.14 6.2.6 6.4.0: Stock Module
+app-tryton/stock 6.0.14 6.2.6 6.4.1: Stock Module
 app-tryton/stock_assign_manual 6.0.1 6.2.0 6.4.0: Assign manually stock move
 app-tryton/stock_consignment 6.0.0 6.2.0 6.4.0: Stock Consignment Module
 app-tryton/stock_forecast 6.0.1 6.2.1 6.4.0: Stock Forecast Module
@@ -224,4 +224,4 @@ dev-python/schwifty 2022.4.2: Validate/generate IBANs and BICs
 dev-python/sentry_tryton 0.6: Sentry integration for the Tryton
 dev-python/tablib 3.2.1: A format-agnostic tabular dataset library written in Python
 dev-python/tryton-filestore-s3 0.1.2: S3 AWS storage for the Tryton
-dev-python/trytond_gis 6.0.0 6.2.0 6.4.0: Adds Geographic Information System support to trytond
+dev-python/trytond_gis 6.0.1 6.2.0 6.4.0: Adds Geographic Information System support to trytond
