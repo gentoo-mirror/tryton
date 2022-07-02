@@ -5,9 +5,5 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		Party module for Tryton
-		Define parties, addresses and co.
-	</longdescription>
 </pkgmetadata>
 
