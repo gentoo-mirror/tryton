@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{5..10} )
 
 inherit distutils-r1
@@ -18,7 +19,6 @@ IUSE=""
 RDEPEND=">=dev-python/flask-0.8[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]
 	>=app-office/trytond-5.0[${PYTHON_USEDEP}]"
-DEPEND="${DEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+DEPEND="${DEPEND}"
 
 DOCS=( CHANGELOG README )
