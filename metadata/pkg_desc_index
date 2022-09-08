@@ -1,12 +1,12 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.21 6.2.12 6.4.4: Tryton web client
-app-office/tryton 6.0.17 6.2.8 6.4.2: Tryton desktop client
-app-office/trytond 6.0.21 6.2.11 6.4.4: A three-tiers high-level general purpose business application framework
+app-office/sao 6.0.21 6.2.12 6.4.5: Tryton web client
+app-office/tryton 6.0.18 6.2.9 6.4.3: Tryton desktop client
+app-office/trytond 6.0.21 6.2.11 6.4.5: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.13 6.2.9 6.4.3: Financial and Accounting Module
 app-tryton/account_asset 6.0.1 6.2.1 6.4.0: Account Asset Module
 app-tryton/account_be 6.0.0 6.2.0 6.4.0: Account Belgium Module
-app-tryton/account_budget 6.2.2 6.4.0: Tryton module that allows budgets to be setup for accounts
+app-tryton/account_budget 6.2.3 6.4.1: Tryton module that allows budgets to be setup for accounts
 app-tryton/account_cash_rounding 6.0.1 6.2.0 6.4.0: Tryton module to round cash amount
 app-tryton/account_credit_limit 6.0.0 6.2.0 6.4.0: Tryton module for account credit limit
 app-tryton/account_de_skr03 6.0.0 6.2.0 6.4.0: German Chart of Accounts SKR03
@@ -59,7 +59,7 @@ app-tryton/analytic_purchase 6.0.0 6.2.0 6.4.0: Analytic Purchase
 app-tryton/analytic_sale 6.0.0 6.2.0 6.4.0: Analytic Sale
 app-tryton/attendance 6.0.1 6.2.0 6.4.0: Record employee attendance
 app-tryton/authentication_sms 6.0.0 6.2.0 6.4.0: Authentication SMS Module
-app-tryton/bank 6.0.0 6.2.0 6.4.1: Bank Module
+app-tryton/bank 6.0.0 6.2.0 6.4.2: Bank Module
 app-tryton/carrier 6.0.2 6.2.0 6.4.0: Carrier Module
 app-tryton/carrier_percentage 6.0.0 6.2.0 6.4.0: Carrier Percentage Module
 app-tryton/carrier_subdivision 6.0.1 6.2.1 6.4.1: Carrier Subdivision Module
@@ -91,9 +91,9 @@ app-tryton/product 6.0.3 6.2.0 6.4.0: Product Module
 app-tryton/product_attribute 6.0.0 6.2.0 6.4.0: Product Attribute Module
 app-tryton/product_classification 6.0.0 6.2.0 6.4.0: Product Classification Module
 app-tryton/product_classification_taxonomic 6.0.0 6.2.0 6.4.0: Product Classification Taxonomic Module
-app-tryton/product_cost_fifo 6.0.1 6.2.0 6.4.0: Product Cost FIFO Module
+app-tryton/product_cost_fifo 6.0.2 6.2.1 6.4.1: Product Cost FIFO Module
 app-tryton/product_cost_history 6.0.1 6.2.0 6.4.0: Product Cost History Module
-app-tryton/product_cost_warehouse 6.0.3 6.2.1 6.4.0: Product Cost Warehouse Module
+app-tryton/product_cost_warehouse 6.0.4 6.2.2 6.4.1: Product Cost Warehouse Module
 app-tryton/product_image 6.2.1 6.4.1: Tryton module that adds images to products
 app-tryton/product_image_attribute 6.2.0 6.4.0: Tryton module to select variant images based on attributes
 app-tryton/product_kit 6.0.7 6.2.2 6.4.0: Product Kit Module
@@ -151,10 +151,10 @@ app-tryton/sale_subscription_asset 6.0.1 6.2.1 6.4.1: Handles asset in the sale 
 app-tryton/sale_supply 6.0.0 6.2.0 6.4.0: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 6.0.3 6.2.1 6.4.0: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.2.1 6.4.0: Tryton module to supply sales from production
-app-tryton/stock 6.0.15 6.2.7 6.4.3: Stock Module
+app-tryton/stock 6.0.16 6.2.8 6.4.4: Stock Module
 app-tryton/stock_assign_manual 6.0.1 6.2.0 6.4.0: Assign manually stock move
 app-tryton/stock_consignment 6.0.1 6.2.1 6.4.1: Stock Consignment Module
-app-tryton/stock_forecast 6.0.1 6.2.1 6.4.0: Stock Forecast Module
+app-tryton/stock_forecast 6.0.2 6.2.2 6.4.1: Stock Forecast Module
 app-tryton/stock_inventory_location 6.0.0 6.2.0 6.4.0: Stock Inventory Location Module
 app-tryton/stock_location_move 6.0.0 6.2.0 6.4.0: Stock Location Move Module
 app-tryton/stock_location_sequence 6.0.0 6.2.0 6.4.0: Stock Location Sequence Module
