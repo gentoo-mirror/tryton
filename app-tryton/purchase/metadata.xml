@@ -5,4 +5,7 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<use>
+		<flag name="sparklines">Show sparklines on reports</flag>
+	</use>
 </pkgmetadata>

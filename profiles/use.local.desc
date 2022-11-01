@@ -23,8 +23,10 @@ app-tryton/currency:ecb-rate - Enable ECB rate
 app-tryton/party:phonenumbers - Add phone number formatting
 app-tryton/party:vat - Add support for vat number check
 app-tryton/product_cost_history:timezone - Enable support for timezone
+app-tryton/purchase:sparklines - Show sparklines on reports
 app-tryton/sale:sparklines - Show sparklines on reports
 app-tryton/sale_discount:sparklines - Show sparklines on reports
+app-tryton/sale_opportunity:sparklines - Show sparklines on reports
 app-tryton/stock:sparklines - Show sparklines on reports
 app-tryton/web_user:bcrypt - Enable BCrypt hash
 app-tryton/web_user:html2text - Enable text part for HTML email
