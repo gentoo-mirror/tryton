@@ -14,7 +14,7 @@ SRC_URI="mirror://pypi/t/trytond_${PN}/trytond_${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test +data ecb-rate"
+IUSE="test +data"
 
 RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	>=dev-python/python-sql-0.9[${PYTHON_USEDEP}]
@@ -23,16 +23,12 @@ RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		dev-python/pycountry[${PYTHON_USEDEP}]
 		dev-python/forex-python[${PYTHON_USEDEP}]
-	)
-	ecb-rate? (
-		dev-python/forex-python[${PYTHON_USEDEP}]
 	)"
 DEPEND="${RDEPEND}
 	test? (
 		$(python_gen_impl_dep sqlite)
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		dev-python/pycountry[${PYTHON_USEDEP}]
-		dev-python/forex-python[${PYTHON_USEDEP}]
 	)"
 RESTRICT="!test? ( test )"
 
