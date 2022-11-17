@@ -8,4 +8,7 @@
 	<use>
 		<flag name="trytond">Enable support of trytond</flag>
 	</use>
+	<upstream>
+		<remote-id type="pypi">proteus</remote-id>
+	</upstream>
 </pkgmetadata>

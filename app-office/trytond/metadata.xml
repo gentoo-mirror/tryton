@@ -14,4 +14,7 @@
 		<flag name="coroutine">Enable coroutine support</flag>
 		<flag name="image">Enable image/avatar support</flag>
 	</use>
+	<upstream>
+		<remote-id type="pypi">trytond</remote-id>
+	</upstream>
 </pkgmetadata>

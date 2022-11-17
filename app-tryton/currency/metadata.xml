@@ -8,5 +8,8 @@
 	<use>
 		<flag name="data">Enable country data import script</flag>
 	</use>
+	<upstream>
+		<remote-id type="pypi">trytond_currency</remote-id>
+	</upstream>
 </pkgmetadata>
 

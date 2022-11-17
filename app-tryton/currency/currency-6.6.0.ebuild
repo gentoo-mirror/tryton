@@ -22,7 +22,6 @@ RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	data? (
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		dev-python/pycountry[${PYTHON_USEDEP}]
-		dev-python/forex-python[${PYTHON_USEDEP}]
 	)"
 DEPEND="${RDEPEND}
 	test? (
