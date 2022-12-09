@@ -8,4 +8,7 @@
 	<use>
 		<flag name="swift">Guess bank from IBAN</flag>
 	</use>
+	<upstream>
+		<remote-id type="pypi">trytond_bank</remote-id>
+	</upstream>
 </pkgmetadata>

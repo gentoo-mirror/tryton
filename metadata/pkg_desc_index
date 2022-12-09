@@ -1,6 +1,6 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.23 6.2.14 6.4.7 6.6.0: Tryton web client
+app-office/sao 6.0.24 6.2.14 6.4.8 6.6.1: Tryton web client
 app-office/tryton 6.0.21 6.2.12 6.4.6 6.6.1: Tryton desktop client
 app-office/trytond 6.0.24 6.2.14 6.4.8 6.6.1: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.13 6.2.9 6.4.4 6.6.0: Financial and Accounting Module
@@ -21,7 +21,7 @@ app-tryton/account_es_sii 6.4.3 6.6.1: Account Spain SII Module
 app-tryton/account_eu 6.0.0 6.2.0 6.4.1 6.6.0: Account European Module
 app-tryton/account_fr 6.0.0 6.2.0 6.4.1 6.6.0: Account French Module
 app-tryton/account_fr_chorus 6.0.3 6.2.1 6.4.1 6.6.0: Tryton module to communicate with Chorus
-app-tryton/account_invoice 6.0.7 6.2.6 6.4.3 6.6.0: Invoice Module
+app-tryton/account_invoice 6.0.7 6.2.6 6.4.3 6.6.1: Invoice Module
 app-tryton/account_invoice_correction 6.0.0 6.2.0 6.4.1 6.6.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.3 6.2.2 6.4.1 6.6.0: Account Invoice Defer Module
 app-tryton/account_invoice_history 6.0.1 6.2.0 6.4.1 6.6.0: Account Invoice History
@@ -62,7 +62,7 @@ app-tryton/analytic_sale 6.0.0 6.2.0 6.4.1 6.6.0: Analytic Sale
 app-tryton/attendance 6.0.2 6.2.1 6.4.1 6.6.0: Record employee attendance
 app-tryton/authentication_saml 6.6.0: Tryton module to authenticate users via SAML
 app-tryton/authentication_sms 6.0.0 6.2.0 6.4.1 6.6.0: Authentication SMS Module
-app-tryton/bank 6.0.0 6.2.0 6.4.4 6.6.0: Bank Module
+app-tryton/bank 6.0.1 6.2.0 6.4.5 6.6.1: Bank Module
 app-tryton/carrier 6.0.2 6.2.0 6.4.1 6.6.0: Carrier Module
 app-tryton/carrier_carriage 6.6.0: Tryton module to support multiple carrier
 app-tryton/carrier_percentage 6.0.1 6.2.1 6.4.2 6.6.0: Carrier Percentage Module
@@ -101,7 +101,7 @@ app-tryton/product_cost_history 6.0.1 6.2.0 6.4.1 6.6.0: Product Cost History Mo
 app-tryton/product_cost_warehouse 6.0.4 6.2.2 6.4.2 6.6.0: Product Cost Warehouse Module
 app-tryton/product_image 6.2.1 6.4.2 6.6.0: Tryton module that adds images to products
 app-tryton/product_image_attribute 6.2.0 6.4.1 6.6.0: Tryton module to select variant images based on attributes
-app-tryton/product_kit 6.0.9 6.2.4 6.4.3 6.6.1: Product Kit Module
+app-tryton/product_kit 6.0.10 6.2.4 6.4.4 6.6.2: Product Kit Module
 app-tryton/product_measurements 6.0.0 6.2.0 6.4.1 6.6.0: Product Measurements Module
 app-tryton/product_price_list 6.0.0 6.2.0 6.4.1 6.6.0: Product Price List Module
 app-tryton/product_price_list_dates 6.0.1 6.2.1 6.4.2 6.6.0: Add dates on price list
@@ -124,7 +124,7 @@ app-tryton/purchase_invoice_line_standalone 6.0.0 6.2.0 6.4.1 6.6.0: Purchase In
 app-tryton/purchase_price_list 6.0.1 6.2.1 6.4.1 6.6.0: Purchase Price List Module
 app-tryton/purchase_product_quantity 6.4.1 6.6.0: Add quantity constraints on purchase line
 app-tryton/purchase_request 6.0.1 6.2.1 6.4.1 6.6.0: Purchase Request Module
-app-tryton/purchase_request_quotation 6.0.2 6.2.1 6.4.1 6.6.0: Tryton module for purchase request quotation
+app-tryton/purchase_request_quotation 6.0.3 6.2.1 6.4.2 6.6.1: Tryton module for purchase request quotation
 app-tryton/purchase_requisition 6.0.0 6.2.0 6.4.1 6.6.0: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 6.0.0 6.2.0 6.4.1 6.6.0: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 6.0.0 6.2.0 6.4.1 6.6.0: Purchase Shipment Cost Module
