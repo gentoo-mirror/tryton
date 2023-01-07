@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{6..9} )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{7..10} )
 
 inherit distutils-r1
 
@@ -13,11 +14,11 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc graphviz mysql +postgres sqlite levenshtein bcrypt html2text weasyprint image test"
+IUSE="doc graphviz mysql +postgres sqlite levenshtein bcrypt argon2 html2text weasyprint image test"
 
 RDEPEND="acct-group/trytond
 	acct-user/trytond
-	postgres? ( >=dev-python/psycopg-2.5.4:2[$PYTHON_USEDEP] )
+	postgres? ( >=dev-python/psycopg-2.7.0:2[$PYTHON_USEDEP] )
 	sqlite? ( dev-lang/python:*[sqlite] )
 	dev-python/defusedxml[$PYTHON_USEDEP]
 	>=dev-python/lxml-2.0[$PYTHON_USEDEP]
@@ -32,18 +33,20 @@ RDEPEND="acct-group/trytond
 	graphviz? ( dev-python/pydot[$PYTHON_USEDEP] )
 	levenshtein? ( dev-python/python-levenshtein[$PYTHON_USEDEP] )
 	bcrypt? ( dev-python/bcrypt[$PYTHON_USEDEP] )
+	argon2? ( dev-python/argon2-cffi[$PYTHON_USEDEP] )
 	html2text? ( dev-python/html2text[$PYTHON_USEDEP] )
 	weasyprint? ( dev-python/weasyprint[$PYTHON_USEDEP] )
 	image? ( dev-python/pillow[truetype,$PYTHON_USEDEP] )"
 DEPEND="${RDEPEND}
-	dev-python/setuptools[$PYTHON_USEDEP]
 	doc? ( >=dev-python/sphinx-0.3 )
 	test? (
-		dev-lang/python:*[sqlite]
+		$(python_gen_impl_dep sqlite)
 		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
 RESTRICT="!test? ( test )"
 DOCS=( CHANGELOG COPYRIGHT README.rst )
+
+distutils_enable_tests unittest
 
 src_compile() {
 	distutils-r1_src_compile
@@ -75,7 +78,7 @@ src_install() {
 }
 
 python_test() {
-	DB_NAME=":memory:" esetup.py test || die
+	DB_NAME=":memory:" eunittest -s trytond.tests
 }
 
 pkg_preinst() {

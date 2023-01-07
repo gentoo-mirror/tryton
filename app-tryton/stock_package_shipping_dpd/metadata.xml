@@ -5,4 +5,7 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="pypi">trytond_stock_package_shipping_dpd</remote-id>
+	</upstream>
 </pkgmetadata>

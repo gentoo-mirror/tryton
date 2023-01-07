@@ -1,7 +1,7 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=7
 PYTHON_COMPAT=( python3_{6..9} )
 
 inherit distutils-r1
@@ -25,7 +25,7 @@ RDEPEND="acct-group/trytond
 	dev-python/genshi[$PYTHON_USEDEP]
 	dev-python/python-dateutil[$PYTHON_USEDEP]
 	dev-python/polib[$PYTHON_USEDEP]
-	>=dev-python/python-sql-1.3[$PYTHON_USEDEP]
+	>=dev-python/python-sql-0.5[$PYTHON_USEDEP]
 	dev-python/werkzeug[$PYTHON_USEDEP]
 	dev-python/wrapt[$PYTHON_USEDEP]
 	>=dev-python/passlib-1.7.0[$PYTHON_USEDEP]
@@ -43,7 +43,6 @@ DEPEND="${RDEPEND}
 		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
 RESTRICT="!test? ( test )"
-DOCS=( CHANGELOG COPYRIGHT README.rst )
 
 src_compile() {
 	distutils-r1_src_compile
@@ -68,6 +67,7 @@ src_install() {
 	keepdir /var/lib/trytond
 	fperms 770 /var/lib/trytond
 
+	dodoc CHANGELOG COPYRIGHT README.rst
 	if use doc; then
 		docinto html
 		dodoc -r doc/_build/html/*

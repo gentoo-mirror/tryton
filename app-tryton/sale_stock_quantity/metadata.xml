@@ -5,7 +5,7 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		Tryton module to add stock warning on sale
-	</longdescription>
+	<upstream>
+		<remote-id type="pypi">trytond_sale_stock_quantity</remote-id>
+	</upstream>
 </pkgmetadata>
