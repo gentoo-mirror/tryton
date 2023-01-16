@@ -8,4 +8,7 @@
 	<use>
 		<flag name="sparklines">Show sparklines on reports</flag>
 	</use>
+	<upstream>
+		<remote-id type="pypi">trytond_purchase</remote-id>
+	</upstream>
 </pkgmetadata>

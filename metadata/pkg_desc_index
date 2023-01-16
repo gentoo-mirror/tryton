@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.25 6.2.14 6.4.9 6.6.2: Tryton web client
-app-office/tryton 6.0.22 6.2.12 6.4.7 6.6.2: Tryton desktop client
-app-office/trytond 6.0.25 6.2.14 6.4.9 6.6.2: A three-tiers high-level general purpose business application framework
+app-office/sao 6.0.26 6.2.14 6.4.10 6.6.3: Tryton web client
+app-office/tryton 6.0.23 6.2.12 6.4.8 6.6.3: Tryton desktop client
+app-office/trytond 6.0.26 6.2.14 6.4.10 6.6.3: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.13 6.2.9 6.4.4 6.6.0: Financial and Accounting Module
 app-tryton/account_asset 6.0.1 6.2.2 6.4.2 6.6.0: Account Asset Module
 app-tryton/account_be 6.0.0 6.2.0 6.4.1 6.6.0: Account Belgium Module
@@ -101,7 +101,7 @@ app-tryton/product_cost_history 6.0.1 6.2.0 6.4.1 6.6.0: Product Cost History Mo
 app-tryton/product_cost_warehouse 6.0.4 6.2.2 6.4.2 6.6.0: Product Cost Warehouse Module
 app-tryton/product_image 6.2.1 6.4.2 6.6.0: Tryton module that adds images to products
 app-tryton/product_image_attribute 6.2.0 6.4.1 6.6.0: Tryton module to select variant images based on attributes
-app-tryton/product_kit 6.0.10 6.2.4 6.4.4 6.6.2: Product Kit Module
+app-tryton/product_kit 6.0.11 6.2.4 6.4.5 6.6.3: Product Kit Module
 app-tryton/product_measurements 6.0.0 6.2.0 6.4.1 6.6.0: Product Measurements Module
 app-tryton/product_price_list 6.0.0 6.2.0 6.4.1 6.6.0: Product Price List Module
 app-tryton/product_price_list_dates 6.0.1 6.2.1 6.4.2 6.6.0: Add dates on price list
@@ -116,14 +116,14 @@ app-tryton/project 6.0.0 6.2.0 6.4.1 6.6.0: Project Module
 app-tryton/project_invoice 6.0.4 6.2.3 6.4.2 6.6.0: Project Invoice Module
 app-tryton/project_plan 6.0.0 6.2.0 6.4.1 6.6.0: Project Plan Module
 app-tryton/project_revenue 6.0.1 6.2.1 6.4.2 6.6.0: Project Revenue
-app-tryton/purchase 6.0.9 6.2.5 6.4.4 6.6.0: Purchase Module
+app-tryton/purchase 6.0.9 6.2.5 6.4.4 6.6.1: Purchase Module
 app-tryton/purchase_amendment 6.0.2 6.2.1 6.4.2 6.6.0: Module to amend purchases
 app-tryton/purchase_blanket_agreement 6.6.0: Tryton module for purchase blanket agreement
 app-tryton/purchase_history 6.0.0 6.2.0 6.4.1 6.6.0: Module to historize purchases
 app-tryton/purchase_invoice_line_standalone 6.0.0 6.2.0 6.4.1 6.6.0: Purchase Invoice Line Standalone Module
 app-tryton/purchase_price_list 6.0.1 6.2.1 6.4.1 6.6.0: Purchase Price List Module
 app-tryton/purchase_product_quantity 6.4.1 6.6.0: Add quantity constraints on purchase line
-app-tryton/purchase_request 6.0.1 6.2.1 6.4.1 6.6.0: Purchase Request Module
+app-tryton/purchase_request 6.0.2 6.2.1 6.4.2 6.6.1: Purchase Request Module
 app-tryton/purchase_request_quotation 6.0.3 6.2.1 6.4.2 6.6.1: Tryton module for purchase request quotation
 app-tryton/purchase_requisition 6.0.0 6.2.0 6.4.1 6.6.0: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 6.0.0 6.2.0 6.4.1 6.6.0: Module to add a secondary unit on purchase line
@@ -158,7 +158,7 @@ app-tryton/sale_shipment_tolerance 6.0.0 6.2.0 6.4.1 6.6.0: Defines tolerance fo
 app-tryton/sale_stock_quantity 6.0.1 6.2.1 6.4.2 6.6.1: Sale Stock Quantity Module
 app-tryton/sale_subscription 6.0.2 6.2.0 6.4.1 6.6.0: Tryton module for subscription
 app-tryton/sale_subscription_asset 6.0.1 6.2.1 6.4.2 6.6.0: Handles asset in the sale subscriptions
-app-tryton/sale_supply 6.0.1 6.2.1 6.4.2 6.6.0: Sale Supply Module
+app-tryton/sale_supply 6.0.2 6.2.1 6.4.3 6.6.1: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 6.0.4 6.2.1 6.4.2 6.6.1: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.2.1 6.4.1 6.6.0: Tryton module to supply sales from production
 app-tryton/stock 6.0.18 6.2.10 6.4.7 6.6.2: Stock Module
