@@ -5,8 +5,7 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		adds an option to define how stock moves generated from sales will be
-		grouped
-	</longdescription>
+	<upstream>
+		<remote-id type="pypi">trytond_sale_shipment_grouping</remote-id>
+	</upstream>
 </pkgmetadata>
