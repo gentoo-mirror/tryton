@@ -32,10 +32,10 @@ src_install() {
 	doins index.html
 	doins -r dist/ locale/ images/
 
-	dodir "/usr/share/${PN}/bower_components/jquery"
-	dodir "/usr/share/${PN}/bower_components/bootstrap"
-	dodir "/usr/share/${PN}/bower_components/gettext.js"
-	dodir "/usr/share/${PN}/bower_components/fullcalendar"
+	keepdir "/usr/share/${PN}/bower_components/jquery"
+	keepdir "/usr/share/${PN}/bower_components/bootstrap"
+	keepdir "/usr/share/${PN}/bower_components/gettext.js"
+	keepdir "/usr/share/${PN}/bower_components/fullcalendar"
 
 	dodoc CHANGELOG COPYRIGHT README.md
 }

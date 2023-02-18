@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=dev-javascript/jquery:3 >=dev-javascript/bootstrap-3.3.7:3 >=dev-javascript/moment-2.10:2 >=dev-javascript/gettext-0.7:0 >=dev-javascript/c3-0.7:0 >=dev-javascript/papaparse-5.0:5 >=dev-javascript/fullcalendar-3.10.2:3 >=dev-javascript/mousetrap-1.6:1 >=dev-javascript/bootstrap-rtl-ondemand-3.3.4:3 >=dev-javascript/sortable-1.8.4:1 =app-office/trytond-6.2*
 SLOT=0
 SRC_URI=https://downloads.tryton.org/6.2/tryton-sao-6.2.14.tgz
-_md5_=8e3220dc7fe9c5a29559c08b65853eb2
+_md5_=42595b39e7a1cd9dca662c4a6a24c024
