@@ -1,12 +1,12 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
 app-office/sao 6.0.26 6.2.14 6.4.10 6.6.3: Tryton web client
-app-office/tryton 6.0.24 6.2.12 6.4.9 6.6.4: Tryton desktop client
-app-office/trytond 6.0.27 6.2.14 6.4.11 6.6.4: A three-tiers high-level general purpose business application framework
-app-tryton/account 6.0.14 6.2.9 6.4.5 6.6.1: Financial and Accounting Module
+app-office/tryton 6.0.25 6.2.12 6.4.10 6.6.5: Tryton desktop client
+app-office/trytond 6.0.28 6.2.14 6.4.12 6.6.5: A three-tiers high-level general purpose business application framework
+app-tryton/account 6.0.15 6.2.9 6.4.6 6.6.2: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.2.2 6.4.3 6.6.1: Account Asset Module
 app-tryton/account_be 6.0.0 6.2.0 6.4.1 6.6.0: Account Belgium Module
-app-tryton/account_budget 6.2.3 6.4.2 6.6.0: Tryton module that allows budgets to be setup for accounts
+app-tryton/account_budget 6.2.3 6.4.3 6.6.1: Tryton module that allows budgets to be setup for accounts
 app-tryton/account_cash_rounding 6.0.2 6.2.1 6.4.1 6.6.0: Tryton module to round cash amount
 app-tryton/account_consolidation 6.6.0: Tryton module consolidate accounting of many companies
 app-tryton/account_credit_limit 6.0.0 6.2.0 6.4.1 6.6.0: Tryton module for account credit limit
@@ -35,7 +35,7 @@ app-tryton/account_payment_braintree 6.0.3 6.2.2 6.4.3 6.6.0: Tryton module for 
 app-tryton/account_payment_clearing 6.0.1 6.2.1 6.4.2 6.6.0: Tryton module for payment clearing
 app-tryton/account_payment_sepa 6.0.4 6.2.3 6.4.3 6.6.0: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 6.0.0 6.2.0 6.4.1 6.6.0: Tryton module for CFONB SEPA payment
-app-tryton/account_payment_stripe 6.0.5 6.2.1 6.4.2 6.6.0: Tryton module for Stripe payment
+app-tryton/account_payment_stripe 6.0.5 6.2.1 6.4.3 6.6.1: Tryton module for Stripe payment
 app-tryton/account_product 6.0.3 6.2.1 6.4.1 6.6.0: Account Product Module
 app-tryton/account_receivable_rule 6.4.1 6.6.0: Enforce receivable rules
 app-tryton/account_rule 6.2.1 6.4.1 6.6.0: Tryton module to change account used with rules
@@ -123,7 +123,7 @@ app-tryton/purchase_history 6.0.0 6.2.0 6.4.1 6.6.0: Module to historize purchas
 app-tryton/purchase_invoice_line_standalone 6.0.0 6.2.0 6.4.1 6.6.0: Purchase Invoice Line Standalone Module
 app-tryton/purchase_price_list 6.0.1 6.2.1 6.4.1 6.6.0: Purchase Price List Module
 app-tryton/purchase_product_quantity 6.4.1 6.6.0: Add quantity constraints on purchase line
-app-tryton/purchase_request 6.0.3 6.2.1 6.4.3 6.6.2: Purchase Request Module
+app-tryton/purchase_request 6.0.4 6.2.1 6.4.4 6.6.3: Purchase Request Module
 app-tryton/purchase_request_quotation 6.0.4 6.2.1 6.4.3 6.6.2: Tryton module for purchase request quotation
 app-tryton/purchase_requisition 6.0.0 6.2.0 6.4.1 6.6.0: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 6.0.0 6.2.0 6.4.1 6.6.0: Module to add a secondary unit on purchase line
@@ -159,7 +159,7 @@ app-tryton/sale_stock_quantity 6.0.1 6.2.1 6.4.2 6.6.1: Sale Stock Quantity Modu
 app-tryton/sale_subscription 6.0.2 6.2.0 6.4.1 6.6.0: Tryton module for subscription
 app-tryton/sale_subscription_asset 6.0.1 6.2.1 6.4.2 6.6.0: Handles asset in the sale subscriptions
 app-tryton/sale_supply 6.0.3 6.2.1 6.4.4 6.6.2: Sale Supply Module
-app-tryton/sale_supply_drop_shipment 6.0.4 6.2.1 6.4.2 6.6.1: Sale Supply Drop Shipment Module
+app-tryton/sale_supply_drop_shipment 6.0.4 6.2.1 6.4.2 6.6.2: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.2.1 6.4.1 6.6.0: Tryton module to supply sales from production
 app-tryton/stock 6.0.18 6.2.10 6.4.7 6.6.2: Stock Module
 app-tryton/stock_assign_manual 6.0.1 6.2.0 6.4.1 6.6.0: Assign manually stock move
