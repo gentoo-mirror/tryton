@@ -8,4 +8,7 @@
 	<use>
 		<flag name="timezone">Enable support for timezone</flag>
 	</use>
+	<upstream>
+		<remote-id type="pypi">trytond_product_cost_history</remote-id>
+	</upstream>
 </pkgmetadata>

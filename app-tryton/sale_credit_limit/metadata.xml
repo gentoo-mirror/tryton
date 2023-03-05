@@ -9,4 +9,7 @@
 		adds confirmed sale but not yet invoiced to the "Credit Amount" of the
 		Party and check the credit limit of the party when processing a sale
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">trytond_sale_credit_limit</remote-id>
+	</upstream>
 </pkgmetadata>
