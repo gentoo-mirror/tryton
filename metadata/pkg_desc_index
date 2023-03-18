@@ -219,7 +219,7 @@ dev-python/febelfin-coda 0.2.0: A module to parse CODA files
 dev-python/flask_tryton 0.11.1: Adds Tryton support to Flask application
 dev-python/forex-python 1.8: Foreign exchange rates and currency conversion.
 dev-python/geomet 0.3.0: Convert GeoJSON to WKT/WKB
-dev-python/goocalendar 0.7.2: A calendar widget for GTK using Goocanvas
+dev-python/goocalendar 0.8.0: A calendar widget for GTK using Goocanvas
 dev-python/iso3166 2.0.2: Self-contained ISO 3166-1 country definitions.
 dev-python/markuppy 1.14: An HTML/XML generator
 dev-python/ofxparse 0.21: Tools for working with the OFX (Open Financial Exchange) file format
