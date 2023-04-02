@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.28 6.2.14 6.4.12 6.6.5: Tryton web client
+app-office/sao 6.0.28 6.2.14 6.4.13 6.6.6: Tryton web client
 app-office/tryton 6.0.26 6.2.12 6.4.11 6.6.6: Tryton desktop client
-app-office/trytond 6.0.29 6.2.14 6.4.13 6.6.6: A three-tiers high-level general purpose business application framework
+app-office/trytond 6.0.30 6.2.14 6.4.14 6.6.7: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.15 6.2.9 6.4.6 6.6.2: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.2.2 6.4.3 6.6.1: Account Asset Module
 app-tryton/account_be 6.0.0 6.2.0 6.4.1 6.6.0: Account Belgium Module
@@ -21,7 +21,7 @@ app-tryton/account_es_sii 6.4.4 6.6.2: Account Spain SII Module
 app-tryton/account_eu 6.0.0 6.2.0 6.4.1 6.6.0: Account European Module
 app-tryton/account_fr 6.0.1 6.2.0 6.4.2 6.6.1: Account French Module
 app-tryton/account_fr_chorus 6.0.3 6.2.1 6.4.1 6.6.0: Tryton module to communicate with Chorus
-app-tryton/account_invoice 6.0.9 6.2.6 6.4.5 6.6.3: Invoice Module
+app-tryton/account_invoice 6.0.10 6.2.6 6.4.6 6.6.4: Invoice Module
 app-tryton/account_invoice_correction 6.0.0 6.2.0 6.4.1 6.6.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.3 6.2.2 6.4.1 6.6.0: Account Invoice Defer Module
 app-tryton/account_invoice_history 6.0.2 6.2.0 6.4.2 6.6.1: Account Invoice History
@@ -84,15 +84,15 @@ app-tryton/google_maps 6.0.0 6.2.0 6.4.2 6.6.0: Google Maps Module
 app-tryton/incoterm 6.0.2 6.2.1 6.4.2 6.6.0: Incoterm Module
 app-tryton/ldap_authentication 6.0.1 6.2.1 6.4.2 6.6.0: LDAP Authentication Module
 app-tryton/marketing 6.0.0 6.2.0 6.4.1 6.6.0: Marketing features
-app-tryton/marketing_automation 6.0.3 6.2.1 6.4.1 6.6.1: Plan, coordinate and manage marketing campaigns
-app-tryton/marketing_campaign 6.6.0: Tryton module to manage marketing campaign
-app-tryton/marketing_email 6.0.0 6.2.0 6.4.1 6.6.0: Manage marketing mailing lists
+app-tryton/marketing_automation 6.0.4 6.2.1 6.4.2 6.6.2: Plan, coordinate and manage marketing campaigns
+app-tryton/marketing_campaign 6.6.1: Tryton module to manage marketing campaign
+app-tryton/marketing_email 6.0.1 6.2.0 6.4.2 6.6.1: Manage marketing mailing lists
 app-tryton/notification_email 6.0.3 6.2.2 6.4.2 6.6.0: Notification Email Module
 app-tryton/party 6.0.3 6.2.1 6.4.2 6.6.0: Party Module
 app-tryton/party_avatar 6.0.1 6.2.0 6.4.1 6.6.0: Party Avatar Module
 app-tryton/party_relationship 6.0.0 6.2.0 6.4.1 6.6.0: Party Relationship Module
 app-tryton/party_siret 6.0.0 6.2.0 6.4.1 6.6.0: Party - Siret Module
-app-tryton/product 6.0.3 6.2.0 6.4.1 6.6.0: Product Module
+app-tryton/product 6.0.4 6.2.0 6.4.2 6.6.1: Product Module
 app-tryton/product_attribute 6.0.0 6.2.0 6.4.1 6.6.0: Product Attribute Module
 app-tryton/product_classification 6.0.0 6.2.0 6.4.1 6.6.0: Product Classification Module
 app-tryton/product_classification_taxonomic 6.0.0 6.2.0 6.4.1 6.6.0: Product Classification Taxonomic Module
@@ -101,7 +101,7 @@ app-tryton/product_cost_history 6.0.1 6.2.0 6.4.2 6.6.1: Product Cost History Mo
 app-tryton/product_cost_warehouse 6.0.4 6.2.2 6.4.2 6.6.0: Product Cost Warehouse Module
 app-tryton/product_image 6.2.1 6.4.2 6.6.0: Tryton module that adds images to products
 app-tryton/product_image_attribute 6.2.0 6.4.1 6.6.0: Tryton module to select variant images based on attributes
-app-tryton/product_kit 6.0.12 6.2.4 6.4.6 6.6.4: Product Kit Module
+app-tryton/product_kit 6.0.13 6.2.4 6.4.7 6.6.5: Product Kit Module
 app-tryton/product_measurements 6.0.0 6.2.0 6.4.1 6.6.0: Product Measurements Module
 app-tryton/product_price_list 6.0.0 6.2.0 6.4.1 6.6.0: Product Price List Module
 app-tryton/product_price_list_dates 6.0.1 6.2.1 6.4.2 6.6.0: Add dates on price list
@@ -161,7 +161,7 @@ app-tryton/sale_subscription_asset 6.0.1 6.2.1 6.4.2 6.6.0: Handles asset in the
 app-tryton/sale_supply 6.0.3 6.2.1 6.4.4 6.6.2: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 6.0.5 6.2.1 6.4.3 6.6.3: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.2.1 6.4.1 6.6.0: Tryton module to supply sales from production
-app-tryton/stock 6.0.18 6.2.10 6.4.7 6.6.2: Stock Module
+app-tryton/stock 6.0.19 6.2.10 6.4.8 6.6.3: Stock Module
 app-tryton/stock_assign_manual 6.0.1 6.2.0 6.4.1 6.6.0: Assign manually stock move
 app-tryton/stock_consignment 6.0.2 6.2.2 6.4.3 6.6.0: Stock Consignment Module
 app-tryton/stock_forecast 6.0.2 6.2.2 6.4.2 6.6.0: Stock Forecast Module
@@ -173,7 +173,7 @@ app-tryton/stock_lot_sled 6.0.0 6.2.0 6.4.1 6.6.0: Tryton module for shelf life 
 app-tryton/stock_lot_unit 6.0.1 6.2.0 6.4.1 6.6.0: Tryton module to define unit on stock lot
 app-tryton/stock_package 6.0.1 6.2.0 6.4.1 6.6.0: Tryton module for stock packaging
 app-tryton/stock_package_shipping 6.0.1 6.2.0 6.4.2 6.6.1: Package Shipping Module
-app-tryton/stock_package_shipping_dpd 6.0.5 6.2.4 6.4.3 6.6.1: Package Shipping for DPD Module
+app-tryton/stock_package_shipping_dpd 6.0.6 6.2.4 6.4.4 6.6.2: Package Shipping for DPD Module
 app-tryton/stock_package_shipping_mygls 6.2.1 6.4.2 6.6.1: MyGLS connector for the Tryton application platform
 app-tryton/stock_package_shipping_sendcloud 6.2.2 6.4.2 6.6.0: Sendcloud connector for the Tryton application platform
 app-tryton/stock_package_shipping_ups 6.0.3 6.2.1 6.4.2 6.6.0: Package Shipping for UPS Module
@@ -197,7 +197,7 @@ app-tryton/web_shop_shopify 6.2.3 6.4.3 6.6.1: Module to integrate Tryton with S
 app-tryton/web_shop_vue_storefront 6.0.0 6.2.1 6.4.1 6.6.0: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 6.0.1 6.2.0 6.4.1 6.6.0: Support Stripe payment with Vue Storefront
 app-tryton/web_shortener 6.0.1 6.2.1 6.4.1 6.6.0: Web Shortener Module
-app-tryton/web_user 6.0.0 6.2.0 6.4.1 6.6.0: Web User Module
+app-tryton/web_user 6.0.1 6.2.0 6.4.2 6.6.1: Web User Module
 dev-javascript/bootstrap 3.3.7 3.4.1: HTML, CSS, and JS framework for developing responsive, mobile first on the web
 dev-javascript/bootstrap-datetimepicker 4.17.47: Bootstrap 3 Date/Time Picker
 dev-javascript/bootstrap-rtl-ondemand 3.3.4-r1: Bootstrap 3 with on-demand RTL support

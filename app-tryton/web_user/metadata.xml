@@ -9,4 +9,7 @@
 		<flag name="bcrypt">Enable BCrypt hash</flag>
 		<flag name="html2text">Enable text part for HTML email</flag>
 	</use>
+	<upstream>
+		<remote-id type="pypi">trytond_web_user</remote-id>
+	</upstream>
 </pkgmetadata>
