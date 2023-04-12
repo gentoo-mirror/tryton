@@ -4,9 +4,9 @@
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{7..10} )
-MY_PN="trytond_${PN}"
+PYPI_PN="trytond_${PN}"
 
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Product Module"
 HOMEPAGE="http://www.tryton.org/"
