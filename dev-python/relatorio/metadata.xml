@@ -5,12 +5,12 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		A templating library able to output odt and pdf files
-	</longdescription>
 	<use>
 		<flag name="fodt">Enable flat OpenDocument</flag>
 		<flag name="chart">Enable chart</flag>
 	</use>
+	<upstream>
+		<remote-id type="pypi">relatorio</remote-id>
+	</upstream>
 </pkgmetadata>
 

@@ -5,4 +5,7 @@
 		<email>ced@b2ck.com</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="pypi">trytond_currency_rs</remote-id>
+	</upstream>
 </pkgmetadata>

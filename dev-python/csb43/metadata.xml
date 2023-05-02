@@ -10,4 +10,8 @@
 		<flag name="yaml">Enable YAML support</flag>
 		<flag name="formats">Enable formats support</flag>
 	</use>
+	<upstream>
+		<remote-id type="bitbucket">wmj/csb43</remote-id>
+		<remote-id type="pypi">csb43</remote-id>
+	</upstream>
 </pkgmetadata>

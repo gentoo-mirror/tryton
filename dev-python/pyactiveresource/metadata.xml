@@ -8,4 +8,8 @@
 	<longdescription lang="en">
 		A python port of the ActiveResource project, which provides an object-relational mapping for REST web services.
 	</longdescription>
+	<upstream>
+		<remote-id type="github">Shopify/pyactiveresource</remote-id>
+		<remote-id type="pypi">pyactiveresource</remote-id>
+	</upstream>
 </pkgmetadata>

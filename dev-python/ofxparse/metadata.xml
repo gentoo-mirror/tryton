@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-    <maintainer type="person">
-        <email>cedk@gentoo.org</email>
-        <name>Cédric Krier</name>
-    </maintainer>
-    <longdescription lang="en">
-        ofxparse is a parser for Open Financial Exchange (.ofx) format files.
-        OFX files are available from almost any online banking site, so they
-        work well if you want to pull together your finances from multiple
-        sources. Online trading accounts also provide account statements in OFX
-        files.
-    </longdescription>
+	<maintainer type="person">
+		<email>cedk@gentoo.org</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<longdescription lang="en">
+		ofxparse is a parser for Open Financial Exchange (.ofx) format files.
+		OFX files are available from almost any online banking site, so they
+		work well if you want to pull together your finances from multiple
+		sources. Online trading accounts also provide account statements in OFX
+		files.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">ofxparse</remote-id>
+	</upstream>
 </pkgmetadata>

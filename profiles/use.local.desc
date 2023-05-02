@@ -6,10 +6,12 @@ app-office/tryton:calendar - Enable support for the calendar view
 app-office/tryton:document - Enable support for the document view
 app-office/tryton:spell - Enable support for spell checking
 app-office/trytond:argon2 - Enable Argon2 hash
+app-office/trytond:barcode - Enable support for barcode generation
 app-office/trytond:bcrypt - Enable BCrypt hash
 app-office/trytond:html2text - Enable text part for HTML email
 app-office/trytond:image - Enable image/avatar support
 app-office/trytond:levenshtein - Enable support for Levenshtein
+app-office/trytond:qrcode - Enable support for QR code generation
 app-office/trytond:weasyprint - Use weasyprint to convert HTML into PDF
 app-tryton/attendance:timezone - Enable support for timezone
 app-tryton/bank:swift - Guess bank from IBAN
@@ -32,5 +34,6 @@ dev-python/csb43:babel - Enable Babel support
 dev-python/csb43:formats - Enable formats support
 dev-python/csb43:yaml - Enable YAML support
 dev-python/proteus:trytond - Enable support of trytond
+dev-python/python-barcode:image - Enable support for PNG.
 dev-python/relatorio:chart - Enable chart
 dev-python/relatorio:fodt - Enable flat OpenDocument

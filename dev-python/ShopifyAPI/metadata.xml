@@ -8,4 +8,8 @@
 	<longdescription lang="en">
 		The ShopifyAPI library allows python developers to programmatically access the admin section of stores using an ActiveResource like interface similar the ruby Shopify API gem. The library makes HTTP requests to Shopify in order to list, create, update, or delete resources (e.g. Order, Product, Collection).
 	</longdescription>
+	<upstream>
+		<remote-id type="github">Shopify/shopify_python_api</remote-id>
+		<remote-id type="pypi">ShopifyAPI</remote-id>
+	</upstream>
 </pkgmetadata>

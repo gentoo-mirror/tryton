@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>ced@b2ck.com</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<use>
+		<flag name="image">Enable support for PNG.</flag>
+	</use>
+	<upstream>
+		<remote-id type="pypi">python-barcode</remote-id>
+	</upstream>
+</pkgmetadata>

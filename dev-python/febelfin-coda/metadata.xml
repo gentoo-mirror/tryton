@@ -8,4 +8,7 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="pypi">febelfin-coda</remote-id>
+	</upstream>
 </pkgmetadata>

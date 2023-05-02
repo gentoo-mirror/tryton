@@ -6,6 +6,6 @@
 		<name>Cédric Krier</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="pypi">iso3166</remote-id>
+		<remote-id type="pypi">schwifty</remote-id>
 	</upstream>
 </pkgmetadata>
