@@ -10,4 +10,7 @@
 		receivable/payable account to a clearing account defined on the payment
 		journal
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">trytond_account_payment_clearing</remote-id>
+	</upstream>
 </pkgmetadata>

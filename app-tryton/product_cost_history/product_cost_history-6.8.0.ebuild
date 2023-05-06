@@ -13,6 +13,7 @@ HOMEPAGE="http://www.tryton.org/"
 
 LICENSE="GPL-3"
 SLOT="0"
+KEYWORDS="~amd64 ~x86"
 IUSE="test timezone"
 
 RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
