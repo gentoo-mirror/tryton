@@ -13,7 +13,7 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc graphviz mysql +postgres sqlite levenshtein bcrypt html2text weasyprint image test"
+IUSE="doc graphviz +postgres sqlite levenshtein bcrypt html2text weasyprint image test"
 
 RDEPEND="acct-group/trytond
 	acct-user/trytond

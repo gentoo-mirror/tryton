@@ -5,7 +5,7 @@ DESCRIPTION=A three-tiers high-level general purpose business application framew
 EAPI=7
 HOMEPAGE=http://www.tryton.org/
 INHERIT=distutils-r1
-IUSE=doc graphviz mysql +postgres sqlite levenshtein bcrypt html2text weasyprint image test python_targets_python3_10
+IUSE=doc graphviz +postgres sqlite levenshtein bcrypt html2text weasyprint image test python_targets_python3_10
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=acct-group/trytond acct-user/trytond postgres? ( >=dev-python/psycopg-2.5.4:2[python_targets_python3_10(-)?] ) sqlite? ( dev-lang/python:*[sqlite] ) dev-python/defusedxml[python_targets_python3_10(-)?] >=dev-python/lxml-2.0[python_targets_python3_10(-)?] >=dev-python/relatorio-0.7[fodt,python_targets_python3_10(-)?] dev-python/genshi[python_targets_python3_10(-)?] dev-python/python-dateutil[python_targets_python3_10(-)?] dev-python/polib[python_targets_python3_10(-)?] >=dev-python/python-sql-0.5[python_targets_python3_10(-)?] dev-python/werkzeug[python_targets_python3_10(-)?] dev-python/wrapt[python_targets_python3_10(-)?] >=dev-python/passlib-1.7.0[python_targets_python3_10(-)?] graphviz? ( dev-python/pydot[python_targets_python3_10(-)?] ) levenshtein? ( dev-python/python-levenshtein[python_targets_python3_10(-)?] ) bcrypt? ( dev-python/bcrypt[python_targets_python3_10(-)?] ) html2text? ( dev-python/html2text[python_targets_python3_10(-)?] ) weasyprint? ( dev-python/weasyprint[python_targets_python3_10(-)?] ) image? ( dev-python/pillow[truetype,python_targets_python3_10(-)?] ) python_targets_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 )
@@ -14,4 +14,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://pypi/t/trytond/trytond-6.0.31.tar.gz
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	eapi8-dosym	741bfa77afb2a9321261501aca58c208	python-utils-r1	4544ab96b58e177dc52d75e42f5ee307	python-r1	3c6cd0f418ba702c186a9865b85e704d	distutils-r1	87ebb7e1e8d4ac49be0a91406b443060
-_md5_=a8149ee22c5d78dc9fe4b2f43d97bd97
+_md5_=677ca22b760e3a484d846a1dfc2e68ce

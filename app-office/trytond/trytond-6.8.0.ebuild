@@ -13,7 +13,7 @@ HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc graphviz mysql +postgres sqlite levenshtein bcrypt argon2 html2text weasyprint image barcode qrcode bash-completion test"
+IUSE="doc graphviz +postgres sqlite levenshtein bcrypt argon2 html2text weasyprint image barcode qrcode bash-completion test"
 
 RDEPEND="acct-group/trytond
 	acct-user/trytond
