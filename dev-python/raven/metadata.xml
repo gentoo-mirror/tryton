@@ -5,4 +5,8 @@
 		<email>ced@b2ck.com</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="github">getsentry/raven-python</remote-id>
+		<remote-id type="pypi">raven</remote-id>
+	</upstream>
 </pkgmetadata>

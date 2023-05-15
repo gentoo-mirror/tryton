@@ -5,7 +5,8 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		Sentry integration for the Tryton application framework
-	</longdescription>
+	<upstream>
+		<remote-id type="gitlab">pokoli/sentry-tryton</remote-id>
+		<remote-id type="pypi">sentry_tryton</remote-id>
+	</upstream>
 </pkgmetadata>
