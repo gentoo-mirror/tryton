@@ -6,7 +6,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{8..11} )
 PYPI_PN="trytond_${PN}"
 
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Sale Module"
 HOMEPAGE="http://www.tryton.org/"

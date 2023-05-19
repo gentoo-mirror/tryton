@@ -6,7 +6,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{8..11} )
 PYPI_PN="trytond_${PN}"
 
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Support Stripe payment with Vue Storefront"
 HOMEPAGE="http://www.tryton.org/"
