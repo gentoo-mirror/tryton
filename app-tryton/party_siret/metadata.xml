@@ -5,8 +5,7 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		Party module for Tryton
-		Define parties, addresses and co.
-	</longdescription>
+	<upstream>
+		<remote-id type="pypi">trytond_party_siret</remote-id>
+	</upstream>
 </pkgmetadata>
