@@ -24,7 +24,7 @@ distutils_enable_tests unittest
 
 src_install() {
 	distutils-r1_src_install
-	dodoc README CHANGELOG
+	dodoc README.rst CHANGELOG
 }
 
 python_test() {

@@ -234,7 +234,7 @@ dev-python/pycountry 20.7.3: Database of countries, subdivisions, languages, cur
 dev-python/pysaml2 7.4.1: Python implementation of SAML Version 2 Standard
 dev-python/python-barcode 0.14.0: Create standard barcodes with Python
 dev-python/python-levenshtein 0.20.7: Functions for fast computation of Levenshtein distance, and edit operations
-dev-python/python-sql 1.4.0-r1: A library to write SQL queries in a pythonic way.
+dev-python/python-sql 1.4.1: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0-r2: Raven is a client for Sentry
 dev-python/relatorio 0.10.1-r1: A templating library able to output odt and pdf files
 dev-python/schwifty 2023.3.0: Validate/generate IBANs and BICs
