@@ -2,7 +2,7 @@ acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
 app-office/sao 6.0.30 6.4.15 6.6.8 6.8.1: Tryton web client
 app-office/tryton 6.0.27 6.4.12 6.6.8 6.8.1: Tryton desktop client
-app-office/trytond 6.0.32 6.4.16 6.6.9 6.8.1: A three-tiers high-level general purpose business application framework
+app-office/trytond 6.0.33 6.4.16 6.6.10 6.8.2: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.17 6.4.8 6.6.4 6.8.1: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.4.3 6.6.1 6.8.0: Account Asset Module
 app-tryton/account_be 6.0.0 6.4.1 6.6.0 6.8.0: Account Belgium Module
@@ -11,13 +11,13 @@ app-tryton/account_cash_rounding 6.0.2 6.4.1 6.6.0 6.8.0: Tryton module to round
 app-tryton/account_consolidation 6.6.0 6.8.0: Tryton module consolidate accounting of many companies
 app-tryton/account_credit_limit 6.0.0 6.4.1 6.6.0 6.8.0: Tryton module for account credit limit
 app-tryton/account_de_skr03 6.0.0 6.4.1 6.6.0 6.8.0: German Chart of Accounts SKR03
-app-tryton/account_deposit 6.0.1 6.4.1 6.6.0 6.8.0: Tryton module for accounting deposit
+app-tryton/account_deposit 6.0.1 6.4.1 6.6.0 6.8.1: Tryton module for accounting deposit
 app-tryton/account_dunning 6.0.1 6.4.2 6.6.1 6.8.0: Account Dunning Module
 app-tryton/account_dunning_email 6.0.1 6.4.1 6.6.0 6.8.0: Account Dunning Email Module
 app-tryton/account_dunning_fee 6.0.1 6.4.2 6.6.1 6.8.0: Module for account dunning fee
 app-tryton/account_dunning_letter 6.0.1 6.4.1 6.6.0 6.8.0: Account Dunning Letter Module
 app-tryton/account_es 6.0.3 6.4.1 6.6.0 6.8.0: Account Spain Module
-app-tryton/account_es_sii 6.4.4 6.6.2 6.8.0: Account Spain SII Module
+app-tryton/account_es_sii 6.4.4 6.6.3 6.8.1: Account Spain SII Module
 app-tryton/account_eu 6.0.0 6.4.1 6.6.0 6.8.0: Account European Module
 app-tryton/account_fr 6.0.1 6.4.2 6.6.1 6.8.0: Account French Module
 app-tryton/account_fr_chorus 6.0.3 6.4.1 6.6.0 6.8.0: Tryton module to communicate with Chorus
@@ -38,7 +38,7 @@ app-tryton/account_payment_sepa_cfonb 6.0.0 6.4.1 6.6.0 6.8.0: Tryton module for
 app-tryton/account_payment_stripe 6.0.6 6.4.4 6.6.2 6.8.0: Tryton module for Stripe payment
 app-tryton/account_product 6.0.3 6.4.1 6.6.0 6.8.0: Account Product Module
 app-tryton/account_receivable_rule 6.4.1 6.6.0 6.8.0: Enforce receivable rules
-app-tryton/account_rule 6.4.1 6.6.0 6.8.0: Tryton module to change account used with rules
+app-tryton/account_rule 6.4.1 6.6.1 6.8.1: Tryton module to change account used with rules
 app-tryton/account_statement 6.0.4 6.4.1 6.6.0 6.8.0: Account Statement
 app-tryton/account_statement_aeb43 6.0.1 6.4.1 6.6.0 6.8.0: Tryton module to import AEB43 statements
 app-tryton/account_statement_coda 6.0.0 6.4.1 6.6.0 6.8.0: Account Statement
@@ -75,7 +75,7 @@ app-tryton/commission_waiting 6.0.1 6.4.1 6.6.0 6.8.0: Tryton module for commiss
 app-tryton/company 6.0.6 6.4.1 6.6.0 6.8.0: Company Module
 app-tryton/company_work_time 6.0.0 6.4.1 6.6.0 6.8.0: Company Work Time Module
 app-tryton/country 6.0.3 6.4.3 6.6.1 6.8.0: Country Module
-app-tryton/currency 6.0.4 6.4.3 6.6.1 6.8.0: Currency Module
+app-tryton/currency 6.0.5 6.4.3 6.6.2 6.8.1: Currency Module
 app-tryton/currency_ro 6.4.1 6.6.0 6.8.0: Fetch currency rates from the Romanian National Bank
 app-tryton/currency_rs 6.4.1 6.6.0 6.8.0: Fetch currency rates from the Serbian National Bank
 app-tryton/customs 6.0.0 6.4.1 6.6.0 6.8.0: Customs Module
@@ -118,7 +118,7 @@ app-tryton/project 6.0.0 6.4.1 6.6.0 6.8.0: Project Module
 app-tryton/project_invoice 6.0.4 6.4.2 6.6.0 6.8.0: Project Invoice Module
 app-tryton/project_plan 6.0.0 6.4.1 6.6.0 6.8.0: Project Plan Module
 app-tryton/project_revenue 6.0.1 6.4.2 6.6.0 6.8.0: Project Revenue
-app-tryton/purchase 6.0.11 6.4.6 6.6.3 6.8.1: Purchase Module
+app-tryton/purchase 6.0.11 6.4.6 6.6.3 6.8.2: Purchase Module
 app-tryton/purchase_amendment 6.0.2 6.4.2 6.6.0 6.8.0: Module to amend purchases
 app-tryton/purchase_blanket_agreement 6.6.0 6.8.0: Tryton module for purchase blanket agreement
 app-tryton/purchase_history 6.0.0 6.4.1 6.6.0 6.8.0: Module to historize purchases
@@ -145,7 +145,7 @@ app-tryton/sale_invoice_date 6.4.2 6.6.0 6.8.0: Compute invoice date of sale
 app-tryton/sale_invoice_grouping 6.0.0 6.4.1 6.6.0 6.8.0: Sale Invoice Grouping Module
 app-tryton/sale_opportunity 6.0.1 6.4.1 6.6.0 6.8.0: Leads and opportunities
 app-tryton/sale_payment 6.0.2 6.4.1 6.6.0 6.8.0: Sale Payment Module
-app-tryton/sale_point 6.4.5 6.6.2 6.8.0: Tryton module for Point of Sales
+app-tryton/sale_point 6.4.5 6.6.3 6.8.1: Tryton module for Point of Sales
 app-tryton/sale_price_list 6.0.1 6.4.1 6.6.0 6.8.0: Sale Pricelist Module
 app-tryton/sale_product_customer 6.0.3 6.4.3 6.6.0 6.8.0: Sale Product Customer Module
 app-tryton/sale_product_quantity 6.4.1 6.6.0 6.8.0: Add quantity constraints on sale line
@@ -161,10 +161,10 @@ app-tryton/sale_shipment_tolerance 6.0.0 6.4.1 6.6.0 6.8.0: Defines tolerance fo
 app-tryton/sale_stock_quantity 6.0.1 6.4.2 6.6.1 6.8.0: Sale Stock Quantity Module
 app-tryton/sale_subscription 6.0.3 6.4.2 6.6.1 6.8.1: Tryton module for subscription
 app-tryton/sale_subscription_asset 6.0.1 6.4.2 6.6.0 6.8.0: Handles asset in the sale subscriptions
-app-tryton/sale_supply 6.0.3 6.4.4 6.6.2 6.8.0: Sale Supply Module
+app-tryton/sale_supply 6.0.3 6.4.4 6.6.2 6.8.1: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 6.0.5 6.4.3 6.6.3 6.8.0: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.4.1 6.6.0 6.8.0: Tryton module to supply sales from production
-app-tryton/stock 6.0.19 6.4.8 6.6.3 6.8.1: Stock Module
+app-tryton/stock 6.0.20 6.4.8 6.6.4 6.8.2: Stock Module
 app-tryton/stock_assign_manual 6.0.1 6.4.1 6.6.0 6.8.0: Assign manually stock move
 app-tryton/stock_consignment 6.0.2 6.4.3 6.6.0 6.8.0: Stock Consignment Module
 app-tryton/stock_forecast 6.0.2 6.4.2 6.6.0 6.8.0: Stock Forecast Module
@@ -234,7 +234,7 @@ dev-python/pycountry 20.7.3: Database of countries, subdivisions, languages, cur
 dev-python/pysaml2 7.4.1: Python implementation of SAML Version 2 Standard
 dev-python/python-barcode 0.14.0: Create standard barcodes with Python
 dev-python/python-levenshtein 0.20.7: Functions for fast computation of Levenshtein distance, and edit operations
-dev-python/python-sql 1.4.1: A library to write SQL queries in a pythonic way.
+dev-python/python-sql 1.4.2: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0-r2: Raven is a client for Sentry
 dev-python/relatorio 0.10.1-r1: A templating library able to output odt and pdf files
 dev-python/schwifty 2023.3.0: Validate/generate IBANs and BICs
