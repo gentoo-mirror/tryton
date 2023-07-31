@@ -27,7 +27,7 @@ app-tryton/account_invoice_defer 6.0.4 6.4.2 6.6.1 6.8.1: Account Invoice Defer 
 app-tryton/account_invoice_history 6.0.2 6.4.2 6.6.1 6.8.0: Account Invoice History
 app-tryton/account_invoice_line_standalone 6.0.0 6.4.1 6.6.0 6.8.0: Account Invoice Line Standalone
 app-tryton/account_invoice_secondary_unit 6.0.0 6.4.1 6.6.0 6.8.0: Invoice Secondary Unit Module
-app-tryton/account_invoice_stock 6.0.1 6.4.2 6.6.0 6.8.0: Tryton module to link stock and invoice
+app-tryton/account_invoice_stock 6.0.2 6.4.2 6.6.1 6.8.1: Tryton module to link stock and invoice
 app-tryton/account_invoice_watermark 6.4.2 6.6.1 6.8.0: Add watermark to invoice
 app-tryton/account_move_line_grouping 6.4.1 6.6.0 6.8.0: Tryton module to display account move line grouped
 app-tryton/account_payment 6.0.3 6.4.1 6.6.0 6.8.0: Tryton module for payment
@@ -90,7 +90,7 @@ app-tryton/marketing_automation 6.0.4 6.4.2 6.6.2 6.8.0: Plan, coordinate and ma
 app-tryton/marketing_campaign 6.6.1 6.8.0: Tryton module to manage marketing campaign
 app-tryton/marketing_email 6.0.1 6.4.2 6.6.1 6.8.0: Manage marketing mailing lists
 app-tryton/notification_email 6.0.3 6.4.2 6.6.0 6.8.0: Notification Email Module
-app-tryton/party 6.0.3 6.4.2 6.6.0 6.8.0: Party Module
+app-tryton/party 6.0.4 6.4.2 6.6.1 6.8.1: Party Module
 app-tryton/party_avatar 6.0.1 6.4.1 6.6.0 6.8.0: Party Avatar Module
 app-tryton/party_relationship 6.0.0 6.4.1 6.6.0 6.8.0: Party Relationship Module
 app-tryton/party_siret 6.0.0 6.4.2 6.6.1 6.8.0: Party - Siret Module
