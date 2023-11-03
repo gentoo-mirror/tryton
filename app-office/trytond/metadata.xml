@@ -14,6 +14,7 @@
 		<flag name="image">Enable image/avatar support</flag>
 		<flag name="barcode">Enable support for barcode generation</flag>
 		<flag name="qrcode">Enable support for QR code generation</flag>
+		<flag name="email-validation">Enable support for email validation</flag>
 	</use>
 	<upstream>
 		<remote-id type="pypi">trytond</remote-id>

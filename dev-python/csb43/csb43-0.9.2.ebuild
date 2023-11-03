@@ -3,7 +3,7 @@
 
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{5..11} )
+PYTHON_COMPAT=( python3_{5..12} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Tools to convert files in format used by multiple Spanish banks"

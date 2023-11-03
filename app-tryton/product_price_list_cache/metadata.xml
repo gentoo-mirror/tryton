@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>ced@b2ck.com</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">trytond_product_price_list_cache</remote-id>
+	</upstream>
+</pkgmetadata>

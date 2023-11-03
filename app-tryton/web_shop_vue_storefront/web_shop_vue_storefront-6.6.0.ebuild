@@ -22,7 +22,7 @@ RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/sale-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/web_shop-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/web_user-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
-	dev-python/elasticsearch-py[${PYTHON_USEDEP}]
+	dev-python/elasticsearch[${PYTHON_USEDEP}]
 	>=dev-python/python-stdnum-1.1.0[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}

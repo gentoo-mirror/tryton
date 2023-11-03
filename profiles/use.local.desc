@@ -4,10 +4,12 @@
 
 app-office/tryton:calendar - Enable support for the calendar view
 app-office/tryton:document - Enable support for the document view
+app-office/tryton:sound - Enable playing sound
 app-office/tryton:spell - Enable support for spell checking
 app-office/trytond:argon2 - Enable Argon2 hash
 app-office/trytond:barcode - Enable support for barcode generation
 app-office/trytond:bcrypt - Enable BCrypt hash
+app-office/trytond:email-validation - Enable support for email validation
 app-office/trytond:html2text - Enable text part for HTML email
 app-office/trytond:image - Enable image/avatar support
 app-office/trytond:levenshtein - Enable support for Levenshtein

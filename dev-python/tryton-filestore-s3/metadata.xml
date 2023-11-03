@@ -5,4 +5,8 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="github">gcoop-libre/tryton-filestore-s3</remote-id>
+		<remote-id type="pypi">tryton-filestore-s3</remote-id>
+	</upstream>
 </pkgmetadata>
