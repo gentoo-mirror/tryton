@@ -5,5 +5,8 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="pypi">trytond_account_invoice_line_standalone</remote-id>
+	</upstream>
 </pkgmetadata>
 
