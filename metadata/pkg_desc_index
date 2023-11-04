@@ -173,7 +173,7 @@ app-tryton/sale_supply_production 6.0.1 6.4.1 6.6.0 6.8.0 7.0.0: Tryton module t
 app-tryton/stock 6.0.22 6.4.8 6.6.6 6.8.4 7.0.0: Stock Module
 app-tryton/stock_assign_manual 6.0.1 6.4.1 6.6.0 6.8.0 7.0.0: Assign manually stock move
 app-tryton/stock_consignment 6.0.2 6.4.3 6.6.0 6.8.0 7.0.0: Stock Consignment Module
-app-tryton/stock_forecast 6.0.2 6.4.2 6.6.0 6.8.0 7.0.0: Stock Forecast Module
+app-tryton/stock_forecast 6.0.3 6.4.2 6.6.1 6.8.0 7.0.0: Stock Forecast Module
 app-tryton/stock_inventory_location 6.0.0 6.4.1 6.6.0 6.8.0 7.0.0: Stock Inventory Location Module
 app-tryton/stock_location_move 6.0.0 6.4.1 6.6.0 6.8.0 7.0.0: Stock Location Move Module
 app-tryton/stock_location_sequence 6.0.0 6.4.1 6.6.0 6.8.0 7.0.0: Stock Location Sequence Module
