@@ -10,7 +10,6 @@ SRC_URI="https://downloads.tryton.org/$(ver_cut 1-2)/tryton-${P}.tgz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
 
 DEPEND="dev-javascript/jquery:3
 	>=dev-javascript/bootstrap-3.3.7:3
