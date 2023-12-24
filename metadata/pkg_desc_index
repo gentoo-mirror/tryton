@@ -227,7 +227,7 @@ dev-python/ShopifyAPI 12.3.0: Shopify API for Python
 dev-python/backports-entry-points-selectable 1.2.0: Compatibility shim providing selectable entry points for older implementations
 dev-python/csb43 0.9.2: Tools to convert files in format used by multiple Spanish banks
 dev-python/febelfin-coda 0.2.0-r1: A module to parse CODA files
-dev-python/flask_tryton 0.11.1: Adds Tryton support to Flask application
+dev-python/flask_tryton 0.11.2: Adds Tryton support to Flask application
 dev-python/forex-python 1.8: Foreign exchange rates and currency conversion.
 dev-python/geomet 1.0.0: Convert GeoJSON to WKT/WKB
 dev-python/goocalendar 0.8.0: A calendar widget for GTK using Goocanvas
