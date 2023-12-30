@@ -14,9 +14,7 @@ HOMEPAGE="http://python-sql.tryton.org/"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
 
-DEPEND=""
 RDEPEND="${DEPEND}
 	dev-python/setuptools[$PYTHON_USEDEP]"
 
