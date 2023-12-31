@@ -19,4 +19,4 @@ RDEPEND=">=dev-python/flask-0.8[${PYTHON_USEDEP}]
 	>=app-office/trytond-5.0[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}"
 
-DOCS=( CHANGELOG README )
+DOCS=( CHANGELOG README.rst )
