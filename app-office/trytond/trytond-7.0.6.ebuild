@@ -13,7 +13,7 @@ HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc graphviz +postgres sqlite levenshtein bcrypt argon2 html2text weasyprint image barcode qrcode bash-completion email-validation test"
+IUSE="graphviz +postgres sqlite levenshtein bcrypt argon2 html2text weasyprint image barcode qrcode bash-completion email-validation test"
 
 RDEPEND="acct-group/trytond
 	acct-user/trytond
@@ -45,25 +45,14 @@ RDEPEND="acct-group/trytond
 	bash-completion? ( dev-python/argcomplete[$PYTHON_USEDEP] )
 	email-validation? ( dev-python/email-validator[$PYTHON_USEDEP] )"
 DEPEND="${RDEPEND}
-	doc? ( >=dev-python/sphinx-0.3 )
 	test? (
 		$(python_gen_impl_dep sqlite)
 		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
 RESTRICT="!test? ( test )"
-DOCS=( CHANGELOG COPYRIGHT README.rst )
+DOCS="CHANGELOG COPYRIGHT README.rst doc/*.rst"
 
 distutils_enable_tests unittest
-
-src_compile() {
-	distutils-r1_src_compile
-
-	if use doc; then
-		pushd doc > /dev/null
-		emake html || die "Generation of HTML documentation failed"
-		popd > /dev/null
-	fi
-}
 
 src_install() {
 	distutils-r1_src_install
@@ -77,11 +66,6 @@ src_install() {
 	keepdir /var/log/trytond
 	keepdir /var/lib/trytond
 	fperms 770 /var/lib/trytond
-
-	if use doc; then
-		docinto html
-		dodoc -r doc/_build/html/*
-	fi
 }
 
 python_test() {

@@ -13,7 +13,7 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc graphviz +postgres sqlite levenshtein bcrypt html2text weasyprint image test"
+IUSE="graphviz +postgres sqlite levenshtein bcrypt html2text weasyprint image test"
 
 RDEPEND="acct-group/trytond
 	acct-user/trytond
@@ -37,22 +37,12 @@ RDEPEND="acct-group/trytond
 	image? ( dev-python/pillow[truetype,$PYTHON_USEDEP] )"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[$PYTHON_USEDEP]
-	doc? ( >=dev-python/sphinx-0.3 )
 	test? (
 		dev-lang/python:*[sqlite]
 		dev-python/pillow[truetype,$PYTHON_USEDEP]
 		)"
 RESTRICT="!test? ( test )"
-
-src_compile() {
-	distutils-r1_src_compile
-
-	if use doc; then
-		pushd doc > /dev/null
-		emake html || die "Generation of HTML documentation failed"
-		popd > /dev/null
-	fi
-}
+DOCS="CHANGELOG COPYRIGHT README.rst doc/*.rst"
 
 src_install() {
 	distutils-r1_src_install
@@ -66,12 +56,6 @@ src_install() {
 	keepdir /var/log/trytond
 	keepdir /var/lib/trytond
 	fperms 770 /var/lib/trytond
-
-	dodoc CHANGELOG COPYRIGHT README.rst
-	if use doc; then
-		docinto html
-		dodoc -r doc/_build/html/*
-	fi
 }
 
 python_test() {
