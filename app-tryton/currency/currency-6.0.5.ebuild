@@ -29,7 +29,8 @@ DEPEND="${RDEPEND}
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		dev-python/pycountry[${PYTHON_USEDEP}]
 	)"
-RESTRICT="!test? ( test )"
+PROPERTIES="test_network"
+RESTRICT="test"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-remove-rate-update-test.patch

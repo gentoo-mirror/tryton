@@ -29,17 +29,12 @@ DEPEND="${RDEPEND}
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		dev-python/pycountry[${PYTHON_USEDEP}]
 	)"
-RESTRICT="!test? ( test )"
+PROPERTIES="test_network"
+RESTRICT="test"
 
 DOCS="CHANGELOG COPYRIGHT doc/*.rst"
 
 distutils_enable_tests unittest
-
-src_prepare() {
-	# requires network
-	rm tests/scenario_currency_rate_update.rst || die
-	distutils-r1_src_prepare
-}
 
 python_test() {
 	DB_NAME=":memory:" eunittest

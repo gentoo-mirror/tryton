@@ -35,8 +35,8 @@ S=${WORKDIR}/trytond_${P}
 DOCS="CHANGELOG COPYRIGHT doc/*.rst"
 
 src_prepare() {
-	sed -i -e "s/>>> import_postal_codes/>>> # import_postal_codes/" \
-		tests/scenario_country_import.rst || die
+	# requires network
+	rm tests/scenario_country_import.rst || die
 	distutils-r1_src_prepare
 }
 

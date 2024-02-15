@@ -36,6 +36,12 @@ DOCS="CHANGELOG COPYRIGHT doc/*.rst"
 
 distutils_enable_tests unittest
 
+src_prepare() {
+	# requires network
+	rm tests/scenario_country_import.rst || die
+	distutils-r1_src_prepare
+}
+
 python_test() {
 	DB_NAME=":memory:" eunittest
 }
