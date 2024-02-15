@@ -26,13 +26,6 @@ DEPEND="${RDEPEND}
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	)"
 RESTRICT="!test? ( test )"
-
-PATCHES=(
-	"${FILESDIR}"/${PN}-remove-rate-update-test.patch
-)
-
-DOCS="CHANGELOG COPYRIGHT doc/*.rst"
-
 DOCS="CHANGELOG COPYRIGHT doc/*.rst"
 
 distutils_enable_tests unittest
