@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
-	=app-tryton/carrier-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
+	=app-tryton/account_stock_shipment_cost-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/stock_shipment_cost-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/stock_shipment_measurements-$(ver_cut 1-2)*[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
