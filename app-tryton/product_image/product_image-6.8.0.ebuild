@@ -23,7 +23,8 @@ DEPEND="${RDEPEND}
 	test? (
 		$(python_gen_impl_dep sqlite)
 		)"
-RESTRICT="!test? ( test )"
+PROPERTIES="test_network"
+RESTRICT="test"
 
 DOCS="CHANGELOG COPYRIGHT doc/*.rst"
 

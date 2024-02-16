@@ -26,6 +26,7 @@ DEPEND="${RDEPEND}
 		=app-tryton/account_invoice_stock-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/product_cost_fifo-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		=app-tryton/product_cost_history-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
+		=app-tryton/account_stock_continental-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
 RESTRICT="!test? ( test )"
 
