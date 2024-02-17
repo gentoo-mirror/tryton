@@ -22,7 +22,7 @@ RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/stock-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/stock_package-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/stock_shipment_measurements-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
-	=app-tryton/sale_shipment_cost-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
+	=app-tryton/stock_shipment_cost-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/product_measurements-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	>=dev-python/python-sql-0.4[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}

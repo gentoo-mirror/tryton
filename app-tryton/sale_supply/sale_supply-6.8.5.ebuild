@@ -25,6 +25,7 @@ DEPEND="${RDEPEND}
 	test? (
 		$(python_gen_impl_dep sqlite)
 		=dev-python/proteus-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
+		=app-tryton/stock_supply-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 		)"
 RESTRICT="!test? ( test )"
 
