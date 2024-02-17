@@ -17,6 +17,11 @@ KEYWORDS="~amd64 ~x86"
 RDEPEND="
 	dev-python/iso3166[${PYTHON_USEDEP}]
 	dev-python/pycountry[${PYTHON_USEDEP}]"
+BDEPEND="
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
+	test? (
+		>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+		)"
 
 distutils_enable_tests pytest
 
