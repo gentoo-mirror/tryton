@@ -13,18 +13,12 @@ HOMEPAGE="http://bitbucket.org/lgs/pycha/"
 LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
 
 DEPEND="dev-python/cairocffi[$PYTHON_USEDEP]"
 RDEPEND="${DEPEND}"
-RESTRICT="!test? ( test )"
 
 PATCHES=(
 	"${FILESDIR}"/${P}-chavier-python3.patch
 )
 
 DOCS="CHANGES.txt README.txt"
-
-python_test() {
-	esetup.py test || die
-}

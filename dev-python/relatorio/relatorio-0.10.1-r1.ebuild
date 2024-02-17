@@ -35,7 +35,3 @@ RESTRICT="!test? ( test )"
 DOCS="README COPYRIGHT CHANGELOG"
 
 distutils_enable_tests unittest
-
-python_test() {
-	eunittest -s relatorio.tests
-}
