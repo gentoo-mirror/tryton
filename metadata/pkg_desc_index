@@ -227,6 +227,7 @@ dev-python/ShopifyAPI 12.3.0: Shopify API for Python
 dev-python/aeb43 0.1.0: A module to parse AEB43 files
 dev-python/backports-entry-points-selectable 1.2.0: Compatibility shim providing selectable entry points for older implementations
 dev-python/csb43 0.9.2: Tools to convert files in format used by multiple Spanish banks
+dev-python/efficient-apriori 2.0.3: An efficient Python implementation of the Apriori algorithm
 dev-python/febelfin-coda 0.2.0-r1: A module to parse CODA files
 dev-python/flask_tryton 0.11.2: Adds Tryton support to Flask application
 dev-python/forex-python 1.8: Foreign exchange rates and currency conversion.

@@ -19,7 +19,8 @@ IUSE="test"
 RDEPEND="=app-office/trytond-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/product-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
 	=app-tryton/sale-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
-	=app-tryton/sale_product_recommendation-$(ver_cut 1-2)*[${PYTHON_USEDEP}]"
+	=app-tryton/sale_product_recommendation-$(ver_cut 1-2)*[${PYTHON_USEDEP}]
+	dev-python/efficient-apriori[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	test? (
 		$(python_gen_impl_dep sqlite)
