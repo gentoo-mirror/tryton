@@ -10,12 +10,8 @@ SRC_URI="https://github.com/popperjs/popper-core/archive/v${PV}.tar.gz -> ${P}.t
 LICENSE="MIT"
 SLOT="1"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
 
-DEPEND=""
-RDEPEND="${DEPEND}"
-
-S=${WORKDIR}/popper-core-${PV}
+S=${WORKDIR}/floating-ui-${PV}
 
 src_install() {
 	insinto "/usr/share/${PN}-${SLOT}/"

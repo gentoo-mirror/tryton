@@ -10,4 +10,7 @@
 		it, Popper will automatically put the tooltip in the right place near
 		the button.
 	</longdescription>
+	<upstream>
+		<remote-id type="github">popperjs/popper-core</remote-id>
+	</upstream>
 </pkgmetadata>
