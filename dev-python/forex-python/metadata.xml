@@ -5,7 +5,8 @@
 		<email>cedk@gentoo.org</email>
 		<name>Cédric Krier</name>
 	</maintainer>
-	<longdescription lang="en">
-		Forex Python is a Free Foreign exchange rates and currency conversion.
-	</longdescription>
+	<upstream>
+		<remote-id type="github">MicroPyramid/forex-python</remote-id>
+		<remote-id type="pypi">forex-python</remote-id>
+	</upstream>
 </pkgmetadata>
