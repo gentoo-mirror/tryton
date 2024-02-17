@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-python/markuppy[${PYTHON_USEDEP}]
 	dev-python/odfpy[${PYTHON_USEDEP}]
 	>=dev-python/openpyxl-2.6.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
