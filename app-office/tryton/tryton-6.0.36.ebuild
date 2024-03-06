@@ -13,10 +13,9 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc calendar document spell test"
+IUSE="calendar document spell test"
 
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
-	doc? ( >=dev-python/sphinx-0.3 )"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/pygobject:3[${PYTHON_USEDEP}]
 	dev-libs/gobject-introspection
 	x11-libs/gtk+:3[introspection]
@@ -30,28 +29,11 @@ RDEPEND="dev-python/pygobject:3[${PYTHON_USEDEP}]
 	spell? ( app-text/gtkspell:3[introspection] )"
 RESTRICT="!test? ( test )"
 
-src_compile() {
-	distutils-r1_src_compile
-
-	if use doc; then
-		pushd doc > /dev/null
-		emake html
-		popd > /dev/null
-	fi
-}
-
 src_install() {
 	distutils-r1_src_install
 
 	domenu tryton.desktop
 	doicon tryton/data/pixmaps/tryton/tryton-icon.png
-
-	dodoc CHANGELOG COPYRIGHT README.rst
-	if use doc; then
-		docinto html
-		dodoc -r doc/_build/html/*
-	fi
-
 }
 
 python_test() {
