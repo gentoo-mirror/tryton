@@ -5,5 +5,8 @@
 		<email>ced@b2ck.com</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="pypi">trytond_timesheet</remote-id>
+	</upstream>
 </pkgmetadata>
 
