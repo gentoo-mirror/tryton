@@ -2,7 +2,7 @@ acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
 app-office/sao 6.0.37 6.8.11 7.0.8: Tryton web client
 app-office/tryton 6.0.37 6.8.12 7.0.8: Tryton desktop client
-app-office/trytond 6.0.44 6.8.14 7.0.9: A three-tiers high-level general purpose business application framework
+app-office/trytond 6.0.45 6.8.15 7.0.10: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.22 6.8.8 7.0.5: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.8.0 7.0.0: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0: Account Belgium Module
