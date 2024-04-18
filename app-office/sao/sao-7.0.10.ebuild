@@ -6,6 +6,7 @@ EAPI=8
 DESCRIPTION="Tryton web client"
 HOMEPAGE="http://www.tryton.org/"
 SRC_URI="https://downloads.tryton.org/$(ver_cut 1-2)/tryton-${P}.tgz"
+S=${WORKDIR}/package
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -23,8 +24,6 @@ DEPEND="dev-javascript/jquery:3
 	>=dev-javascript/sortable-1.8.4:1"
 RDEPEND="${DEPEND}
 	=app-office/trytond-$(ver_cut 1-2)*"
-
-S=${WORKDIR}/package
 
 src_install() {
 	insinto "/usr/share/${PN}/"
