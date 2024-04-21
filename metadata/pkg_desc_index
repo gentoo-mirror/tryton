@@ -247,7 +247,7 @@ dev-python/python-barcode 0.15.1: Create standard barcodes with Python
 dev-python/python-levenshtein 0.23.0: Functions for fast computation of Levenshtein distance, and edit operations
 dev-python/python-sql 1.4.3: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0-r2: Raven is a client for Sentry
-dev-python/relatorio 0.10.1-r1: A templating library able to output odt and pdf files
+dev-python/relatorio 0.10.2: A templating library able to output odt and pdf files
 dev-python/schwifty 2023.10.0: Validate/generate IBANs and BICs
 dev-python/sentry_tryton 0.6-r1: Sentry integration for the Tryton
 dev-python/tablib 3.4.0 3.5.0: A format-agnostic tabular dataset library written in Python

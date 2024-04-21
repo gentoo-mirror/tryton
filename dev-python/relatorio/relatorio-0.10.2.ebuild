@@ -32,6 +32,6 @@ RDEPEND="${COMMON_DEPEND}
 		)"
 RESTRICT="!test? ( test )"
 
-DOCS="README COPYRIGHT CHANGELOG"
+DOCS="README.rst COPYRIGHT CHANGELOG"
 
 distutils_enable_tests unittest
