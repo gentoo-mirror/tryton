@@ -5,6 +5,9 @@
 		<email>ced@b2ck.com</email>
 		<name>Cédric Krier</name>
 	</maintainer>
+	<use>
+		<flag name="sparklines">Show sparklines on reports</flag>
+	</use>
 	<upstream>
 		<remote-id type="pypi">trytond_marketing_automation</remote-id>
 	</upstream>
