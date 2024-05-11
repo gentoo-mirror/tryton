@@ -144,7 +144,7 @@ app-tryton/sale 6.0.15 6.8.6 7.0.4 7.2.1: Sale Module
 app-tryton/sale_advance_payment 6.0.4 6.8.3 7.0.2 7.2.0: Tryton module for sale advance payment
 app-tryton/sale_amendment 6.0.2 6.8.1 7.0.1 7.2.1: Module to amend sales
 app-tryton/sale_blanket_agreement 6.8.0 7.0.0 7.2.1: Tryton module for sale blanket agreement
-app-tryton/sale_complaint 6.0.2 6.8.0 7.0.0: Sale Complaint Module
+app-tryton/sale_complaint 6.0.2 6.8.0 7.0.0 7.2.1: Sale Complaint Module
 app-tryton/sale_credit_limit 6.0.3 6.8.1 7.0.1 7.2.0: Tryton module for sale credit limit
 app-tryton/sale_discount 6.0.1 6.8.0 7.0.0 7.2.0: Manages discount on sale
 app-tryton/sale_extra 6.0.0 6.8.1 7.0.1 7.2.0: Tryton module for sale extra
