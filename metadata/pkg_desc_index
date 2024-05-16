@@ -2,8 +2,8 @@ acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
 app-office/sao 6.0.41 6.8.14 7.0.11 7.2.1: Tryton web client
 app-office/tryton 6.0.39 6.8.14 7.0.10 7.2.1: Tryton desktop client
-app-office/trytond 6.0.46 6.8.16 7.0.11 7.2.1: A three-tiers high-level general purpose business application framework
-app-tryton/account 6.0.24 6.8.10 7.0.7 7.2.1: Financial and Accounting Module
+app-office/trytond 6.0.46 6.8.16 7.0.11 7.2.2: A three-tiers high-level general purpose business application framework
+app-tryton/account 6.0.25 6.8.11 7.0.8 7.2.2: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.8.0 7.0.0 7.2.1: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0: Account Belgium Module
 app-tryton/account_budget 6.8.0 7.0.0 7.2.1: Tryton module that allows budgets to be setup for accounts
@@ -117,7 +117,7 @@ app-tryton/product_price_list 6.0.0 6.8.0 7.0.0 7.2.1: Product Price List Module
 app-tryton/product_price_list_cache 7.0.0 7.2.0: Tryton module to cache price lists
 app-tryton/product_price_list_dates 6.0.1 6.8.0 7.0.0 7.2.0: Add dates on price list
 app-tryton/product_price_list_parent 6.0.0 6.8.0 7.0.0 7.2.0: Product Price List Parent Module
-app-tryton/production 6.0.6 6.8.1 7.0.1 7.2.1: Production Module
+app-tryton/production 6.0.6 6.8.2 7.0.2 7.2.2: Production Module
 app-tryton/production_outsourcing 6.0.1 6.8.1 7.0.1 7.2.0: Tryton module to outsource production
 app-tryton/production_routing 6.0.1 6.8.0 7.0.0 7.2.0: Production Routing Module
 app-tryton/production_split 6.0.0 6.8.0 7.0.0 7.2.0: Module to split production
@@ -134,8 +134,8 @@ app-tryton/purchase_history 6.0.0 6.8.0 7.0.0 7.2.0: Module to historize purchas
 app-tryton/purchase_invoice_line_standalone 6.0.0 6.8.0 7.0.0 7.2.0: Purchase Invoice Line Standalone Module
 app-tryton/purchase_price_list 6.0.1 6.8.0 7.0.0 7.2.0: Purchase Price List Module
 app-tryton/purchase_product_quantity 6.8.0 7.0.0 7.2.0: Add quantity constraints on purchase line
-app-tryton/purchase_request 6.0.5 6.8.1 7.0.0 7.2.1: Purchase Request Module
-app-tryton/purchase_request_quotation 6.0.4 6.8.0 7.0.0 7.2.1: Tryton module for purchase request quotation
+app-tryton/purchase_request 6.0.5 6.8.1 7.0.0 7.2.2: Purchase Request Module
+app-tryton/purchase_request_quotation 6.0.5 6.8.1 7.0.1 7.2.2: Tryton module for purchase request quotation
 app-tryton/purchase_requisition 6.0.0 6.8.0 7.0.0 7.2.1: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 6.0.0 6.8.0 7.0.0 7.2.1: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 6.0.0 6.8.0 7.0.0 7.2.0: Purchase Shipment Cost Module
@@ -180,7 +180,7 @@ app-tryton/stock_forecast 6.0.3 6.8.0 7.0.0 7.2.1: Stock Forecast Module
 app-tryton/stock_inventory_location 6.0.0 6.8.0 7.0.0 7.2.0: Stock Inventory Location Module
 app-tryton/stock_location_move 6.0.0 6.8.0 7.0.0 7.2.0: Stock Location Move Module
 app-tryton/stock_location_sequence 6.0.0 6.8.0 7.0.0 7.2.0: Stock Location Sequence Module
-app-tryton/stock_lot 6.0.3 6.8.3 7.0.1 7.2.1: Stock Lot Module
+app-tryton/stock_lot 6.0.4 6.8.4 7.0.2 7.2.2: Stock Lot Module
 app-tryton/stock_lot_sled 6.0.0 6.8.0 7.0.0 7.2.0: Tryton module for shelf life expiration date of product lots
 app-tryton/stock_lot_unit 6.0.1 6.8.0 7.0.0 7.2.1: Tryton module to define unit on stock lot
 app-tryton/stock_package 6.0.1 6.8.0 7.0.0 7.2.1: Tryton module for stock packaging
