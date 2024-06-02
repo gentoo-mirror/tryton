@@ -2,7 +2,7 @@ acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
 app-office/sao 6.0.41 6.8.14 7.0.11 7.2.1: Tryton web client
 app-office/tryton 6.0.39 6.8.14 7.0.10 7.2.1: Tryton desktop client
-app-office/trytond 6.0.46 6.8.16 7.0.11 7.2.2: A three-tiers high-level general purpose business application framework
+app-office/trytond 6.0.47 6.8.17 7.0.12 7.2.3: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.25 6.8.11 7.0.8 7.2.2: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.8.0 7.0.0 7.2.1: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0: Account Belgium Module
@@ -59,7 +59,7 @@ app-tryton/account_syscohada 7.2.0: Account SYSCOHADA Module
 app-tryton/account_tax_cash 6.0.1 6.8.1 7.0.1 7.2.0: Tryton module to support tax report on cash basis
 app-tryton/account_tax_non_deductible 6.8.0 7.0.0 7.2.0: Financial and Accounting Module
 app-tryton/account_tax_rule_country 6.0.2 6.8.1 7.0.1 7.2.0: Tryton module to add countries on tax rules
-app-tryton/analytic_account 6.0.3 6.8.0 7.0.0 7.2.1: Analytic Account
+app-tryton/analytic_account 6.0.3 6.8.0 7.0.1 7.2.2: Analytic Account
 app-tryton/analytic_budget 6.8.0 7.0.0 7.2.1: Tryton module that allows creating budgets for analytic accounts
 app-tryton/analytic_invoice 6.0.0 6.8.0 7.0.0 7.2.0: Analytic Invoice
 app-tryton/analytic_purchase 6.0.1 6.8.0 7.0.0 7.2.0: Analytic Purchase
@@ -85,7 +85,7 @@ app-tryton/customs 6.0.0 6.8.0 7.0.0 7.2.0: Customs Module
 app-tryton/dashboard 6.0.0 6.8.0 7.0.0 7.2.0: Dashboard Module
 app-tryton/document_incoming 7.0.0 7.2.0: Tryton module to manage incoming document
 app-tryton/document_incoming_invoice 7.0.0 7.2.0: Tryton module to manage incoming invoice document
-app-tryton/document_incoming_ocr 7.0.1 7.2.0: Tryton module to process incoming document with OCR
+app-tryton/document_incoming_ocr 7.0.2 7.2.1: Tryton module to process incoming document with OCR
 app-tryton/document_incoming_ocr_typless 7.0.0 7.2.1: Tryton module that integrates Typless OCR for incoming document
 app-tryton/edocument_uncefact 6.0.2 6.8.2 7.0.1 7.2.0: Electronic document UN/CEFACT
 app-tryton/edocument_unece 6.0.0 6.8.0 7.0.0 7.2.0: Electronic document UNECE codes
@@ -106,7 +106,7 @@ app-tryton/product 6.0.4 6.8.1 7.0.1 7.2.1: Product Module
 app-tryton/product_attribute 6.0.0 6.8.0 7.0.0 7.2.1: Product Attribute Module
 app-tryton/product_classification 6.0.0 6.8.0 7.0.0 7.2.0: Product Classification Module
 app-tryton/product_classification_taxonomic 6.0.1 6.8.0 7.0.0 7.2.0: Product Classification Taxonomic Module
-app-tryton/product_cost_fifo 6.0.2 6.8.0 7.0.0 7.2.0: Product Cost FIFO Module
+app-tryton/product_cost_fifo 6.0.3 6.8.1 7.0.1 7.2.1: Product Cost FIFO Module
 app-tryton/product_cost_history 6.0.2 6.8.1 7.0.0 7.2.0: Product Cost History Module
 app-tryton/product_cost_warehouse 6.0.4 6.8.0 7.0.0 7.2.0: Product Cost Warehouse Module
 app-tryton/product_image 6.8.0 7.0.0 7.2.1: Tryton module that adds images to products
@@ -120,30 +120,30 @@ app-tryton/product_price_list_parent 6.0.0 6.8.0 7.0.0 7.2.0: Product Price List
 app-tryton/production 6.0.6 6.8.2 7.0.2 7.2.2: Production Module
 app-tryton/production_outsourcing 6.0.1 6.8.1 7.0.1 7.2.0: Tryton module to outsource production
 app-tryton/production_routing 6.0.1 6.8.0 7.0.0 7.2.0: Production Routing Module
-app-tryton/production_split 6.0.0 6.8.0 7.0.0 7.2.0: Module to split production
+app-tryton/production_split 6.0.0 6.8.0 7.0.1 7.2.1: Module to split production
 app-tryton/production_work 6.0.1 6.8.0 7.0.0 7.2.1: Production Work Module
 app-tryton/production_work_timesheet 6.0.0 6.8.0 7.0.0 7.2.0: Production Work Timesheet Module
 app-tryton/project 6.0.0 6.8.0 7.0.0 7.2.1: Project Module
 app-tryton/project_invoice 6.0.4 6.8.1 7.0.1 7.2.1: Project Invoice Module
 app-tryton/project_plan 6.0.0 6.8.0 7.0.0 7.2.0: Project Plan Module
 app-tryton/project_revenue 6.0.2 6.8.1 7.0.1 7.2.0: Project Revenue
-app-tryton/purchase 6.0.15 6.8.7 7.0.4 7.2.1: Purchase Module
+app-tryton/purchase 6.0.16 6.8.8 7.0.5 7.2.2: Purchase Module
 app-tryton/purchase_amendment 6.0.3 6.8.1 7.0.1 7.2.1: Module to amend purchases
-app-tryton/purchase_blanket_agreement 6.8.1 7.0.1 7.2.1: Tryton module for purchase blanket agreement
+app-tryton/purchase_blanket_agreement 6.8.2 7.0.2 7.2.2: Tryton module for purchase blanket agreement
 app-tryton/purchase_history 6.0.0 6.8.0 7.0.0 7.2.0: Module to historize purchases
 app-tryton/purchase_invoice_line_standalone 6.0.0 6.8.0 7.0.0 7.2.0: Purchase Invoice Line Standalone Module
 app-tryton/purchase_price_list 6.0.1 6.8.0 7.0.0 7.2.0: Purchase Price List Module
 app-tryton/purchase_product_quantity 6.8.0 7.0.0 7.2.0: Add quantity constraints on purchase line
 app-tryton/purchase_request 6.0.5 6.8.1 7.0.0 7.2.2: Purchase Request Module
 app-tryton/purchase_request_quotation 6.0.5 6.8.1 7.0.1 7.2.2: Tryton module for purchase request quotation
-app-tryton/purchase_requisition 6.0.0 6.8.0 7.0.0 7.2.1: Purchase Requisition Module
+app-tryton/purchase_requisition 6.0.1 6.8.1 7.0.1 7.2.2: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 6.0.0 6.8.0 7.0.0 7.2.1: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 6.0.0 6.8.0 7.0.0 7.2.0: Purchase Shipment Cost Module
 app-tryton/quality 6.8.1 7.0.0 7.2.1: Quality Management
-app-tryton/sale 6.0.15 6.8.6 7.0.4 7.2.1: Sale Module
+app-tryton/sale 6.0.16 6.8.7 7.0.5 7.2.2: Sale Module
 app-tryton/sale_advance_payment 6.0.4 6.8.3 7.0.2 7.2.0: Tryton module for sale advance payment
 app-tryton/sale_amendment 6.0.2 6.8.1 7.0.1 7.2.1: Module to amend sales
-app-tryton/sale_blanket_agreement 6.8.0 7.0.0 7.2.1: Tryton module for sale blanket agreement
+app-tryton/sale_blanket_agreement 6.8.1 7.0.1 7.2.2: Tryton module for sale blanket agreement
 app-tryton/sale_complaint 6.0.2 6.8.0 7.0.0 7.2.1: Sale Complaint Module
 app-tryton/sale_credit_limit 6.0.3 6.8.1 7.0.1 7.2.0: Tryton module for sale credit limit
 app-tryton/sale_discount 6.0.1 6.8.0 7.0.0 7.2.0: Manages discount on sale
@@ -205,8 +205,8 @@ app-tryton/stock_supply_production 6.0.2 6.8.0 7.0.0 7.2.0: Stock Supply Product
 app-tryton/timesheet 6.0.2 6.8.0 7.0.1 7.2.1: Timesheet Module
 app-tryton/timesheet_cost 6.0.0 6.8.0 7.0.0 7.2.0: Timesheet Cost Module
 app-tryton/user_role 6.0.0 6.8.0 7.0.0 7.2.0: User Role Module
-app-tryton/web_shop 6.0.3 6.8.0 7.0.0 7.2.1: Provides a common base for webshops
-app-tryton/web_shop_product_data_feed 7.2.1: Tryton module to expose product data feed
+app-tryton/web_shop 6.0.3 6.8.0 7.0.1 7.2.2: Provides a common base for webshops
+app-tryton/web_shop_product_data_feed 7.2.2: Tryton module to expose product data feed
 app-tryton/web_shop_shopify 6.8.4 7.0.2 7.2.1: Module to integrate Tryton with Shopify
 app-tryton/web_shop_vue_storefront 6.0.0 6.8.0 7.0.0 7.2.0: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 6.0.1 6.8.0 7.0.0 7.2.0: Support Stripe payment with Vue Storefront
