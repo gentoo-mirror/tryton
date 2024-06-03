@@ -3,7 +3,7 @@ acct-user/trytond 0: user for tryton daemon
 app-office/sao 6.0.41 6.8.14 7.0.11 7.2.1: Tryton web client
 app-office/tryton 6.0.39 6.8.14 7.0.10 7.2.1: Tryton desktop client
 app-office/trytond 6.0.47 6.8.17 7.0.12 7.2.3: A three-tiers high-level general purpose business application framework
-app-tryton/account 6.0.25 6.8.11 7.0.8 7.2.2: Financial and Accounting Module
+app-tryton/account 6.0.26 6.8.12 7.0.9 7.2.3: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.8.0 7.0.0 7.2.1: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0: Account Belgium Module
 app-tryton/account_budget 6.8.0 7.0.0 7.2.1: Tryton module that allows budgets to be setup for accounts
@@ -16,14 +16,14 @@ app-tryton/account_dunning 6.0.1 6.8.0 7.0.0 7.2.1: Account Dunning Module
 app-tryton/account_dunning_email 6.0.1 6.8.0 7.0.0 7.2.0: Account Dunning Email Module
 app-tryton/account_dunning_fee 6.0.1 6.8.0 7.0.0 7.2.0: Module for account dunning fee
 app-tryton/account_dunning_letter 6.0.1 6.8.0 7.0.0 7.2.0: Account Dunning Letter Module
-app-tryton/account_es 6.0.3 6.8.1 7.0.1 7.2.0: Account Spain Module
+app-tryton/account_es 6.0.4 6.8.2 7.0.2 7.2.1: Account Spain Module
 app-tryton/account_es_sii 6.8.2 7.0.0 7.2.0: Account Spain SII Module
 app-tryton/account_eu 6.0.0 6.8.0 7.0.0 7.2.0: Account European Module
 app-tryton/account_export 7.2.1: Tryton module to export accounting to other software
 app-tryton/account_export_winbooks 7.2.1: Tryton module to export accounting to WinBooks
 app-tryton/account_fr 6.0.1 6.8.0 7.0.0 7.2.0: Account French Module
 app-tryton/account_fr_chorus 6.0.3 6.8.1 7.0.0 7.2.0: Tryton module to communicate with Chorus
-app-tryton/account_invoice 6.0.17 6.8.6 7.0.5 7.2.0: Invoice Module
+app-tryton/account_invoice 6.0.18 6.8.7 7.0.6 7.2.2: Invoice Module
 app-tryton/account_invoice_correction 6.0.0 6.8.0 7.0.0 7.2.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.5 6.8.2 7.0.0 7.2.1: Account Invoice Defer Module
 app-tryton/account_invoice_history 6.0.2 6.8.0 7.0.0 7.2.0: Account Invoice History
@@ -41,15 +41,15 @@ app-tryton/account_payment_stripe 6.0.11 6.8.5 7.0.3 7.2.1: Tryton module for St
 app-tryton/account_product 6.0.4 6.8.1 7.0.1 7.2.0: Account Product Module
 app-tryton/account_receivable_rule 6.8.1 7.0.1 7.2.1: Enforce receivable rules
 app-tryton/account_rule 6.8.1 7.0.0 7.2.1: Tryton module to change account used with rules
-app-tryton/account_statement 6.0.5 6.8.3 7.0.2 7.2.1: Account Statement
+app-tryton/account_statement 6.0.6 6.8.4 7.0.3 7.2.2: Account Statement
 app-tryton/account_statement_aeb43 6.0.2 6.8.1 7.0.1 7.2.0: Tryton module to import AEB43 statements
 app-tryton/account_statement_coda 6.0.0 6.8.0 7.0.0 7.2.0: Account Statement
 app-tryton/account_statement_mt940 6.8.1 7.0.1 7.2.0: Tryton module to import MT940 statements
 app-tryton/account_statement_ofx 6.0.0 6.8.0 7.0.0 7.2.0: Tryton module to import OFX statements
-app-tryton/account_statement_rule 6.0.1 6.8.0 7.0.0 7.2.1: Account Statement Rule
+app-tryton/account_statement_rule 6.0.2 6.8.1 7.0.1 7.2.2: Account Statement Rule
 app-tryton/account_statement_sepa 6.8.0 7.0.0 7.2.0: Tryton module to import SEPA statements
-app-tryton/account_stock_anglo_saxon 6.0.1 6.8.0 7.0.0 7.2.0: Account Stock Anglo-Saxon
-app-tryton/account_stock_continental 6.0.6 6.8.1 7.0.1 7.2.0: Account Stock Continental
+app-tryton/account_stock_anglo_saxon 6.0.2 6.8.1 7.0.1 7.2.1: Account Stock Anglo-Saxon
+app-tryton/account_stock_continental 6.0.7 6.8.2 7.0.2 7.2.1: Account Stock Continental
 app-tryton/account_stock_eu 6.8.1 7.0.1 7.2.1: Tryton module for European stock accounting
 app-tryton/account_stock_landed_cost 6.0.3 6.8.0 7.0.0 7.2.1: Landed Cost Module
 app-tryton/account_stock_landed_cost_weight 6.0.0 6.8.0 7.0.0 7.2.0: Landed Cost per Weight Module
@@ -59,7 +59,7 @@ app-tryton/account_syscohada 7.2.0: Account SYSCOHADA Module
 app-tryton/account_tax_cash 6.0.1 6.8.1 7.0.1 7.2.0: Tryton module to support tax report on cash basis
 app-tryton/account_tax_non_deductible 6.8.0 7.0.0 7.2.0: Financial and Accounting Module
 app-tryton/account_tax_rule_country 6.0.2 6.8.1 7.0.1 7.2.0: Tryton module to add countries on tax rules
-app-tryton/analytic_account 6.0.3 6.8.0 7.0.1 7.2.2: Analytic Account
+app-tryton/analytic_account 6.0.4 6.8.1 7.0.1 7.2.2: Analytic Account
 app-tryton/analytic_budget 6.8.0 7.0.0 7.2.1: Tryton module that allows creating budgets for analytic accounts
 app-tryton/analytic_invoice 6.0.0 6.8.0 7.0.0 7.2.0: Analytic Invoice
 app-tryton/analytic_purchase 6.0.1 6.8.0 7.0.0 7.2.0: Analytic Purchase
@@ -78,7 +78,7 @@ app-tryton/commission_waiting 6.0.1 6.8.0 7.0.0 7.2.0: Tryton module for commiss
 app-tryton/company 6.0.7 6.8.1 7.0.1 7.2.1: Company Module
 app-tryton/company_work_time 6.0.0 6.8.0 7.0.0 7.2.0: Company Work Time Module
 app-tryton/country 6.0.3 6.8.0 7.0.0 7.2.1: Country Module
-app-tryton/currency 6.0.5 6.8.1 7.0.0 7.2.1: Currency Module
+app-tryton/currency 6.0.6 6.8.2 7.0.1 7.2.2: Currency Module
 app-tryton/currency_ro 6.8.0 7.0.0 7.2.0: Fetch currency rates from the Romanian National Bank
 app-tryton/currency_rs 6.8.0 7.0.0 7.2.0: Fetch currency rates from the Serbian National Bank
 app-tryton/customs 6.0.0 6.8.0 7.0.0 7.2.0: Customs Module
