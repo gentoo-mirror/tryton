@@ -1,9 +1,9 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
 app-office/sao 6.0.41 6.8.14 7.0.11 7.2.1: Tryton web client
-app-office/tryton 6.0.39 6.8.14 7.0.10 7.2.1: Tryton desktop client
-app-office/trytond 6.0.47 6.8.17 7.0.12 7.2.3: A three-tiers high-level general purpose business application framework
-app-tryton/account 6.0.26 6.8.12 7.0.9 7.2.3: Financial and Accounting Module
+app-office/tryton 6.0.39 6.8.14 7.0.10 7.2.2: Tryton desktop client
+app-office/trytond 6.0.48 6.8.17 7.0.13 7.2.4: A three-tiers high-level general purpose business application framework
+app-tryton/account 6.0.26 6.8.12 7.0.10 7.2.4: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.8.0 7.0.0 7.2.1: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0: Account Belgium Module
 app-tryton/account_budget 6.8.0 7.0.0 7.2.1: Tryton module that allows budgets to be setup for accounts
@@ -98,7 +98,7 @@ app-tryton/marketing_automation 6.0.4 6.8.1 7.0.0 7.2.1: Plan, coordinate and ma
 app-tryton/marketing_campaign 6.8.2 7.0.1 7.2.1: Tryton module to manage marketing campaign
 app-tryton/marketing_email 6.0.2 6.8.1 7.0.0 7.2.0: Manage marketing mailing lists
 app-tryton/notification_email 6.0.3 6.8.1 7.0.0 7.2.0: Notification Email Module
-app-tryton/party 6.0.6 6.8.3 7.0.2 7.2.1: Party Module
+app-tryton/party 6.0.6 6.8.3 7.0.3 7.2.2: Party Module
 app-tryton/party_avatar 6.0.1 6.8.0 7.0.0 7.2.0: Party Avatar Module
 app-tryton/party_relationship 6.0.0 6.8.0 7.0.0 7.2.0: Party Relationship Module
 app-tryton/party_siret 6.0.0 6.8.0 7.0.0 7.2.1: Party - Siret Module
@@ -170,7 +170,7 @@ app-tryton/sale_shipment_tolerance 6.0.1 6.8.1 7.0.0 7.2.1: Defines tolerance fo
 app-tryton/sale_stock_quantity 6.0.1 6.8.0 7.0.1 7.2.0: Sale Stock Quantity Module
 app-tryton/sale_subscription 6.0.5 6.8.3 7.0.1 7.2.1: Tryton module for subscription
 app-tryton/sale_subscription_asset 6.0.1 6.8.0 7.0.0 7.2.0: Handles asset in the sale subscriptions
-app-tryton/sale_supply 6.0.5 6.8.7 7.0.5 7.2.1: Sale Supply Module
+app-tryton/sale_supply 6.0.5 6.8.7 7.0.6 7.2.2: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 6.0.6 6.8.1 7.0.1 7.2.1: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.8.0 7.0.0 7.2.0: Tryton module to supply sales from production
 app-tryton/stock 6.0.26 6.8.9 7.0.5 7.2.1: Stock Module
@@ -205,7 +205,7 @@ app-tryton/stock_supply_production 6.0.2 6.8.0 7.0.0 7.2.0: Stock Supply Product
 app-tryton/timesheet 6.0.2 6.8.0 7.0.1 7.2.1: Timesheet Module
 app-tryton/timesheet_cost 6.0.0 6.8.0 7.0.0 7.2.0: Timesheet Cost Module
 app-tryton/user_role 6.0.0 6.8.0 7.0.0 7.2.0: User Role Module
-app-tryton/web_shop 6.0.3 6.8.0 7.0.1 7.2.2: Provides a common base for webshops
+app-tryton/web_shop 6.0.3 6.8.0 7.0.2 7.2.3: Provides a common base for webshops
 app-tryton/web_shop_product_data_feed 7.2.2: Tryton module to expose product data feed
 app-tryton/web_shop_shopify 6.8.4 7.0.2 7.2.1: Module to integrate Tryton with Shopify
 app-tryton/web_shop_vue_storefront 6.0.0 6.8.0 7.0.0 7.2.0: Integrate with Vue Storefront
