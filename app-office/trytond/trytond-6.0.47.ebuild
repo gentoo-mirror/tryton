@@ -83,7 +83,7 @@ pkg_config() {
 	einfo "In the following, the 'postgres' user will be used."
 	if ! pquery "SELECT usename FROM pg_user WHERE usename = 'trytond'" | grep -q trytond; then
 		ebegin "Creating database user trytond"
-		createuser --username=postgres --createdb --no-adduser trytond
+		createuser --username=postgres --createdb trytond
 		eend $? || die "Failed to create database user"
 	fi
 }
