@@ -1,9 +1,9 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.42 6.8.14 7.0.12 7.2.2: Tryton web client
-app-office/tryton 6.0.39 6.8.14 7.0.10 7.2.2: Tryton desktop client
-app-office/trytond 6.0.48 6.8.17 7.0.13 7.2.4: A three-tiers high-level general purpose business application framework
-app-tryton/account 6.0.26 6.8.12 7.0.10 7.2.4: Financial and Accounting Module
+app-office/sao 6.0.43 6.8.14 7.0.13 7.2.3: Tryton web client
+app-office/tryton 6.0.40 6.8.14 7.0.11 7.2.3: Tryton desktop client
+app-office/trytond 6.0.48 6.8.17 7.0.14 7.2.5: A three-tiers high-level general purpose business application framework
+app-tryton/account 6.0.26 6.8.12 7.0.11 7.2.5: Financial and Accounting Module
 app-tryton/account_asset 6.0.2 6.8.0 7.0.0 7.2.1: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0: Account Belgium Module
 app-tryton/account_budget 6.8.0 7.0.0 7.2.1: Tryton module that allows budgets to be setup for accounts
@@ -17,7 +17,7 @@ app-tryton/account_dunning_email 6.0.1 6.8.0 7.0.0 7.2.0: Account Dunning Email 
 app-tryton/account_dunning_fee 6.0.1 6.8.0 7.0.0 7.2.0: Module for account dunning fee
 app-tryton/account_dunning_letter 6.0.1 6.8.0 7.0.0 7.2.0: Account Dunning Letter Module
 app-tryton/account_es 6.0.4 6.8.2 7.0.2 7.2.1: Account Spain Module
-app-tryton/account_es_sii 6.8.2 7.0.0 7.2.0: Account Spain SII Module
+app-tryton/account_es_sii 6.8.2 7.0.1 7.2.1: Account Spain SII Module
 app-tryton/account_eu 6.0.0 6.8.0 7.0.0 7.2.0: Account European Module
 app-tryton/account_export 7.2.1: Tryton module to export accounting to other software
 app-tryton/account_export_winbooks 7.2.1: Tryton module to export accounting to WinBooks
@@ -124,7 +124,7 @@ app-tryton/production_split 6.0.0 6.8.0 7.0.1 7.2.1: Module to split production
 app-tryton/production_work 6.0.1 6.8.0 7.0.0 7.2.1: Production Work Module
 app-tryton/production_work_timesheet 6.0.0 6.8.0 7.0.0 7.2.0: Production Work Timesheet Module
 app-tryton/project 6.0.0 6.8.0 7.0.0 7.2.1: Project Module
-app-tryton/project_invoice 6.0.4 6.8.1 7.0.1 7.2.1: Project Invoice Module
+app-tryton/project_invoice 6.0.5 6.8.1 7.0.2 7.2.2: Project Invoice Module
 app-tryton/project_plan 6.0.0 6.8.0 7.0.0 7.2.0: Project Plan Module
 app-tryton/project_revenue 6.0.2 6.8.1 7.0.1 7.2.0: Project Revenue
 app-tryton/purchase 6.0.16 6.8.8 7.0.5 7.2.2: Purchase Module
@@ -164,7 +164,7 @@ app-tryton/sale_promotion 6.0.4 6.8.3 7.0.1 7.2.1: Sale Promotion Module
 app-tryton/sale_promotion_coupon 6.0.0 6.8.0 7.0.0 7.2.0: Sale Promotion Module
 app-tryton/sale_promotion_coupon_payment 6.8.0 7.0.0 7.2.0: Tryton module to link payment with coupon
 app-tryton/sale_secondary_unit 6.0.0 6.8.0 7.0.0 7.2.0: Module to add a secondary unit on sale line
-app-tryton/sale_shipment_cost 6.0.5 6.8.6 7.0.4 7.2.0: Sale Shipment Cost Module
+app-tryton/sale_shipment_cost 6.0.5 6.8.6 7.0.5 7.2.1: Sale Shipment Cost Module
 app-tryton/sale_shipment_grouping 6.0.1 6.8.0 7.0.0 7.2.0: Tryton module to group sale stock moves
 app-tryton/sale_shipment_tolerance 6.0.1 6.8.1 7.0.0 7.2.1: Defines tolerance for sale shipment
 app-tryton/sale_stock_quantity 6.0.1 6.8.0 7.0.1 7.2.0: Sale Stock Quantity Module
@@ -201,13 +201,13 @@ app-tryton/stock_split 6.0.0 6.8.0 7.0.0 7.2.0: Stock Split Module
 app-tryton/stock_supply 6.0.8 6.8.2 7.0.2 7.2.1: Stock Supply Module
 app-tryton/stock_supply_day 6.0.0 6.8.0 7.0.0 7.2.0: Stock Supply Day Module
 app-tryton/stock_supply_forecast 6.0.0 6.8.0 7.0.0 7.2.0: Stock Supply Forecast Module
-app-tryton/stock_supply_production 6.0.2 6.8.0 7.0.0 7.2.0: Stock Supply Production Module
+app-tryton/stock_supply_production 6.0.2 6.8.0 7.0.1 7.2.1: Stock Supply Production Module
 app-tryton/timesheet 6.0.2 6.8.0 7.0.1 7.2.1: Timesheet Module
 app-tryton/timesheet_cost 6.0.0 6.8.0 7.0.0 7.2.0: Timesheet Cost Module
 app-tryton/user_role 6.0.0 6.8.0 7.0.0 7.2.0: User Role Module
 app-tryton/web_shop 6.0.3 6.8.0 7.0.2 7.2.3: Provides a common base for webshops
 app-tryton/web_shop_product_data_feed 7.2.2: Tryton module to expose product data feed
-app-tryton/web_shop_shopify 6.8.4 7.0.2 7.2.1: Module to integrate Tryton with Shopify
+app-tryton/web_shop_shopify 6.8.4 7.0.3 7.2.2: Module to integrate Tryton with Shopify
 app-tryton/web_shop_vue_storefront 6.0.0 6.8.0 7.0.0 7.2.0: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 6.0.1 6.8.0 7.0.0 7.2.0: Support Stripe payment with Vue Storefront
 app-tryton/web_shortener 6.0.1 6.8.0 7.0.0 7.2.0: Web Shortener Module
