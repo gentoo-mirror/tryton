@@ -4,7 +4,7 @@ app-office/sao 6.0.43 6.8.14 7.0.13 7.2.3: Tryton web client
 app-office/tryton 6.0.40 6.8.14 7.0.11 7.2.3: Tryton desktop client
 app-office/trytond 6.0.48 6.8.17 7.0.14 7.2.5: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.26 6.8.12 7.0.11 7.2.5: Financial and Accounting Module
-app-tryton/account_asset 6.0.2 6.8.0 7.0.0 7.2.1: Account Asset Module
+app-tryton/account_asset 6.0.4 6.8.0 7.0.1 7.2.2: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0: Account Belgium Module
 app-tryton/account_budget 6.8.0 7.0.0 7.2.1: Tryton module that allows budgets to be setup for accounts
 app-tryton/account_cash_rounding 6.0.2 6.8.1 7.0.1 7.2.0: Tryton module to round cash amount
