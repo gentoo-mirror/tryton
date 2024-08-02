@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.44 6.8.14 7.0.14 7.2.4: Tryton web client
-app-office/tryton 6.0.40 6.8.14 7.0.11 7.2.3: Tryton desktop client
-app-office/trytond 6.0.49 6.8.17 7.0.15 7.2.6: A three-tiers high-level general purpose business application framework
+app-office/sao 6.0.45 6.8.14 7.0.15 7.2.5: Tryton web client
+app-office/tryton 6.0.41 6.8.14 7.0.12 7.2.4: Tryton desktop client
+app-office/trytond 6.0.50 6.8.17 7.0.16 7.2.7: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.26 6.8.12 7.0.11 7.2.5: Financial and Accounting Module
 app-tryton/account_asset 6.0.4 6.8.0 7.0.1 7.2.2: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0: Account Belgium Module
@@ -23,7 +23,7 @@ app-tryton/account_export 7.2.1: Tryton module to export accounting to other sof
 app-tryton/account_export_winbooks 7.2.1: Tryton module to export accounting to WinBooks
 app-tryton/account_fr 6.0.1 6.8.0 7.0.0 7.2.0: Account French Module
 app-tryton/account_fr_chorus 6.0.3 6.8.1 7.0.0 7.2.0: Tryton module to communicate with Chorus
-app-tryton/account_invoice 6.0.18 6.8.7 7.0.6 7.2.2: Invoice Module
+app-tryton/account_invoice 6.0.19 6.8.7 7.0.7 7.2.3: Invoice Module
 app-tryton/account_invoice_correction 6.0.0 6.8.0 7.0.0 7.2.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.5 6.8.2 7.0.0 7.2.1: Account Invoice Defer Module
 app-tryton/account_invoice_history 6.0.2 6.8.0 7.0.0 7.2.0: Account Invoice History
@@ -32,12 +32,12 @@ app-tryton/account_invoice_secondary_unit 6.0.0 6.8.0 7.0.0 7.2.0: Invoice Secon
 app-tryton/account_invoice_stock 6.0.3 6.8.2 7.0.1 7.2.0: Tryton module to link stock and invoice
 app-tryton/account_invoice_watermark 6.8.0 7.0.0 7.2.0: Add watermark to invoice
 app-tryton/account_move_line_grouping 6.8.0 7.0.0 7.2.1: Tryton module to display account move line grouped
-app-tryton/account_payment 6.0.4 6.8.2 7.0.2 7.2.1: Tryton module for payment
+app-tryton/account_payment 6.0.4 6.8.2 7.0.3 7.2.2: Tryton module for payment
 app-tryton/account_payment_braintree 6.0.3 6.8.0 7.0.0 7.2.0: Tryton module for Braintree payment
 app-tryton/account_payment_clearing 6.0.2 6.8.2 7.0.2 7.2.0: Tryton module for payment clearing
 app-tryton/account_payment_sepa 6.0.5 6.8.2 7.0.0 7.2.1: Tryton module for SEPA payment
 app-tryton/account_payment_sepa_cfonb 6.0.0 6.8.0 7.0.0 7.2.0: Tryton module for CFONB SEPA payment
-app-tryton/account_payment_stripe 6.0.11 6.8.5 7.0.3 7.2.1: Tryton module for Stripe payment
+app-tryton/account_payment_stripe 6.0.12 6.8.5 7.0.4 7.2.2: Tryton module for Stripe payment
 app-tryton/account_product 6.0.4 6.8.1 7.0.1 7.2.0: Account Product Module
 app-tryton/account_receivable_rule 6.8.1 7.0.1 7.2.1: Enforce receivable rules
 app-tryton/account_rule 6.8.1 7.0.0 7.2.1: Tryton module to change account used with rules
@@ -53,7 +53,7 @@ app-tryton/account_stock_continental 6.0.7 6.8.2 7.0.2 7.2.1: Account Stock Cont
 app-tryton/account_stock_eu 6.8.1 7.0.1 7.2.1: Tryton module for European stock accounting
 app-tryton/account_stock_landed_cost 6.0.3 6.8.0 7.0.0 7.2.1: Landed Cost Module
 app-tryton/account_stock_landed_cost_weight 6.0.0 6.8.0 7.0.0 7.2.0: Landed Cost per Weight Module
-app-tryton/account_stock_shipment_cost 6.8.0 7.0.0 7.2.1: Tryton module to allocate shipment cost based on invoice
+app-tryton/account_stock_shipment_cost 6.8.0 7.0.1 7.2.2: Tryton module to allocate shipment cost based on invoice
 app-tryton/account_stock_shipment_cost_weight 6.8.0 7.0.0 7.2.0: Allocate shipment cost 'by weight'
 app-tryton/account_syscohada 7.2.0: Account SYSCOHADA Module
 app-tryton/account_tax_cash 6.0.1 6.8.1 7.0.1 7.2.0: Tryton module to support tax report on cash basis
@@ -187,8 +187,8 @@ app-tryton/stock_package 6.0.1 6.8.0 7.0.0 7.2.1: Tryton module for stock packag
 app-tryton/stock_package_shipping 6.0.2 6.8.1 7.0.1 7.2.0: Package Shipping Module
 app-tryton/stock_package_shipping_dpd 6.0.6 6.8.0 7.0.0 7.2.0: Package Shipping for DPD Module
 app-tryton/stock_package_shipping_mygls 6.8.0 7.0.0 7.2.1: MyGLS connector for the Tryton application platform
-app-tryton/stock_package_shipping_sendcloud 6.8.1 7.0.1 7.2.1: Sendcloud connector for the Tryton application platform
-app-tryton/stock_package_shipping_ups 6.0.4 6.8.1 7.0.2 7.2.0: Package Shipping for UPS Module
+app-tryton/stock_package_shipping_sendcloud 6.8.1 7.0.2 7.2.2: Sendcloud connector for the Tryton application platform
+app-tryton/stock_package_shipping_ups 6.0.5 6.8.1 7.0.3 7.2.1: Package Shipping for UPS Module
 app-tryton/stock_product_location 6.0.2 6.8.2 7.0.2 7.2.0: Stock Product Location Module
 app-tryton/stock_product_location_place 7.2.1: Tryton module to define a product place for each location
 app-tryton/stock_quantity_early_planning 6.0.2 6.8.0 7.0.0 7.2.1: Stock Quantity Early Planning Module
