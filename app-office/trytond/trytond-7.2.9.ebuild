@@ -25,7 +25,7 @@ RDEPEND="acct-group/trytond
 	dev-python/genshi[$PYTHON_USEDEP]
 	dev-python/python-dateutil[$PYTHON_USEDEP]
 	dev-python/polib[$PYTHON_USEDEP]
-	>=dev-python/python-sql-1.3[$PYTHON_USEDEP]
+	>=dev-python/python-sql-1.4[$PYTHON_USEDEP]
 	>=dev-python/werkzeug-0.12[$PYTHON_USEDEP]
 	>=dev-python/passlib-1.7.0[$PYTHON_USEDEP]
 	$(python_gen_cond_dep 'dev-python/pytz[${PYTHON_USEDEP}]' python3_{8..9})
