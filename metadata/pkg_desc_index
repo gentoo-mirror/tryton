@@ -1,7 +1,7 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
 app-office/sao 6.0.47 6.8.14 7.0.17 7.2.7: Tryton web client
-app-office/tryton 6.0.42 6.8.14 7.0.13 7.2.5: Tryton desktop client
+app-office/tryton 6.0.43 6.8.14 7.0.14 7.2.6: Tryton desktop client
 app-office/trytond 6.0.52 6.8.17 7.0.18 7.2.9: A three-tiers high-level general purpose business application framework
 app-tryton/account 6.0.27 6.8.12 7.0.12 7.2.6: Financial and Accounting Module
 app-tryton/account_asset 6.0.4 6.8.0 7.0.1 7.2.2: Account Asset Module
@@ -17,7 +17,7 @@ app-tryton/account_dunning_email 6.0.1 6.8.0 7.0.0 7.2.0: Account Dunning Email 
 app-tryton/account_dunning_fee 6.0.1 6.8.0 7.0.0 7.2.0: Module for account dunning fee
 app-tryton/account_dunning_letter 6.0.1 6.8.0 7.0.0 7.2.0: Account Dunning Letter Module
 app-tryton/account_es 6.0.4 6.8.2 7.0.2 7.2.1: Account Spain Module
-app-tryton/account_es_sii 6.8.2 7.0.1 7.2.1: Account Spain SII Module
+app-tryton/account_es_sii 6.8.2 7.0.2 7.2.2: Account Spain SII Module
 app-tryton/account_eu 6.0.0 6.8.0 7.0.0 7.2.0: Account European Module
 app-tryton/account_export 7.2.1: Tryton module to export accounting to other software
 app-tryton/account_export_winbooks 7.2.1: Tryton module to export accounting to WinBooks
@@ -73,7 +73,7 @@ app-tryton/carrier_carriage 6.8.0 7.0.0 7.2.0: Tryton module to support multiple
 app-tryton/carrier_percentage 6.0.1 6.8.0 7.0.0 7.2.0: Carrier Percentage Module
 app-tryton/carrier_subdivision 6.0.2 6.8.1 7.0.1 7.2.0: Carrier Subdivision Module
 app-tryton/carrier_weight 6.0.0 6.8.0 7.0.0 7.2.1: Carrier weight
-app-tryton/commission 6.0.2 6.8.2 7.0.0 7.2.1: Tryton module for commission
+app-tryton/commission 6.0.3 6.8.2 7.0.1 7.2.2: Tryton module for commission
 app-tryton/commission_waiting 6.0.1 6.8.0 7.0.0 7.2.0: Tryton module for commission waiting
 app-tryton/company 6.0.7 6.8.1 7.0.1 7.2.1: Company Module
 app-tryton/company_work_time 6.0.0 6.8.0 7.0.0 7.2.0: Company Work Time Module
@@ -124,7 +124,7 @@ app-tryton/production_split 6.0.0 6.8.0 7.0.1 7.2.1: Module to split production
 app-tryton/production_work 6.0.1 6.8.0 7.0.0 7.2.1: Production Work Module
 app-tryton/production_work_timesheet 6.0.0 6.8.0 7.0.0 7.2.0: Production Work Timesheet Module
 app-tryton/project 6.0.0 6.8.0 7.0.0 7.2.1: Project Module
-app-tryton/project_invoice 6.0.5 6.8.1 7.0.2 7.2.2: Project Invoice Module
+app-tryton/project_invoice 6.0.6 6.8.1 7.0.3 7.2.3: Project Invoice Module
 app-tryton/project_plan 6.0.0 6.8.0 7.0.0 7.2.0: Project Plan Module
 app-tryton/project_revenue 6.0.2 6.8.1 7.0.1 7.2.0: Project Revenue
 app-tryton/purchase 6.0.17 6.8.8 7.0.6 7.2.3: Purchase Module
@@ -139,7 +139,7 @@ app-tryton/purchase_request_quotation 6.0.5 6.8.1 7.0.1 7.2.2: Tryton module for
 app-tryton/purchase_requisition 6.0.2 6.8.1 7.0.2 7.2.3: Purchase Requisition Module
 app-tryton/purchase_secondary_unit 6.0.0 6.8.0 7.0.0 7.2.1: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 6.0.0 6.8.0 7.0.0 7.2.0: Purchase Shipment Cost Module
-app-tryton/quality 6.8.1 7.0.0 7.2.1: Quality Management
+app-tryton/quality 6.8.1 7.0.0 7.2.2: Quality Management
 app-tryton/sale 6.0.17 6.8.7 7.0.6 7.2.3: Sale Module
 app-tryton/sale_advance_payment 6.0.4 6.8.3 7.0.2 7.2.0: Tryton module for sale advance payment
 app-tryton/sale_amendment 6.0.2 6.8.1 7.0.1 7.2.1: Module to amend sales
@@ -147,7 +147,7 @@ app-tryton/sale_blanket_agreement 6.8.1 7.0.1 7.2.2: Tryton module for sale blan
 app-tryton/sale_complaint 6.0.2 6.8.0 7.0.0 7.2.1: Sale Complaint Module
 app-tryton/sale_credit_limit 6.0.3 6.8.1 7.0.1 7.2.0: Tryton module for sale credit limit
 app-tryton/sale_discount 6.0.1 6.8.0 7.0.0 7.2.0: Manages discount on sale
-app-tryton/sale_extra 6.0.0 6.8.1 7.0.1 7.2.0: Tryton module for sale extra
+app-tryton/sale_extra 6.0.1 6.8.1 7.0.2 7.2.1: Tryton module for sale extra
 app-tryton/sale_gift_card 6.0.4 6.8.0 7.0.0 7.2.1: Sale Gift Card Module
 app-tryton/sale_history 6.0.0 6.8.0 7.0.0 7.2.0: Module to historize sales
 app-tryton/sale_invoice_date 6.8.2 7.0.1 7.2.0: Compute invoice date of sale
@@ -158,13 +158,13 @@ app-tryton/sale_point 6.8.4 7.0.1 7.2.1: Tryton module for Point of Sales
 app-tryton/sale_price_list 6.0.1 6.8.0 7.0.0 7.2.0: Sale Pricelist Module
 app-tryton/sale_product_customer 6.0.3 6.8.1 7.0.1 7.2.0: Sale Product Customer Module
 app-tryton/sale_product_quantity 6.8.0 7.0.0 7.2.0: Add quantity constraints on sale line
-app-tryton/sale_product_recommendation 6.8.0 7.0.0 7.2.0: Tryton module for product recommendation
+app-tryton/sale_product_recommendation 6.8.0 7.0.1 7.2.1: Tryton module for product recommendation
 app-tryton/sale_product_recommendation_association_rule 6.8.0 7.0.0 7.2.0: Tryton module to learn association rule for recommendation
 app-tryton/sale_promotion 6.0.4 6.8.3 7.0.1 7.2.1: Sale Promotion Module
 app-tryton/sale_promotion_coupon 6.0.0 6.8.0 7.0.0 7.2.0: Sale Promotion Module
 app-tryton/sale_promotion_coupon_payment 6.8.0 7.0.0 7.2.0: Tryton module to link payment with coupon
 app-tryton/sale_secondary_unit 6.0.0 6.8.0 7.0.0 7.2.0: Module to add a secondary unit on sale line
-app-tryton/sale_shipment_cost 6.0.5 6.8.6 7.0.5 7.2.1: Sale Shipment Cost Module
+app-tryton/sale_shipment_cost 6.0.6 6.8.6 7.0.6 7.2.2: Sale Shipment Cost Module
 app-tryton/sale_shipment_grouping 6.0.1 6.8.0 7.0.0 7.2.0: Tryton module to group sale stock moves
 app-tryton/sale_shipment_tolerance 6.0.1 6.8.1 7.0.0 7.2.1: Defines tolerance for sale shipment
 app-tryton/sale_stock_quantity 6.0.1 6.8.0 7.0.1 7.2.0: Sale Stock Quantity Module
@@ -173,7 +173,7 @@ app-tryton/sale_subscription_asset 6.0.1 6.8.0 7.0.0 7.2.0: Handles asset in the
 app-tryton/sale_supply 6.0.5 6.8.7 7.0.6 7.2.2: Sale Supply Module
 app-tryton/sale_supply_drop_shipment 6.0.7 6.8.1 7.0.2 7.2.2: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.8.0 7.0.0 7.2.0: Tryton module to supply sales from production
-app-tryton/stock 6.0.27 6.8.9 7.0.6 7.2.2: Stock Module
+app-tryton/stock 6.0.28 6.8.9 7.0.7 7.2.3: Stock Module
 app-tryton/stock_assign_manual 6.0.1 6.8.0 7.0.0 7.2.0: Assign manually stock move
 app-tryton/stock_consignment 6.0.2 6.8.0 7.0.0 7.2.0: Stock Consignment Module
 app-tryton/stock_forecast 6.0.3 6.8.0 7.0.0 7.2.1: Stock Forecast Module
@@ -196,9 +196,9 @@ app-tryton/stock_quantity_issue 6.0.3 6.8.0 7.0.0 7.2.1: Stock Quantity Early Pl
 app-tryton/stock_secondary_unit 6.0.1 6.8.1 7.0.0 7.2.0: Module to add a secondary unit on stock move
 app-tryton/stock_shipment_cost 6.0.3 6.8.2 7.0.1 7.2.0: Stock Shipment Cost Module
 app-tryton/stock_shipment_cost_weight 6.8.0 7.0.0 7.2.0: Allocate shipment cost 'by weight'
-app-tryton/stock_shipment_measurements 6.0.1 6.8.0 7.0.0 7.2.1: Tryton module to add measurements to shipment
+app-tryton/stock_shipment_measurements 6.0.1 6.8.0 7.0.1 7.2.2: Tryton module to add measurements to shipment
 app-tryton/stock_split 6.0.0 6.8.0 7.0.0 7.2.0: Stock Split Module
-app-tryton/stock_supply 6.0.8 6.8.2 7.0.2 7.2.1: Stock Supply Module
+app-tryton/stock_supply 6.0.9 6.8.2 7.0.3 7.2.2: Stock Supply Module
 app-tryton/stock_supply_day 6.0.0 6.8.0 7.0.0 7.2.0: Stock Supply Day Module
 app-tryton/stock_supply_forecast 6.0.0 6.8.0 7.0.0 7.2.0: Stock Supply Forecast Module
 app-tryton/stock_supply_production 6.0.2 6.8.0 7.0.1 7.2.1: Stock Supply Production Module
@@ -211,7 +211,7 @@ app-tryton/web_shop_shopify 6.8.4 7.0.3 7.2.2: Module to integrate Tryton with S
 app-tryton/web_shop_vue_storefront 6.0.0 6.8.0 7.0.0 7.2.0: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 6.0.1 6.8.0 7.0.0 7.2.0: Support Stripe payment with Vue Storefront
 app-tryton/web_shortener 6.0.1 6.8.0 7.0.0 7.2.0: Web Shortener Module
-app-tryton/web_user 6.0.1 6.8.0 7.0.0 7.2.1: Web User Module
+app-tryton/web_user 6.0.1 6.8.0 7.0.1 7.2.2: Web User Module
 dev-javascript/bootstrap 3.3.7 3.4.1: HTML, CSS, and JS framework for developing responsive, mobile first on the web
 dev-javascript/bootstrap-datetimepicker 4.17.47: Bootstrap 3 Date/Time Picker
 dev-javascript/bootstrap-rtl-ondemand 3.3.4-r1: Bootstrap 3 with on-demand RTL support
