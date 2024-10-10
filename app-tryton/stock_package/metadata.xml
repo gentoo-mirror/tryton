@@ -9,4 +9,7 @@
 		allows to store packaging information about customer and supplier
 		return shipments
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">trytond_stock_package</remote-id>
+	</upstream>
 </pkgmetadata>
