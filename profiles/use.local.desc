@@ -18,6 +18,7 @@ app-office/trytond:weasyprint - Use weasyprint to convert HTML into PDF
 app-tryton/attendance:timezone - Enable support for timezone
 app-tryton/bank:swift - Guess bank from IBAN
 app-tryton/commission:sparklines - Show sparklines on reports
+app-tryton/company:image - Enable image/avatar support
 app-tryton/company:timezone - Enable support for timezone
 app-tryton/country:data - Enable country data import script
 app-tryton/country:geonames - Enable GeoNames import script

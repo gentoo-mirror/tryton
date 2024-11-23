@@ -9,6 +9,7 @@
 		<remote-id type="pypi">trytond_company</remote-id>
 	</upstream>
 	<use>
+		<flag name="image">Enable image/avatar support</flag>
 		<flag name="timezone">Enable support for timezone</flag>
 	</use>
 </pkgmetadata>
