@@ -30,7 +30,7 @@ RDEPEND="acct-group/trytond
 	>=dev-python/passlib-1.7.0[$PYTHON_USEDEP]
 	$(python_gen_cond_dep 'dev-python/pytz[${PYTHON_USEDEP}]' python3_{8..9})
 	graphviz? ( dev-python/pydot[$PYTHON_USEDEP] )
-	levenshtein? ( dev-python/Levenshtein[$PYTHON_USEDEP] )
+	levenshtein? ( dev-python/levenshtein[$PYTHON_USEDEP] )
 	bcrypt? ( dev-python/bcrypt[$PYTHON_USEDEP] )
 	argon2? ( dev-python/argon2-cffi[$PYTHON_USEDEP] )
 	html2text? ( dev-python/html2text[$PYTHON_USEDEP] )
