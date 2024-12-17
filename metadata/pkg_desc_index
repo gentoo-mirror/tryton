@@ -1,9 +1,9 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.50 6.8.14 7.0.21 7.2.11 7.4.1: Tryton web client
-app-office/tryton 6.0.46 6.8.14 7.0.18 7.2.10 7.4.1: Tryton desktop client
-app-office/trytond 6.0.55 6.8.17 7.0.21 7.2.12 7.4.1: A three-tiers high-level general purpose business application framework
-app-tryton/account 6.0.27 6.8.12 7.0.13 7.2.7 7.4.0: Financial and Accounting Module
+app-office/sao 6.0.51 6.8.14 7.0.22 7.2.12 7.4.2: Tryton web client
+app-office/tryton 6.0.47 6.8.14 7.0.19 7.2.11 7.4.2: Tryton desktop client
+app-office/trytond 6.0.56 6.8.17 7.0.22 7.2.13 7.4.2: A three-tiers high-level general purpose business application framework
+app-tryton/account 6.0.27 6.8.12 7.0.14 7.2.8 7.4.1: Financial and Accounting Module
 app-tryton/account_asset 6.0.4 6.8.0 7.0.1 7.2.2 7.4.0: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Account Belgium Module
 app-tryton/account_budget 6.8.0 7.0.1 7.2.2 7.4.0: Tryton module that allows budgets to be setup for accounts
@@ -13,17 +13,17 @@ app-tryton/account_credit_limit 6.0.1 6.8.0 7.0.1 7.2.1 7.4.0: Tryton module for
 app-tryton/account_de_skr03 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: German Chart of Accounts SKR03
 app-tryton/account_deposit 6.0.2 6.8.1 7.0.2 7.2.1 7.4.0: Tryton module for accounting deposit
 app-tryton/account_dunning 6.0.1 6.8.0 7.0.0 7.2.1 7.4.0: Account Dunning Module
-app-tryton/account_dunning_email 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Account Dunning Email Module
+app-tryton/account_dunning_email 6.0.1 6.8.0 7.0.0 7.2.1 7.4.1: Account Dunning Email Module
 app-tryton/account_dunning_fee 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Module for account dunning fee
 app-tryton/account_dunning_letter 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Account Dunning Letter Module
 app-tryton/account_es 6.0.4 6.8.2 7.0.2 7.2.1 7.4.0: Account Spain Module
-app-tryton/account_es_sii 6.8.2 7.0.2 7.2.2 7.4.0: Account Spain SII Module
+app-tryton/account_es_sii 6.8.2 7.0.3 7.2.3 7.4.1: Account Spain SII Module
 app-tryton/account_eu 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Account European Module
 app-tryton/account_export 7.2.1 7.4.0: Tryton module to export accounting to other software
 app-tryton/account_export_winbooks 7.2.1 7.4.0: Tryton module to export accounting to WinBooks
 app-tryton/account_fr 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Account French Module
 app-tryton/account_fr_chorus 6.0.3 6.8.1 7.0.0 7.2.0 7.4.0: Tryton module to communicate with Chorus
-app-tryton/account_invoice 6.0.20 6.8.7 7.0.10 7.2.6 7.4.1: Invoice Module
+app-tryton/account_invoice 6.0.20 6.8.7 7.0.11 7.2.7 7.4.2: Invoice Module
 app-tryton/account_invoice_correction 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Tryton module to correct invoice
 app-tryton/account_invoice_defer 6.0.6 6.8.2 7.0.1 7.2.2 7.4.0: Account Invoice Defer Module
 app-tryton/account_invoice_history 6.0.2 6.8.0 7.0.0 7.2.0 7.4.0: Account Invoice History
@@ -97,7 +97,7 @@ app-tryton/marketing 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Marketing features
 app-tryton/marketing_automation 6.0.4 6.8.1 7.0.0 7.2.1 7.4.0: Plan, coordinate and manage marketing campaigns
 app-tryton/marketing_campaign 6.8.2 7.0.1 7.2.1 7.4.0: Tryton module to manage marketing campaign
 app-tryton/marketing_email 6.0.2 6.8.1 7.0.0 7.2.0 7.4.0: Manage marketing mailing lists
-app-tryton/notification_email 6.0.3 6.8.1 7.0.0 7.2.0 7.4.0: Notification Email Module
+app-tryton/notification_email 6.0.3 6.8.1 7.0.0 7.2.1 7.4.1: Notification Email Module
 app-tryton/party 6.0.7 6.8.3 7.0.5 7.2.4 7.4.0: Party Module
 app-tryton/party_avatar 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Party Avatar Module
 app-tryton/party_relationship 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Party Relationship Module
@@ -145,7 +145,7 @@ app-tryton/sale_advance_payment 6.0.4 6.8.3 7.0.3 7.2.1 7.4.0: Tryton module for
 app-tryton/sale_amendment 6.0.3 6.8.1 7.0.2 7.2.2 7.4.1: Module to amend sales
 app-tryton/sale_blanket_agreement 6.8.1 7.0.1 7.2.2 7.4.0: Tryton module for sale blanket agreement
 app-tryton/sale_complaint 6.0.2 6.8.0 7.0.0 7.2.1 7.4.0: Sale Complaint Module
-app-tryton/sale_credit_limit 6.0.3 6.8.1 7.0.1 7.2.0 7.4.0: Tryton module for sale credit limit
+app-tryton/sale_credit_limit 6.0.4 6.8.1 7.0.2 7.2.1 7.4.1: Tryton module for sale credit limit
 app-tryton/sale_discount 6.0.2 6.8.0 7.0.1 7.2.1 7.4.0: Manages discount on sale
 app-tryton/sale_extra 6.0.1 6.8.1 7.0.2 7.2.1 7.4.0: Tryton module for sale extra
 app-tryton/sale_gift_card 6.0.4 6.8.0 7.0.0 7.2.1 7.4.0: Sale Gift Card Module
@@ -171,7 +171,7 @@ app-tryton/sale_stock_quantity 6.0.1 6.8.0 7.0.1 7.2.0 7.4.0: Sale Stock Quantit
 app-tryton/sale_subscription 6.0.6 6.8.3 7.0.2 7.2.2 7.4.0: Tryton module for subscription
 app-tryton/sale_subscription_asset 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Handles asset in the sale subscriptions
 app-tryton/sale_supply 6.0.5 6.8.7 7.0.6 7.2.2 7.4.0: Sale Supply Module
-app-tryton/sale_supply_drop_shipment 6.0.7 6.8.1 7.0.2 7.2.2 7.4.0: Sale Supply Drop Shipment Module
+app-tryton/sale_supply_drop_shipment 6.0.7 6.8.1 7.0.2 7.2.3 7.4.1: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Tryton module to supply sales from production
 app-tryton/stock 6.0.30 6.8.9 7.0.9 7.2.5 7.4.0: Stock Module
 app-tryton/stock_assign_manual 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Assign manually stock move
