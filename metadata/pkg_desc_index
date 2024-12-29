@@ -229,7 +229,7 @@ dev-javascript/sortable 1.10.2: a JavaScript library for reorderable drag-and-dr
 dev-javascript/tempusdominus-bootstrap3 5.0.0_alpha10-r1: Tempus Dominus Bootstrap 3
 dev-python/PyPDF2 3.0.1: Python library to work with PDF files
 dev-python/ShopifyAPI 12.3.0: Shopify API for Python
-dev-python/aeb43 0.1.0: A module to parse AEB43 files
+dev-python/aeb43 0.1.1: A module to parse AEB43 files
 dev-python/backports-entry-points-selectable 1.2.0: Compatibility shim providing selectable entry points for older implementations
 dev-python/csb43 0.9.2: Tools to convert files in format used by multiple Spanish banks
 dev-python/efficient-apriori 2.0.3: An efficient Python implementation of the Apriori algorithm
