@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{5..12} )
+PYTHON_COMPAT=( python3_{5..13} python3_13t pypy3)
 inherit distutils-r1 pypi
 
 DESCRIPTION="A module to parse MT940 files"

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{4..12} )
+PYTHON_COMPAT=( python3_{4..13} )
 DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1 pypi
@@ -11,6 +11,7 @@ MY_P="GooCalendar"
 DESCRIPTION="A calendar widget for GTK using Goocanvas "
 HOMEPAGE="https://pypi.org/project/GooCalendar/"
 SRC_URI="$(pypi_sdist_url --no-normalize ${MY_P})"
+S=${WORKDIR}/${MY_P}-${PV}
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -24,8 +25,6 @@ RDEPEND="|| (
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	doc? ( >=dev-python/sphinx-0.3 )"
-
-S=${WORKDIR}/${MY_P}-${PV}
 
 src_compile() {
 	distutils-r1_src_compile
