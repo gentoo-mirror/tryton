@@ -245,6 +245,7 @@ dev-python/ofxparse 0.21-r1: Tools for working with the OFX (Open Financial Exch
 dev-python/playsound 1.3.0: Single function module for playing sounds
 dev-python/playsound3 2.4.0: Single function module for playing sounds
 dev-python/proteus 6.0.8 6.8.1 7.0.1 7.2.0 7.4.0: A library to access Tryton's models like a client
+dev-python/pwdlib 0.2.1: Modern password hashing for Python
 dev-python/pyactiveresource 2.2.2-r1: ActiveResource for Python
 dev-python/pycha 0.8.1-r1: A library for making charts with Python
 dev-python/pycountry 20.7.3: Database of countries, subdivisions, languages, currencies and script

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>ced@b2ck.com</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<use>
+		<flag name="argon2">Enable Argon2 hash</flag>
+		<flag name="bcrypt">Enable BCrypt hash</flag>
+	</use>
+	<upstream>
+		<remote-id type="pypi">pwdlib</remote-id>
+	</upstream>
+</pkgmetadata>

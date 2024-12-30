@@ -38,6 +38,8 @@ dev-python/csb43:babel - Enable Babel support
 dev-python/csb43:formats - Enable formats support
 dev-python/csb43:yaml - Enable YAML support
 dev-python/proteus:trytond - Enable support of trytond
+dev-python/pwdlib:argon2 - Enable Argon2 hash
+dev-python/pwdlib:bcrypt - Enable BCrypt hash
 dev-python/python-barcode:image - Enable support for PNG.
 dev-python/relatorio:chart - Enable chart
 dev-python/relatorio:fodt - Enable flat OpenDocument
