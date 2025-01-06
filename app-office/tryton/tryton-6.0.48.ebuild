@@ -20,7 +20,7 @@ RDEPEND="dev-python/pygobject:3[${PYTHON_USEDEP}]
 	dev-libs/gobject-introspection
 	x11-libs/gtk+:3[introspection]
 	x11-libs/pango[introspection]
-	x11-libs/gdk-pixbuf[introspection]
+	x11-libs/gdk-pixbuf[introspection,gif,jpeg]
 	dev-python/pycairo[${PYTHON_USEDEP}]
 	gnome-base/librsvg
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
