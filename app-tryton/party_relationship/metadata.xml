@@ -9,4 +9,7 @@
 		Party Relationship module for Tryton
 		Defines different types of relations between parties.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">trytond_party_relationship</remote-id>
+	</upstream>
 </pkgmetadata>
