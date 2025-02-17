@@ -3,7 +3,7 @@
 
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{8..12} )
 
 inherit distutils-r1 desktop xdg-utils pypi
 
@@ -13,7 +13,7 @@ HOMEPAGE="http://www.tryton.org/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="calendar document spell test"
+IUSE="calendar document spell sound test"
 
 RDEPEND="dev-python/pygobject:3[${PYTHON_USEDEP}]
 	dev-libs/gobject-introspection
@@ -25,7 +25,8 @@ RDEPEND="dev-python/pygobject:3[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	calendar? ( >=dev-python/goocalendar-0.7[${PYTHON_USEDEP}] )
 	document? ( app-text/evince[introspection] )
-	spell? ( app-text/gtkspell:3[introspection] )"
+	spell? ( app-text/gtkspell:3[introspection] )
+	sound? ( dev-python/playsound[${PYTHON_USEDEP}] )"
 RESTRICT="!test? ( test )"
 DOCS="CHANGELOG COPYRIGHT README.rst doc/*.rst"
 
