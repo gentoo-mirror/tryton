@@ -1,9 +1,9 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 6.0.54 6.8.14 7.0.24 7.2.15 7.4.5: Tryton web client
-app-office/tryton 6.0.49 6.8.14 7.0.21 7.2.14 7.4.5: Tryton desktop client
-app-office/trytond 6.0.59 6.8.17 7.0.26 7.2.17 7.4.6: A three-tiers high-level general purpose business application framework
-app-tryton/account 6.0.29 6.8.12 7.0.17 7.2.11 7.4.4: Financial and Accounting Module
+app-office/sao 6.0.55 6.8.14 7.0.25 7.2.16 7.4.6: Tryton web client
+app-office/tryton 6.0.50 6.8.14 7.0.22 7.2.15 7.4.6: Tryton desktop client
+app-office/trytond 6.0.60 6.8.17 7.0.27 7.2.18 7.4.7: A three-tiers high-level general purpose business application framework
+app-tryton/account 6.0.29 6.8.12 7.0.17 7.2.12 7.4.5: Financial and Accounting Module
 app-tryton/account_asset 6.0.4 6.8.0 7.0.1 7.2.2 7.4.0: Account Asset Module
 app-tryton/account_be 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Account Belgium Module
 app-tryton/account_budget 6.8.0 7.0.1 7.2.2 7.4.0: Tryton module that allows budgets to be setup for accounts
@@ -129,7 +129,7 @@ app-tryton/project_plan 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Project Plan Module
 app-tryton/project_revenue 6.0.3 6.8.1 7.0.2 7.2.1 7.4.0: Project Revenue
 app-tryton/purchase 6.0.20 6.8.8 7.0.10 7.2.7 7.4.3: Purchase Module
 app-tryton/purchase_amendment 6.0.4 6.8.1 7.0.2 7.2.2 7.4.1: Module to amend purchases
-app-tryton/purchase_blanket_agreement 6.8.2 7.0.2 7.2.2 7.4.0: Tryton module for purchase blanket agreement
+app-tryton/purchase_blanket_agreement 6.8.2 7.0.3 7.2.3 7.4.1: Tryton module for purchase blanket agreement
 app-tryton/purchase_history 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Module to historize purchases
 app-tryton/purchase_invoice_line_standalone 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Purchase Invoice Line Standalone Module
 app-tryton/purchase_price_list 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Purchase Price List Module
@@ -137,13 +137,13 @@ app-tryton/purchase_product_quantity 6.8.0 7.0.0 7.2.0 7.4.0: Add quantity const
 app-tryton/purchase_request 6.0.5 6.8.1 7.0.1 7.2.3 7.4.1: Purchase Request Module
 app-tryton/purchase_request_quotation 6.0.6 6.8.1 7.0.2 7.2.3 7.4.0: Tryton module for purchase request quotation
 app-tryton/purchase_requisition 6.0.3 6.8.1 7.0.3 7.2.4 7.4.0: Purchase Requisition Module
-app-tryton/purchase_secondary_unit 6.0.0 6.8.0 7.0.0 7.2.1 7.4.0: Module to add a secondary unit on purchase line
+app-tryton/purchase_secondary_unit 6.0.0 6.8.0 7.0.1 7.2.2 7.4.1: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Purchase Shipment Cost Module
 app-tryton/quality 6.8.1 7.0.1 7.2.3 7.4.1: Quality Management
 app-tryton/sale 6.0.20 6.8.7 7.0.11 7.2.9 7.4.3: Sale Module
 app-tryton/sale_advance_payment 6.0.4 6.8.3 7.0.3 7.2.1 7.4.0: Tryton module for sale advance payment
 app-tryton/sale_amendment 6.0.3 6.8.1 7.0.2 7.2.2 7.4.1: Module to amend sales
-app-tryton/sale_blanket_agreement 6.8.1 7.0.1 7.2.2 7.4.0: Tryton module for sale blanket agreement
+app-tryton/sale_blanket_agreement 6.8.1 7.0.2 7.2.3 7.4.1: Tryton module for sale blanket agreement
 app-tryton/sale_complaint 6.0.2 6.8.0 7.0.0 7.2.1 7.4.0: Sale Complaint Module
 app-tryton/sale_credit_limit 6.0.4 6.8.1 7.0.2 7.2.1 7.4.1: Tryton module for sale credit limit
 app-tryton/sale_discount 6.0.2 6.8.0 7.0.1 7.2.1 7.4.0: Manages discount on sale
@@ -163,7 +163,7 @@ app-tryton/sale_product_recommendation_association_rule 6.8.0 7.0.0 7.2.0 7.4.0:
 app-tryton/sale_promotion 6.0.4 6.8.3 7.0.1 7.2.1 7.4.0: Sale Promotion Module
 app-tryton/sale_promotion_coupon 6.0.0 6.8.0 7.0.1 7.2.1 7.4.0: Sale Promotion Module
 app-tryton/sale_promotion_coupon_payment 6.8.0 7.0.0 7.2.0 7.4.0: Tryton module to link payment with coupon
-app-tryton/sale_secondary_unit 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Module to add a secondary unit on sale line
+app-tryton/sale_secondary_unit 6.0.0 6.8.0 7.0.1 7.2.1 7.4.1: Module to add a secondary unit on sale line
 app-tryton/sale_shipment_cost 6.0.6 6.8.6 7.0.7 7.2.3 7.4.1: Sale Shipment Cost Module
 app-tryton/sale_shipment_grouping 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Tryton module to group sale stock moves
 app-tryton/sale_shipment_tolerance 6.0.2 6.8.1 7.0.1 7.2.2 7.4.0: Defines tolerance for sale shipment
@@ -183,12 +183,12 @@ app-tryton/stock_location_sequence 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Stock Location
 app-tryton/stock_lot 6.0.4 6.8.4 7.0.3 7.2.3 7.4.0: Stock Lot Module
 app-tryton/stock_lot_sled 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Tryton module for shelf life expiration date of product lots
 app-tryton/stock_lot_unit 6.0.1 6.8.0 7.0.1 7.2.2 7.4.1: Tryton module to define unit on stock lot
-app-tryton/stock_package 6.0.2 6.8.0 7.0.1 7.2.2 7.4.0: Tryton module for stock packaging
+app-tryton/stock_package 6.0.2 6.8.0 7.0.1 7.2.2 7.4.1: Tryton module for stock packaging
 app-tryton/stock_package_shipping 6.0.2 6.8.1 7.0.1 7.2.0 7.4.0: Package Shipping Module
 app-tryton/stock_package_shipping_dpd 6.0.7 6.8.0 7.0.1 7.2.1 7.4.0: Package Shipping for DPD Module
 app-tryton/stock_package_shipping_mygls 6.8.0 7.0.0 7.2.1 7.4.0: MyGLS connector for the Tryton application platform
 app-tryton/stock_package_shipping_sendcloud 6.8.1 7.0.3 7.2.3 7.4.0: Sendcloud connector for the Tryton application platform
-app-tryton/stock_package_shipping_ups 6.0.6 6.8.1 7.0.4 7.2.2 7.4.0: Package Shipping for UPS Module
+app-tryton/stock_package_shipping_ups 6.0.7 6.8.1 7.0.5 7.2.3 7.4.1: Package Shipping for UPS Module
 app-tryton/stock_product_location 6.0.2 6.8.2 7.0.2 7.2.0 7.4.0: Stock Product Location Module
 app-tryton/stock_product_location_place 7.2.1 7.4.0: Tryton module to define a product place for each location
 app-tryton/stock_quantity_early_planning 6.0.2 6.8.0 7.0.0 7.2.1 7.4.0: Stock Quantity Early Planning Module
@@ -207,7 +207,7 @@ app-tryton/timesheet_cost 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Timesheet Cost Module
 app-tryton/user_role 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: User Role Module
 app-tryton/web_shop 6.0.3 6.8.0 7.0.2 7.2.3 7.4.0: Provides a common base for webshops
 app-tryton/web_shop_product_data_feed 7.2.2 7.4.0: Tryton module to expose product data feed
-app-tryton/web_shop_shopify 6.8.4 7.0.3 7.2.2 7.4.0: Module to integrate Tryton with Shopify
+app-tryton/web_shop_shopify 6.8.4 7.0.4 7.2.3 7.4.1: Module to integrate Tryton with Shopify
 app-tryton/web_shop_vue_storefront 6.0.0 6.8.0 7.0.0 7.2.0 7.4.0: Integrate with Vue Storefront
 app-tryton/web_shop_vue_storefront_stripe 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Support Stripe payment with Vue Storefront
 app-tryton/web_shortener 6.0.1 6.8.0 7.0.0 7.2.0 7.4.0: Web Shortener Module
