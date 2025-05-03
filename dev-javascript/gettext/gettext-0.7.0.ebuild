@@ -7,15 +7,12 @@ DESCRIPTION="lightweight yet complete and accurate GNU gettext port for node and
 HOMEPAGE="https://guillaumepotier.github.io/gettext.js/"
 SRC_URI="https://github.com/guillaumepotier/${PN}.js/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
+S=${WORKDIR}/${PN}.js-${PV}
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
 
-DEPEND=""
 RDEPEND="${DEPEND}"
-
-S=${WORKDIR}/${PN}.js-${PV}
 
 src_install() {
 	insinto "/usr/share/${PN}.js-${SLOT}/"

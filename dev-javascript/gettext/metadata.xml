@@ -10,4 +10,7 @@
 		for node and the browser. Manage your i18n translations the right way
 		in your javascript projects.
 	</longdescription>
+	<upstream>
+		<remote-id type="github">guillaumepotier/gettext.js</remote-id>
+	</upstream>
 </pkgmetadata>
