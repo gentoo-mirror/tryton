@@ -255,7 +255,8 @@ dev-python/python-levenshtein 0.23.0: Functions for fast computation of Levensht
 dev-python/python-sql 1.6.0: A library to write SQL queries in a pythonic way.
 dev-python/raven 6.10.0-r2: Raven is a client for Sentry
 dev-python/relatorio 0.11.1: A templating library able to output odt and pdf files
-dev-python/schwifty 2023.10.0: Validate/generate IBANs and BICs
+dev-python/rstr 3.2.2: Generate random strings in Python
+dev-python/schwifty 2023.10.0 2025.1.0: Validate/generate IBANs and BICs
 dev-python/sentry_tryton 0.6-r1: Sentry integration for the Tryton
 dev-python/tablib 3.4.0 3.5.0: A format-agnostic tabular dataset library written in Python
 dev-python/tryton-filestore-s3 0.2.1: S3 AWS storage for the Tryton

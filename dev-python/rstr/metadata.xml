@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>ced@b2ck.com</email>
+		<name>Cédric Krier</name>
+	</maintainer>
+	<stabilize-allarches/>
+	<upstream>
+		<remote-id type="pypi">rstr</remote-id>
+		<remote-id type="github">leapfrogonline/rstr</remote-id>
+	</upstream>
+</pkgmetadata>
