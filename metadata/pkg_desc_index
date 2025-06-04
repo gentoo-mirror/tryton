@@ -259,5 +259,4 @@ dev-python/rstr 3.2.2: Generate random strings in Python
 dev-python/schwifty 2023.10.0 2025.1.0: Validate/generate IBANs and BICs
 dev-python/sentry_tryton 0.6-r1: Sentry integration for the Tryton
 dev-python/tablib 3.4.0 3.5.0: A format-agnostic tabular dataset library written in Python
-dev-python/tryton-filestore-s3 0.2.1: S3 AWS storage for the Tryton
 dev-python/trytond_gis 7.0.0 7.2.0 7.4.0 7.6.0: Adds Geographic Information System support to trytond
