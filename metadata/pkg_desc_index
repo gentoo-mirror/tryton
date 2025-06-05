@@ -1,8 +1,8 @@
 acct-group/trytond 0: System group: trytond
 acct-user/trytond 0: user for tryton daemon
-app-office/sao 7.0.30 7.2.21 7.4.11 7.6.1: Tryton web client
-app-office/tryton 7.0.26 7.2.19 7.4.10 7.6.1: Tryton desktop client
-app-office/trytond 7.0.31 7.2.22 7.4.11 7.6.1: A three-tiers high-level general purpose business application framework
+app-office/sao 7.0.31 7.2.22 7.4.12 7.6.2: Tryton web client
+app-office/tryton 7.0.27 7.2.20 7.4.11 7.6.2: Tryton desktop client
+app-office/trytond 7.0.32 7.2.23 7.4.12 7.6.2: A three-tiers high-level general purpose business application framework
 app-tryton/account 7.0.20 7.2.14 7.4.7 7.6.1: Financial and Accounting Module
 app-tryton/account_asset 7.0.1 7.2.2 7.4.0 7.6.0: Account Asset Module
 app-tryton/account_be 7.0.0 7.2.0 7.4.0 7.6.0: Account Belgium Module
@@ -83,7 +83,7 @@ app-tryton/currency_ro 7.0.0 7.2.0 7.4.0 7.6.0: Fetch currency rates from the Ro
 app-tryton/currency_rs 7.0.0 7.2.0 7.4.0 7.6.0: Fetch currency rates from the Serbian National Bank
 app-tryton/customs 7.0.1 7.2.1 7.4.1 7.6.0: Customs Module
 app-tryton/dashboard 7.0.1 7.2.1 7.4.1 7.6.0: Dashboard Module
-app-tryton/document_incoming 7.0.3 7.2.3 7.4.1 7.6.0: Tryton module to manage incoming document
+app-tryton/document_incoming 7.0.4 7.2.4 7.4.2 7.6.1: Tryton module to manage incoming document
 app-tryton/document_incoming_invoice 7.0.0 7.2.0 7.4.0 7.6.0: Tryton module to manage incoming invoice document
 app-tryton/document_incoming_ocr 7.0.3 7.2.2 7.4.0 7.6.0: Tryton module to process incoming document with OCR
 app-tryton/document_incoming_ocr_typless 7.0.1 7.2.1 7.4.0 7.6.0: Tryton module that integrates Typless OCR for incoming document
@@ -111,7 +111,7 @@ app-tryton/product_cost_history 7.0.1 7.2.1 7.4.1 7.6.0: Product Cost History Mo
 app-tryton/product_cost_warehouse 7.0.1 7.2.1 7.4.1 7.6.0: Product Cost Warehouse Module
 app-tryton/product_image 7.0.2 7.2.3 7.4.1 7.6.0: Tryton module that adds images to products
 app-tryton/product_image_attribute 7.0.0 7.2.0 7.4.0 7.6.0: Tryton module to select variant images based on attributes
-app-tryton/product_kit 7.0.4 7.2.1 7.4.0 7.6.0: Product Kit Module
+app-tryton/product_kit 7.0.5 7.2.2 7.4.1 7.6.1: Product Kit Module
 app-tryton/product_measurements 7.0.0 7.2.1 7.4.0 7.6.0: Product Measurements Module
 app-tryton/product_price_list 7.0.0 7.2.1 7.4.0 7.6.0: Product Price List Module
 app-tryton/product_price_list_cache 7.0.0 7.2.0 7.4.0 7.6.0: Tryton module to cache price lists
@@ -127,7 +127,7 @@ app-tryton/project 7.0.0 7.2.1 7.4.0 7.6.0: Project Module
 app-tryton/project_invoice 7.0.3 7.2.3 7.4.0 7.6.0: Project Invoice Module
 app-tryton/project_plan 7.0.0 7.2.0 7.4.0 7.6.0: Project Plan Module
 app-tryton/project_revenue 7.0.2 7.2.1 7.4.0 7.6.0: Project Revenue
-app-tryton/purchase 7.0.13 7.2.10 7.4.6 7.6.0: Purchase Module
+app-tryton/purchase 7.0.14 7.2.11 7.4.7 7.6.1: Purchase Module
 app-tryton/purchase_amendment 7.0.2 7.2.2 7.4.1 7.6.0: Module to amend purchases
 app-tryton/purchase_blanket_agreement 7.0.4 7.2.4 7.4.2 7.6.0: Tryton module for purchase blanket agreement
 app-tryton/purchase_history 7.0.0 7.2.0 7.4.0 7.6.0: Module to historize purchases
@@ -140,7 +140,7 @@ app-tryton/purchase_requisition 7.0.4 7.2.5 7.4.1 7.6.0: Purchase Requisition Mo
 app-tryton/purchase_secondary_unit 7.0.2 7.2.3 7.4.2 7.6.0: Module to add a secondary unit on purchase line
 app-tryton/purchase_shipment_cost 7.0.0 7.2.0 7.4.0 7.6.0: Purchase Shipment Cost Module
 app-tryton/quality 7.0.1 7.2.3 7.4.1 7.6.0: Quality Management
-app-tryton/sale 7.0.14 7.2.12 7.4.6 7.6.0: Sale Module
+app-tryton/sale 7.0.15 7.2.13 7.4.7 7.6.1: Sale Module
 app-tryton/sale_advance_payment 7.0.3 7.2.1 7.4.0 7.6.0: Tryton module for sale advance payment
 app-tryton/sale_amendment 7.0.2 7.2.2 7.4.1 7.6.0: Module to amend sales
 app-tryton/sale_blanket_agreement 7.0.3 7.2.4 7.4.2 7.6.0: Tryton module for sale blanket agreement
@@ -171,11 +171,11 @@ app-tryton/sale_stock_quantity 7.0.1 7.2.0 7.4.0 7.6.0: Sale Stock Quantity Modu
 app-tryton/sale_subscription 7.0.4 7.2.4 7.4.2 7.6.0: Tryton module for subscription
 app-tryton/sale_subscription_asset 7.0.1 7.2.1 7.4.1 7.6.0: Handles asset in the sale subscriptions
 app-tryton/sale_supply 7.0.6 7.2.2 7.4.0 7.6.0: Sale Supply Module
-app-tryton/sale_supply_drop_shipment 7.0.2 7.2.3 7.4.1 7.6.0: Sale Supply Drop Shipment Module
+app-tryton/sale_supply_drop_shipment 7.0.3 7.2.4 7.4.2 7.6.1: Sale Supply Drop Shipment Module
 app-tryton/sale_supply_production 7.0.0 7.2.0 7.4.0 7.6.0: Tryton module to supply sales from production
-app-tryton/stock 7.0.12 7.2.8 7.4.3 7.6.0: Stock Module
+app-tryton/stock 7.0.13 7.2.9 7.4.4 7.6.1: Stock Module
 app-tryton/stock_assign_manual 7.0.0 7.2.0 7.4.0 7.6.0: Assign manually stock move
-app-tryton/stock_consignment 7.0.2 7.2.2 7.4.1 7.6.0: Stock Consignment Module
+app-tryton/stock_consignment 7.0.2 7.2.2 7.4.2 7.6.1: Stock Consignment Module
 app-tryton/stock_forecast 7.0.1 7.2.2 7.4.0 7.6.0: Stock Forecast Module
 app-tryton/stock_inventory_location 7.0.0 7.2.0 7.4.0 7.6.0: Stock Inventory Location Module
 app-tryton/stock_location_move 7.0.0 7.2.0 7.4.0 7.6.0: Stock Location Move Module
